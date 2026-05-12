@@ -43,3 +43,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: P0 tiene sprint propio, criterios de salida y backlog marcado.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P0-001 inventario legacy inicial
+- Responsable: Codex + Arquitecto
+- Tipo: inventario de migracion
+- Responsabilidad real: mapear el sistema legacy por areas, responsabilidades, riesgos y destino Claude Code probable antes de migrar piezas.
+- Destino Claude Code: `planning/inventario-legacy.md`
+- Decision: conservar
+- Motivo: evita migrar por carpetas completas y crea base para P0-002 y protocolos criticos.
+- Riesgo: bajo; no contiene secretos ni valores de credenciales.
+- Prueba de calidad: incluye resumen cuantitativo, mapa de destinos Claude Code, clasificacion por carpetas, riesgos y siguiente accion.
+- Estado: implementado
+- Commit: pendiente

@@ -38,3 +38,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar como mapa de ruta en cada sesion de migracion y actualizar backlog al cerrar fases.
 - Riesgo: bajo; documento operativo sin secretos ni datos privados de clientes.
 
+### 2026-05-12 - planning/inventario-legacy.md
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: inventario de migracion
+- Motivo: completar P0-001 mapeando el sistema legacy por areas, responsabilidades, riesgos y destino Claude Code probable.
+- Estado: vigente
+- Reemplaza a: lectura informal del legacy sin mapa operativo.
+- Accion recomendada: usar como entrada para P0-002 auditoria de scripts con secretos historicos.
+- Riesgo: bajo; no contiene secretos ni valores de credenciales.
+
