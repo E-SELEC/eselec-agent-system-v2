@@ -19,4 +19,5 @@ Activo ahora:
 - `migracion-claude-code.md`
 - `gestion-accesos.md`
 - `control-artefactos.md`
+- `activos-criticos.md`
 

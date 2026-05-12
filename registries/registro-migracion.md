@@ -91,3 +91,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: incluye definicion de artefacto, registros, campos obligatorios, politica de repo, prohibiciones, cierre y checklist antes de commit.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P0-005 protocolo activos-criticos
+- Responsable: Codex + Arquitecto
+- Tipo: protocolo de seguridad operacional
+- Responsabilidad real: definir como clasificar y aprobar acciones que puedan afectar produccion, datos, fuentes de verdad, integraciones o accesos.
+- Destino Claude Code: `protocols/activos-criticos.md`, `.claude/rules/activos-criticos.md`
+- Decision: reescribir
+- Motivo: adaptar el protocolo canonico legacy a la estructura v2, Claude Code, scripts, MCP, subagents y fuentes de verdad.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+- Prueba de calidad: incluye niveles A/B/C/D, Orden corta/completa, diagnostico por capas, anti-restore, fuentes de verdad, condiciones de parada y checklist.
+- Estado: implementado
+- Commit: pendiente

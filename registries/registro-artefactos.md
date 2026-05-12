@@ -78,3 +78,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar antes de crear, modificar, mover, archivar o eliminar archivos/carpetas relevantes.
 - Riesgo: bajo; protocolo sin datos privados ni secretos.
 
+### 2026-05-12 - protocols/activos-criticos.md
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: protocolo / regla
+- Motivo: completar P0-005 migrando el protocolo canonico legacy de activos criticos al sistema v2, con niveles A/B/C/D, Orden de Cambio, fuentes de verdad, diagnostico por capas y relacion con Claude Code.
+- Estado: vigente
+- Reemplaza a: dependencia del protocolo legacy `sistema/protocolos/activos-criticos.md` como unica fuente.
+- Accion recomendada: usar antes de tocar produccion, datos vivos, fuentes de verdad, scripts externos, MCP, Ads, WordPress, WooCommerce, hosting, DNS o accesos.
+- Riesgo: bajo; protocolo sin datos privados ni secretos.
+
