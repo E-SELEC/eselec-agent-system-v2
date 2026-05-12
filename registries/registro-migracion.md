@@ -319,3 +319,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: define niveles E0/E1/E2/E3, plantilla, checklist, command, contrato de output y bloqueo de secretos/PII.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P3-001 estructura agencia
+- Responsable: Codex + Arquitecto
+- Tipo: migracion agencia / memoria operativa
+- Responsabilidad real: crear snapshot v2 saneado de identidad, marca, preferencias, loops, mensajes e historial interno de E-SELEC.
+- Destino Claude Code: `agency/`
+- Decision: resumir/sanear
+- Motivo: permitir que `leader-agencia` trabaje con contexto v2 sin depender de archivos legacy largos o con datos innecesarios.
+- Riesgo: bajo-medio; contiene memoria interna, sin secretos ni PII innecesaria.
+- Prueba de calidad: separa contexto, marca, preferencias, mensajes, loops, historial y manifest; marca pendientes y fuentes legacy.
+- Estado: implementado
+- Commit: pendiente

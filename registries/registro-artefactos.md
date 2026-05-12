@@ -308,3 +308,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar `/ingestar-evidencia [cliente] [fuente]` antes de guardar `evidencia-*.md`.
 - Riesgo: bajo; command de saneamiento, sin produccion.
 
+### 2026-05-12 - agency/ estructura v2
+- Area: agencia E-SELEC
+- Agente: Codex + Arquitecto
+- Tipo: memoria interna / migracion saneada
+- Motivo: completar P3-001 migrando contexto, marca, preferencias, loops, mensajes, historial y manifest de agencia a v2.
+- Estado: vigente
+- Reemplaza a: dependencia directa de `agency/` legacy para trabajo interno.
+- Accion recomendada: usar `agency/` v2 con `leader-agencia`; no volver a copiar legacy completo.
+- Riesgo: bajo-medio; contiene memoria interna saneada, sin secretos ni PII innecesaria.
+

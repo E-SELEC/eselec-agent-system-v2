@@ -51,7 +51,7 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 
 | ID | Estado | Accion | Resultado esperado |
 |---|---|---|---|
-| P3-001 | pendiente | Migrar estructura de agencia | `agency/` v2 completo |
+| P3-001 | hecho | Migrar estructura de agencia | `agency/` v2 completo |
 | P3-002 | hecho | Migrar cliente piloto | `clients/computer-chamberi/` |
 | P3-003 | pendiente | Migrar resto de skills por uso | `.claude/skills/` |
 | P3-004 | pendiente | Migrar agentes especialistas | `.claude/agents/` |
