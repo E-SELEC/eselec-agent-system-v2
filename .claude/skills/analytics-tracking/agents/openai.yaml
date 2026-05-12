@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analytics Tracking"
+  short_description: "Audita y diseña medición GA4/GTM segura."
+  default_prompt: "Audita o diseña el plan de tracking para este cliente sin tocar producción."

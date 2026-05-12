@@ -53,6 +53,12 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 |---|---|---|---|
 | P3-001 | hecho | Migrar estructura de agencia | `agency/` v2 completo |
 | P3-002 | hecho | Migrar cliente piloto | `clients/computer-chamberi/` |
-| P3-003 | pendiente | Migrar resto de skills por uso | `.claude/skills/` |
+| P3-003 | en curso | Migrar resto de skills por uso | `.claude/skills/` |
 | P3-004 | pendiente | Migrar agentes especialistas | `.claude/agents/` |
 | P3-005 | pendiente | Sanear y migrar conectores | `scripts/` y `.mcp.example.json` |
+
+### Skills migradas dentro de P3-003
+
+| Skill | Estado | Motivo |
+|---|---|---|
+| `analytics-tracking` | hecho | desbloquea GA4/GTM/eventos/conversiones para informes, CRO, Ads y SEO final |

@@ -331,3 +331,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: separa contexto, marca, preferencias, mensajes, loops, historial y manifest; marca pendientes y fuentes legacy.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 analytics-tracking
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / medicion
+- Responsabilidad real: auditar o disenar tracking GA4/GTM/eventos/conversiones con criterios de privacidad, decision y validacion.
+- Destino Claude Code: `.claude/skills/analytics-tracking/` y `.claude/commands/auditar-tracking.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy prioritaria que desbloquea informes, CRO, Ads y SEO final con medicion confiable.
+- Riesgo: bajo-medio; procedimiento puede derivar en produccion, pero queda bloqueado por Orden de Cambio.
+- Prueba de calidad: SKILL con niveles T0-T3, referencias compactas, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente

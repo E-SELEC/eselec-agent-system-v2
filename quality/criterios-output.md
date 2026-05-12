@@ -737,6 +737,71 @@ Crear evidencia minima, trazable y segura sin guardar dumps, secretos ni datos p
 - no hay periodo;
 - se quiere usar E1/E2 como output final.
 
+## Contrato 13 - Analytics tracking
+
+Usar para:
+
+- auditoria GA4/GTM;
+- planes de eventos;
+- conversion tracking;
+- UTMs;
+- validacion de formularios, llamadas, WhatsApp o compras;
+- medicion para CRO, Ads, SEO o informes.
+
+### Objetivo
+
+Definir o auditar medicion que permita tomar decisiones reales sin duplicar eventos, perder conversiones ni enviar datos sensibles.
+
+### Inputs minimos
+
+- cliente;
+- decision que debe informar la medicion;
+- conversion principal;
+- herramientas actuales;
+- contexto tecnico;
+- restricciones de privacidad/consentimiento;
+- evidencia o estado actual si existe.
+
+### Estructura obligatoria
+
+```text
+# Plan de tracking: [cliente / sitio]
+
+Fecha:
+Nivel de tracking:
+Modo:
+Herramientas:
+Produccion tocada:
+
+## 1. Decision que debe informar
+## 2. Estado actual
+## 3. Conversiones principales
+## 4. Eventos recomendados
+## 5. Implementacion propuesta
+## 6. Validacion
+## 7. Riesgos y bloqueos
+## 8. Datos faltantes
+## 9. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica Nivel T0/T1/T2/T3.
+- Cada evento tiene trigger, propiedades y decision asociada.
+- Distingue evento normal de conversion.
+- Revisa duplicados.
+- Revisa consentimiento y privacidad.
+- No incluye PII ni secretos.
+- No propone publicar cambios sin Orden de Cambio.
+
+### Bloquea si
+
+- no hay objetivo de negocio o conversion;
+- requiere acceso sensible no disponible;
+- hay datos contradictorios que cambian el plan;
+- se pide publicar GTM/GA4/pixels sin aprobacion;
+- el plan enviaria PII a herramientas de analytics o Ads.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:

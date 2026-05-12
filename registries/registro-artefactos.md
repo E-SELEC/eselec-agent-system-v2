@@ -318,3 +318,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar `agency/` v2 con `leader-agencia`; no volver a copiar legacy completo.
 - Riesgo: bajo-medio; contiene memoria interna saneada, sin secretos ni PII innecesaria.
 
+### 2026-05-13 - .claude/skills/analytics-tracking/
+- Area: sistema E-SELEC v2 / medicion
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `analytics-tracking` como skill v2 para auditar y disenar GA4/GTM/eventos/conversiones sin tocar produccion.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/analytics-tracking/` como skill legacy directa.
+- Accion recomendada: usar antes de informes, CRO, Ads o cambios de medicion.
+- Riesgo: bajo-medio; puede derivar en cambios de produccion, pero la skill bloquea implementacion sin Orden de Cambio.
+
