@@ -68,3 +68,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar antes de migrar scripts, conectores, MCP o cualquier acceso S2/S3/S4.
 - Riesgo: bajo; no contiene valores secretos.
 
+### 2026-05-12 - protocols/control-artefactos.md
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: protocolo / regla
+- Motivo: completar P0-004 migrando el protocolo canonico legacy de control de artefactos al sistema v2, adaptado a GitHub, `.claude/`, outputs ignorados, manifests y registros.
+- Estado: vigente
+- Reemplaza a: dependencia del protocolo legacy `sistema/protocolos/control-artefactos.md` como unica fuente.
+- Accion recomendada: usar antes de crear, modificar, mover, archivar o eliminar archivos/carpetas relevantes.
+- Riesgo: bajo; protocolo sin datos privados ni secretos.
+

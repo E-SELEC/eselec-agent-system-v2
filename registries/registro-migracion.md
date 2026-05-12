@@ -79,3 +79,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: incluye clasificacion S1-S4, ubicaciones permitidas, flujo operativo, politica para scripts, MCP y requisitos para hook P0-007.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P0-004 protocolo control-artefactos
+- Responsable: Codex + Arquitecto
+- Tipo: protocolo de trazabilidad
+- Responsabilidad real: definir como se crean, ubican, registran y cierran artefactos en el sistema v2.
+- Destino Claude Code: `protocols/control-artefactos.md`, `.claude/rules/control-artefactos.md`
+- Decision: reescribir
+- Motivo: adaptar el protocolo canonico legacy a la estructura v2, GitHub, `.claude/`, manifests, outputs ignorados y registros.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+- Prueba de calidad: incluye definicion de artefacto, registros, campos obligatorios, politica de repo, prohibiciones, cierre y checklist antes de commit.
+- Estado: implementado
+- Commit: pendiente
