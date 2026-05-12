@@ -779,6 +779,8 @@ No empezaria migrando agentes. Empezaria asi:
 9. Probar una tarea sencilla de agencia.
 10. Elegir cliente piloto.
 
+Decision tomada: empezar por seguridad/protocolos. Al cerrar P0 se abre P1 calidad/criterio para atacar directamente el problema de outputs pobres.
+
 ## Preguntas no bloqueantes para Rodrigo
 
 Estas preguntas no impiden empezar, pero ayudan a ordenar prioridades:

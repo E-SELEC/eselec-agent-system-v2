@@ -11,9 +11,11 @@ Este backlog ordena las acciones de migracion. Cada item debe cerrarse con regis
 
 ## Prioridad P0 - Seguridad y base
 
+Decision de prioridad: empezar por P0 antes de P1. Motivo: si no blindamos secretos, artefactos, activos criticos y cierre, cualquier migracion de calidad puede arrastrar errores estructurales o riesgos de produccion.
+
 | ID | Estado | Accion | Resultado esperado |
 |---|---|---|---|
-| P0-001 | pendiente | Crear inventario legacy inicial | `planning/inventario-legacy.md` |
+| P0-001 | en curso | Crear inventario legacy inicial | `planning/inventario-legacy.md` |
 | P0-002 | pendiente | Auditar scripts con secretos historicos | lista saneamiento sin valores reales |
 | P0-003 | pendiente | Migrar protocolo gestion-secretos | `protocols/gestion-secretos.md` |
 | P0-004 | pendiente | Migrar protocolo control-artefactos | `protocols/control-artefactos.md` |
@@ -22,6 +24,8 @@ Este backlog ordena las acciones de migracion. Cada item debe cerrarse con regis
 | P0-007 | pendiente | Disenar hook bloqueo secretos | `.claude/hooks/` |
 
 ## Prioridad P1 - Calidad y criterio
+
+P1 empieza despues de completar los controles minimos P0. Motivo: la baja calidad de outputs se diagnosticara mejor cuando el sistema ya tenga fuentes, registros y permisos ordenados.
 
 | ID | Estado | Accion | Resultado esperado |
 |---|---|---|---|
