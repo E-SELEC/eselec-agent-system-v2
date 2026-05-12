@@ -188,3 +188,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar para revisar mensajes pendientes antes de reuniones, cierres semanales o decisiones de prioridad.
 - Riesgo: bajo; no contiene secretos ni datos privados.
 
+### 2026-05-12 - .claude/commands/auditoria-semanal.md
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: command Claude Code / workflow recurrente
+- Motivo: completar P2-004 convirtiendo `LOOP: auditoria-semanal` en command invocable para detectar bloqueos, estancamientos y tareas atascadas.
+- Estado: vigente
+- Reemplaza a: seccion `LOOP 1 - Auditoria Semanal` de `agents/loops/leader-loops.md`.
+- Accion recomendada: usar al inicio de semana o antes de planificar prioridades de clientes.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+

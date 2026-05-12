@@ -223,3 +223,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: define uso, lectura, clasificacion, salida, escritura opcional, no duplicacion y criterio de exito.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P2-004 command auditoria-semanal
+- Responsable: Codex + Arquitecto
+- Tipo: command Claude Code / workflow recurrente
+- Responsabilidad real: revisar avance semanal de clientes, detectar estancamientos, mensajes pendientes, tareas criticas e incidencias de datos.
+- Destino Claude Code: `.claude/commands/auditoria-semanal.md`
+- Decision: reescribir
+- Motivo: convertir el loop legacy en command invocable, con lectura por defecto y escritura opcional para evitar outputs innecesarios.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+- Prueba de calidad: define uso, lectura, detecciones, clasificacion, salida, escritura opcional y criterio de exito.
+- Estado: implementado
+- Commit: pendiente
