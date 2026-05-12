@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "defaultMode": "ask",
+    "allow": [
+      "Read",
+      "Grep",
+      "Glob",
+      "LS"
+    ],
+    "deny": [
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(*credentials*)",
+      "Read(*token*)",
+      "Read(*secret*)"
+    ]
+  }
+}
+
