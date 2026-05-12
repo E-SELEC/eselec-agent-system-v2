@@ -228,3 +228,23 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: verificar medicion viva antes de convertir el diagnostico SEO en auditoria final.
 - Riesgo: bajo; no contiene secretos ni outputs pesados.
 
+### 2026-05-12 - .claude/skills/verificacion-medicion/
+- Area: sistema E-SELEC v2 / calidad de datos
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code
+- Motivo: crear un procedimiento reusable para comprobar fuentes de medicion antes de auditorias, informes o decisiones.
+- Estado: vigente
+- Reemplaza a: verificacion manual e inconsistente de GA4/GSC/SEMrush/GBP/Ads.
+- Accion recomendada: usar antes de auditorias SEO finales, informes mensuales, CRO y Ads cuando las conclusiones dependan de datos vivos.
+- Riesgo: bajo; solo lectura, sin secretos ni produccion.
+
+### 2026-05-12 - .claude/commands/verificar-medicion.md
+- Area: sistema E-SELEC v2 / command operativo
+- Agente: Codex + Arquitecto
+- Tipo: command Claude Code
+- Motivo: permitir que Rodrigo invoque la verificacion de medicion de forma directa por cliente y alcance.
+- Estado: vigente
+- Reemplaza a: ejecucion informal de checks de medicion antes de outputs.
+- Accion recomendada: ejecutar `/verificar-medicion [cliente] [alcance]` antes de convertir diagnosticos parciales en entregables finales.
+- Riesgo: bajo; command de lectura por defecto con escritura opcional controlada.
+

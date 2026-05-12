@@ -9,4 +9,5 @@ Skills activas:
 - `migration-audit`: evalua una pieza legacy antes de migrarla.
 - `client-audit`: audita un cliente y define la proxima prioridad con contrato de calidad.
 - `seo-audit`: diagnostica SEO con fuentes jerarquizadas, evidencia y priorizacion.
+- `verificacion-medicion`: comprueba GA4/GSC/SEMrush/GBP/Ads antes de decidir o auditar.
 

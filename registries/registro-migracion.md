@@ -259,3 +259,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: estructura minima creada, mensajes saneados, manifest de outputs historicos, no se copian archivos pesados.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P1-006 verificacion-medicion
+- Responsable: Codex + Arquitecto
+- Tipo: skill + command Claude Code / calidad de datos
+- Responsabilidad real: comprobar fuentes de medicion antes de auditorias, informes o decisiones para evitar outputs con conclusiones prematuras.
+- Destino Claude Code: `.claude/skills/verificacion-medicion/` y `.claude/commands/verificar-medicion.md`
+- Decision: crear
+- Motivo: el piloto de Computer Chamberi mostro que `seo-audit` queda en nivel 2 si no existe una comprobacion previa de GSC/SEMrush/GA4.
+- Riesgo: bajo; procedimiento de solo lectura, sin secretos ni produccion.
+- Prueba de calidad: skill con nivel de medicion 0-3, plantilla, checklist, command invocable y contrato de output.
+- Estado: implementado
+- Commit: pendiente

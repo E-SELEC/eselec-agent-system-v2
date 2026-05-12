@@ -624,6 +624,63 @@ Tomar decisiones internas que mejoren E-SELEC como negocio sin mezclarlo con tra
 - propone cambios comerciales sin contexto suficiente;
 - requiere acceso o accion real sin protocolo.
 
+## Contrato 11 - Verificacion de medicion
+
+Usar para:
+
+- comprobar GA4, GSC, GBP, SEMrush, Ads o conversiones;
+- decidir si una auditoria puede ser final o debe ser parcial;
+- preparar informes mensuales;
+- resolver dudas de tracking, fuentes vivas o lineas base.
+
+### Objetivo
+
+Establecer si los datos disponibles permiten tomar decisiones fiables.
+
+### Inputs minimos
+
+- cliente y dominio;
+- servicio afectado;
+- periodo de analisis;
+- contexto, log, mensajes y memoria;
+- fuentes vivas o exports disponibles;
+- decision que se quiere tomar.
+
+### Estructura obligatoria
+
+```text
+# Verificacion de medicion: [cliente]
+Fecha:
+Periodo revisado:
+Servicio afectado:
+Nivel de medicion:
+Permiso de uso:
+
+## 1. Resumen ejecutivo
+## 2. Fuentes revisadas
+## 3. Contradicciones o riesgos
+## 4. Que se puede afirmar
+## 5. Que no se puede afirmar todavia
+## 6. Impacto en el siguiente output
+## 7. Proxima accion unica
+```
+
+### Criterios de aceptacion
+
+- Identifica fuentes verificadas y faltantes.
+- Confirma si cada fuente corresponde al cliente correcto.
+- Declara periodo y alcance.
+- Clasifica Nivel 0/1/2/3.
+- Dice si el siguiente output puede ser final, parcial, orientativo o bloqueado.
+- No pide ni registra secretos.
+
+### Bloquea si
+
+- no se puede asociar la fuente al cliente correcto;
+- hay contradiccion que cambia la decision;
+- se afirma rendimiento, trafico, ranking o conversion sin fuente verificada;
+- la siguiente accion implica produccion sin protocolo.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:
@@ -665,4 +722,3 @@ Ninguna skill operativa debe migrarse sin:
 - checklist de revision;
 - condiciones de bloqueo;
 - manejo de datos parciales.
-

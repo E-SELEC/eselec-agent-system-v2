@@ -34,6 +34,7 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 | P1-003 | hecho | Migrar skill `client-audit` | `.claude/skills/client-audit/` |
 | P1-004 | hecho | Migrar skill `seo-audit` | `.claude/skills/seo-audit/` |
 | P1-005 | hecho | Migrar Docente como rol de aprendizaje | `.claude/agents/docente.md` |
+| P1-006 | hecho | Crear verificacion de medicion post-piloto | `.claude/skills/verificacion-medicion/` + `.claude/commands/verificar-medicion.md` |
 
 ## Prioridad P2 - Operacion
 
