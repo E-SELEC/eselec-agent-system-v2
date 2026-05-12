@@ -67,3 +67,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: clasifica scripts bloqueados, alto riesgo, revisables y bajo riesgo; define acciones antes de migrar.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P0-003 protocolo gestion-secretos
+- Responsable: Codex + Arquitecto
+- Tipo: protocolo de seguridad
+- Responsabilidad real: definir como se clasifican, registran, bloquean y rotan secretos/accesos en el sistema v2.
+- Destino Claude Code: `protocols/gestion-accesos.md`, `.claude/rules/gestion-accesos.md`
+- Decision: reescribir
+- Motivo: adaptar el protocolo canonico legacy a la estructura Claude Code y a los hallazgos P0-002.
+- Riesgo: bajo; no contiene valores de secretos.
+- Prueba de calidad: incluye clasificacion S1-S4, ubicaciones permitidas, flujo operativo, politica para scripts, MCP y requisitos para hook P0-007.
+- Estado: implementado
+- Commit: pendiente

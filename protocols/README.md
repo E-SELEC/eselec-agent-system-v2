@@ -17,4 +17,5 @@ Ningun protocolo entra aqui si contiene referencias obsoletas, duplicadas o mezc
 Activo ahora:
 
 - `migracion-claude-code.md`
+- `gestion-accesos.md`
 
