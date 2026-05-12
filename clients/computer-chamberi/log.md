@@ -21,3 +21,5 @@
 [2026-05-12] [ARQUITECTO] Prueba piloto en seco | RESULTADO: `client-audit` pasa con prioridad unica: verificar medicion y linea base; `seo-audit` queda util pero parcial porque no se consultaron datos vivos. Resultado en `planning/resultado-piloto-01.md` | PROXIMO PASO: verificar GA4/GSC/SEMrush de forma segura antes de auditoria SEO final.
 
 [2026-05-12] [MEDICION] Verificacion SEO piloto | RESULTADO: medicion queda en Nivel 1 orientativo; hay contexto y logs SEO recientes, pero no fuentes vivas ni exports disponibles en v2. Resultado en `planning/resultado-verificacion-medicion-01.md` | PROXIMO PASO: verificar GSC + SEMrush antes de auditoria SEO final.
+
+[2026-05-12] [MEDICION] Evidencia SEO legacy saneada | RESULTADO: creado `clients/computer-chamberi/outputs/evidencia-seo-2026-05-12.md`; la medicion SEO sube a Nivel 2 parcial fuerte porque hay outputs recientes con GSC/SEMrush declarados, pero no consulta viva ni export bruto en v2. | PROXIMO PASO: revalidar GSC/SEMrush actual y unidades antes de auditoria SEO final.

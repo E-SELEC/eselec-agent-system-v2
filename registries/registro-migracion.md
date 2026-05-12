@@ -283,3 +283,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: clasifica medicion en Nivel 1, declara fuentes revisadas, limites y proxima accion unica.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - evidencia SEO saneada computer-chamberi
+- Responsable: Codex + Arquitecto
+- Tipo: output cliente v2 / evidencia migrada
+- Responsabilidad real: extraer datos minimos utiles desde auditorias legacy recientes para permitir auditoria SEO parcial fuerte sin copiar outputs completos.
+- Destino Claude Code: `clients/computer-chamberi/outputs/evidencia-seo-2026-05-12.md`
+- Decision: resumir/sanear
+- Motivo: subir la medicion SEO de Nivel 1 a Nivel 2 usando evidencia legacy reciente con fuentes declaradas GSC/SEMrush.
+- Riesgo: medio si se usa como dato final sin revalidar unidades; bajo como evidencia interna.
+- Prueba de calidad: separa SEMrush/GSC, declara contradicciones de unidades, limita conclusiones permitidas y prohibe ejecucion sin Orden de Cambio.
+- Estado: implementado
+- Commit: pendiente

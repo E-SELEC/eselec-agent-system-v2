@@ -67,6 +67,7 @@ agency/outputs/**
 !agency/outputs/manifest.md
 clients/*/outputs/**
 !clients/*/outputs/manifest.md
+!clients/*/outputs/evidencia-*.md
 
 # Exports and binary client files
 *.pdf
@@ -75,4 +76,3 @@ clients/*/outputs/**
 *.xlsx
 *.zip
 *.rar
-

@@ -258,3 +258,23 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: verificar GSC + SEMrush para subir la medicion de Nivel 1 a Nivel 2/3.
 - Riesgo: bajo; no contiene secretos ni datos vivos exportados.
 
+### 2026-05-12 - clients/computer-chamberi/outputs/evidencia-seo-2026-05-12.md
+- Area: cliente piloto / Computer Chamberi
+- Agente: Codex + Arquitecto
+- Tipo: output saneado de evidencia SEO
+- Motivo: extraer evidencia minima desde outputs legacy recientes sin copiar exports brutos ni secretos.
+- Estado: vigente
+- Reemplaza a: dependencia de leer outputs legacy completos para cada auditoria v2.
+- Accion recomendada: usar como base de auditoria SEO parcial fuerte y revalidar GSC/SEMrush antes de entregar al cliente.
+- Riesgo: medio si se usa como dato final sin revalidar unidades; bajo como evidencia interna.
+
+### 2026-05-12 - .gitignore excepcion evidencia-*.md
+- Area: sistema E-SELEC v2 / control de artefactos
+- Agente: Codex + Arquitecto
+- Tipo: configuracion de repositorio
+- Motivo: permitir versionar outputs saneados `evidencia-*.md` sin abrir la puerta a exports pesados ni artefactos brutos de cliente.
+- Estado: vigente
+- Reemplaza a: regla demasiado amplia que impedia subir evidencia saneada citada por manifests.
+- Accion recomendada: mantener la excepcion solo para paquetes saneados; no versionar exports brutos.
+- Riesgo: bajo-medio si se usa mal el prefijo; revisar contenido antes de commit.
+

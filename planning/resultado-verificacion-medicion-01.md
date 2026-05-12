@@ -11,6 +11,10 @@
 - Herramientas vivas usadas: no
 - Estado: valido como prueba de sistema, no como auditoria final del cliente
 
+## Nota posterior
+
+Despues de este resultado se leyeron outputs legacy recientes y se creo `clients/computer-chamberi/outputs/evidencia-seo-2026-05-12.md`. Con esa evidencia saneada, la medicion SEO sube de Nivel 1 a Nivel 2 parcial fuerte. Sigue sin ser Nivel 3 porque no hubo consulta viva ni export bruto revalidado en v2.
+
 ## Resumen ejecutivo
 
 La verificacion confirma que Computer Chamberi tiene contexto SEO util, historial reciente y senales claras de oportunidad organica. Sin embargo, en el repo v2 no hay todavia una fuente viva consultada ni un export reciente disponible para comprobar GSC, SEMrush, GA4 o GBP.
