@@ -36,6 +36,13 @@ Comando inicial:
 /migrar-pieza <ruta-legacy> [objetivo]
 ```
 
+## Plan maestro
+
+La migracion se ejecuta desde:
+
+- `planning/plan-maestro-migracion.md`
+- `planning/backlog-migracion.md`
+
 ## Filtro de migracion
 
 Antes de mover una pieza desde el sistema anterior, responder:

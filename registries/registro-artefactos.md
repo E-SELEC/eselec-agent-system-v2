@@ -28,3 +28,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar antes de mover cualquier pieza legacy.
 - Riesgo: bajo; no incluye secretos ni datos de clientes.
 
+### 2026-05-12 - planning/plan-maestro-migracion.md
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: plan maestro / backlog
+- Motivo: organizar la migracion completa para que Rodrigo entienda que se hara, por que se hara y como se comprobara, siguiendo Claude Code y considerando la complejidad del sistema legacy.
+- Estado: vigente
+- Reemplaza a: avance por intuicion o por tareas sueltas sin secuencia global.
+- Accion recomendada: usar como mapa de ruta en cada sesion de migracion y actualizar backlog al cerrar fases.
+- Riesgo: bajo; documento operativo sin secretos ni datos privados de clientes.
+
