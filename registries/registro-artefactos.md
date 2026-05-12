@@ -168,3 +168,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar al mencionar un cliente, revisar estado, priorizar proximos pasos o enrutar trabajo hacia `client-audit`/`seo-audit`.
 - Riesgo: bajo; no contiene secretos ni datos privados.
 
+### 2026-05-12 - .claude/agents/leader-agencia.md
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: subagent Claude Code / orquestacion interna
+- Motivo: completar P2-002 creando Lider Agencia v2 como orquestador ligero y read-only para trabajo interno de E-SELEC.
+- Estado: vigente
+- Reemplaza a: `agents/agency/leader-agency.md` como prompt legacy directo.
+- Accion recomendada: usar con modo agencia, tareas internas, captacion, reputacion, onboarding, retencion, finanzas y operaciones internas.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+

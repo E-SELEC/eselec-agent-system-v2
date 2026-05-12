@@ -199,3 +199,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: frontmatter de subagent, tools read-only, lectura obligatoria, modos, priorizacion, routing, bloqueos y formato de salida.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P2-002 subagent leader-agencia
+- Responsable: Codex + Arquitecto
+- Tipo: subagent Claude Code / orquestacion interna
+- Responsabilidad real: coordinar captacion, reputacion, onboarding, retencion, finanzas y operaciones internas de E-SELEC sin mezclarlo con clientes.
+- Destino Claude Code: `.claude/agents/leader-agencia.md`
+- Decision: reescribir
+- Motivo: sustituir el lider legacy repetitivo por un orquestador ligero que aplica protocolos y contratos sin duplicarlos.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+- Prueba de calidad: frontmatter de subagent, tools read-only, lectura obligatoria, routing interno, separacion agencia/cliente, bloqueos y formato de salida.
+- Estado: implementado
+- Commit: pendiente
