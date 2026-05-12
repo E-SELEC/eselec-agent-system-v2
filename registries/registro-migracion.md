@@ -127,3 +127,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: autoprueba del hook, JSON valido de settings, busqueda defensiva de patrones sensibles y `git diff --check`.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P1-001 diagnostico de calidad de outputs
+- Responsable: Codex + Arquitecto
+- Tipo: diagnostico de calidad / matriz de causas raiz
+- Responsabilidad real: explicar por que los outputs pueden salir flojos aunque el legacy tenga criterios y agentes, y definir decisiones de migracion para corregirlo.
+- Destino Claude Code: `quality/diagnostico-calidad.md`, `quality/README.md`
+- Decision: crear
+- Motivo: antes de migrar skills o agentes de SEO/informes, el sistema necesita saber que problema de calidad esta corrigiendo.
+- Riesgo: bajo; documento de arquitectura sin secretos ni datos privados.
+- Prueba de calidad: cruza documentacion Claude Code, estructura legacy, matriz de causas, diagnostico por area y acciones P1.
+- Estado: implementado
+- Commit: pendiente

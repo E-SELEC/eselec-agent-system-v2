@@ -108,3 +108,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: ejecutar `python .claude/hooks/block-sensitive-data.py --self-test` despues de modificar el hook o `.claude/settings.json`.
 - Riesgo: bajo; el script contiene patrones defensivos y datos de prueba construidos sin valores reales.
 
+### 2026-05-12 - quality/diagnostico-calidad.md
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: diagnostico de calidad / matriz de causas raiz
+- Motivo: completar P1-001 identificando por que los outputs pueden carecer de calidad, criterio o acertividad y que piezas v2 deben corregirlo.
+- Estado: vigente
+- Reemplaza a: diagnostico informal de baja calidad sin matriz accionable.
+- Accion recomendada: usar como base directa de P1-002 `quality/criterios-output.md`.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+
