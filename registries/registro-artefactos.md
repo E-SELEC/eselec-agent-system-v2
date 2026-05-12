@@ -248,3 +248,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: ejecutar `/verificar-medicion [cliente] [alcance]` antes de convertir diagnosticos parciales en entregables finales.
 - Riesgo: bajo; command de lectura por defecto con escritura opcional controlada.
 
+### 2026-05-12 - planning/resultado-verificacion-medicion-01.md
+- Area: sistema E-SELEC v2 / prueba piloto de medicion
+- Agente: Codex + Arquitecto
+- Tipo: resultado de prueba en seco
+- Motivo: probar la nueva skill `verificacion-medicion` con `computer-chamberi` antes de auditoria SEO final.
+- Estado: vigente
+- Reemplaza a: decision implicita sobre suficiencia de datos.
+- Accion recomendada: verificar GSC + SEMrush para subir la medicion de Nivel 1 a Nivel 2/3.
+- Riesgo: bajo; no contiene secretos ni datos vivos exportados.
+

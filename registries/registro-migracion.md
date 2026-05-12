@@ -271,3 +271,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: skill con nivel de medicion 0-3, plantilla, checklist, command invocable y contrato de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - prueba verificacion medicion computer-chamberi
+- Responsable: Codex + Arquitecto
+- Tipo: prueba de sistema / calidad de datos
+- Responsabilidad real: validar que `verificacion-medicion` detecta insuficiencia de fuentes vivas antes de una auditoria SEO final.
+- Destino Claude Code: `planning/resultado-verificacion-medicion-01.md`
+- Decision: crear resultado de prueba
+- Motivo: evitar que el sistema confunda contexto SEO legacy con medicion viva verificada.
+- Riesgo: bajo; no contiene secretos ni exports de herramientas.
+- Prueba de calidad: clasifica medicion en Nivel 1, declara fuentes revisadas, limites y proxima accion unica.
+- Estado: implementado
+- Commit: pendiente
