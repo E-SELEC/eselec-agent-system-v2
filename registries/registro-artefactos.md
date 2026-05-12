@@ -338,3 +338,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar antes de redisenos, cambios de menu, cambios de URLs, planes SEO de estructura o briefs web.
 - Riesgo: medio; puede derivar en cambios de produccion y SEO, pero la skill bloquea implementacion sin inventario, plan 301 y Orden de Cambio.
 
+### 2026-05-13 - .claude/skills/schema-markup/
+- Area: sistema E-SELEC v2 / SEO tecnico
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `schema-markup` como skill v2 para auditar y disenar datos estructurados JSON-LD seguros y validables.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/schema-markup/` como skill legacy directa.
+- Accion recomendada: usar despues de `seo-audit` o `site-architecture` cuando haya paginas, breadcrumbs, negocio local, producto o FAQs que requieran datos estructurados.
+- Riesgo: medio; puede derivar en cambios de produccion o schema enganoso, pero la skill bloquea contenido no visible, duplicados y publicacion sin Orden de Cambio.
+

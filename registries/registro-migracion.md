@@ -355,3 +355,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: SKILL con niveles SA0-SA3, patrones compactos, plantilla, checklist, command y contrato de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 schema-markup
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / SEO tecnico
+- Responsabilidad real: auditar, disenar o corregir schema JSON-LD basado en contenido visible, validacion y reglas de Google/schema.org.
+- Destino Claude Code: `.claude/skills/schema-markup/` y `.claude/commands/auditar-schema.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy y endurecerla para evitar schema generico, duplicado, no validado o basado en contenido inventado.
+- Riesgo: medio; puede derivar en cambios de produccion o penalizacion de rich results si se marca contenido falso, por eso bloquea implementacion sin validacion y Orden de Cambio.
+- Prueba de calidad: SKILL con niveles SM0-SM3, fuentes oficiales, referencias compactas, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente

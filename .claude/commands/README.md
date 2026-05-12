@@ -11,5 +11,6 @@ Primer comando:
 - `ingestar-evidencia.md`: sanea exports o datos vivos antes de guardarlos en v2.
 - `auditar-tracking.md`: audita o disena medicion GA4/GTM/eventos sin tocar produccion.
 - `plan-arquitectura-web.md`: disena mapa de paginas, URLs, navegacion, enlazado interno y redirects sin tocar produccion.
+- `auditar-schema.md`: audita o disena schema JSON-LD validable sin tocar produccion.
 
 Los loops antiguos de E-SELEC no se copian aqui automaticamente. Cada loop debe convertirse en command, scheduled task o workflow solo despues de revisar riesgo, inputs y outputs.

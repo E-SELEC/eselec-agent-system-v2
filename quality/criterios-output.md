@@ -875,6 +875,79 @@ Produccion tocada:
 - afirma rendimiento SEO/conversion sin fuente verificada;
 - contradice `context.md` o `log.md`.
 
+## Contrato 15 - Schema markup / datos estructurados
+
+Usar para:
+
+- schema JSON-LD;
+- structured data;
+- rich results;
+- Organization/WebSite/LocalBusiness;
+- BreadcrumbList;
+- Article/BlogPosting;
+- Product/Offer;
+- FAQPage;
+- Review/AggregateRating;
+- errores de schema en Search Console.
+
+### Objetivo
+
+Crear o corregir datos estructurados que representen contenido real, visible y verificable sin prometer rich results ni tocar produccion sin aprobacion.
+
+### Inputs minimos
+
+- cliente o dominio;
+- URL o pagina;
+- tipo de pagina;
+- contenido visible;
+- schema actual si existe;
+- CMS o stack;
+- objetivo del schema;
+- fuentes usadas.
+
+### Estructura obligatoria
+
+```text
+# Schema markup: [cliente / pagina]
+Fecha:
+Nivel de schema:
+URL:
+Tipo de pagina:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Objetivo
+## 2. Contenido visible verificado
+## 3. Schema actual
+## 4. Schema recomendado
+## 5. JSON-LD propuesto
+## 6. Validacion
+## 7. Implementacion
+## 8. Bloqueos y datos faltantes
+## 9. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel SM0/SM1/SM2/SM3.
+- El schema coincide con contenido visible.
+- No inventa reviews, ratings, precios, stock, horarios, coordenadas, autores ni FAQ.
+- Usa JSON-LD salvo razon tecnica contraria.
+- Revisa duplicados por plugins SEO o WooCommerce.
+- Diferencia errores de warnings.
+- Declara validacion hecha o pendiente.
+- No promete rich results ni rankings.
+- No toca CMS, plugin, tema, GTM ni deploy real sin Orden de Cambio.
+
+### Bloquea si
+
+- no hay URL, pagina o contenido visible;
+- se pide marcar contenido inexistente u oculto;
+- se pide inventar rating/reviews/precios/stock/horarios;
+- hay schema duplicado y no se sabe quien lo genera;
+- el cambio requiere produccion sin aprobacion;
+- contradice contenido visible, `context.md` o `log.md`.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:
