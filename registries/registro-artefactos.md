@@ -48,3 +48,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar como entrada para P0-002 auditoria de scripts con secretos historicos.
 - Riesgo: bajo; no contiene secretos ni valores de credenciales.
 
+### 2026-05-12 - planning/auditoria-scripts-sensibles.md
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: auditoria de seguridad / scripts
+- Motivo: completar P0-002 detectando scripts legacy con credenciales hardcodeadas, OAuth, tokens, escrituras de `.env`, servicios externos o riesgo de produccion.
+- Estado: vigente
+- Reemplaza a: sospecha informal sobre scripts sensibles.
+- Accion recomendada: ejecutar P0-003 `gestion-secretos` antes de migrar cualquier script S3/S4.
+- Riesgo: bajo como documento; no contiene valores secretos.
+

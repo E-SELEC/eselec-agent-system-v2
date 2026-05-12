@@ -16,7 +16,7 @@ Decision de prioridad: empezar por P0 antes de P1. Motivo: si no blindamos secre
 | ID | Estado | Accion | Resultado esperado |
 |---|---|---|---|
 | P0-001 | hecho | Crear inventario legacy inicial | `planning/inventario-legacy.md` |
-| P0-002 | pendiente | Auditar scripts con secretos historicos | lista saneamiento sin valores reales |
+| P0-002 | hecho | Auditar scripts con secretos historicos | `planning/auditoria-scripts-sensibles.md` |
 | P0-003 | pendiente | Migrar protocolo gestion-secretos | `protocols/gestion-secretos.md` |
 | P0-004 | pendiente | Migrar protocolo control-artefactos | `protocols/control-artefactos.md` |
 | P0-005 | pendiente | Migrar protocolo activos-criticos | `protocols/activos-criticos.md` |

@@ -55,3 +55,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: incluye resumen cuantitativo, mapa de destinos Claude Code, clasificacion por carpetas, riesgos y siguiente accion.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P0-002 auditoria scripts con secretos historicos
+- Responsable: Codex + Arquitecto
+- Tipo: auditoria de seguridad
+- Responsabilidad real: detectar scripts legacy que no deben migrarse al v2 sin saneamiento por credenciales hardcodeadas, OAuth, tokens, `.env`, servicios externos o produccion.
+- Destino Claude Code: `planning/auditoria-scripts-sensibles.md`, `registries/registro-accesos.md`
+- Decision: conservar
+- Motivo: bloquea la migracion insegura de scripts y prepara P0-003 gestion-secretos.
+- Riesgo: bajo; no contiene valores de secretos.
+- Prueba de calidad: clasifica scripts bloqueados, alto riesgo, revisables y bajo riesgo; define acciones antes de migrar.
+- Estado: implementado
+- Commit: pendiente
