@@ -138,3 +138,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar como primera skill piloto para auditorias de cliente antes de migrar Lider Clientes.
 - Riesgo: bajo; no contiene secretos ni datos privados.
 
+### 2026-05-12 - .claude/skills/seo-audit/
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: skill operativa Claude Code
+- Motivo: completar P1-004 migrando `seo-audit` como skill bajo demanda con evidencia, jerarquia de fuentes, plantilla y checklist de revision.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/seo-audit/SKILL.md` como prompt legacy directo.
+- Accion recomendada: usar como skill piloto para auditorias SEO antes de migrar Lider SEO.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+

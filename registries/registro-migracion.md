@@ -163,3 +163,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: incluye `SKILL.md`, plantilla de auditoria, checklist de revision, bloqueos y relacion con `quality/criterios-output.md`.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P1-004 skill seo-audit
+- Responsable: Codex + Arquitecto
+- Tipo: skill operativa Claude Code
+- Responsabilidad real: diagnosticar problemas SEO con evidencia, fuentes jerarquizadas y plan priorizado.
+- Destino Claude Code: `.claude/skills/seo-audit/`
+- Decision: reescribir
+- Motivo: adaptar la skill legacy y criterios SEO del sistema a una skill compacta con plantilla y checklist, evitando auditorias genericas.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+- Prueba de calidad: incluye nivel de datos SEO, jerarquia GSC/SEMrush/render/contexto, bloqueo por datos faltantes, schema seguro, plantilla y checklist.
+- Estado: implementado
+- Commit: pendiente
