@@ -7,4 +7,5 @@ Una skill debe ensenar un procedimiento reutilizable, no almacenar memoria de cl
 Skills activas:
 
 - `migration-audit`: evalua una pieza legacy antes de migrarla.
+- `client-audit`: audita un cliente y define la proxima prioridad con contrato de calidad.
 

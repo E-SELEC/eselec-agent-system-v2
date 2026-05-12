@@ -128,3 +128,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar como fuente obligatoria al migrar skills y lideres operativos.
 - Riesgo: bajo; no contiene secretos ni datos privados.
 
+### 2026-05-12 - .claude/skills/client-audit/
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: skill operativa Claude Code
+- Motivo: completar P1-003 migrando `client-audit` como skill bajo demanda con plantilla y checklist de calidad.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/client-audit/SKILL.md` como prompt legacy directo.
+- Accion recomendada: usar como primera skill piloto para auditorias de cliente antes de migrar Lider Clientes.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+

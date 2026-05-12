@@ -151,3 +151,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: incluye criterios universales, escala 0-4, contratos por servicio, bloqueos y checklist final.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P1-003 skill client-audit
+- Responsable: Codex + Arquitecto
+- Tipo: skill operativa Claude Code
+- Responsabilidad real: auditar un cliente existente o nuevo, reconstruir estado real y definir una proxima prioridad verificable.
+- Destino Claude Code: `.claude/skills/client-audit/`
+- Decision: reescribir
+- Motivo: adaptar la skill legacy a Claude Code con instrucciones compactas, archivos de apoyo, contrato de salida y checklist.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+- Prueba de calidad: incluye `SKILL.md`, plantilla de auditoria, checklist de revision, bloqueos y relacion con `quality/criterios-output.md`.
+- Estado: implementado
+- Commit: pendiente
