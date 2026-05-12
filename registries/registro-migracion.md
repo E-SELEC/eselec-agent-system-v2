@@ -247,3 +247,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: incluye razones de seleccion, descartes, alcance, no-alcance, riesgos y siguiente paso.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P3-002 cliente piloto computer-chamberi
+- Responsable: Codex + Arquitecto
+- Tipo: migracion minima de cliente
+- Responsabilidad real: crear estructura v2 saneada para el cliente piloto sin copiar outputs pesados ni secretos.
+- Destino Claude Code: `clients/computer-chamberi/`
+- Decision: reescribir/resumir
+- Motivo: probar operacion v2 con cliente real y riesgo controlado antes de migrar mas clientes.
+- Riesgo: bajo-medio; contiene resumen operativo de cliente, sin secretos ni exports brutos.
+- Prueba de calidad: estructura minima creada, mensajes saneados, manifest de outputs historicos, no se copian archivos pesados.
+- Estado: implementado
+- Commit: pendiente

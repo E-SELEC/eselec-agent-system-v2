@@ -208,3 +208,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: ejecutar P3-002 migrando estructura minima de `computer-chamberi`.
 - Riesgo: bajo; no contiene secretos ni datos privados sensibles.
 
+### 2026-05-12 - clients/computer-chamberi/
+- Area: sistema E-SELEC v2 / cliente piloto
+- Agente: Codex + Arquitecto
+- Tipo: memoria de cliente / migracion minima
+- Motivo: completar P3-002 migrando estructura saneada del cliente piloto para probar `leader-clientes`, `client-audit` y `seo-audit`.
+- Estado: vigente
+- Reemplaza a: dependencia exclusiva de `clients/computer-chamberi/` legacy para pruebas piloto.
+- Accion recomendada: ejecutar auditoria piloto en modo diagnostico, sin tocar produccion.
+- Riesgo: bajo-medio; contiene resumen operativo de cliente, sin secretos ni outputs pesados.
+
