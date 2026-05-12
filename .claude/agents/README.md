@@ -14,4 +14,5 @@ No migrar prompts antiguos en bloque. Cada agente debe tener:
 Agentes activos:
 
 - `arquitecto-migracion-claude`: audita y planifica la migracion legacy -> v2.
+- `docente`: convierte correcciones y fallos de calidad en criterio operativo examinable.
 

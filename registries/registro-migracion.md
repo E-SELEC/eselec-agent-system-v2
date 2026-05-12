@@ -175,3 +175,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: incluye nivel de datos SEO, jerarquia GSC/SEMrush/render/contexto, bloqueo por datos faltantes, schema seguro, plantilla y checklist.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P1-005 subagent docente
+- Responsable: Codex + Arquitecto
+- Tipo: subagent Claude Code / aprendizaje operativo
+- Responsabilidad real: convertir correcciones, rechazos y fallos de calidad en criterio operativo con prueba de conducta futura.
+- Destino Claude Code: `.claude/agents/docente.md`
+- Decision: reescribir
+- Motivo: adaptar El Docente legacy a un subagent nativo, read-only, con contexto aislado y formato de capacitacion.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+- Prueba de calidad: frontmatter de subagent, tools read-only, workflow observa-diagnostica-formula-ensena-examina y formato de salida.
+- Estado: implementado
+- Commit: pendiente

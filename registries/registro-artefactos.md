@@ -148,3 +148,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar como skill piloto para auditorias SEO antes de migrar Lider SEO.
 - Riesgo: bajo; no contiene secretos ni datos privados.
 
+### 2026-05-12 - .claude/agents/docente.md
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: subagent Claude Code / aprendizaje operativo
+- Motivo: completar P1-005 migrando El Docente como rol read-only para convertir fallos y correcciones en criterio examinable.
+- Estado: vigente
+- Reemplaza a: `agents/docente/docente.md` como prompt legacy directo.
+- Accion recomendada: usar despues de outputs rechazados, correcciones de Rodrigo o fallos de criterio repetibles.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+
