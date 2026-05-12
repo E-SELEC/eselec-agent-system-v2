@@ -31,3 +31,13 @@ Este registro no contiene secretos reales. Solo metadatos, nivel de riesgo, ubic
 - Rotacion recomendada: revisar por servicio antes de activarlos en v2.
 - Riesgo si se filtra: acceso a datos de clientes, produccion, Ads, Drive, GBP, Hostinger, WordPress/WooCommerce o consumo de creditos.
 
+### 2026-05-12 - Hook local de bloqueo de datos sensibles
+- Tipo de acceso: control preventivo, no credencial.
+- Nivel: S1
+- Rutas afectadas: `.claude/hooks/block-sensitive-data.py`, `.claude/settings.json`
+- Valores registrados: ninguno.
+- Estado: activo en configuracion del proyecto.
+- Ubicacion segura esperada: hook versionado sin secretos; secretos reales siempre fuera del repo.
+- Rotacion recomendada: no aplica.
+- Riesgo si falla: el agente podria escribir o versionar accidentalmente datos sensibles; por eso existe autoprueba y revision con El Escolta.
+

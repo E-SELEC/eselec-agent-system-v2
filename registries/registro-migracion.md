@@ -115,3 +115,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: incluye cierre normal, cierre corto, checklist de migracion, tono obligatorio, relacion con Claude Code, El Escolta y otros protocolos.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P0-007 hook bloqueo de datos sensibles
+- Responsable: Codex + Arquitecto
+- Tipo: hook de seguridad
+- Responsabilidad real: bloquear antes de ejecutar una herramienta los intentos de escribir, mover, versionar o introducir datos sensibles en archivos o comandos.
+- Destino Claude Code: `.claude/hooks/block-sensitive-data.py`, `.claude/settings.json`
+- Decision: conservar con adaptacion
+- Motivo: Claude Code permite hooks `PreToolUse` con decision `deny`; este control convierte el protocolo de accesos sensibles en una barrera automatica.
+- Riesgo: bajo; no contiene secretos reales y solo usa patrones defensivos.
+- Prueba de calidad: autoprueba del hook, JSON valido de settings, busqueda defensiva de patrones sensibles y `git diff --check`.
+- Estado: implementado
+- Commit: pendiente

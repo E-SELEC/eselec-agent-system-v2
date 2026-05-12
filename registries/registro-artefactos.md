@@ -98,3 +98,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar al cerrar cualquier tarea con trabajo detras, cambios, riesgos, commits, registros, scripts o migracion.
 - Riesgo: bajo; protocolo sin datos privados ni secretos.
 
+### 2026-05-12 - .claude/hooks/block-sensitive-data.py
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: hook de seguridad / configuracion Claude Code
+- Motivo: completar P0-007 creando un hook `PreToolUse` que bloquea escrituras o comandos con rutas o valores sensibles antes de que se ejecuten.
+- Estado: vigente
+- Reemplaza a: proteccion manual basada solo en `.gitignore` y protocolo escrito.
+- Accion recomendada: ejecutar `python .claude/hooks/block-sensitive-data.py --self-test` despues de modificar el hook o `.claude/settings.json`.
+- Riesgo: bajo; el script contiene patrones defensivos y datos de prueba construidos sin valores reales.
+
