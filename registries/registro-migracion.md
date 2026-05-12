@@ -307,3 +307,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: nivel parcial fuerte, top 3 priorizado, tecnico antes de contenido, schema no sobrediagnosticado y produccion bloqueada.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P1-007 ingesta-evidencia
+- Responsable: Codex + Arquitecto
+- Tipo: skill + command Claude Code / seguridad de datos
+- Responsabilidad real: convertir exports, capturas, datos vivos u outputs legacy en evidencia saneada antes de usarlos en auditorias, informes o GitHub.
+- Destino Claude Code: `.claude/skills/ingesta-evidencia/` y `.claude/commands/ingestar-evidencia.md`
+- Decision: crear
+- Motivo: el piloto demostro que se necesita una forma repetible de subir evidencia de Nivel 2/3 sin copiar dumps ni secretos.
+- Riesgo: bajo; procedimiento de saneamiento, sin produccion.
+- Prueba de calidad: define niveles E0/E1/E2/E3, plantilla, checklist, command, contrato de output y bloqueo de secretos/PII.
+- Estado: implementado
+- Commit: pendiente

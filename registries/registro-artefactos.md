@@ -288,3 +288,23 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar como referencia de calidad para futuras auditorias SEO v2; no entregar al cliente sin revalidar fuentes vivas.
 - Riesgo: bajo-medio; contiene datos SEO resumidos, sin secretos ni exports brutos.
 
+### 2026-05-12 - .claude/skills/ingesta-evidencia/
+- Area: sistema E-SELEC v2 / seguridad de datos
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code
+- Motivo: crear un procedimiento para sanear exports, datos vivos, capturas y outputs legacy antes de usarlos o versionarlos.
+- Estado: vigente
+- Reemplaza a: ingestion manual no estandarizada de evidencia.
+- Accion recomendada: usar antes de `verificacion-medicion`, auditorias, informes o cualquier evidencia nueva.
+- Riesgo: bajo; procedimiento de saneamiento sin secretos ni produccion.
+
+### 2026-05-12 - .claude/commands/ingestar-evidencia.md
+- Area: sistema E-SELEC v2 / command operativo
+- Agente: Codex + Arquitecto
+- Tipo: command Claude Code
+- Motivo: permitir invocar la ingesta segura de evidencia por cliente y fuente.
+- Estado: vigente
+- Reemplaza a: instrucciones dispersas para convertir exports en evidencia.
+- Accion recomendada: usar `/ingestar-evidencia [cliente] [fuente]` antes de guardar `evidencia-*.md`.
+- Riesgo: bajo; command de saneamiento, sin produccion.
+

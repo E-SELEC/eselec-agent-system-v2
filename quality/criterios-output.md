@@ -681,6 +681,62 @@ Permiso de uso:
 - se afirma rendimiento, trafico, ranking o conversion sin fuente verificada;
 - la siguiente accion implica produccion sin protocolo.
 
+## Contrato 12 - Ingesta de evidencia
+
+Usar para:
+
+- convertir exports o capturas en evidencia interna;
+- resumir outputs legacy antes de usarlos en v2;
+- preparar datos de GSC, GA4, SEMrush, GBP, Ads, WordPress o WooCommerce;
+- decidir que puede guardarse en GitHub y que debe quedar fuera.
+
+### Objetivo
+
+Crear evidencia minima, trazable y segura sin guardar dumps, secretos ni datos personales.
+
+### Inputs minimos
+
+- cliente;
+- fuente original;
+- dominio/cuenta/propiedad;
+- periodo;
+- servicio afectado;
+- decision que soporta;
+- archivo/export/captura/output origen.
+
+### Estructura obligatoria
+
+```text
+# Evidencia [tema] - [cliente]
+
+## Estado
+## Proposito
+## Fuentes revisadas
+## Evidencia extraida
+## Contradicciones o dudas
+## Que permite hacer ahora
+## Que no permite hacer todavia
+## Proxima accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica evidencia E0/E1/E2/E3.
+- Declara fuente, periodo y cliente/dominio.
+- Separa dato real, estimacion, hipotesis y conclusion.
+- Resume solo lo necesario.
+- Declara limitaciones.
+- No contiene secretos, PII ni exports brutos.
+- Actualiza manifest/log/registro si se guarda.
+
+### Bloquea si
+
+- contiene secretos, cookies, tokens, claves o passwords;
+- contiene PII innecesaria;
+- no se puede confirmar cliente/dominio;
+- no hay periodo;
+- se quiere usar E1/E2 como output final.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:
