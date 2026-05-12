@@ -278,3 +278,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: mantener la excepcion solo para paquetes saneados; no versionar exports brutos.
 - Riesgo: bajo-medio si se usa mal el prefijo; revisar contenido antes de commit.
 
+### 2026-05-12 - planning/resultado-seo-audit-piloto-02.md
+- Area: sistema E-SELEC v2 / prueba seo-audit
+- Agente: Codex + Arquitecto
+- Tipo: resultado de prueba en seco
+- Motivo: probar `seo-audit` con evidencia SEO saneada de Computer Chamberi y comprobar que el output queda parcial fuerte, no final.
+- Estado: vigente
+- Reemplaza a: diagnostico SEO piloto sin evidencia suficiente.
+- Accion recomendada: usar como referencia de calidad para futuras auditorias SEO v2; no entregar al cliente sin revalidar fuentes vivas.
+- Riesgo: bajo-medio; contiene datos SEO resumidos, sin secretos ni exports brutos.
+

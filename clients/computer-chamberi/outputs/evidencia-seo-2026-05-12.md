@@ -18,6 +18,7 @@
 | `estrategia-seo-2026-05-07.md` | 2026-05-07 | SEMrush + Google Search Console Feb-May 2026 | estrategia, GSC agregado, oportunidades |
 | `ctr-audit-2026-05-07.md` | 2026-05-07 | Google Search Console ultimos 91 dias | CTR, paginas prioritarias, patrones |
 | `plan-metas-ctr-2026-05-08.md` | 2026-05-08 | auditoria CTR previa | propuestas pendientes, no implementadas |
+| `auditorias/seo-computerchamberi-com-index-2026-05-07.md` | 2026-05-07 | requests, status 200 | homepage on-page/tecnico estatico |
 
 ## Evidencia extraida
 
@@ -109,12 +110,38 @@ Estado:
 - No hay confirmacion de implementacion.
 - No deben ejecutarse sin Orden de Cambio y validacion de title/meta actual.
 
+## Evidencia on-page tecnica
+
+El output `auditorias/seo-computerchamberi-com-index-2026-05-07.md` declara:
+
+- URL auditada: `https://www.computerchamberi.com/`
+- Metodo: requests.
+- Status: 200.
+- Tiempo de carga reportado: 1.33s.
+- Puntuacion on-page: 70/100.
+- Problema critico: keyword objetivo `reparacion ordenadores chamberi` no aparece en title.
+- Avisos: 11 enlaces sin anchor, keyword objetivo ausente en meta description y H1, 13 scripts render-blocking, 1 imagen potencialmente sobredimensionada.
+- Meta actual: title de 55 caracteres y description de 139 caracteres.
+- Canonical: homepage con `https://www.computerchamberi.com/`.
+- Robots meta: `follow, index`.
+- Hreflang: 2 variantes.
+- Schema detectado: Organization, WebSite, ImageObject, FAQPage, LocalBusiness, ComputerRepair, ElectronicsStore, MobilePhoneStore.
+- Robots.txt y sitemap.xml existen.
+- Sitemap reporta 4 URLs.
+
+Advertencia:
+
+- Es una auditoria estatica por requests, no render completo de navegador.
+- No usarla para afirmar ausencia de schema renderizado.
+- PageSpeed/Core Web Vitals siguen sin verificar.
+
 ## Contradicciones o dudas
 
 - El sistema legacy mezcla algunos datos estimados de SEMrush con datos reales de GSC; deben mantenerse separados.
 - Existe posible inconsistencia de unidad en CTR audit: `impresiones/mes` vs fuente `ultimos 91 dias`.
 - GA4 sigue sin evidencia verificable en v2.
 - GBP se describe como fuerte, pero no fue verificado vivo en esta sesion.
+- La auditoria on-page es estatica; no sustituye un render ni PageSpeed.
 
 ## Nivel de medicion actualizado
 

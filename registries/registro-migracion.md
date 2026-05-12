@@ -295,3 +295,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: separa SEMrush/GSC, declara contradicciones de unidades, limita conclusiones permitidas y prohibe ejecucion sin Orden de Cambio.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - seo-audit piloto 02 computer-chamberi
+- Responsable: Codex + Arquitecto
+- Tipo: prueba de skill / auditoria SEO parcial
+- Responsabilidad real: comprobar que `seo-audit` produce un diagnostico priorizado, con evidencia y limites claros, sin convertir datos parciales en output final.
+- Destino Claude Code: `planning/resultado-seo-audit-piloto-02.md`
+- Decision: crear prueba
+- Motivo: validar la mejora de calidad despues de anadir `verificacion-medicion` y evidencia SEO saneada.
+- Riesgo: bajo-medio; contiene resumen SEO interno, sin secretos ni produccion.
+- Prueba de calidad: nivel parcial fuerte, top 3 priorizado, tecnico antes de contenido, schema no sobrediagnosticado y produccion bloqueada.
+- Estado: implementado
+- Commit: pendiente
