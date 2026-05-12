@@ -158,3 +158,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar despues de outputs rechazados, correcciones de Rodrigo o fallos de criterio repetibles.
 - Riesgo: bajo; no contiene secretos ni datos privados.
 
+### 2026-05-12 - .claude/agents/leader-clientes.md
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: subagent Claude Code / orquestacion de clientes
+- Motivo: completar P2-001 creando Lider Clientes v2 como orquestador ligero, read-only y alineado con skills/reglas/contratos de calidad.
+- Estado: vigente
+- Reemplaza a: `agents/leader-clients.md` como prompt legacy directo.
+- Accion recomendada: usar al mencionar un cliente, revisar estado, priorizar proximos pasos o enrutar trabajo hacia `client-audit`/`seo-audit`.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+

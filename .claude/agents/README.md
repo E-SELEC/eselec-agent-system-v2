@@ -15,4 +15,5 @@ Agentes activos:
 
 - `arquitecto-migracion-claude`: audita y planifica la migracion legacy -> v2.
 - `docente`: convierte correcciones y fallos de calidad en criterio operativo examinable.
+- `leader-clientes`: orquesta trabajo de clientes, prioriza y elige skills/subagents sin ejecutar produccion.
 

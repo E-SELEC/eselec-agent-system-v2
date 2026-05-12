@@ -39,7 +39,7 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 
 | ID | Estado | Accion | Resultado esperado |
 |---|---|---|---|
-| P2-001 | pendiente | Crear Lider Clientes v2 | `.claude/agents/leader-clientes.md` |
+| P2-001 | hecho | Crear Lider Clientes v2 | `.claude/agents/leader-clientes.md` |
 | P2-002 | pendiente | Crear Lider Agencia v2 | `.claude/agents/leader-agencia.md` |
 | P2-003 | pendiente | Convertir loop alertas pendientes en command | `.claude/commands/alertas-pendientes.md` |
 | P2-004 | pendiente | Convertir auditoria semanal en command | `.claude/commands/auditoria-semanal.md` |
