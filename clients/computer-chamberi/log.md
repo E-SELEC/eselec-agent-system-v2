@@ -18,3 +18,4 @@
 
 [2026-05-12] [ARQUITECTO] Migracion minima a v2 | RESULTADO: creada estructura saneada del cliente piloto sin outputs pesados ni secretos | PROXIMO PASO: Ejecutar `client-audit` y `seo-audit` v2 en modo diagnostico.
 
+[2026-05-12] [ARQUITECTO] Prueba piloto en seco | RESULTADO: `client-audit` pasa con prioridad unica: verificar medicion y linea base; `seo-audit` queda util pero parcial porque no se consultaron datos vivos. Resultado en `planning/resultado-piloto-01.md` | PROXIMO PASO: verificar GA4/GSC/SEMrush de forma segura antes de auditoria SEO final.

@@ -218,3 +218,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: ejecutar auditoria piloto en modo diagnostico, sin tocar produccion.
 - Riesgo: bajo-medio; contiene resumen operativo de cliente, sin secretos ni outputs pesados.
 
+### 2026-05-12 - planning/resultado-piloto-01.md
+- Area: sistema E-SELEC v2 / cliente piloto
+- Agente: Codex + Arquitecto
+- Tipo: resultado de prueba en seco
+- Motivo: documentar la primera prueba de `client-audit` y `seo-audit` sobre `computer-chamberi` sin usar herramientas vivas ni tocar produccion.
+- Estado: vigente
+- Reemplaza a: ausencia de prueba operativa del sistema v2 con cliente real.
+- Accion recomendada: verificar medicion viva antes de convertir el diagnostico SEO en auditoria final.
+- Riesgo: bajo; no contiene secretos ni outputs pesados.
+
