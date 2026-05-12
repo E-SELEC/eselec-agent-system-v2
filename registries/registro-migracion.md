@@ -211,3 +211,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: frontmatter de subagent, tools read-only, lectura obligatoria, routing interno, separacion agencia/cliente, bloqueos y formato de salida.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P2-003 command alertas-pendientes
+- Responsable: Codex + Arquitecto
+- Tipo: command Claude Code / workflow recurrente
+- Responsabilidad real: consolidar mensajes pendientes de clientes y agencia, clasificarlos y proponer siguiente accion.
+- Destino Claude Code: `.claude/commands/alertas-pendientes.md`
+- Decision: reescribir
+- Motivo: convertir el loop legacy en command invocable, con modo solo lectura por defecto y escritura opcional controlada.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+- Prueba de calidad: define uso, lectura, clasificacion, salida, escritura opcional, no duplicacion y criterio de exito.
+- Estado: implementado
+- Commit: pendiente
