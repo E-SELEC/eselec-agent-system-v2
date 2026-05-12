@@ -367,3 +367,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: SKILL con niveles SM0-SM3, fuentes oficiales, referencias compactas, plantilla, checklist, command y contrato de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 ai-seo
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / AI search
+- Responsabilidad real: auditar visibilidad en respuestas AI y planificar contenido citable con evidencia por query, plataforma y fecha.
+- Destino Claude Code: `.claude/skills/ai-seo/` y `.claude/commands/auditar-ai-seo.md`
+- Decision: reescribir/adaptar
+- Motivo: conservar el enfoque legacy de AI SEO pero eliminar cifras no verificadas, promesas de cita y cambios peligrosos de robots.txt sin Orden de Cambio.
+- Riesgo: medio; puede llevar a claims comerciales falsos o cambios de crawling si se ejecuta mal.
+- Prueba de calidad: SKILL con niveles AI0-AI3, plantilla, checklist, crawler refs oficiales y contrato de output.
+- Estado: implementado
+- Commit: pendiente

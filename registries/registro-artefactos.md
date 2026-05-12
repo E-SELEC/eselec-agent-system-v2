@@ -348,3 +348,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar despues de `seo-audit` o `site-architecture` cuando haya paginas, breadcrumbs, negocio local, producto o FAQs que requieran datos estructurados.
 - Riesgo: medio; puede derivar en cambios de produccion o schema enganoso, pero la skill bloquea contenido no visible, duplicados y publicacion sin Orden de Cambio.
 
+### 2026-05-13 - .claude/skills/ai-seo/
+- Area: sistema E-SELEC v2 / AI search
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `ai-seo` como skill v2 para auditar visibilidad AI y planificar contenido citable con evidencia.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/ai-seo/` como skill legacy directa.
+- Accion recomendada: usar para AI Search / LLM SEO despues de revisar fundamentos SEO, schema y arquitectura.
+- Riesgo: medio; puede generar promesas falsas o cambios de crawling si no se exige evidencia y Orden de Cambio.
+

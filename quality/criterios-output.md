@@ -948,6 +948,74 @@ Produccion tocada:
 - el cambio requiere produccion sin aprobacion;
 - contradice contenido visible, `context.md` o `log.md`.
 
+## Contrato 16 - AI SEO / visibilidad en respuestas AI
+
+Usar para:
+
+- AI SEO;
+- AEO/GEO/LLM SEO;
+- auditorias de ChatGPT, Perplexity, Gemini, Claude, Copilot o AI Overviews;
+- contenido citable;
+- respuestas directas;
+- presencia en terceros;
+- robots.txt para crawlers AI;
+- share of voice AI.
+
+### Objetivo
+
+Medir y mejorar la probabilidad de que el cliente sea encontrado, mencionado o citado por respuestas AI con evidencia concreta, sin prometer resultados.
+
+### Inputs minimos
+
+- cliente/dominio;
+- mercado e idioma;
+- queries objetivo;
+- plataformas a revisar;
+- paginas candidatas;
+- fecha de prueba;
+- competidores si existen;
+- fuentes usadas.
+
+### Estructura obligatoria
+
+```text
+# Auditoria AI SEO: [cliente]
+Fecha:
+Nivel de evidencia AI:
+Mercado/idioma:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Objetivo
+## 2. Consultas prioritarias
+## 3. Visibilidad AI actual
+## 4. Diagnostico
+## 5. Brechas frente a competidores
+## 6. Plan priorizado
+## 7. Riesgos y limites
+## 8. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel AI0/AI1/AI2/AI3.
+- Declara query, plataforma, fecha y mercado.
+- Distingue cita, mencion, enlace y trafico.
+- No usa estadisticas sin fuente y fecha.
+- Cruza SEO, schema, arquitectura y extractabilidad.
+- Prioriza acciones por query/pagina.
+- No promete aparecer en respuestas AI.
+- No toca robots.txt, CDN, noindex, sitemap ni contenido publicado sin Orden de Cambio.
+
+### Bloquea si
+
+- no hay dominio o cliente claro;
+- no hay queries objetivo;
+- se quieren conclusiones sin pruebas fechadas o sin marcar parcialidad;
+- se pide prometer citas AI;
+- se pide cambiar robots.txt/CDN/noindex/sitemap sin aprobacion;
+- los claims de autoridad o datos no son verificables.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:
