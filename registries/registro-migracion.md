@@ -139,3 +139,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: cruza documentacion Claude Code, estructura legacy, matriz de causas, diagnostico por area y acciones P1.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P1-002 criterios de output por servicio
+- Responsable: Codex + Arquitecto
+- Tipo: criterios de calidad / contratos de salida
+- Responsabilidad real: definir que debe cumplir cada tipo de entregable para considerarse bueno, parcial o bloqueado.
+- Destino Claude Code: `quality/criterios-output.md`
+- Decision: crear
+- Motivo: corregir la causa Q-002 y Q-003 del diagnostico de calidad: criterio sin contrato y verificacion insuficiente.
+- Riesgo: bajo; documento operativo sin secretos ni datos privados.
+- Prueba de calidad: incluye criterios universales, escala 0-4, contratos por servicio, bloqueos y checklist final.
+- Estado: implementado
+- Commit: pendiente

@@ -118,3 +118,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar como base directa de P1-002 `quality/criterios-output.md`.
 - Riesgo: bajo; no contiene secretos ni datos privados.
 
+### 2026-05-12 - quality/criterios-output.md
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: criterios de calidad / contratos de salida
+- Motivo: completar P1-002 creando contratos verificables para auditorias, SEO, informes, proximos pasos, CRO, SEM, Social, Web, Copy y Agencia.
+- Estado: vigente
+- Reemplaza a: criterios dispersos en prompts legacy sin aceptacion estandarizada por entregable.
+- Accion recomendada: usar como fuente obligatoria al migrar skills y lideres operativos.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+

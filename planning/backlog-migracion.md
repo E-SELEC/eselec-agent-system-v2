@@ -30,7 +30,7 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 | ID | Estado | Accion | Resultado esperado |
 |---|---|---|---|
 | P1-001 | hecho | Crear matriz de causas de baja calidad | `quality/diagnostico-calidad.md` |
-| P1-002 | pendiente | Crear criterios de output por servicio | `quality/criterios-output.md` |
+| P1-002 | hecho | Crear criterios de output por servicio | `quality/criterios-output.md` |
 | P1-003 | pendiente | Migrar skill `client-audit` | `.claude/skills/client-audit/` |
 | P1-004 | pendiente | Migrar skill `seo-audit` | `.claude/skills/seo-audit/` |
 | P1-005 | pendiente | Migrar Docente como rol de aprendizaje | `.claude/agents/docente.md` o rule |
