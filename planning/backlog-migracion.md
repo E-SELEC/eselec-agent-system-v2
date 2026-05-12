@@ -43,7 +43,7 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 | P2-002 | hecho | Crear Lider Agencia v2 | `.claude/agents/leader-agencia.md` |
 | P2-003 | hecho | Convertir loop alertas pendientes en command | `.claude/commands/alertas-pendientes.md` |
 | P2-004 | hecho | Convertir auditoria semanal en command | `.claude/commands/auditoria-semanal.md` |
-| P2-005 | pendiente | Definir cliente piloto | `planning/piloto-01.md` |
+| P2-005 | hecho | Definir cliente piloto | `planning/piloto-01.md` |
 
 ## Prioridad P3 - Migracion amplia
 

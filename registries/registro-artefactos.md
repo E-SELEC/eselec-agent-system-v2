@@ -198,3 +198,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar al inicio de semana o antes de planificar prioridades de clientes.
 - Riesgo: bajo; no contiene secretos ni datos privados.
 
+### 2026-05-12 - planning/piloto-01.md
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: decision operativa / piloto
+- Motivo: completar P2-005 definiendo Computer Chamberi como primer cliente piloto para probar operacion v2 sin tocar produccion.
+- Estado: vigente
+- Reemplaza a: decision informal de cliente piloto.
+- Accion recomendada: ejecutar P3-002 migrando estructura minima de `computer-chamberi`.
+- Riesgo: bajo; no contiene secretos ni datos privados sensibles.
+

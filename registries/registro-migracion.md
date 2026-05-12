@@ -235,3 +235,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: define uso, lectura, detecciones, clasificacion, salida, escritura opcional y criterio de exito.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P2-005 cliente piloto
+- Responsable: Codex + Arquitecto
+- Tipo: decision de piloto
+- Responsabilidad real: elegir el primer cliente para probar el sistema v2 operativo sin tocar produccion.
+- Destino Claude Code: `planning/piloto-01.md`
+- Decision: crear
+- Motivo: Computer Chamberi permite probar `leader-clientes`, `client-audit`, `seo-audit` y criterios de calidad con menor riesgo que WooCommerce o Ads.
+- Riesgo: bajo; documento de planificacion sin secretos ni datos privados sensibles.
+- Prueba de calidad: incluye razones de seleccion, descartes, alcance, no-alcance, riesgos y siguiente paso.
+- Estado: implementado
+- Commit: pendiente
