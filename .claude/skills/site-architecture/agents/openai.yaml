@@ -1,0 +1,4 @@
+interface:
+  display_name: "Site Architecture"
+  short_description: "Disena estructuras web, URLs y navegacion"
+  default_prompt: "Disena o audita la arquitectura web de este cliente sin tocar produccion."

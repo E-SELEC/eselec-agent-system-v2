@@ -12,4 +12,5 @@ Skills activas:
 - `verificacion-medicion`: comprueba GA4/GSC/SEMrush/GBP/Ads antes de decidir o auditar.
 - `ingesta-evidencia`: convierte exports, datos vivos o outputs legacy en evidencia saneada.
 - `analytics-tracking`: audita y disena medicion GA4/GTM/eventos/conversiones.
+- `site-architecture`: disena arquitectura web, URLs, navegacion, enlazado interno y redirecciones.
 

@@ -62,3 +62,4 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 | Skill | Estado | Motivo |
 |---|---|---|
 | `analytics-tracking` | hecho | desbloquea GA4/GTM/eventos/conversiones para informes, CRO, Ads y SEO final |
+| `site-architecture` | hecho | ordena paginas, URLs, navegacion, enlazado interno y redirecciones antes de cambios web/SEO |

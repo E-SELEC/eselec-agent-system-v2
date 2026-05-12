@@ -802,6 +802,79 @@ Produccion tocada:
 - se pide publicar GTM/GA4/pixels sin aprobacion;
 - el plan enviaria PII a herramientas de analytics o Ads.
 
+## Contrato 14 - Site architecture / arquitectura web
+
+Usar para:
+
+- estructura web;
+- sitemap visual;
+- menu y navegacion;
+- URLs;
+- redirecciones;
+- enlazado interno;
+- redisenos;
+- arquitectura para SEO local, servicios, e-commerce o contenido.
+
+### Objetivo
+
+Proponer una estructura web clara, accionable y segura, sin romper SEO, conversion, tracking ni operaciones reales.
+
+### Inputs minimos
+
+- cliente o dominio;
+- objetivo de la web;
+- audiencia;
+- servicios/productos;
+- CMS;
+- URLs existentes si hay redisenio o reestructura;
+- estado SEO/conversion disponible;
+- restricciones tecnicas;
+- fuentes usadas.
+
+### Estructura obligatoria
+
+```text
+# Arquitectura web: [cliente / sitio]
+Fecha:
+Nivel de arquitectura:
+Alcance:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Objetivo de la arquitectura
+## 2. Estado actual
+## 3. Principios de diseno
+## 4. Mapa de paginas propuesto
+## 5. Mapa de URLs
+## 6. Navegacion
+## 7. Enlazado interno
+## 8. Redirecciones y riesgos SEO
+## 9. Dependencias
+## 10. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel SA0/SA1/SA2/SA3.
+- Cada pagina principal tiene objetivo.
+- Las URLs propuestas tienen motivo.
+- Distingue pagina nueva, mantener, fusionar, redirigir, revisar o eliminar.
+- Los cambios de URLs contemplan 301.
+- Header, footer, mobile y breadcrumbs se contemplan cuando aplican.
+- El enlazado interno apoya SEO y conversion.
+- Marca datos faltantes y riesgos de produccion.
+- No toca WordPress, WooCommerce, redirects, tracking ni formularios sin Orden de Cambio.
+
+### Bloquea si
+
+- no hay objetivo de la web;
+- no hay dominio o cliente claro;
+- se pide reestructura sin inventario de URLs;
+- se pide cambiar URLs sin plan de redirecciones;
+- hay WooCommerce, checkout, pagos, formularios o reservas sin Orden de Cambio;
+- afirma rendimiento SEO/conversion sin fuente verificada;
+- contradice `context.md` o `log.md`.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:

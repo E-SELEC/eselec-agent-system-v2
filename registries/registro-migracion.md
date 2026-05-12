@@ -343,3 +343,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: SKILL con niveles T0-T3, referencias compactas, plantilla, checklist, command y contrato de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 site-architecture
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / arquitectura web
+- Responsabilidad real: disenar o auditar mapa de paginas, URLs, menus, breadcrumbs, enlazado interno y redirecciones sin tocar produccion.
+- Destino Claude Code: `.claude/skills/site-architecture/` y `.claude/commands/plan-arquitectura-web.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy prioritaria para ordenar SEO/Web/CRO antes de cambios en paginas, menus o URLs.
+- Riesgo: medio; puede derivar en cambios de produccion y perdida SEO si se ejecuta mal, por eso bloquea implementacion sin Orden de Cambio.
+- Prueba de calidad: SKILL con niveles SA0-SA3, patrones compactos, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente

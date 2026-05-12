@@ -328,3 +328,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar antes de informes, CRO, Ads o cambios de medicion.
 - Riesgo: bajo-medio; puede derivar en cambios de produccion, pero la skill bloquea implementacion sin Orden de Cambio.
 
+### 2026-05-13 - .claude/skills/site-architecture/
+- Area: sistema E-SELEC v2 / web y SEO
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `site-architecture` como skill v2 para disenar arquitectura, URLs, navegacion, enlazado interno y redirecciones sin tocar produccion.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/site-architecture/` como skill legacy directa.
+- Accion recomendada: usar antes de redisenos, cambios de menu, cambios de URLs, planes SEO de estructura o briefs web.
+- Riesgo: medio; puede derivar en cambios de produccion y SEO, pero la skill bloquea implementacion sin inventario, plan 301 y Orden de Cambio.
+
