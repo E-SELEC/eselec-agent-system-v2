@@ -88,3 +88,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar antes de tocar produccion, datos vivos, fuentes de verdad, scripts externos, MCP, Ads, WordPress, WooCommerce, hosting, DNS o accesos.
 - Riesgo: bajo; protocolo sin datos privados ni secretos.
 
+### 2026-05-12 - protocols/cierre-humano.md
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: protocolo / regla
+- Motivo: completar P0-006 migrando el protocolo canonico legacy de cierre humano al sistema v2 para que cada tarea cierre con explicacion clara, estado, riesgos y siguiente paso.
+- Estado: vigente
+- Reemplaza a: dependencia del protocolo legacy `sistema/protocolos/cierre-humano.md` como unica fuente.
+- Accion recomendada: usar al cerrar cualquier tarea con trabajo detras, cambios, riesgos, commits, registros, scripts o migracion.
+- Riesgo: bajo; protocolo sin datos privados ni secretos.
+

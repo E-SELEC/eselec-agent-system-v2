@@ -20,4 +20,5 @@ Activo ahora:
 - `gestion-accesos.md`
 - `control-artefactos.md`
 - `activos-criticos.md`
+- `cierre-humano.md`
 

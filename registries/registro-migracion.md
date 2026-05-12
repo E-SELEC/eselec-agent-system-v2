@@ -103,3 +103,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: incluye niveles A/B/C/D, Orden corta/completa, diagnostico por capas, anti-restore, fuentes de verdad, condiciones de parada y checklist.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-12 - P0-006 protocolo cierre-humano
+- Responsable: Codex + Arquitecto
+- Tipo: protocolo de cierre / comunicacion operativa
+- Responsabilidad real: definir como explicar a Rodrigo, al cierre de cada tarea, que se pidio, que se hizo, que cambio, que no se toco, que se encontro, estado y siguiente paso.
+- Destino Claude Code: `protocols/cierre-humano.md`, `.claude/rules/cierre-humano.md`
+- Decision: reescribir
+- Motivo: adaptar el protocolo canonico legacy a la estructura v2 y al flujo de migracion con backlog, commits, registros y El Escolta.
+- Riesgo: bajo; no contiene secretos ni datos privados.
+- Prueba de calidad: incluye cierre normal, cierre corto, checklist de migracion, tono obligatorio, relacion con Claude Code, El Escolta y otros protocolos.
+- Estado: implementado
+- Commit: pendiente

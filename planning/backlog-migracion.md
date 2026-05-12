@@ -20,7 +20,7 @@ Decision de prioridad: empezar por P0 antes de P1. Motivo: si no blindamos secre
 | P0-003 | hecho | Migrar protocolo gestion-secretos | `protocols/gestion-accesos.md` |
 | P0-004 | hecho | Migrar protocolo control-artefactos | `protocols/control-artefactos.md` |
 | P0-005 | hecho | Migrar protocolo activos-criticos | `protocols/activos-criticos.md` |
-| P0-006 | pendiente | Migrar cierre-humano | `protocols/cierre-humano.md` |
+| P0-006 | hecho | Migrar cierre-humano | `protocols/cierre-humano.md` |
 | P0-007 | pendiente | Disenar hook bloqueo secretos | `.claude/hooks/` |
 
 ## Prioridad P1 - Calidad y criterio
