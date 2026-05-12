@@ -24,6 +24,18 @@ Este repositorio es la nueva base limpia del sistema. El sistema anterior queda 
 8. `scripts/` - herramientas locales revisadas y sin secretos.
 9. `legacy/` - notas de migracion desde el sistema anterior, no vertedero.
 
+## Rol de migracion
+
+La migracion desde el sistema anterior la gobierna `arquitecto-migracion-claude`.
+
+Este rol no copia carpetas. Audita responsabilidades y decide si cada pieza debe convertirse en regla, skill, subagent, command, script, memoria, registro o historico.
+
+Comando inicial:
+
+```text
+/migrar-pieza <ruta-legacy> [objetivo]
+```
+
 ## Filtro de migracion
 
 Antes de mover una pieza desde el sistema anterior, responder:
@@ -37,4 +49,3 @@ Antes de mover una pieza desde el sistema anterior, responder:
 - Tiene propietario y proposito claro?
 
 Si la respuesta no es clara, no se migra todavia.
-

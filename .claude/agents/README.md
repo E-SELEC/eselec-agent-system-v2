@@ -11,3 +11,7 @@ No migrar prompts antiguos en bloque. Cada agente debe tener:
 - Formato de salida.
 - Riesgos y permisos.
 
+Agentes activos:
+
+- `arquitecto-migracion-claude`: audita y planifica la migracion legacy -> v2.
+

@@ -4,6 +4,7 @@ Los protocolos obligatorios se migraran desde el sistema anterior despues de san
 
 Protocolos base previstos:
 
+- Migracion Claude Code.
 - Activos criticos.
 - Control de artefactos.
 - Gestion de secretos.
@@ -12,4 +13,8 @@ Protocolos base previstos:
 - Cierre humano.
 
 Ningun protocolo entra aqui si contiene referencias obsoletas, duplicadas o mezcladas con historico.
+
+Activo ahora:
+
+- `migracion-claude-code.md`
 

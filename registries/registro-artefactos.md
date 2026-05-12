@@ -16,3 +16,15 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Riesgo:
 ```
 
+## Entradas
+
+### 2026-05-12 - rol de migracion Claude Code
+- Area: sistema E-SELEC v2
+- Agente: Codex + Arquitecto
+- Tipo: rol/protocolo/skill/command
+- Motivo: crear la autoridad operativa que migrara el sistema legacy al sistema v2 usando primitivas oficiales de Claude Code.
+- Estado: vigente
+- Reemplaza a: migraciones manuales sin criterio unificado.
+- Accion recomendada: usar antes de mover cualquier pieza legacy.
+- Riesgo: bajo; no incluye secretos ni datos de clientes.
+

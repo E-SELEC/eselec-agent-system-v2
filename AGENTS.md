@@ -34,8 +34,16 @@ Antes de ejecutar, identifica el modo:
 1. `core/fuentes-de-verdad.md`
 2. `core/prioridades.md`
 3. `protocols/README.md`
-4. `registries/registro-artefactos.md`
-5. `registries/registro-accesos.md`
+4. `protocols/migracion-claude-code.md`
+5. `registries/registro-artefactos.md`
+6. `registries/registro-accesos.md`
+7. `registries/registro-migracion.md`
+
+## Migracion desde legacy
+
+Toda migracion desde el sistema anterior debe pasar por el rol `arquitecto-migracion-claude` o por la skill `migration-audit`.
+
+No se permite migrar por carpetas completas. Se migra por responsabilidad y se decide el destino correcto segun Claude Code: `CLAUDE.md`, rules, skills, subagents, commands, MCP, scripts, memoria, registros o legacy.
 
 ## Seguridad
 
