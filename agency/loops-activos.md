@@ -17,6 +17,12 @@
 | `arquitecto-diario` | cierre de jornada | pendiente | command o heartbeat interno |
 | `arquitecto-semanal` | semanal | pendiente | command de revision sistema |
 
+## Historial de ejecucion v2
+
+| Fecha | Loop | Modo | Resultado |
+|---|---|---|---|
+| 2026-05-13 | `auditoria-semanal` | lectura con output interno | O1-003 ejecutado; resumen en `agency/outputs/resumen-semanal-2026-05-13.md`. |
+
 ## Reglas v2
 
 - No automatizar un loop hasta que su command funcione manualmente.

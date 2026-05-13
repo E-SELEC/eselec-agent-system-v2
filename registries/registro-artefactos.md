@@ -745,3 +745,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar este contexto antes de O1-003 y decisiones internas de Agencia.
 - Riesgo: bajo; documentacion interna sin produccion ni accesos.
 
+### 2026-05-13 - agency/outputs/resumen-semanal-2026-05-13.md
+- Area: agencia E-SELEC / loops
+- Agente: Codex + loops-leader
+- Tipo: output interno de auditoria semanal
+- Motivo: ejecutar O1-003 en modo lectura para comprobar estado multi-cliente v2 sin modificar archivos de cliente ni tocar produccion.
+- Estado: vigente
+- Archivos creados/modificados: `agency/outputs/resumen-semanal-2026-05-13.md`, `agency/outputs/manifest.md`, `agency/log.md`, `agency/loops-activos.md`, `planning/sprint-01-operacion-v2.md`, `registries/registro-artefactos.md`.
+- Reemplaza a: ninguno.
+- Accion recomendada: usar para decidir O1-004 Calibracion y no migrar mas clientes hasta cerrar el sprint.
+- Riesgo: bajo; output interno, sin datos vivos, accesos ni produccion.
+

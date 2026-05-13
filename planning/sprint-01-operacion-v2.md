@@ -24,7 +24,7 @@ La primera semana de uso debe demostrar tres cosas:
 |---|---|---|---|
 | O1-001 | hecho | Primer arranque Cliente con `computer-chamberi` | Diagnostico breve de estado usando `leader-clientes`, sin tocar produccion. |
 | O1-002 | hecho | Primer arranque Agencia | Prioridad interna clara usando `leader-agencia`, sin mezclar clientes. |
-| O1-003 | pendiente | Ejecutar `LOOP: auditoria-semanal` en modo lectura | Resumen multi-cliente sin cambios reales. |
+| O1-003 | hecho | Ejecutar `LOOP: auditoria-semanal` en modo lectura | Resumen multi-cliente sin cambios reales. |
 | O1-004 | pendiente | Probar Calibracion con una correccion real o simulada | Decidir si guarda, descarta o deriva a Docente. |
 | O1-005 | pendiente | Elegir primer conector a reconstruir de forma segura | Especificacion, no implementacion productiva. |
 
@@ -99,6 +99,20 @@ Resultado esperado:
 - detectar mensajes pendientes;
 - no crear entregables para cliente;
 - si se crea output interno, registrarlo.
+
+## Resultado O1-003 - Loop semanal en lectura
+
+Archivo local generado: `agency/outputs/resumen-semanal-2026-05-13.md`.
+
+Resultado:
+
+- Clientes evaluables en v2: 1 (`computer-chamberi`).
+- Estado Computer Chamberi: activo, ultimo log 2026-05-13.
+- Mensajes pendientes Computer Chamberi: 5.
+- Alertas/dependencias Agencia: 3.
+- Clientes activos legacy fuera de alcance v2: 3.
+- Produccion tocada: no.
+- Siguiente accion segura: ejecutar O1-004 Calibracion antes de migrar mas clientes o automatizar loops.
 
 ## O1-004 - Calibracion
 
