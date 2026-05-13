@@ -1499,6 +1499,140 @@ Produccion tocada:
 - se quieren conclusiones de retencion sin cohortes o sin marcar parcialidad;
 - se piden cambios reales sin aprobacion.
 
+## Contrato 24 - Popup CRO / overlays
+
+Usar para:
+
+- `popup-cro`;
+- popups, modals, overlays, slide-ins, sticky bars o announcement banners;
+- exit intent;
+- email popup, lead capture popup o discount popup;
+- scroll trigger, notification bar, overlay o interrupciones de conversion.
+
+### Objetivo
+
+Mejorar conversion con elementos interruptivos sin degradar experiencia, marca, SEO movil, accesibilidad ni privacidad.
+
+### Inputs minimos
+
+- cliente o pagina;
+- objetivo del popup;
+- oferta o mensaje;
+- audiencia/segmento;
+- paginas donde aparece;
+- trigger y frecuencia;
+- captura o copy actual/propuesto;
+- medicion disponible: impressions, close, submit, conversion, bounce o revenue/leads;
+- restricciones de privacidad, consentimiento, mobile y SEO.
+
+### Estructura obligatoria
+
+```text
+# Auditoria Popup CRO: [cliente / popup]
+Fecha:
+Nivel Popup CRO:
+Popup:
+Objetivo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Diagnostico ejecutivo
+## 2. Configuracion actual o propuesta
+## 3. Medicion
+## 4. Hallazgos
+## 5. Version recomendada
+## 6. Conflictos y riesgos
+## 7. Tests posibles
+## 8. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel PU0/PU1/PU2/PU3.
+- Define objetivo, oferta, audiencia, pagina, trigger y frecuencia.
+- Incluye regla de cierre, declinar y cooldown.
+- Revisa mobile, accesibilidad, consentimiento y SEO movil.
+- Revisa conflictos con cookie banner, chat, checkout u otros popups.
+- Declara medicion disponible y datos faltantes.
+- No recomienda test sin baseline, trafico y tracking.
+- No toca CMS, CMP, GTM, scripts ni herramientas de popup sin Orden de Cambio.
+
+### Bloquea si
+
+- no hay objetivo u oferta;
+- no se sabe donde o cuando aparece;
+- no hay forma clara de cerrar;
+- puede incumplir privacidad/accesibilidad o danar SEO movil;
+- se piden cambios reales sin aprobacion.
+
+## Contrato 25 - Paywall / upgrade CRO
+
+Usar para:
+
+- `paywall-upgrade-cro`;
+- paywalls, upgrade screens, upsell modals o feature gates;
+- trial expiration screens;
+- usage limit screens;
+- in-app pricing;
+- conversion free-to-paid, trial-to-paid o tier upgrade.
+
+### Objetivo
+
+Mejorar conversion a pago o upgrade dentro del producto sin usar patrones oscuros, romper confianza, bloquear valor critico ni aumentar churn.
+
+### Inputs minimos
+
+- cliente/producto;
+- modelo de monetizacion;
+- plan actual y plan objetivo;
+- trigger del paywall;
+- valor ya recibido por el usuario;
+- pantalla/copy actual o propuesta;
+- pricing y camino de pago;
+- camino de salida: no ahora, seguir gratis, downgrade o alternativa;
+- metricas: impression, CTA, checkout start, upgrade, revenue, churn/refund;
+- guardrails de confianza, soporte y retencion.
+
+### Estructura obligatoria
+
+```text
+# Auditoria Paywall Upgrade CRO: [cliente / flujo]
+Fecha:
+Nivel Paywall:
+Pantalla/trigger:
+Objetivo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Diagnostico ejecutivo
+## 2. Contexto de monetizacion
+## 3. Medicion
+## 4. Hallazgos
+## 5. Version recomendada
+## 6. Riesgos y guardrails
+## 7. Tests posibles
+## 8. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel PW0/PW1/PW2/PW3.
+- Explica por que el usuario ve el paywall en ese momento.
+- Confirma que hubo valor antes del ask o marca el riesgo.
+- Incluye beneficio, comparacion, precio, CTA y escape hatch claro.
+- Revisa checkout/billing/post-upgrade y soporte.
+- Incluye guardrails de churn, refunds, soporte, confianza y revenue.
+- No recomienda test sin baseline, revenue tracking y guardrails.
+- No toca producto, pricing, checkout, billing, emails ni tracking sin Orden de Cambio.
+
+### Bloquea si
+
+- no hay modelo de pago u oferta clara;
+- no se sabe cuando aparece el paywall;
+- no hay camino de salida;
+- el cambio puede afectar precios, checkout, billing o datos de usuario sin aprobacion;
+- se quieren conclusiones de revenue/churn sin datos o sin marcar parcialidad.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:

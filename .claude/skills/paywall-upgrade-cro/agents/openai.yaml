@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paywall Upgrade CRO"
+  short_description: "Audita paywalls y upgrades"
+  default_prompt: "Audita este paywall o upgrade screen sin tocar produccion."

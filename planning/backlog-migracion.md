@@ -73,3 +73,5 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 | `ab-test-setup` | hecho | convierte hipotesis CRO en experimentos medibles con muestra, metricas y guardrails |
 | `signup-flow-cro` | hecho | optimiza registros, altas de cuenta y trials sin romper activacion posterior |
 | `onboarding-cro` | hecho | mejora activacion, time-to-value y primer valor post-signup |
+| `popup-cro` | hecho | optimiza popups, modales, overlays y banners sin danar UX/SEO movil |
+| `paywall-upgrade-cro` | hecho | optimiza paywalls, upsells y upgrades con guardrails de revenue/confianza |

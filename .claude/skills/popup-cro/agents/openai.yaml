@@ -1,0 +1,4 @@
+interface:
+  display_name: "Popup CRO"
+  short_description: "Audita popups sin danar UX"
+  default_prompt: "Audita este popup para mejorar conversion sin tocar produccion."

@@ -23,3 +23,5 @@ Skills activas:
 - `ab-test-setup`: disena experimentos A/B con hipotesis, metricas y viabilidad.
 - `signup-flow-cro`: audita registros, altas de cuenta y trials sin tocar produccion.
 - `onboarding-cro`: audita activacion, primer valor y onboarding post-signup.
+- `popup-cro`: audita popups, modales, overlays y banners sin danar UX.
+- `paywall-upgrade-cro`: audita paywalls, upsells y upgrades dentro de producto.

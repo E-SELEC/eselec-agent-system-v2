@@ -438,3 +438,23 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar cuando usuarios se registran pero no llegan a valor, setup o retencion temprana.
 - Riesgo: medio; puede afectar producto, emails, tracking o datos de usuario si se ejecuta sin Orden de Cambio.
 
+### 2026-05-13 - .claude/skills/popup-cro/
+- Area: sistema E-SELEC v2 / CRO
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `popup-cro` como skill v2 para auditar popups, modals, overlays y banners sin danar UX, SEO movil ni privacidad.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/popup-cro/` como skill legacy directa.
+- Accion recomendada: usar antes de crear, cambiar o probar popups, banners, exit intent o lead capture overlays.
+- Riesgo: medio; puede afectar UX, privacidad, SEO movil, scripts y conversiones si se ejecuta sin Orden de Cambio.
+
+### 2026-05-13 - .claude/skills/paywall-upgrade-cro/
+- Area: sistema E-SELEC v2 / CRO y monetizacion
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `paywall-upgrade-cro` como skill v2 para auditar paywalls, upsells y upgrades con guardrails de revenue, confianza y churn.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/paywall-upgrade-cro/` como skill legacy directa.
+- Accion recomendada: usar antes de modificar paywalls, feature gates, trial expiration, usage limits, pricing in-app o upsell modals.
+- Riesgo: medio-alto; puede afectar pricing, checkout, billing, producto, revenue o confianza si se ejecuta sin Orden de Cambio.
+

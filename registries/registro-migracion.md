@@ -475,3 +475,27 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: SKILL con niveles OB0-OB3, patrones de onboarding, plantilla, checklist, command y contrato de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 popup-cro
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / CRO de popup
+- Responsabilidad real: auditar popups, modals, overlays, slide-ins y banners: objetivo, oferta, trigger, frecuencia, cierre, mobile, privacidad, accesibilidad, SEO y medicion.
+- Destino Claude Code: `.claude/skills/popup-cro/` y `.claude/commands/auditar-popup.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy controlando el riesgo de interrumpir, molestar, afectar SEO movil o capturar datos sin consentimiento.
+- Riesgo: medio; puede afectar UX, SEO, privacidad, scripts y conversiones si se ejecuta sin Orden de Cambio.
+- Prueba de calidad: SKILL con niveles PU0-PU3, patrones de popup, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente
+
+### 2026-05-13 - P3-003 paywall-upgrade-cro
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / CRO de monetizacion in-product
+- Responsabilidad real: auditar paywalls, upgrade screens, upsell modals, feature gates, trial expiration y usage limits con guardrails de revenue, confianza y churn.
+- Destino Claude Code: `.claude/skills/paywall-upgrade-cro/` y `.claude/commands/auditar-paywall.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy separandola de pricing publico y evitando dark patterns, falsas decisiones de revenue y cambios sensibles de billing.
+- Riesgo: medio-alto; puede afectar pricing, checkout, billing, producto, revenue o confianza si se ejecuta sin Orden de Cambio.
+- Prueba de calidad: SKILL con niveles PW0-PW3, patrones de paywall, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente
