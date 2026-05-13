@@ -43,3 +43,6 @@ Skills activas:
 - `marketing-ideas`: prioriza ideas de crecimiento y deriva a skills especificas.
 - `marketing-psychology`: aplica psicologia de marketing etica a activos y flujos.
 - `product-marketing-context`: crea contexto de posicionamiento, ICP, lenguaje y pruebas.
+- `humanizalo`: humaniza textos sin cambiar el mensaje central ni inventar claims.
+- `prompt-master`: crea prompts listos para usar en herramientas IA.
+- `kling-producer`: planifica videos AI con prompts, parametros y aprobacion de coste.

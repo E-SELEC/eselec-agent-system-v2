@@ -2650,6 +2650,161 @@ Produccion tocada:
 - hay contradiccion relevante entre fuentes;
 - se pide sobrescribir contexto vivo sin control de artefactos.
 
+## Contrato 44 - Humanizalo / humanizacion de texto
+
+Usar para `humanizalo`, humanizar textos, quitar tono IA, mejorar naturalidad, voz, ritmo y claridad.
+
+### Objetivo
+
+Reescribir textos para que suenen humanos y especificos sin cambiar mensaje, claims ni CTA.
+
+### Inputs minimos
+
+- texto fuente;
+- audiencia;
+- canal;
+- objetivo;
+- tono deseado;
+- libertad de edicion;
+- claims o datos que no deben cambiar.
+
+### Estructura obligatoria
+
+```text
+# Humanizacion: [texto / pieza]
+Fecha:
+Nivel Humanizalo:
+Canal:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Texto humanizado
+## 2. Score
+## 3. Cambios principales
+## 4. Patrones corregidos
+## 5. Datos o claims no tocados
+## 6. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica HU0/HU1/HU2/HU3.
+- Mantiene mensaje, claims y CTA.
+- Mejora claridad, ritmo, confianza, autenticidad, densidad y voz.
+- No inventa datos ni personalidad falsa.
+- Incluye cambios principales y score.
+
+### Bloquea si
+
+- falta texto fuente;
+- humanizar cambia sentido legal o comercial sensible;
+- faltan datos para sostener claims.
+
+## Contrato 45 - Prompt Master / prompts IA
+
+Usar para `prompt-master`, creacion, correccion o adaptacion de prompts para herramientas IA.
+
+### Objetivo
+
+Crear un prompt listo para usar con target claro, output contract, restricciones y criterios de exito.
+
+### Inputs minimos
+
+- target tool;
+- tarea;
+- input;
+- formato de salida;
+- restricciones;
+- acciones prohibidas;
+- criterios de exito.
+
+### Estructura obligatoria
+
+```text
+# Prompt Master: [target]
+Fecha:
+Nivel Prompt:
+Target:
+Fuentes usadas:
+Ejecucion realizada:
+
+## Prompt listo para usar
+## Nota de uso
+## Que se optimizo
+## Riesgos o limites
+## Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica PMT0/PMT1/PMT2/PMT3.
+- Target tool esta claro.
+- Prompt es copiable y acotado.
+- Incluye restricciones, acciones prohibidas y stop conditions si aplica.
+- No pide chain-of-thought visible.
+- No ejecuta la herramienta destino.
+
+### Bloquea si
+
+- falta target tool;
+- tarea demasiado amplia;
+- prompt ejecutaria acciones sensibles sin aprobacion.
+
+## Contrato 46 - Kling Producer / video AI
+
+Usar para `kling-producer`, prompts de video AI, Kling, image-to-video, text-to-video, motion control y clips generativos.
+
+### Objetivo
+
+Convertir una idea visual en prompts, parametros, coste estimado y pasos seguros sin consumir creditos sin permiso.
+
+### Inputs minimos
+
+- sujeto;
+- destino/plataforma;
+- mood;
+- estilo;
+- movimiento;
+- ratio/duracion;
+- imagen de referencia si existe;
+- restricciones de marca o derechos.
+
+### Estructura obligatoria
+
+```text
+# Video AI Plan: [pieza]
+Fecha:
+Nivel Kling:
+Destino:
+Fuentes usadas:
+Ejecucion realizada:
+
+## 1. Brief
+## 2. Imagen de referencia
+## 3. Prompt de imagen
+## 4. Configuracion Kling
+## 5. Prompt Kling
+## 6. Negative prompt
+## 7. Coste y aprobacion
+## 8. Riesgos
+## 9. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica KP0/KP1/KP2/KP3.
+- Parametros, prompt y negative prompt estan completos.
+- Revisa calidad/permisos de imagen de referencia.
+- Muestra coste/creditos y pide aprobacion antes de ejecutar.
+- No usa `--execute` ni consume creditos sin aprobacion explicita.
+
+### Bloquea si
+
+- falta sujeto o destino;
+- imagen sin permiso;
+- se pide ejecutar sin aprobar coste;
+- hay riesgo de marca/derechos no resuelto.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:

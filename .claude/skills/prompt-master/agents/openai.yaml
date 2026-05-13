@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Master"
+  short_description: "Crea prompts listos para usar"
+  default_prompt: "Use $prompt-master to turn this rough instruction into a precise prompt for the right AI tool."

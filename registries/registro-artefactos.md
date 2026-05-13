@@ -568,3 +568,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar para planificar crecimiento, lanzamientos y contexto antes de ejecutar canales reales; escritura de contexto o acciones externas requiere control de artefactos u Orden de Cambio segun aplique.
 - Riesgo: medio-alto; puede afectar posicionamiento, marca, captacion, promesas comerciales, privacidad y calidad de outputs si se usa sin fuentes reales.
 
+### 2026-05-13 - .claude/skills/humanizalo/ + prompt-master/kling-producer
+- Area: sistema E-SELEC v2 / contenido, prompts y media AI
+- Agente: Codex + Arquitecto
+- Tipo: skills Claude Code + commands
+- Motivo: migrar `humanizalo`, `prompt-master` y `kling-producer` como utilidades de produccion con contratos de calidad y aprobacion antes de ejecucion externa.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/humanizalo/`, `.agents/skills/prompt-master/`, `.agents/skills/kling-producer/`.
+- Accion recomendada: usar para mejorar textos, crear prompts o planificar videos; ejecucion en herramientas externas, consumo de creditos o escritura de outputs requiere aprobacion/control de artefactos.
+- Riesgo: medio; puede cambiar sentido de claims, crear instrucciones inseguras o consumir creditos si se usa sin revision.
+

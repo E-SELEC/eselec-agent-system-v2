@@ -41,5 +41,8 @@ Primer comando:
 - `generar-marketing-ideas.md`: prioriza ideas de marketing sin ejecutar canales.
 - `aplicar-psicologia-marketing.md`: revisa activos o flujos con behavioral science etica.
 - `crear-product-marketing-context.md`: crea o actualiza contexto de posicionamiento.
+- `humanizar-texto.md`: humaniza textos sin cambiar claims ni CTA.
+- `crear-prompt.md`: crea prompts listos para una herramienta IA.
+- `producir-video-kling.md`: prepara prompts y parametros de video AI sin ejecutar Kling.
 
 Los loops antiguos de E-SELEC no se copian aqui automaticamente. Cada loop debe convertirse en command, scheduled task o workflow solo despues de revisar riesgo, inputs y outputs.

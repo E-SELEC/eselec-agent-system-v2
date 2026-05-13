@@ -595,3 +595,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: skills con niveles LS/FT/MI/MP/PM, referencias compactas, plantillas, checklists, commands y contratos de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 humanizalo / prompt-master / kling-producer
+- Responsable: Codex + Arquitecto
+- Tipo: skills Claude Code / contenido, prompts y media AI
+- Responsabilidad real: migrar humanizacion de texto, creacion de prompts y produccion de video AI con control de claims, herramienta destino, coste, creditos, permisos y ejecucion segura.
+- Destino Claude Code: `.claude/skills/humanizalo/`, `.claude/skills/prompt-master/`, `.claude/skills/kling-producer/` y commands relacionados.
+- Decision: reescribir/adaptar
+- Motivo: migrar utilidades legacy de produccion sin arrastrar repos embebidos, instrucciones infladas ni ejecucion externa automatica.
+- Riesgo: medio; puede alterar claims, generar prompts inseguros o consumir creditos/video assets si se ejecuta sin aprobacion.
+- Prueba de calidad: skills con niveles HU/PMT/KP, referencias compactas, plantillas, checklists, commands y contratos de output.
+- Estado: implementado
+- Commit: pendiente
