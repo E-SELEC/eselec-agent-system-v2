@@ -3,18 +3,32 @@
 ## Estado
 
 - Fecha de migracion v2: 2026-05-12
+- Ultima actualizacion operativa: 2026-05-13
 - Fuente legacy: `agency/context.md`, `AGENTS.md`, logs de migracion
 - Responsable: Rodrigo
 - Slogan: Data-driven solutions
 - Tipo: agencia de marketing digital
 - Mercado principal: Espana, con clientes internacionales cuando el negocio lo requiere
 - Nivel de datos: parcial
+- Fase actual: operacion v2 iniciada
 
 ## Identidad
 
 E-SELEC ayuda a empresas a popularizarse digitalmente en distintos canales: SEO, SEO local, web, analitica, paid media, redes, CRO y AI Search.
 
 El criterio operativo es data-driven: toda recomendacion importante debe basarse en datos, evidencia saneada o una limitacion declarada.
+
+## Estado operativo v2
+
+La migracion base del sistema v2 esta cerrada. Ya existen protocolos, lideres, agentes especialistas, skills, commands, guard de cierre y sprint operativo inicial.
+
+La prioridad actual ya no es migrar piezas base, sino probar el sistema en uso real con bajo riesgo:
+
+1. Mantener `computer-chamberi` como cliente piloto hasta completar el Sprint 01.
+2. Ejecutar loops en modo lectura antes de automatizarlos.
+3. Validar calibracion antes de guardar aprendizajes permanentes.
+4. Elegir un solo conector seguro para especificar antes de tocar APIs o produccion.
+5. Migrar el resto de clientes activos uno por uno, no en bloque.
 
 ## Clientes activos v2
 
@@ -23,19 +37,19 @@ El criterio operativo es data-driven: toda recomendacion importante debe basarse
 | Chashier Bubble Tea | `cashier-bubble-tea` | hosteleria | SEO, RRSS, Web | activo legacy, pendiente migrar v2 |
 | La Bottega del Gusto | `la-bottega-del-gusto` | retail alimentacion | SEO local, Web | activo legacy, pendiente migrar v2 |
 | Stramondo Venezuela | `stramondo-venezuela` | distribucion B2B | Meta Ads, RRSS | activo legacy, pendiente migrar v2 |
-| Computer Chamberi | `computer-chamberi` | servicios tecnicos | SEO organico, SEO local, Web | cliente piloto v2 |
+| Computer Chamberi | `computer-chamberi` | servicios tecnicos | SEO organico, SEO local, Web | cliente piloto v2; O1-001 ejecutado en lectura |
 | Shogun Motors | `shogun-motors` | automocion/taller | SEO, Web, Local | baja voluntaria 2026-04-17; solo historico |
 
 ## Areas internas
 
 | Area | Objetivo | Estado v2 |
 |---|---|---|
-| Captacion | conseguir oportunidades nuevas | pendiente migrar |
-| Reputacion | mejorar presencia propia de E-SELEC | pendiente migrar |
-| Onboarding | ordenar altas de cliente y fuentes de verdad | pendiente migrar |
-| Retencion | reducir churn y detectar riesgos | pendiente migrar |
-| Finanzas | pricing, margenes y operaciones | pendiente migrar |
-| Arquitectura | mejorar sistema de agentes | activo en migracion v2 |
+| Captacion | conseguir oportunidades nuevas | subagent v2 migrado; pendiente primer uso real |
+| Reputacion | mejorar presencia propia de E-SELEC | subagent v2 migrado; pendiente primer uso real |
+| Onboarding | ordenar altas de cliente y fuentes de verdad | subagent v2 migrado; pendiente primer uso real |
+| Retencion | reducir churn y detectar riesgos | subagent v2 migrado; pendiente primer uso real |
+| Finanzas | pricing, margenes y operaciones | subagent v2 migrado; pendiente primer uso real |
+| Arquitectura | mejorar sistema de agentes | activo post-migracion; observa sprint operativo |
 
 ## Herramientas
 
@@ -58,11 +72,12 @@ El criterio operativo es data-driven: toda recomendacion importante debe basarse
 - No migrar scripts legacy completos sin auditoria.
 - No usar datos de cliente como fuente viva sin `ingesta-evidencia` y `verificacion-medicion`.
 - No tocar produccion sin `protocols/activos-criticos.md`.
+- No usar prioridades antiguas de migracion como si fueran tareas pendientes: backlog base ya esta cerrado.
 
 ## Prioridad interna actual
 
-1. Terminar piloto Computer Chamberi con datos GSC/SEMrush saneados o vivos.
-2. Migrar skills restantes por prioridad real.
-3. Migrar agentes especialistas como subagents ligeros.
-4. Sanear conectores.
-5. Convertir loops pendientes en commands o automations solo cuando ya funcionen manualmente.
+1. Completar Sprint 01 de operacion v2.
+2. Ejecutar O1-003 `LOOP: auditoria-semanal` en modo lectura, sin cambios reales.
+3. Probar O1-004 Calibracion con una correccion real o simulada.
+4. Elegir O1-005 primer conector seguro para especificacion, no implementacion productiva.
+5. Preparar migracion ordenada de los clientes activos restantes solo despues de validar el piloto.

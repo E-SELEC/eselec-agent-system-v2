@@ -734,3 +734,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: actualizar `agency/context.md` para reflejar estado post-migracion y luego ejecutar O1-003 en modo lectura.
 - Riesgo: bajo; no toca produccion, conectores, accesos ni datos vivos.
 
+### 2026-05-13 - agency/context.md actualizacion post-O1-002
+- Area: agencia E-SELEC / contexto operativo
+- Agente: Codex + Arquitecto
+- Tipo: fuente de verdad interna
+- Motivo: corregir el contexto interno tras O1-002 para que Agencia deje de priorizar migracion base ya cerrada y pase a Sprint 01 operativo.
+- Estado: vigente
+- Archivos creados/modificados: `agency/context.md`, `agency/log.md`, `registries/registro-artefactos.md`.
+- Reemplaza a: estado interno que marcaba areas, skills y agentes como pendientes de migracion.
+- Accion recomendada: usar este contexto antes de O1-003 y decisiones internas de Agencia.
+- Riesgo: bajo; documentacion interna sin produccion ni accesos.
+
