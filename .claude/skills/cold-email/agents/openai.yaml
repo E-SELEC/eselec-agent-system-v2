@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cold Email"
+  short_description: "Escribe outreach B2B humano"
+  default_prompt: "Escribe una secuencia cold email breve y personalizada."

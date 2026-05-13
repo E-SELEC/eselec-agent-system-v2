@@ -508,3 +508,43 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar para alternatives/vs pages solo con fuentes fechadas y revision comercial/legal cuando aplique.
 - Riesgo: medio-alto; puede afectar marca, legal, SEO y confianza si se publican datos falsos.
 
+### 2026-05-13 - eselec-agent-system-v2/.claude/skills/cold-email/
+- Area: sistema E-SELEC v2 / ventas
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `cold-email` para escribir outreach frio humano, breve y verificable sin enviar emails.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/cold-email/` como skill legacy directa.
+- Accion recomendada: usar para borradores de prospeccion; cualquier envio real requiere Orden de Cambio.
+- Riesgo: medio-alto; puede afectar reputacion y cumplimiento si se envia sin aprobacion.
+
+### 2026-05-13 - eselec-agent-system-v2/.claude/skills/email-sequence/
+- Area: sistema E-SELEC v2 / lifecycle email
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `email-sequence` para disenar secuencias con trigger, consentimiento, cadencia, salida y metricas.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/email-sequence/` como skill legacy directa.
+- Accion recomendada: usar para planificar sequences; activar automatizaciones requiere Orden de Cambio.
+- Riesgo: medio-alto; puede afectar consentimiento, entregabilidad y experiencia si se ejecuta sin aprobacion.
+
+### 2026-05-13 - eselec-agent-system-v2/.claude/skills/lead-magnets/
+- Area: sistema E-SELEC v2 / captacion
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `lead-magnets` para planificar recursos de captacion con gating, entrega, nurture y medicion.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/lead-magnets/` como skill legacy directa.
+- Accion recomendada: usar antes de crear formularios, landings o capturas reales.
+- Riesgo: medio; puede captar datos o prometer recursos no entregados si se ejecuta sin control.
+
+### 2026-05-13 - eselec-agent-system-v2/.claude/skills/sales-enablement/
+- Area: sistema E-SELEC v2 / ventas
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `sales-enablement` para crear materiales comerciales por persona, etapa, objecion, prueba y CTA.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/sales-enablement/` como skill legacy directa.
+- Accion recomendada: usar para decks, one-pagers, propuestas y playbooks; envio externo requiere aprobacion.
+- Riesgo: medio-alto; puede usar pricing, claims o propuestas no aprobadas si no se revisa.
+

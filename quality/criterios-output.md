@@ -1965,6 +1965,224 @@ Produccion tocada:
 - se piden claims no verificables;
 - se pide publicar sin aprobacion.
 
+## Contrato 31 - Cold email / prospeccion
+
+Usar para `cold-email`, outbound, prospecting, SDR emails y follow-ups frios.
+
+### Objetivo
+
+Escribir emails frios breves, humanos y relevantes que busquen respuesta sin sonar a plantilla ni usar datos de forma indebida.
+
+### Inputs minimos
+
+- audiencia/persona;
+- objetivo;
+- oferta;
+- senal de personalizacion;
+- prueba/credibilidad;
+- CTA;
+- restricciones/compliance.
+
+### Estructura obligatoria
+
+```text
+# Cold Email: [campana/persona]
+Fecha:
+Nivel Cold Email:
+Audiencia:
+Objetivo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Contexto
+## 2. Email inicial
+## 3. Follow-ups
+## 4. Riesgos y datos faltantes
+## 5. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica CO0/CO1/CO2/CO3.
+- Personalizacion conecta con problema.
+- Un email tiene un solo ask.
+- CTA es de baja friccion.
+- No usa frases genericas ni falsa familiaridad.
+- No inventa claims ni prueba.
+- No envia ni automatiza sin Orden de Cambio.
+
+### Bloquea si
+
+- falta audiencia, oferta u objetivo;
+- se usan datos personales sin base o permiso;
+- el copy depende de claims no verificables;
+- se pide enviar sin aprobacion.
+
+## Contrato 32 - Email sequence / lifecycle
+
+Usar para `email-sequence`, welcome, nurture, drip, re-engagement, onboarding emails y lifecycle.
+
+### Objetivo
+
+Disenar secuencias que muevan a una audiencia conocida hacia una accion sin saturar, duplicar mensajes ni romper consentimiento.
+
+### Inputs minimos
+
+- trigger;
+- audiencia/segmento;
+- objetivo;
+- permiso/consentimiento;
+- cadencia;
+- exit conditions;
+- CTA;
+- metricas.
+
+### Estructura obligatoria
+
+```text
+# Email Sequence: [cliente / flujo]
+Fecha:
+Nivel Email Sequence:
+Tipo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Estrategia
+## 2. Mapa de secuencia
+## 3. Copy
+## 4. Medicion
+## 5. Riesgos
+## 6. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica ES0/ES1/ES2/ES3.
+- Define trigger, segmento, objetivo y salida.
+- Cada email tiene un proposito y CTA.
+- Revisa cadencia, solapamiento y consentimiento.
+- Incluye medicion y riesgos.
+- No activa automatizaciones sin Orden de Cambio.
+
+### Bloquea si
+
+- falta trigger, audiencia, objetivo o consentimiento;
+- se solapa con flujos criticos sin resolver;
+- se pide activar/envia/importar listas sin aprobacion.
+
+## Contrato 33 - Lead magnets / captacion
+
+Usar para `lead-magnets`, descargables, gated content, templates, checklists, ebooks, opt-ins y recursos de captacion.
+
+### Objetivo
+
+Crear ofertas de captura utiles y especificas que conecten con un siguiente paso comercial medible.
+
+### Inputs minimos
+
+- audiencia;
+- problema;
+- etapa del buyer journey;
+- formato;
+- promesa;
+- siguiente paso;
+- gating/campos;
+- entrega;
+- distribucion;
+- medicion.
+
+### Estructura obligatoria
+
+```text
+# Lead Magnet: [cliente / oferta]
+Fecha:
+Nivel Lead Magnet:
+Audiencia:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Recomendacion
+## 2. Outline
+## 3. Captura y entrega
+## 4. Distribucion
+## 5. Nurture y medicion
+## 6. Riesgos y datos faltantes
+## 7. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica LM0/LM1/LM2/LM3.
+- Resuelve un problema especifico.
+- El formato encaja con etapa y recursos.
+- Gating pide datos minimos.
+- Incluye landing, entrega, thank you, nurture y medicion.
+- No publica ni activa captura sin Orden de Cambio.
+
+### Bloquea si
+
+- falta audiencia, problema u objetivo;
+- no conecta con oferta real;
+- pide datos excesivos sin motivo;
+- se pide publicar o capturar leads sin aprobacion.
+
+## Contrato 34 - Sales enablement / materiales comerciales
+
+Usar para `sales-enablement`, decks, one-pagers, objeciones, demo scripts, proposals, playbooks y persona cards.
+
+### Objetivo
+
+Crear materiales comerciales utiles por persona, etapa y objetivo, con pruebas claras y CTA accionable.
+
+### Inputs minimos
+
+- asset requerido;
+- usuario del asset;
+- etapa de venta;
+- persona;
+- objetivo;
+- dolor;
+- diferenciadores;
+- pruebas/claims;
+- CTA;
+- restricciones de pricing/legal.
+
+### Estructura obligatoria
+
+```text
+# Sales Enablement: [asset]
+Fecha:
+Nivel Sales Enablement:
+Asset:
+Audiencia:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Objetivo del asset
+## 2. Mensaje central
+## 3. Contenido
+## 4. Objeciones y respuestas
+## 5. Riesgos y aprobaciones
+## 6. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica SE0/SE1/SE2/SE3.
+- Define asset, usuario, etapa, persona y CTA.
+- Cada claim tiene fuente o queda marcado pendiente.
+- Incluye objeciones/respuestas si aplica.
+- Es escaneable y especifico.
+- No usa pricing no aprobado.
+- No envia material final sin aprobacion.
+
+### Bloquea si
+
+- falta asset, persona u objetivo;
+- faltan pruebas para claims clave;
+- contiene pricing no aprobado;
+- se pide enviar al prospecto sin aprobacion.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:

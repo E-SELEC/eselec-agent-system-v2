@@ -30,3 +30,7 @@ Skills activas:
 - `social-content`: crea contenido social por canal, objetivo y audiencia.
 - `programmatic-seo`: planifica paginas SEO a escala con datos y control de indexacion.
 - `competitor-alternatives`: planifica paginas de alternativas y comparativas honestas.
+- `cold-email`: escribe outreach B2B frio con personalizacion y CTA claro.
+- `email-sequence`: disena secuencias lifecycle con trigger, cadencia y metricas.
+- `lead-magnets`: planifica recursos de captacion con gating, entrega y nurture.
+- `sales-enablement`: crea materiales comerciales por persona, etapa y objetivo.

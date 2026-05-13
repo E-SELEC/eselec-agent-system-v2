@@ -80,3 +80,7 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 | `social-content` | hecho | crea piezas y calendarios sociales por canal, audiencia, tono y objetivo |
 | `programmatic-seo` | hecho | planifica paginas SEO a escala con datos, template, arquitectura e indexacion |
 | `competitor-alternatives` | hecho | estructura paginas de alternativas/comparativas con fuentes fechadas y honestidad |
+| `cold-email` | hecho | escribe outreach frio con personalizacion real, prueba y CTA de baja friccion |
+| `email-sequence` | hecho | disena secuencias lifecycle con trigger, cadencia, consentimiento y metricas |
+| `lead-magnets` | hecho | planifica recursos de captacion con oferta, gating, entrega, nurture y medicion |
+| `sales-enablement` | hecho | crea materiales comerciales por persona, etapa, objecion, prueba y CTA |

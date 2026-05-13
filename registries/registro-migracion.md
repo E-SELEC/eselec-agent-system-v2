@@ -559,3 +559,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: SKILL con niveles CA0-CA3, patrones de comparativa, plantilla, checklist, command y contrato de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 cold-email / email-sequence / lead-magnets / sales-enablement
+- Responsable: Codex + Arquitecto
+- Tipo: skills Claude Code / ventas y captacion
+- Responsabilidad real: migrar prospeccion fria, secuencias lifecycle, recursos de captacion y materiales comerciales con criterios de reputacion, consentimiento, claims y aprobacion.
+- Destino Claude Code: `.claude/skills/cold-email/`, `.claude/skills/email-sequence/`, `.claude/skills/lead-magnets/`, `.claude/skills/sales-enablement/` y commands relacionados.
+- Decision: reescribir/adaptar
+- Motivo: migrar el bloque comercial legacy sin permitir envios, automatizaciones, capturas o propuestas finales sin Orden de Cambio.
+- Riesgo: medio-alto; puede afectar reputacion, cumplimiento, relaciones comerciales, pricing y confianza si se ejecuta sin aprobacion.
+- Prueba de calidad: skills con niveles CO/ES/LM/SE, referencias compactas, plantillas, checklists, commands y contratos de output.
+- Estado: implementado
+- Commit: pendiente

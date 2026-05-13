@@ -28,5 +28,9 @@ Primer comando:
 - `crear-social-content.md`: crea calendario o piezas sociales sin publicar.
 - `plan-programmatic-seo.md`: planifica paginas SEO a escala sin publicarlas.
 - `plan-competitor-page.md`: planifica paginas comparativas sin publicarlas.
+- `escribir-cold-email.md`: escribe cold emails o follow-ups sin enviarlos.
+- `plan-email-sequence.md`: disena secuencias lifecycle sin activarlas.
+- `plan-lead-magnet.md`: planifica lead magnets sin publicar formularios.
+- `crear-sales-enablement.md`: crea materiales comerciales sin enviarlos.
 
 Los loops antiguos de E-SELEC no se copian aqui automaticamente. Cada loop debe convertirse en command, scheduled task o workflow solo despues de revisar riesgo, inputs y outputs.

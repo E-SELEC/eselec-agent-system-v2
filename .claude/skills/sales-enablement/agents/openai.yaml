@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sales Enablement"
+  short_description: "Crea materiales comerciales"
+  default_prompt: "Crea un material comercial por persona, etapa y objetivo."

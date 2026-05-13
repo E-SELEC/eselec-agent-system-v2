@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Sequence"
+  short_description: "Disena secuencias lifecycle"
+  default_prompt: "Disena una secuencia de email con trigger, cadencia y metricas."
