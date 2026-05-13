@@ -358,3 +358,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar para AI Search / LLM SEO despues de revisar fundamentos SEO, schema y arquitectura.
 - Riesgo: medio; puede generar promesas falsas o cambios de crawling si no se exige evidencia y Orden de Cambio.
 
+### 2026-05-13 - .claude/skills/content-strategy/
+- Area: sistema E-SELEC v2 / contenido
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `content-strategy` como skill v2 para planificar pilares, clusters, temas y calendario editorial priorizado.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/content-strategy/` como skill legacy directa.
+- Accion recomendada: usar despues de SEO/AI SEO o al definir roadmap editorial por cliente.
+- Riesgo: bajo-medio; puede generar contenido generico si no se exige evidencia y conexion con servicios reales.
+

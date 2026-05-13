@@ -1016,6 +1016,78 @@ Produccion tocada:
 - se pide cambiar robots.txt/CDN/noindex/sitemap sin aprobacion;
 - los claims de autoridad o datos no son verificables.
 
+## Contrato 17 - Content strategy / estrategia de contenido
+
+Usar para:
+
+- estrategia de contenido;
+- calendario editorial;
+- blog strategy;
+- topic clusters;
+- pilares de contenido;
+- contenido SEO;
+- contenido AI SEO;
+- ideas de contenido;
+- roadmap editorial;
+- que publicar y en que orden.
+
+### Objetivo
+
+Decidir que contenido crear, en que orden y por que, conectando negocio, SEO, AI SEO, ventas y recursos disponibles.
+
+### Inputs minimos
+
+- cliente o agencia;
+- objetivo principal;
+- audiencia;
+- oferta/servicios;
+- mercado e idioma;
+- evidencia disponible: GSC, SEMrush, AI SEO, ventas, soporte, log o research;
+- recursos y restricciones;
+- contenidos existentes si existen.
+
+### Estructura obligatoria
+
+```text
+# Estrategia de contenido: [cliente]
+Fecha:
+Nivel de estrategia:
+Objetivo principal:
+Objetivo secundario:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Diagnostico breve
+## 2. Audiencia y oferta
+## 3. Pilares de contenido
+## 4. Clusters y temas
+## 5. Calendario 30/60/90 dias
+## 6. Enlazado y distribucion
+## 7. Riesgos y datos faltantes
+## 8. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel CS0/CS1/CS2/CS3.
+- Cada pilar conecta con servicio, audiencia y objetivo.
+- Cada tema tiene intencion, etapa y motivo.
+- Prioriza por negocio, evidencia, conversion, autoridad y esfuerzo.
+- Diferencia contenido SEO, AI SEO, comercial, local y socializable cuando aplica.
+- Declara datos faltantes.
+- No inventa volumen, dificultad, conversiones, rankings ni resultados.
+- No publica ni toca CMS sin Orden de Cambio.
+
+### Bloquea si
+
+- no hay objetivo de negocio;
+- no hay audiencia u oferta clara;
+- se pretende plan definitivo sin evidencia suficiente;
+- los temas no conectan con servicios reales;
+- requiere nuevas paginas/URLs sin revisar arquitectura;
+- promete trafico, leads o citas AI sin base;
+- repite contenidos ya fallidos o descartados en log.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:

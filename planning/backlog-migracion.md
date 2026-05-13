@@ -65,3 +65,4 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 | `site-architecture` | hecho | ordena paginas, URLs, navegacion, enlazado interno y redirecciones antes de cambios web/SEO |
 | `schema-markup` | hecho | evita datos estructurados genericos o falsos y conecta SEO tecnico con arquitectura/breadcrumbs |
 | `ai-seo` | hecho | formaliza visibilidad en respuestas AI con evidencia por query/plataforma y sin promesas falsas |
+| `content-strategy` | hecho | convierte SEO/AI SEO/ventas en pilares, clusters, calendario y prioridades accionables |

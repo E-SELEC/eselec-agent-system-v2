@@ -379,3 +379,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: SKILL con niveles AI0-AI3, plantilla, checklist, crawler refs oficiales y contrato de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 content-strategy
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / estrategia editorial
+- Responsabilidad real: planificar pilares, clusters, temas y calendario editorial priorizado por negocio, SEO, AI SEO y recursos.
+- Destino Claude Code: `.claude/skills/content-strategy/` y `.claude/commands/plan-contenido.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy como puente entre auditorias SEO/AI y produccion de contenido accionable.
+- Riesgo: bajo-medio; puede producir calendarios genericos si no exige objetivo, audiencia y evidencia.
+- Prueba de calidad: SKILL con niveles CS0-CS3, matriz de priorizacion, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente
