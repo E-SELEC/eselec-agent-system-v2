@@ -109,14 +109,15 @@ Usa esta matriz:
 |---|---|
 | Cliente sin tarea especifica | `.claude/skills/client-audit/` |
 | Estado general o proximos pasos | `.claude/skills/client-audit/` + `quality/criterios-output.md` |
-| Problema SEO, ranking, indexacion, trafico organico | `.claude/skills/seo-audit/` |
-| Informe mensual | futuro `reports` / contrato de informe en `quality/criterios-output.md` |
-| Landing o pagina no convierte | futura skill CRO / contrato CRO |
-| Ads gastando o campana nueva | futuro SEM / activos criticos si toca cuenta real |
+| Problema SEO, ranking, indexacion, trafico organico | `.claude/agents/seo-leader.md` + `.claude/skills/seo-audit/` |
+| Informe mensual | `.claude/agents/reports-leader.md` + contrato de informe en `quality/criterios-output.md` |
+| Landing o pagina no convierte | `.claude/agents/cro-leader.md` + `.claude/skills/page-cro/` |
+| Ads gastando o campana nueva | `.claude/agents/sem-leader.md` + activos criticos si toca cuenta real |
+| Redes sociales, calendario o comunidad | `.claude/agents/social-leader.md` + `.claude/skills/social-content/` |
 | Cambio web, URLs, WooCommerce, tracking | Orden de Cambio antes de ejecucion |
 | Rodrigo corrige o rechaza output | `.claude/agents/docente.md` para capacitacion |
 
-No inventes rutas que aun no existen. Si una skill/subagent no esta migrada, dilo y usa el contrato de calidad como fallback.
+No inventes rutas que aun no existen. Si una skill/subagent especifica no esta migrada, dilo y usa el lider de area o contrato de calidad como fallback.
 
 ## Datos insuficientes
 
@@ -201,4 +202,3 @@ Funcionas bien si Rodrigo entiende:
 - que ruta se debe usar;
 - que riesgo hay;
 - cual es el siguiente paso.
-

@@ -25,12 +25,12 @@ Fase: P3-004
 
 | Legacy | Destino v2 | Estado |
 |---|---|---|
-| `agents/seo/leader-seo.md` | `.claude/agents/seo-leader.md` | pendiente |
-| `agents/cro/leader-cro.md` | `.claude/agents/cro-leader.md` | pendiente |
-| `agents/sem/leader-sem.md` | `.claude/agents/sem-leader.md` | pendiente |
-| `agents/social/leader-social.md` | `.claude/agents/social-leader.md` | pendiente |
-| `agents/reports/leader-reports.md` | `.claude/agents/reports-leader.md` | pendiente |
-| `agents/web/leader-web.md` | `.claude/agents/web-leader.md` | pendiente |
+| `agents/seo/leader-seo.md` | `.claude/agents/seo-leader.md` | hecho |
+| `agents/cro/leader-cro.md` | `.claude/agents/cro-leader.md` | hecho |
+| `agents/sem/leader-sem.md` | `.claude/agents/sem-leader.md` | hecho |
+| `agents/social/leader-social.md` | `.claude/agents/social-leader.md` | hecho |
+| `agents/reports/leader-reports.md` | `.claude/agents/reports-leader.md` | hecho |
+| `agents/web/leader-web.md` | `.claude/agents/web-leader.md` | hecho |
 
 ### Equipo Clientes - especialistas
 

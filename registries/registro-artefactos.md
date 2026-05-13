@@ -608,3 +608,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar como mapa de P3-004.
 - Riesgo: bajo-medio; si queda desactualizado, el plan de agentes puede desviarse.
 
+### 2026-05-13 - .claude/agents/*-leader.md Equipo Clientes
+- Area: sistema E-SELEC v2 / agentes clientes
+- Agente: Codex + Arquitecto
+- Tipo: subagents Claude Code
+- Motivo: migrar lideres SEO, CRO, SEM, Social, Reports y Web como orquestadores v2 con routing a skills y controles de produccion.
+- Estado: vigente
+- Reemplaza a: `agents/seo/leader-seo.md`, `agents/cro/leader-cro.md`, `agents/sem/leader-sem.md`, `agents/social/leader-social.md`, `agents/reports/leader-reports.md`, `agents/web/leader-web.md`.
+- Accion recomendada: usar desde `leader-clientes` para coordinar tareas por area.
+- Riesgo: medio; mala ruta puede activar skill incorrecta, pero no ejecutan produccion por defecto.
+

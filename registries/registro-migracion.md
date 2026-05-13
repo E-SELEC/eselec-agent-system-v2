@@ -638,3 +638,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Riesgo: medio; migrar agentes sin separar referencias del Docente podria inflar contexto y duplicar conocimiento.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-004 lideres Equipo Clientes
+- Responsable: Codex + Arquitecto
+- Tipo: subagents Claude Code / lideres de area
+- Resultado: creados `seo-leader`, `cro-leader`, `sem-leader`, `social-leader`, `reports-leader` y `web-leader`; actualizado `leader-clientes` para enrutar a agentes reales.
+- Decision: migrar lideres de area antes que especialistas para desbloquear routing ordenado.
+- Riesgo: medio; son agentes de coordinacion, no ejecutan produccion directa.
+- Estado: implementado
+- Commit: pendiente
