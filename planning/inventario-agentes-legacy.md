@@ -57,10 +57,10 @@ Fase: P3-004
 
 | Legacy | Destino v2 | Estado |
 |---|---|---|
-| `agents/arquitecto/arquitecto.md` | `.claude/agents/arquitecto.md` | pendiente |
-| `agents/fenix/fenix.md` | `.claude/agents/fenix.md` | pendiente |
-| `agents/calibracion/calibracion.md` | `.claude/agents/calibracion.md` | pendiente |
-| `agents/loops/leader-loops.md` | `.claude/agents/loops-leader.md` | pendiente |
+| `agents/arquitecto/arquitecto.md` | `.claude/agents/arquitecto.md` | hecho |
+| `agents/fenix/fenix.md` | `.claude/agents/fenix.md` | hecho |
+| `agents/calibracion/calibracion.md` | `.claude/agents/calibracion.md` | hecho |
+| `agents/loops/leader-loops.md` | `.claude/agents/loops-leader.md` | hecho |
 
 ## No migrar como agente directo
 

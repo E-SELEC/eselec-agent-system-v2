@@ -30,4 +30,5 @@ Agentes activos:
 - `reports-cliente`, `reports-alertas`, `reports-proxpasos`: especialistas Reports.
 - `web-arquitectura`, `web-diseno`, `web-desarrollo`, `web-implementacion`, `web-mantenimiento`, `web-feedback-loop`: especialistas Web.
 - `agency-captacion`, `agency-reputacion`, `agency-onboarding`, `agency-retencion`, `agency-finanzas`: especialistas internos de Agencia.
+- `arquitecto`, `fenix`, `calibracion`, `loops-leader`: gobernanza, regeneracion estructural, aprendizaje de Rodrigo y ciclos recurrentes.
 

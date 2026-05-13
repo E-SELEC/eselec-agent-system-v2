@@ -674,3 +674,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Riesgo: medio; afectan captacion, reputacion, onboarding, retencion y pricing interno, pero no ejecutan acciones externas por defecto.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-004 gobernanza y loops
+- Responsable: Codex + Arquitecto
+- Tipo: subagents Claude Code / gobernanza del sistema
+- Resultado: creados `arquitecto`, `fenix`, `calibracion` y `loops-leader`; actualizados `leader-clientes`, `leader-agencia`, README e inventario.
+- Decision: migrar estos roles al final porque dependen de que las rutas operativas de clientes y agencia ya existan.
+- Riesgo: medio; afectan arquitectura, memoria y loops, pero operan como lectura/criterio y no ejecutan produccion por defecto.
+- Estado: implementado
+- Commit: pendiente

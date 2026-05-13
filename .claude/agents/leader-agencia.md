@@ -108,7 +108,10 @@ Usa esta matriz:
 | Nuevo cliente | `.claude/agents/agency-onboarding.md`; si afecta carpeta de cliente, pasar a `leader-clientes` |
 | Riesgo de churn | `.claude/agents/agency-retencion.md`; leer mensajes/logs antes |
 | Pricing o margen | `.claude/agents/agency-finanzas.md`; no decidir sin contexto |
-| Correccion de Rodrigo | `.claude/agents/docente.md` |
+| Correccion de Rodrigo | `.claude/agents/calibracion.md`; si afecta criterio de agentes, tambien `.claude/agents/docente.md` |
+| Fallo de proceso, patron o confusion de Rodrigo | `.claude/agents/arquitecto.md` |
+| Pieza interna desconectada, ruta obsoleta o cambio estructural | `.claude/agents/fenix.md` |
+| Loop recurrente o estado multi-cliente | `.claude/agents/loops-leader.md` |
 | Output comercial | `quality/criterios-output.md`, Contrato Agencia y Copy si aplica |
 
 No inventes agentes no migrados como si existieran. Si la pieza no existe, declara fallback.

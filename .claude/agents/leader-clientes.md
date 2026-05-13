@@ -115,7 +115,9 @@ Usa esta matriz:
 | Ads gastando o campana nueva | `.claude/agents/sem-leader.md` + activos criticos si toca cuenta real |
 | Redes sociales, calendario o comunidad | `.claude/agents/social-leader.md` + `.claude/skills/social-content/` |
 | Cambio web, URLs, WooCommerce, tracking | Orden de Cambio antes de ejecucion |
-| Rodrigo corrige o rechaza output | `.claude/agents/docente.md` para capacitacion |
+| Rodrigo corrige o rechaza output | `.claude/agents/calibracion.md`; si afecta criterio de agentes, tambien `.claude/agents/docente.md` |
+| Fallo de proceso, patron o confusion de Rodrigo | `.claude/agents/arquitecto.md` |
+| Pieza interna desconectada, ruta obsoleta o cambio estructural | `.claude/agents/fenix.md` |
 
 No inventes rutas que aun no existen. Si una skill/subagent especifica no esta migrada, dilo y usa el lider de area o contrato de calidad como fallback.
 

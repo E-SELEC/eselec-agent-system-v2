@@ -648,3 +648,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar desde `leader-agencia`.
 - Riesgo: medio; afecta decisiones internas de negocio, captacion y pricing, pero no ejecuta acciones externas sin aprobacion.
 
+### 2026-05-13 - .claude/agents/gobernanza-y-loops
+- Area: sistema E-SELEC v2 / gobernanza
+- Agente: Codex + Arquitecto
+- Tipo: subagents Claude Code
+- Motivo: migrar roles legacy de conciencia organizacional, regeneracion estructural, aprendizaje de Rodrigo y ciclos recurrentes.
+- Estado: vigente
+- Reemplaza a: `agents/arquitecto/arquitecto.md`, `agents/fenix/fenix.md`, `agents/calibracion/calibracion.md`, `agents/loops/leader-loops.md`.
+- Accion recomendada: usar desde `leader-clientes`, `leader-agencia` y comandos LOOP.
+- Riesgo: medio; afecta arquitectura, memoria y loops, pero no ejecuta produccion sin aprobacion.
+
