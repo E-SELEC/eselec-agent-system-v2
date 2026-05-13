@@ -16,4 +16,5 @@ Skills activas:
 - `schema-markup`: audita y disena datos estructurados JSON-LD sin inventar contenido ni tocar produccion.
 - `ai-seo`: audita visibilidad en respuestas AI y planifica contenido citable con evidencia.
 - `content-strategy`: planifica pilares, clusters y calendario editorial por negocio, SEO y AI.
+- `copywriting`: escribe copy comercial claro, especifico y verificable.
 

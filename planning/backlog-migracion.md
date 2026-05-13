@@ -66,3 +66,4 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 | `schema-markup` | hecho | evita datos estructurados genericos o falsos y conecta SEO tecnico con arquitectura/breadcrumbs |
 | `ai-seo` | hecho | formaliza visibilidad en respuestas AI con evidencia por query/plataforma y sin promesas falsas |
 | `content-strategy` | hecho | convierte SEO/AI SEO/ventas en pilares, clusters, calendario y prioridades accionables |
+| `copywriting` | hecho | convierte briefs y estrategias en copy claro, verificable y orientado a conversion |

@@ -391,3 +391,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: SKILL con niveles CS0-CS3, matriz de priorizacion, plantilla, checklist, command y contrato de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 copywriting
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / copy comercial
+- Responsabilidad real: escribir o mejorar copy para web, landing, servicios, hero, CTA y value proposition con claims verificables.
+- Destino Claude Code: `.claude/skills/copywriting/` y `.claude/commands/escribir-copy.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy endureciendo criterios de prueba, tono, accion primaria y no invencion de claims.
+- Riesgo: bajo-medio; puede producir textos genericos o claims riesgosos si no lee contexto y pruebas.
+- Prueba de calidad: SKILL con niveles CW0-CW3, frameworks, reglas de estilo, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente

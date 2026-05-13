@@ -14,5 +14,6 @@ Primer comando:
 - `auditar-schema.md`: audita o disena schema JSON-LD validable sin tocar produccion.
 - `auditar-ai-seo.md`: audita visibilidad en respuestas AI y planifica AI SEO con evidencia.
 - `plan-contenido.md`: crea estrategia de contenido, pilares, clusters y calendario sin publicar.
+- `escribir-copy.md`: escribe o mejora copy comercial sin publicar ni inventar claims.
 
 Los loops antiguos de E-SELEC no se copian aqui automaticamente. Cada loop debe convertirse en command, scheduled task o workflow solo despues de revisar riesgo, inputs y outputs.

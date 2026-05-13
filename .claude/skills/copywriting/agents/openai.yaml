@@ -1,0 +1,4 @@
+interface:
+  display_name: "Copywriting"
+  short_description: "Escribe copy comercial claro y verificable"
+  default_prompt: "Escribe o mejora copy comercial para este cliente con objetivo, audiencia y pruebas claras."

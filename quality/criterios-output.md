@@ -1088,6 +1088,75 @@ Produccion tocada:
 - promete trafico, leads o citas AI sin base;
 - repite contenidos ya fallidos o descartados en log.
 
+## Contrato 18 - Copywriting / copy comercial
+
+Usar para:
+
+- titulares;
+- hero sections;
+- paginas de servicio;
+- landing pages;
+- CTAs;
+- value proposition;
+- copy web;
+- copy SEO/AI SEO;
+- textos comerciales.
+
+### Objetivo
+
+Escribir copy claro, especifico y persuasivo que conecte oferta, audiencia y accion sin inventar claims.
+
+### Inputs minimos
+
+- cliente o agencia;
+- pieza/canal;
+- audiencia;
+- oferta;
+- objetivo;
+- accion primaria;
+- tono;
+- pruebas o claims permitidos;
+- restricciones.
+
+### Estructura obligatoria
+
+```text
+# Copywriting: [cliente / pieza]
+Fecha:
+Nivel de copy:
+Pieza:
+Audiencia:
+Objetivo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Contexto
+## 2. Copy final
+## 3. Variantes
+## 4. Notas de uso
+## 5. Riesgos o datos faltantes
+## 6. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel CW0/CW1/CW2/CW3.
+- Headline claro en 5 segundos.
+- CTA alineado con la accion primaria.
+- Beneficios concretos, no features sueltas.
+- Tono acorde a cliente, canal y audiencia.
+- No usa frases genericas intercambiables.
+- No inventa cifras, pruebas, testimonios, precios, garantias ni resultados.
+- Marca datos faltantes antes de publicar.
+
+### Bloquea si
+
+- falta oferta, audiencia u objetivo;
+- no hay accion primaria;
+- se piden claims no verificables;
+- contradice contexto, log o marca;
+- se quiere publicar en web, Ads, email o CMS sin aprobacion.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:

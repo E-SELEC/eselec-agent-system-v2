@@ -368,3 +368,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar despues de SEO/AI SEO o al definir roadmap editorial por cliente.
 - Riesgo: bajo-medio; puede generar contenido generico si no se exige evidencia y conexion con servicios reales.
 
+### 2026-05-13 - .claude/skills/copywriting/
+- Area: sistema E-SELEC v2 / copy comercial
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `copywriting` como skill v2 para escribir copy claro, especifico y verificable.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/copywriting/` como skill legacy directa.
+- Accion recomendada: usar despues de estrategia, CRO o briefing cuando haga falta texto final o variantes de copy.
+- Riesgo: bajo-medio; puede inventar claims si no se exige prueba, por eso queda bloqueado sin oferta, audiencia y accion primaria.
+
