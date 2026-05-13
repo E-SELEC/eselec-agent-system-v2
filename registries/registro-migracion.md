@@ -719,3 +719,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Riesgo residual: medio; los conectores reales aun no estan activos en v2, pero el repo queda protegido contra migracion insegura.
 - Estado: implementado
 - Commit: este mismo cambio; consultar `git log --oneline` para el hash final.
+
+### 2026-05-13 - Cierre operativo migracion v2
+- Responsable: Codex + Arquitecto
+- Tipo: cierre operativo / manual de arranque
+- Resultado: creado `planning/cierre-migracion-v2.md` y actualizado `README.md` con estado final y ruta de arranque.
+- Decision: cerrar la migracion base con una guia de uso para evitar que el sistema quede completo pero ambiguo.
+- Riesgo residual: bajo; documento operativo sin secretos ni llamadas externas.
+- Estado: implementado
+- Commit: pendiente

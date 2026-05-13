@@ -42,6 +42,9 @@ La migracion se ejecuta desde:
 
 - `planning/plan-maestro-migracion.md`
 - `planning/backlog-migracion.md`
+- `planning/cierre-migracion-v2.md`
+
+Estado actual: migracion base cerrada. El backlog tiene 24/24 items en `hecho`.
 
 ## Filtro de migracion
 
@@ -56,3 +59,14 @@ Antes de mover una pieza desde el sistema anterior, responder:
 - Tiene propietario y proposito claro?
 
 Si la respuesta no es clara, no se migra todavia.
+
+## Cierre operativo
+
+Para arrancar trabajo real en v2, leer `planning/cierre-migracion-v2.md`.
+
+Resumen:
+
+- usar `leader-clientes` para clientes;
+- usar `leader-agencia` para E-SELEC como negocio;
+- ejecutar `python scripts/protocol_guard.py` antes de cerrar cambios;
+- no activar conectores productivos legacy hasta tener version v2 segura.

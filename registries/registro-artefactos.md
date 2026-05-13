@@ -679,3 +679,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: ejecutar `python scripts/protocol_guard.py` antes de cerrar tareas con cambios en v2.
 - Riesgo: medio; revisa archivos y escribe reporte local ignorado, sin conectar servicios externos.
 
+### 2026-05-13 - planning/cierre-migracion-v2.md
+- Area: sistema E-SELEC v2 / cierre operativo
+- Agente: Codex + Arquitecto
+- Tipo: manual de arranque / cierre de migracion
+- Motivo: dejar una guia clara de estado final, arranque, reglas no negociables y conectores deferidos.
+- Estado: vigente
+- Archivos creados/modificados: `planning/cierre-migracion-v2.md`, `README.md`, `registries/registro-migracion.md`, `registries/registro-artefactos.md`.
+- Reemplaza a: cierre disperso en logs y backlog.
+- Accion recomendada: leer antes de iniciar trabajo real en v2.
+- Riesgo: bajo; documento operativo sin accesos ni produccion.
+
