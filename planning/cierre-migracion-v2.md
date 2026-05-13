@@ -25,7 +25,8 @@ El backlog de migracion tiene 24 items y todos estan en estado `hecho`.
 - Skills legacy migradas: 40/40.
 - Skills extra creadas para v2: 3 (`migration-audit`, `ingesta-evidencia`, `verificacion-medicion`).
 - Roles legacy migrados como subagents: 42.
-- Agentes v2 totales: 47.
+- Subagents v2 reales: 46.
+- Archivos Markdown en `.claude/agents/`: 47 incluyendo `README.md`.
 - Conectores productivos legacy copiados sin sanear: 0.
 
 ## Como arrancar el sistema

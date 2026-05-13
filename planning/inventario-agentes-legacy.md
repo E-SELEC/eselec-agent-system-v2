@@ -7,7 +7,7 @@ Fase: P3-004
 ## Resultado rapido
 
 - Archivos markdown legacy bajo `agents/`: 81.
-- Agentes v2 existentes antes de P3-004: 5.
+- Archivos Markdown v2 existentes antes de P3-004: 5 (`README.md` incluido).
 - Roles legacy migrados como `.claude/agents/`: 42.
 - Desglose P3-004: 6 lideres de area, 27 especialistas de clientes, 5 especialistas de agencia y 4 roles de gobernanza/loops.
 - Archivos que no deben migrarse como agentes directos: referencias, fuentes y aprendizajes del Docente.

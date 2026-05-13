@@ -690,3 +690,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: leer antes de iniciar trabajo real en v2.
 - Riesgo: bajo; documento operativo sin accesos ni produccion.
 
+### 2026-05-13 - planning/validacion-operativa-v2.md
+- Area: sistema E-SELEC v2 / validacion
+- Agente: Codex + Arquitecto
+- Tipo: validacion operativa
+- Motivo: comprobar que backlog, agentes, skills, commands, protocolos y guard quedan listos para primer uso operativo.
+- Estado: vigente
+- Archivos creados/modificados: `planning/validacion-operativa-v2.md`, `planning/cierre-migracion-v2.md`, `planning/inventario-agentes-legacy.md`, `.claude/agents/arquitecto-migracion-claude.md`, `registries/registro-migracion.md`, `registries/registro-artefactos.md`.
+- Reemplaza a: ninguno.
+- Accion recomendada: usar como evidencia de que v2 esta listo para operar.
+- Riesgo: bajo; validacion y ajuste de frontmatter sin produccion.
+

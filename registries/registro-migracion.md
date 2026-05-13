@@ -687,7 +687,7 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 ### 2026-05-13 - Cierre P3-004 agentes
 - Responsable: Codex + Arquitecto
 - Tipo: cierre de backlog / verificacion de inventario
-- Resultado: verificados 42 roles legacy migrados a `.claude/agents/`; faltantes esperados: 0; total actual de agentes v2: 47.
+- Resultado: verificados 42 roles legacy migrados a `.claude/agents/`; faltantes esperados: 0; total actual: 46 subagents reales y 47 archivos Markdown incluyendo `README.md`.
 - Decision: marcar P3-004 como `hecho` en `planning/backlog-migracion.md`.
 - Riesgo: bajo-medio; quedan referencias legacy no migradas como subagents por decision consciente.
 - Estado: implementado
@@ -726,5 +726,14 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Resultado: creado `planning/cierre-migracion-v2.md` y actualizado `README.md` con estado final y ruta de arranque.
 - Decision: cerrar la migracion base con una guia de uso para evitar que el sistema quede completo pero ambiguo.
 - Riesgo residual: bajo; documento operativo sin secretos ni llamadas externas.
+- Estado: implementado
+- Commit: pendiente
+
+### 2026-05-13 - Validacion operativa post-migracion v2
+- Responsable: Codex + Arquitecto
+- Tipo: validacion / ajuste menor de agente
+- Resultado: creado `planning/validacion-operativa-v2.md`; corregido `effort: high` en `.claude/agents/arquitecto-migracion-claude.md`; precisado conteo de agentes.
+- Decision: validar el sistema como operable antes de iniciar trabajos reales sobre clientes o agencia.
+- Riesgo residual: bajo; ajuste documental y frontmatter, sin produccion ni accesos.
 - Estado: implementado
 - Commit: pendiente

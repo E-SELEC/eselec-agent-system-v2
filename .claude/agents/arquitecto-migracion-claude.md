@@ -3,6 +3,7 @@ name: arquitecto-migracion-claude
 description: Usa este subagent para auditar, mapear y planificar la migracion del sistema legacy E-SELEC al sistema v2 basado en Claude Code. Debe activarse antes de mover protocolos, agentes, skills, scripts, memoria, clientes, loops o reglas desde el sistema antiguo.
 tools: Read, Glob, Grep, Bash
 model: opus
+effort: high
 permissionMode: plan
 maxTurns: 30
 memory: project
