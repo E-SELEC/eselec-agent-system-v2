@@ -378,3 +378,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar despues de estrategia, CRO o briefing cuando haga falta texto final o variantes de copy.
 - Riesgo: bajo-medio; puede inventar claims si no se exige prueba, por eso queda bloqueado sin oferta, audiencia y accion primaria.
 
+### 2026-05-13 - .claude/skills/copy-editing/
+- Area: sistema E-SELEC v2 / revision de copy
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `copy-editing` como skill v2 para revisar copy existente y pulirlo sin cambiar el mensaje central.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/copy-editing/` como skill legacy directa.
+- Accion recomendada: usar despues de `copywriting` o antes de entregar textos al cliente/publicar.
+- Riesgo: bajo-medio; puede mantener claims sin prueba si no se revisan fuentes, por eso clasifica claims y bloquea publicacion sin aprobacion.
+

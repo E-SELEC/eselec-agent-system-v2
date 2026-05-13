@@ -15,5 +15,6 @@ Primer comando:
 - `auditar-ai-seo.md`: audita visibilidad en respuestas AI y planifica AI SEO con evidencia.
 - `plan-contenido.md`: crea estrategia de contenido, pilares, clusters y calendario sin publicar.
 - `escribir-copy.md`: escribe o mejora copy comercial sin publicar ni inventar claims.
+- `revisar-copy.md`: revisa copy existente con pasadas de claridad, prueba, tono y CTA.
 
 Los loops antiguos de E-SELEC no se copian aqui automaticamente. Cada loop debe convertirse en command, scheduled task o workflow solo despues de revisar riesgo, inputs y outputs.

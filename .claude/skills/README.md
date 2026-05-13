@@ -17,4 +17,5 @@ Skills activas:
 - `ai-seo`: audita visibilidad en respuestas AI y planifica contenido citable con evidencia.
 - `content-strategy`: planifica pilares, clusters y calendario editorial por negocio, SEO y AI.
 - `copywriting`: escribe copy comercial claro, especifico y verificable.
+- `copy-editing`: revisa y pule copy existente sin cambiar el mensaje central.
 

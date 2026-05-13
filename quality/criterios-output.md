@@ -1157,6 +1157,75 @@ Produccion tocada:
 - contradice contexto, log o marca;
 - se quiere publicar en web, Ads, email o CMS sin aprobacion.
 
+## Contrato 19 - Copy editing / revision de copy
+
+Usar para:
+
+- revisar copy existente;
+- proofread;
+- pulir texto;
+- mejorar claridad;
+- revisar claims;
+- limpiar tono;
+- hacer copy sweep;
+- mejorar CTA;
+- detectar texto generico o demasiado largo.
+
+### Objetivo
+
+Mejorar un texto existente preservando su mensaje central, corrigiendo claridad, tono, beneficios, claims, especificidad y CTA.
+
+### Inputs minimos
+
+- texto base;
+- cliente o agencia;
+- pieza/canal;
+- audiencia;
+- objetivo;
+- accion primaria;
+- tono esperado;
+- pruebas o claims permitidos.
+
+### Estructura obligatoria
+
+```text
+# Revision de copy: [cliente / pieza]
+Fecha:
+Nivel de edicion:
+Pieza:
+Audiencia:
+Objetivo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Diagnostico breve
+## 2. Version editada
+## 3. Cambios principales
+## 4. Claims y pruebas
+## 5. Alternativas utiles
+## 6. Datos faltantes o dudas
+## 7. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel CE0/CE1/CE2/CE3.
+- Preserva mensaje central.
+- Mejora claridad y especificidad.
+- Mantiene tono de marca/canal.
+- Revisa claims y pruebas.
+- Diferencia cambios obligatorios de mejoras opcionales.
+- No agrega cifras, promesas, testimonios, precios ni garantias.
+- Deja CTA claro y siguiente accion.
+
+### Bloquea si
+
+- no hay texto base;
+- falta objetivo o audiencia;
+- hay claims sensibles sin fuente;
+- contradice contexto, log o marca;
+- se quiere publicar en web, Ads, email o CMS sin aprobacion.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:

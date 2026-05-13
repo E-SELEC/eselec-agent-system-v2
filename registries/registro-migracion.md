@@ -403,3 +403,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: SKILL con niveles CW0-CW3, frameworks, reglas de estilo, plantilla, checklist, command y contrato de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 copy-editing
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / revision de copy
+- Responsabilidad real: revisar y pulir copy existente mediante pasadas de claridad, tono, beneficio, prueba, especificidad, emocion y CTA.
+- Destino Claude Code: `.claude/skills/copy-editing/` y `.claude/commands/revisar-copy.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy como filtro de calidad posterior a copywriting y entregables comerciales.
+- Riesgo: bajo-medio; puede cambiar demasiado el mensaje o mantener claims falsos si no exige fuente.
+- Prueba de calidad: SKILL con niveles CE0-CE3, pasadas de edicion, lenguaje claro, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente
