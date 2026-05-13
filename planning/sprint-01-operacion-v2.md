@@ -22,7 +22,7 @@ La primera semana de uso debe demostrar tres cosas:
 
 | ID | Estado | Accion | Resultado esperado |
 |---|---|---|---|
-| O1-001 | pendiente | Primer arranque Cliente con `computer-chamberi` | Diagnostico breve de estado usando `leader-clientes`, sin tocar produccion. |
+| O1-001 | hecho | Primer arranque Cliente con `computer-chamberi` | Diagnostico breve de estado usando `leader-clientes`, sin tocar produccion. |
 | O1-002 | pendiente | Primer arranque Agencia | Prioridad interna clara usando `leader-agencia`, sin mezclar clientes. |
 | O1-003 | pendiente | Ejecutar `LOOP: auditoria-semanal` en modo lectura | Resumen multi-cliente sin cambios reales. |
 | O1-004 | pendiente | Probar Calibracion con una correccion real o simulada | Decidir si guarda, descarta o deriva a Docente. |

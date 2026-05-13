@@ -712,3 +712,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: ejecutar O1-001 con `computer-chamberi` antes de activar otros clientes.
 - Riesgo: bajo; plan de lectura y priorizacion, sin produccion ni accesos.
 
+### 2026-05-13 - clients/computer-chamberi/outputs/auditoria-arranque-v2-2026-05-13.md
+- Area: cliente computer-chamberi / arranque operativo v2
+- Agente: Codex + leader-clientes
+- Tipo: auditoria de cliente
+- Motivo: ejecutar O1-001 en modo lectura para probar primer arranque real del sistema v2.
+- Estado: vigente
+- Archivos creados/modificados: `clients/computer-chamberi/outputs/auditoria-arranque-v2-2026-05-13.md`, `clients/computer-chamberi/outputs/manifest.md`, `clients/computer-chamberi/log.md`, `planning/sprint-01-operacion-v2.md`.
+- Reemplaza a: ninguno.
+- Accion recomendada: usar como punto de partida para verificacion de medicion segura.
+- Riesgo: bajo; no toca produccion ni accesos, diagnostico parcial fuerte.
+

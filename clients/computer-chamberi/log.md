@@ -25,3 +25,5 @@
 [2026-05-12] [MEDICION] Evidencia SEO legacy saneada | RESULTADO: creado `clients/computer-chamberi/outputs/evidencia-seo-2026-05-12.md`; la medicion SEO sube a Nivel 2 parcial fuerte porque hay outputs recientes con GSC/SEMrush declarados, pero no consulta viva ni export bruto en v2. | PROXIMO PASO: revalidar GSC/SEMrush actual y unidades antes de auditoria SEO final.
 
 [2026-05-12] [SEO] Auditoria SEO v2 piloto parcial | RESULTADO: creada prueba interna `planning/resultado-seo-audit-piloto-02.md`; el output queda parcial fuerte, prioriza revalidar GSC/SEMrush, CTR y homepage, y bloquea cambios en produccion. | PROXIMO PASO: conectar o exportar GSC/SEMrush vivos para convertirla en auditoria final.
+
+[2026-05-13] [LEADER CLIENTES] O1-001 arranque operativo v2 | RESULTADO: creada `clients/computer-chamberi/outputs/auditoria-arranque-v2-2026-05-13.md` en modo lectura; confirma prioridad unica: verificar medicion y linea base SEO/tecnica antes de ejecutar cambios. | PROXIMO PASO: ejecutar verificacion de medicion con GA4/GSC/SEMrush seguro o exports aprobados.
