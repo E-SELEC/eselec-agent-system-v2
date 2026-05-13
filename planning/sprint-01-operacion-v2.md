@@ -25,7 +25,7 @@ La primera semana de uso debe demostrar tres cosas:
 | O1-001 | hecho | Primer arranque Cliente con `computer-chamberi` | Diagnostico breve de estado usando `leader-clientes`, sin tocar produccion. |
 | O1-002 | hecho | Primer arranque Agencia | Prioridad interna clara usando `leader-agencia`, sin mezclar clientes. |
 | O1-003 | hecho | Ejecutar `LOOP: auditoria-semanal` en modo lectura | Resumen multi-cliente sin cambios reales. |
-| O1-004 | pendiente | Probar Calibracion con una correccion real o simulada | Decidir si guarda, descarta o deriva a Docente. |
+| O1-004 | hecho | Probar Calibracion con una correccion real o simulada | Decidir si guarda, descarta o deriva a Docente. |
 | O1-005 | pendiente | Elegir primer conector a reconstruir de forma segura | Especificacion, no implementacion productiva. |
 
 ## O1-001 - Primer arranque Cliente
@@ -123,6 +123,18 @@ Criterio:
 - Si Rodrigo corrige algo reutilizable, proponer guardarlo.
 - Si es un ajuste puntual, declararlo como ruido.
 - Si afecta criterio de agentes, derivar a `docente`.
+
+## Resultado O1-004 - Calibracion
+
+Archivo local generado: `agency/outputs/calibracion-o1-004-2026-05-13.md`.
+
+Resultado:
+
+- Checklist visible: duplicado ya existente en `agency/preferencias-rodrigo.md`; no se guarda de nuevo.
+- Reanudar exactamente donde se quedo: preferencia nueva propuesta, no escrita sin aprobacion.
+- Memoria permanente modificada: no.
+- Produccion tocada: no.
+- Siguiente accion segura: O1-005 primer conector seguro.
 
 ## O1-005 - Primer conector seguro
 

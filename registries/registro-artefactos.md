@@ -756,3 +756,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar para decidir O1-004 Calibracion y no migrar mas clientes hasta cerrar el sprint.
 - Riesgo: bajo; output interno, sin datos vivos, accesos ni produccion.
 
+### 2026-05-13 - agency/outputs/calibracion-o1-004-2026-05-13.md
+- Area: agencia E-SELEC / calibracion
+- Agente: Codex + calibracion
+- Tipo: output interno de prueba de calibracion
+- Motivo: ejecutar O1-004 para verificar que Calibracion distingue duplicados, preferencias nuevas y escritura pendiente de aprobacion.
+- Estado: vigente
+- Archivos creados/modificados: `agency/outputs/calibracion-o1-004-2026-05-13.md`, `agency/outputs/manifest.md`, `agency/log.md`, `planning/sprint-01-operacion-v2.md`, `registries/registro-artefactos.md`.
+- Reemplaza a: ninguno.
+- Accion recomendada: pedir aprobacion antes de escribir la preferencia propuesta en `agency/preferencias-rodrigo.md`.
+- Riesgo: bajo; no modifica memoria permanente, produccion ni accesos.
+

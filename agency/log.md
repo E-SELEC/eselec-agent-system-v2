@@ -12,3 +12,5 @@
 
 [2026-05-13] [LOOPS-LEADER] O1-003 auditoria semanal en lectura | RESULTADO: generado `agency/outputs/resumen-semanal-2026-05-13.md`; v2 contiene 1 cliente activo evaluable (`computer-chamberi`), 0 urgentes, 5 mensajes pendientes de cliente y 3 alertas/dependencias de agencia; clientes activos legacy quedan fuera de alcance hasta migracion minima. | PROXIMO PASO: ejecutar O1-004 Calibracion antes de migrar mas clientes o automatizar loops.
 
+[2026-05-13] [CALIBRACION] O1-004 prueba de calibracion | RESULTADO: generado `agency/outputs/calibracion-o1-004-2026-05-13.md`; se descarto como duplicada la regla de checklist visible y se propuso, sin escribir, una preferencia nueva sobre reanudar exactamente donde quedo una tarea interrumpida. | PROXIMO PASO: continuar con O1-005 primer conector seguro; pedir aprobacion antes de guardar la preferencia propuesta.
+
