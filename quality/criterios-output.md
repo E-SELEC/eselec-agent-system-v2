@@ -1633,6 +1633,142 @@ Produccion tocada:
 - el cambio puede afectar precios, checkout, billing o datos de usuario sin aprobacion;
 - se quieren conclusiones de revenue/churn sin datos o sin marcar parcialidad.
 
+## Contrato 26 - Paid Ads / campanas pagadas
+
+Usar para:
+
+- `paid-ads`;
+- Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads o PPC;
+- estrategia, auditoria u optimizacion de campanas;
+- presupuesto, audiencias, bidding, retargeting, ROAS, CPA o SEM;
+- decision sobre si conviene correr anuncios.
+
+### Objetivo
+
+Definir o evaluar una campana pagada con objetivo, conversion, tracking, presupuesto, estructura y riesgos claros antes de gastar dinero.
+
+### Inputs minimos
+
+- cliente;
+- plataforma o plataformas candidatas;
+- objetivo de campana;
+- conversion primaria y valor;
+- presupuesto;
+- landing/oferta;
+- audiencia;
+- estado de tracking/pixel/GA4/UTMs;
+- datos historicos si existen;
+- restricciones de geografia, marca, compliance o plataforma.
+
+### Estructura obligatoria
+
+```text
+# Paid Ads: [cliente / plataforma]
+Fecha:
+Nivel Paid Ads:
+Plataforma:
+Objetivo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Resumen ejecutivo
+## 2. Objetivo y conversion
+## 3. Estado de tracking y landing
+## 4. Estructura recomendada
+## 5. Audiencias y exclusiones
+## 6. Creatividades necesarias
+## 7. Plan de aprendizaje y optimizacion
+## 8. Riesgos y bloqueos
+## 9. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel PA0/PA1/PA2/PA3.
+- Define objetivo, conversion primaria, presupuesto y metrica de exito.
+- Verifica o marca pendiente tracking/pixel/GA4/UTMs.
+- Revisa landing y oferta antes de recomendar gasto.
+- Elige plataforma por intencion, audiencia, formato, presupuesto y datos.
+- Incluye estructura, audiencias, exclusiones, plan de aprendizaje y criterio de pausa/escala.
+- Distingue problema de anuncio, audiencia, landing, oferta y tracking.
+- No promete CPA/ROAS futuro.
+- No toca cuentas, pixels, presupuestos, billing ni campanas sin Orden de Cambio.
+
+### Bloquea si
+
+- no hay objetivo ni conversion definida;
+- no hay presupuesto;
+- no hay landing u oferta;
+- tracking no existe o no puede verificarse para campanas de conversion;
+- se piden cambios reales en Ads, pixels, presupuesto o billing sin aprobacion.
+
+## Contrato 27 - Ad Creative / anuncios
+
+Usar para:
+
+- `ad-creative`;
+- headlines, descriptions, primary text, hooks o RSA headlines;
+- Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads o X Ads;
+- variaciones a escala;
+- iteracion de anuncios segun performance;
+- creative testing.
+
+### Objetivo
+
+Crear o iterar anuncios que respeten plataforma, audiencia, oferta, claims verificables, limites de caracteres y plan de test.
+
+### Inputs minimos
+
+- cliente;
+- plataforma y formato;
+- objetivo;
+- audiencia;
+- oferta/landing;
+- etapa de awareness;
+- restricciones de marca/compliance;
+- claims permitidos y fuentes;
+- datos de performance si se itera.
+
+### Estructura obligatoria
+
+```text
+# Ad Creative: [cliente / plataforma]
+Fecha:
+Nivel Creative:
+Plataforma/formato:
+Objetivo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Contexto
+## 2. Angulos
+## 3. Variaciones
+## 4. Combinaciones recomendadas
+## 5. Claims y riesgos
+## 6. Plan de test creativo
+## 7. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel AC0/AC1/AC2/AC3.
+- Define plataforma, formato, objetivo, audiencia y oferta.
+- Organiza anuncios por angulos diferenciados.
+- Incluye conteo de caracteres y estado frente a limite.
+- Revisa claims, precios, pruebas, testimonios y garantias.
+- Alinea copy con landing y campana.
+- Marca riesgos de politica si aplica.
+- No declara ganadores sin datos.
+- No sube anuncios ni toca campanas sin Orden de Cambio.
+
+### Bloquea si
+
+- falta plataforma o formato;
+- falta oferta, CTA o audiencia;
+- los claims requeridos no tienen fuente;
+- la pieza pertenece a sector sensible y no hay reglas/compliance suficientes;
+- se pide publicar/subir anuncios sin aprobacion.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:

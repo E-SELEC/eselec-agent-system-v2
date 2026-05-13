@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ad Creative"
+  short_description: "Genera variaciones de anuncios"
+  default_prompt: "Genera variaciones de anuncios validadas por plataforma."

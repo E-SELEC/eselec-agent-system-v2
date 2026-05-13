@@ -23,5 +23,7 @@ Primer comando:
 - `auditar-onboarding.md`: audita activacion y primer valor post-signup sin tocar produccion.
 - `auditar-popup.md`: audita popups, modales, overlays y banners sin tocar produccion.
 - `auditar-paywall.md`: audita paywalls, upsells y upgrades sin tocar produccion.
+- `plan-paid-ads.md`: planifica o audita campanas paid media sin tocar cuentas reales.
+- `generar-ad-creative.md`: genera variaciones de anuncios sin subirlas a plataformas.
 
 Los loops antiguos de E-SELEC no se copian aqui automaticamente. Cada loop debe convertirse en command, scheduled task o workflow solo despues de revisar riesgo, inputs y outputs.

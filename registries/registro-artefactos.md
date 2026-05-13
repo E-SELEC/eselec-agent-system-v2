@@ -458,3 +458,23 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar antes de modificar paywalls, feature gates, trial expiration, usage limits, pricing in-app o upsell modals.
 - Riesgo: medio-alto; puede afectar pricing, checkout, billing, producto, revenue o confianza si se ejecuta sin Orden de Cambio.
 
+### 2026-05-13 - .claude/skills/paid-ads/
+- Area: sistema E-SELEC v2 / SEM y paid media
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `paid-ads` como skill v2 para planificar o auditar campanas pagadas con tracking, presupuesto, estructura y riesgos.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/paid-ads/` como skill legacy directa.
+- Accion recomendada: usar antes de lanzar, reestructurar, escalar, pausar o invertir en campanas pagadas.
+- Riesgo: alto; puede afectar gasto, conversiones, pixels, billing y cuentas publicitarias si se ejecuta sin Orden de Cambio.
+
+### 2026-05-13 - .claude/skills/ad-creative/
+- Area: sistema E-SELEC v2 / creatividad publicitaria
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `ad-creative` como skill v2 para generar o iterar anuncios con limites de plataforma, claims verificables y plan de test.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/ad-creative/` como skill legacy directa.
+- Accion recomendada: usar despues de definir campana con `paid-ads` o cuando haga falta creatividad validada para Ads.
+- Riesgo: medio; puede crear claims falsos, anuncios fuera de specs o piezas no aprobables si no valida plataforma y fuentes.
+

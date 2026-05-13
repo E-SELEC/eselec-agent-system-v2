@@ -499,3 +499,27 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: SKILL con niveles PW0-PW3, patrones de paywall, plantilla, checklist, command y contrato de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 paid-ads
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / SEM y paid media
+- Responsabilidad real: planificar o auditar campanas pagadas con objetivo, conversion, tracking, presupuesto, plataforma, estructura, audiencias, exclusiones, aprendizaje y riesgos.
+- Destino Claude Code: `.claude/skills/paid-ads/` y `.claude/commands/plan-paid-ads.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy separando estrategia de campana de generacion creativa y bloqueando cambios reales de cuentas Ads sin Orden de Cambio.
+- Riesgo: alto; puede afectar gasto, conversiones, pixels, billing y cuentas publicitarias si se ejecuta sin aprobacion.
+- Prueba de calidad: SKILL con niveles PA0-PA3, guia de plataforma, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente
+
+### 2026-05-13 - P3-003 ad-creative
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / creatividad publicitaria
+- Responsabilidad real: generar, revisar e iterar headlines, descriptions, primary text, hooks y variaciones de anuncios con limites por plataforma y claims verificables.
+- Destino Claude Code: `.claude/skills/ad-creative/` y `.claude/commands/generar-ad-creative.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy para producir creatividad escalable sin mezclarla con estrategia, presupuesto o publicacion en Ads.
+- Riesgo: medio; puede crear claims falsos, piezas fuera de politica o anuncios no subibles si no valida plataforma y fuentes.
+- Prueba de calidad: SKILL con niveles AC0-AC3, specs de plataforma, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente

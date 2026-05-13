@@ -25,3 +25,5 @@ Skills activas:
 - `onboarding-cro`: audita activacion, primer valor y onboarding post-signup.
 - `popup-cro`: audita popups, modales, overlays y banners sin danar UX.
 - `paywall-upgrade-cro`: audita paywalls, upsells y upgrades dentro de producto.
+- `paid-ads`: planifica campanas paid media con tracking, presupuesto y riesgos.
+- `ad-creative`: genera variaciones de anuncios validadas por plataforma.

@@ -75,3 +75,5 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 | `onboarding-cro` | hecho | mejora activacion, time-to-value y primer valor post-signup |
 | `popup-cro` | hecho | optimiza popups, modales, overlays y banners sin danar UX/SEO movil |
 | `paywall-upgrade-cro` | hecho | optimiza paywalls, upsells y upgrades con guardrails de revenue/confianza |
+| `paid-ads` | hecho | planifica paid media con objetivo, tracking, presupuesto, estructura y riesgos |
+| `ad-creative` | hecho | genera e itera anuncios con limites de plataforma, claims verificables y plan de test |
