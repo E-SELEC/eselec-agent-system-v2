@@ -723,3 +723,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar como punto de partida para verificacion de medicion segura.
 - Riesgo: bajo; no toca produccion ni accesos, diagnostico parcial fuerte.
 
+### 2026-05-13 - agency/outputs/arranque-agencia-v2-2026-05-13.md
+- Area: agencia E-SELEC / arranque operativo v2
+- Agente: Codex + leader-agencia
+- Tipo: output interno de agencia
+- Motivo: ejecutar O1-002 en modo lectura para probar el primer arranque interno de Agencia y detectar prioridad operativa sin mezclar clientes.
+- Estado: vigente
+- Archivos creados/modificados: `agency/outputs/arranque-agencia-v2-2026-05-13.md`, `agency/outputs/manifest.md`, `agency/log.md`, `planning/sprint-01-operacion-v2.md`.
+- Reemplaza a: ninguno.
+- Accion recomendada: actualizar `agency/context.md` para reflejar estado post-migracion y luego ejecutar O1-003 en modo lectura.
+- Riesgo: bajo; no toca produccion, conectores, accesos ni datos vivos.
+

@@ -11,5 +11,5 @@ Registrar aqui outputs internos de E-SELEC.
 
 | Archivo | Uso | Estado |
 |---|---|---|
-| pendiente | pendiente | pendiente |
+| `agency/outputs/arranque-agencia-v2-2026-05-13.md` | Primer arranque operativo del Equipo Agencia; detecta prioridad interna y riesgo de contexto desactualizado. | local/ignorado por git; vigente |
 

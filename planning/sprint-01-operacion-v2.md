@@ -23,7 +23,7 @@ La primera semana de uso debe demostrar tres cosas:
 | ID | Estado | Accion | Resultado esperado |
 |---|---|---|---|
 | O1-001 | hecho | Primer arranque Cliente con `computer-chamberi` | Diagnostico breve de estado usando `leader-clientes`, sin tocar produccion. |
-| O1-002 | pendiente | Primer arranque Agencia | Prioridad interna clara usando `leader-agencia`, sin mezclar clientes. |
+| O1-002 | hecho | Primer arranque Agencia | Prioridad interna clara usando `leader-agencia`, sin mezclar clientes. |
 | O1-003 | pendiente | Ejecutar `LOOP: auditoria-semanal` en modo lectura | Resumen multi-cliente sin cambios reales. |
 | O1-004 | pendiente | Probar Calibracion con una correccion real o simulada | Decidir si guarda, descarta o deriva a Docente. |
 | O1-005 | pendiente | Elegir primer conector a reconstruir de forma segura | Especificacion, no implementacion productiva. |
@@ -76,6 +76,18 @@ OPORTUNIDAD:
 RIESGO:
 SIGUIENTE ACCION:
 ```
+
+## Resultado O1-002 - Primer arranque Agencia
+
+Archivo local generado: `agency/outputs/arranque-agencia-v2-2026-05-13.md`.
+
+Resultado:
+
+- Equipo correcto: Agencia Interna.
+- Produccion tocada: no.
+- Prioridad: IMPORTANTE.
+- Hallazgo principal: `agency/context.md` sigue expresando prioridades de migracion ya cerradas, por lo que debe actualizarse antes de usar Agencia para decisiones internas mas amplias.
+- Siguiente accion segura: actualizar contexto interno y continuar con O1-003 en modo lectura.
 
 ## O1-003 - Loop semanal en lectura
 
