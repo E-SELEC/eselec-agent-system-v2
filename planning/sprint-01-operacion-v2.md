@@ -2,7 +2,7 @@
 
 Fecha: 2026-05-13
 Responsable: Codex + Arquitecto
-Estado: listo
+Estado: completado
 
 ## Objetivo
 
@@ -26,7 +26,7 @@ La primera semana de uso debe demostrar tres cosas:
 | O1-002 | hecho | Primer arranque Agencia | Prioridad interna clara usando `leader-agencia`, sin mezclar clientes. |
 | O1-003 | hecho | Ejecutar `LOOP: auditoria-semanal` en modo lectura | Resumen multi-cliente sin cambios reales. |
 | O1-004 | hecho | Probar Calibracion con una correccion real o simulada | Decidir si guarda, descarta o deriva a Docente. |
-| O1-005 | pendiente | Elegir primer conector a reconstruir de forma segura | Especificacion, no implementacion productiva. |
+| O1-005 | hecho | Elegir primer conector a reconstruir de forma segura | Especificacion, no implementacion productiva. |
 
 ## O1-001 - Primer arranque Cliente
 
@@ -149,6 +149,20 @@ Elegir uno segun impacto y riesgo:
 | Meta Ads lectura | alto | alto | esperar hasta definir acceso seguro. |
 | WordPress/Woo | alto | alto | no empezar aqui. |
 
+## Resultado O1-005 - Primer conector seguro
+
+Archivo creado: `planning/conector-seguro-01-gsc-lectura.md`.
+
+Resultado:
+
+- Primer conector elegido: GSC solo lectura.
+- Implementacion productiva: no realizada.
+- Accesos usados: ninguno.
+- Produccion tocada: no.
+- Riesgo API previsto: Nivel A si se limita a lectura.
+- Riesgo de token futuro: S4 por OAuth/refresh token, aunque el scope sea read-only.
+- Motivo: desbloquea la verificacion SEO de Computer Chamberi con menos riesgo que WordPress, WooCommerce, Meta Ads, SEMrush automatizado o GA4 inicial.
+
 ## Criterio de cierre del sprint
 
 - Al menos una tarea real entra por `leader-clientes`.
@@ -164,3 +178,33 @@ Que Rodrigo pueda decir:
 ```text
 Ya no estamos migrando. Ahora el sistema trabaja ordenado.
 ```
+
+## Cierre Sprint 01
+
+Estado final: completado.
+
+Tareas ejecutadas:
+
+- O1-001: primer arranque Cliente con `computer-chamberi`.
+- O1-002: primer arranque Agencia.
+- Ajuste derivado: `agency/context.md` actualizado a fase operativa.
+- O1-003: `LOOP: auditoria-semanal` probado en modo lectura.
+- O1-004: Calibracion probada sin escribir memoria permanente.
+- O1-005: primer conector seguro elegido y especificado: GSC solo lectura.
+
+Produccion tocada: no.
+
+Accesos usados: ninguno.
+
+Outputs locales ignorados por Git:
+
+- `clients/computer-chamberi/outputs/auditoria-arranque-v2-2026-05-13.md`
+- `agency/outputs/arranque-agencia-v2-2026-05-13.md`
+- `agency/outputs/resumen-semanal-2026-05-13.md`
+- `agency/outputs/calibracion-o1-004-2026-05-13.md`
+
+Siguiente fase recomendada:
+
+1. Decidir si Rodrigo aprueba guardar la preferencia de reanudacion exacta propuesta por Calibracion.
+2. Implementar `gsc-readonly` solo si se aprueba preparar OAuth fuera del repo.
+3. Usar GSC para subir Computer Chamberi a medicion verificada antes de auditoria SEO final.

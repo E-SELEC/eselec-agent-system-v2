@@ -14,3 +14,5 @@
 
 [2026-05-13] [CALIBRACION] O1-004 prueba de calibracion | RESULTADO: generado `agency/outputs/calibracion-o1-004-2026-05-13.md`; se descarto como duplicada la regla de checklist visible y se propuso, sin escribir, una preferencia nueva sobre reanudar exactamente donde quedo una tarea interrumpida. | PROXIMO PASO: continuar con O1-005 primer conector seguro; pedir aprobacion antes de guardar la preferencia propuesta.
 
+[2026-05-13] [ARQUITECTO] O1-005 primer conector seguro | RESULTADO: creado `planning/conector-seguro-01-gsc-lectura.md`; decision: el primer conector seguro sera GSC solo lectura, especificado sin implementacion, sin accesos y sin tocar produccion. | PROXIMO PASO: cerrar Sprint 01 y, si Rodrigo aprueba, implementar `gsc-readonly` con OAuth fuera del repo y dry-run por defecto.
+

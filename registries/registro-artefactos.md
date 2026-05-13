@@ -767,3 +767,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: pedir aprobacion antes de escribir la preferencia propuesta en `agency/preferencias-rodrigo.md`.
 - Riesgo: bajo; no modifica memoria permanente, produccion ni accesos.
 
+### 2026-05-13 - planning/conector-seguro-01-gsc-lectura.md
+- Area: sistema E-SELEC v2 / conectores
+- Agente: Codex + Arquitecto
+- Tipo: especificacion de conector seguro
+- Motivo: ejecutar O1-005 eligiendo un primer conector a reconstruir sin implementar produccion ni usar credenciales.
+- Estado: vigente
+- Archivos creados/modificados: `planning/conector-seguro-01-gsc-lectura.md`, `agency/log.md`, `planning/sprint-01-operacion-v2.md`, `registries/registro-artefactos.md`.
+- Reemplaza a: decision abierta sobre primer conector post-migracion.
+- Accion recomendada: implementar solo con aprobacion, OAuth fuera del repo, dry-run por defecto y registro de accesos antes del primer uso real.
+- Riesgo: bajo como especificacion; futuro token OAuth debe tratarse como S4.
+
