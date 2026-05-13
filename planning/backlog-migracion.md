@@ -71,3 +71,5 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 | `page-cro` | hecho | diagnostica conversion de paginas completas: propuesta, CTA, confianza, friccion, mobile y medicion |
 | `form-cro` | hecho | diagnostica friccion de formularios, campos, privacidad, mobile y medicion |
 | `ab-test-setup` | hecho | convierte hipotesis CRO en experimentos medibles con muestra, metricas y guardrails |
+| `signup-flow-cro` | hecho | optimiza registros, altas de cuenta y trials sin romper activacion posterior |
+| `onboarding-cro` | hecho | mejora activacion, time-to-value y primer valor post-signup |

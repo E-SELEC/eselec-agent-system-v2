@@ -418,3 +418,23 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar cuando una recomendacion CRO requiera prueba y existan datos/trafico suficientes.
 - Riesgo: medio; puede producir decisiones falsas si se ignoran muestra, baseline, tracking o duracion minima.
 
+### 2026-05-13 - .claude/skills/signup-flow-cro/
+- Area: sistema E-SELEC v2 / CRO
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `signup-flow-cro` como skill v2 para auditar registros, altas de cuenta y trials sin tocar produccion.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/signup-flow-cro/` como skill legacy directa.
+- Accion recomendada: usar antes de cambiar flujos de registro, trials, auth, SSO, verificacion o pasos de alta.
+- Riesgo: medio; puede afectar auth, pagos, email, CRM o producto si se ejecuta sin Orden de Cambio.
+
+### 2026-05-13 - .claude/skills/onboarding-cro/
+- Area: sistema E-SELEC v2 / CRO y activacion
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `onboarding-cro` como skill v2 para auditar activacion, primer valor y onboarding post-signup sin tocar produccion.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/onboarding-cro/` como skill legacy directa.
+- Accion recomendada: usar cuando usuarios se registran pero no llegan a valor, setup o retencion temprana.
+- Riesgo: medio; puede afectar producto, emails, tracking o datos de usuario si se ejecuta sin Orden de Cambio.
+

@@ -19,5 +19,7 @@ Primer comando:
 - `auditar-cro-pagina.md`: audita propuesta de valor, CTA, confianza, friccion y medicion de una pagina.
 - `auditar-formulario.md`: audita campos, errores, privacidad y medicion de formularios.
 - `plan-ab-test.md`: disena experimentos A/B sin implementarlos.
+- `auditar-signup-flow.md`: audita registro, alta de cuenta o trial sin tocar produccion.
+- `auditar-onboarding.md`: audita activacion y primer valor post-signup sin tocar produccion.
 
 Los loops antiguos de E-SELEC no se copian aqui automaticamente. Cada loop debe convertirse en command, scheduled task o workflow solo despues de revisar riesgo, inputs y outputs.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Signup Flow CRO"
+  short_description: "Audita registros y altas de prueba"
+  default_prompt: "Audita este flujo de signup para reducir friccion sin tocar produccion."

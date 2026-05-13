@@ -451,3 +451,27 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: SKILL con niveles AB0-AB3, referencia de muestra, plantilla, checklist, command y contrato de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 signup-flow-cro
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / CRO de registro
+- Responsabilidad real: auditar registros, altas de cuenta y trials: pasos, campos, auth, SSO, password, verificacion, mobile, medicion y handoff a activacion.
+- Destino Claude Code: `.claude/skills/signup-flow-cro/` y `.claude/commands/auditar-signup-flow.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy separando signup de formularios generales y de onboarding, para evitar mejoras de alta que degraden activacion posterior.
+- Riesgo: medio; puede afectar auth, pagos, email, CRM o producto si se ejecuta sin aprobacion.
+- Prueba de calidad: SKILL con niveles SF0-SF3, patrones de signup, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente
+
+### 2026-05-13 - P3-003 onboarding-cro
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / CRO de activacion
+- Responsabilidad real: auditar onboarding post-signup, activacion, primer valor, empty states, checklists, ayudas, usuarios atascados, medicion y retencion temprana.
+- Destino Claude Code: `.claude/skills/onboarding-cro/` y `.claude/commands/auditar-onboarding.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy con criterio de activacion medible y separarla de signup, emails y retencion general.
+- Riesgo: medio; puede afectar producto, emails, tracking o datos de usuario si se ejecuta sin Orden de Cambio.
+- Prueba de calidad: SKILL con niveles OB0-OB3, patrones de onboarding, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente

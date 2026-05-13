@@ -21,4 +21,5 @@ Skills activas:
 - `page-cro`: audita paginas completas para mejorar conversion sin tocar produccion.
 - `form-cro`: audita formularios y reduce friccion sin tocar produccion.
 - `ab-test-setup`: disena experimentos A/B con hipotesis, metricas y viabilidad.
-
+- `signup-flow-cro`: audita registros, altas de cuenta y trials sin tocar produccion.
+- `onboarding-cro`: audita activacion, primer valor y onboarding post-signup.

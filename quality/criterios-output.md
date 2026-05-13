@@ -1367,6 +1367,138 @@ Produccion tocada:
 - no hay trafico suficiente y se exige significancia;
 - el experimento toca precio, checkout, Ads, tracking o web sin Orden de Cambio.
 
+## Contrato 22 - Signup Flow CRO / registro
+
+Usar para:
+
+- `signup-flow-cro`;
+- signup, registro, creacion de cuenta o trial;
+- baja conversion de registro;
+- friccion por campos, password, SSO, captcha o verificacion;
+- account creation, trial activation o signup abandonment.
+
+### Objetivo
+
+Reducir friccion de alta sin perder datos necesarios, romper autenticacion, incumplir requisitos legales ni perjudicar activacion posterior.
+
+### Inputs minimos
+
+- cliente, producto o flujo;
+- tipo de signup: trial, freemium, pagado, waitlist, B2B o B2C;
+- pasos/pantallas/capturas o inventario de campos;
+- conversion objetivo;
+- que ocurre despues del submit;
+- metricas disponibles: view, start, step completion, submit, verification, activation handoff;
+- restricciones de auth, compliance, pagos o CRM.
+
+### Estructura obligatoria
+
+```text
+# Auditoria Signup Flow CRO: [cliente / flujo]
+Fecha:
+Nivel Signup Flow:
+Flujo:
+Conversion objetivo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Diagnostico ejecutivo
+## 2. Mapa del flujo
+## 3. Estado de medicion
+## 4. Hallazgos
+## 5. Flujo recomendado
+## 6. Riesgo para onboarding
+## 7. Tests posibles
+## 8. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel SF0/SF1/SF2/SF3.
+- Cada campo requerido tiene motivo antes del primer valor.
+- Distingue datos necesarios ahora de datos que pueden pasar a onboarding.
+- Revisa auth, SSO, password, verificacion, terminos, captcha, errores y mobile.
+- Evalua si la mejora de signup puede empeorar activacion.
+- Declara medicion disponible y datos faltantes.
+- No recomienda test sin baseline, trafico y tracking.
+- No toca auth, producto, pagos, CRM, email ni tracking sin Orden de Cambio.
+
+### Bloquea si
+
+- no hay flujo visible, captura o descripcion de pasos;
+- no se conoce la conversion objetivo;
+- hay requisitos legales/compliance desconocidos que cambian campos o verificacion;
+- la recomendacion puede romper auth, pagos, CRM, seguridad o activacion;
+- se piden cambios reales sin aprobacion.
+
+## Contrato 23 - Onboarding CRO / activacion
+
+Usar para:
+
+- `onboarding-cro`;
+- onboarding post-signup;
+- activacion;
+- first-run experience;
+- aha moment;
+- time-to-value;
+- empty states, checklist, tours, tooltips o setup;
+- usuarios que se registran pero no usan el producto.
+
+### Objetivo
+
+Aumentar activacion y reducir tiempo hasta primer valor con un flujo medible, claro y conectado a retencion.
+
+### Inputs minimos
+
+- producto o servicio;
+- promesa de valor;
+- usuario objetivo;
+- evento de activacion o propuesta de evento;
+- flujo post-signup;
+- pasos, pantallas o capturas;
+- metricas disponibles: activation rate, time-to-value, setup completion, drop-off, D1/D7/D30;
+- canales de apoyo: email, in-app, soporte o CRM.
+
+### Estructura obligatoria
+
+```text
+# Auditoria Onboarding CRO: [cliente / flujo]
+Fecha:
+Nivel Onboarding:
+Flujo:
+Activacion definida:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Diagnostico ejecutivo
+## 2. Definicion de activacion
+## 3. Mapa del onboarding
+## 4. Hallazgos
+## 5. Flujo recomendado
+## 6. Medicion
+## 7. Tests posibles
+## 8. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel OB0/OB1/OB2/OB3.
+- Define o marca pendiente el evento de activacion.
+- Conecta activacion con valor real y retencion, no solo con una pantalla vista.
+- Revisa primera sesion, pasos, empty states, checklist, ayuda y usuarios atascados.
+- Distingue onboarding in-app de emails de seguimiento.
+- Declara medicion disponible y datos faltantes.
+- No propone tests sin baseline, trafico y tracking.
+- No toca producto, emails, CRM, tracking ni datos de usuario sin Orden de Cambio.
+
+### Bloquea si
+
+- no se conoce producto, usuario o promesa de valor;
+- no hay activacion definida ni datos suficientes para proponerla;
+- no se puede ver flujo, captura o pasos;
+- se quieren conclusiones de retencion sin cohortes o sin marcar parcialidad;
+- se piden cambios reales sin aprobacion.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:
