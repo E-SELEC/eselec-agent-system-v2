@@ -44,5 +44,8 @@ Primer comando:
 - `humanizar-texto.md`: humaniza textos sin cambiar claims ni CTA.
 - `crear-prompt.md`: crea prompts listos para una herramienta IA.
 - `producir-video-kling.md`: prepara prompts y parametros de video AI sin ejecutar Kling.
+- `limpiar-carpeta-cliente.md`: audita carpeta de cliente y propone limpieza segura.
+- `revisar-web-visual.md`: revisa pagina web contra referencia visual.
+- `auditar-woocommerce.md`: audita tienda WooCommerce y prepara plan de setup.
 
 Los loops antiguos de E-SELEC no se copian aqui automaticamente. Cada loop debe convertirse en command, scheduled task o workflow solo despues de revisar riesgo, inputs y outputs.

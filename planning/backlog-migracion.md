@@ -96,3 +96,6 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 | `humanizalo` | hecho | humaniza textos con score, patrones corregidos y respeto de claims |
 | `prompt-master` | hecho | crea prompts acotados por herramienta, restricciones y criterios de exito |
 | `kling-producer` | hecho | planifica video AI con prompts, parametros, coste, permisos y guardrails |
+| `folder-cleanup` | hecho | audita carpetas, duplicados, obsoletos y propone cambios sin ejecutar sin aprobacion |
+| `web-feedback-loop` | hecho | revisa paginas visualmente con score, brechas, iteraciones y Orden de Cambio |
+| `woocommerce-setup` | hecho | audita tienda WooCommerce y planifica setup/go-live sin tocar activos criticos sin aprobacion |

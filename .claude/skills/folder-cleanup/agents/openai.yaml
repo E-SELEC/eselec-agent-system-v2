@@ -1,0 +1,4 @@
+interface:
+  display_name: "Folder Cleanup"
+  short_description: "Audita y ordena carpetas cliente"
+  default_prompt: "Use $folder-cleanup to audit a client folder, detect duplicate or obsolete outputs, and propose safe cleanup actions."

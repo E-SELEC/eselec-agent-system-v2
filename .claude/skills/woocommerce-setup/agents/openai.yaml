@@ -1,0 +1,4 @@
+interface:
+  display_name: "WooCommerce Setup"
+  short_description: "Audita y planifica tiendas WC"
+  default_prompt: "Use $woocommerce-setup to audit a WooCommerce store and produce a safe setup or go-live plan."

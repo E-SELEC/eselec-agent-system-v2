@@ -2805,6 +2805,159 @@ Ejecucion realizada:
 - se pide ejecutar sin aprobar coste;
 - hay riesgo de marca/derechos no resuelto.
 
+## Contrato 47 - Folder cleanup / control documental
+
+Usar para `folder-cleanup`, ordenar carpetas de cliente, outputs, duplicados, obsoletos, manifests, tasks, mensajes y logs.
+
+### Objetivo
+
+Diagnosticar y proponer limpieza documental sin perder trazabilidad ni borrar conocimiento util.
+
+### Inputs minimos
+
+- cliente;
+- carpeta objetivo;
+- contexto/log/mensajes/tasks;
+- manifest si existe;
+- alcance;
+- permiso de ejecucion si se pide mover/eliminar.
+
+### Estructura obligatoria
+
+```text
+# Folder Cleanup: [cliente]
+Fecha:
+Nivel Cleanup:
+Carpeta:
+Fuentes usadas:
+Cambios ejecutados:
+
+## 1. Inventario
+## 2. Hallazgos
+## 3. Propuesta de acciones
+## 4. Cambios de gestion
+## 5. Riesgos
+## 6. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica FCU0/FCU1/FCU2/FCU3.
+- Inventaria antes de tocar archivos.
+- Separa conservar, mover, archivar, eliminar y revisar.
+- No mueve ni borra sin aprobacion explicita.
+- Verifica rutas dentro del cliente/workspace.
+- Registra artefactos si ejecuta cambios.
+
+### Bloquea si
+
+- falta cliente o carpeta;
+- hay contradiccion entre fuentes;
+- se pide mover/eliminar sin aprobacion;
+- la ruta sale del workspace o cliente.
+
+## Contrato 48 - Web feedback loop / revision visual web
+
+Usar para `web-feedback-loop`, revision visual, comparacion con referencia, screenshots, jerarquia, legibilidad, CTA y marca.
+
+### Objetivo
+
+Convertir una brecha visual en iteraciones concretas, medibles y seguras.
+
+### Inputs minimos
+
+- URL o screenshot actual;
+- referencia o criterio;
+- objetivo de pagina;
+- dispositivo objetivo;
+- contexto de marca;
+- CMS/tema si se conoce.
+
+### Estructura obligatoria
+
+```text
+# Web Feedback Loop: [pagina]
+Fecha:
+Nivel Web Feedback:
+URL / fuente:
+Referencia:
+Produccion tocada:
+
+## 1. Estado actual
+## 2. Score visual
+## 3. Brechas vs referencia
+## 4. Iteracion propuesta
+## 5. Requiere Orden de Cambio
+## 6. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica WFL0/WFL1/WFL2/WFL3.
+- Puntua estructura, jerarquia, legibilidad, CTA y marca.
+- Cada cambio tiene motivo, riesgo y verificacion.
+- Distingue visual, CRO y SEO.
+- No toca produccion sin Orden de Cambio.
+
+### Bloquea si
+
+- falta pagina actual o referencia;
+- no hay captura suficiente;
+- se piden cambios en web real sin Orden de Cambio.
+
+## Contrato 49 - WooCommerce setup / ecommerce WordPress
+
+Usar para `woocommerce-setup`, WooCommerce, tienda online, pagos, envios, impuestos, productos, checkout y go-live.
+
+### Objetivo
+
+Auditar y planificar una tienda WooCommerce vendible, segura y trazable sin tocar activos criticos sin aprobacion.
+
+### Inputs minimos
+
+- cliente;
+- URL;
+- pais/moneda;
+- objetivo: auditoria, setup o go-live;
+- productos;
+- pagos/envios;
+- accesos disponibles sin secretos expuestos;
+- restricciones legales/fiscales.
+
+### Estructura obligatoria
+
+```text
+# WooCommerce Audit: [cliente]
+Fecha:
+Nivel WooCommerce:
+URL:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Resumen
+## 2. Bloqueantes
+## 3. Requiere atencion
+## 4. Correcto
+## 5. Plan secuencial
+## 6. Datos faltantes
+## 7. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica WC0/WC1/WC2/WC3.
+- Separa bloqueantes, atencion, correcto y recomendado.
+- No expone secretos ni credenciales.
+- Pagos, envios, impuestos, productos y legales requieren Orden de Cambio.
+- No declara go-live sin checklist y pedido de prueba.
+
+### Bloquea si
+
+- falta cliente o URL;
+- no hay permiso para auditar;
+- hay secretos expuestos;
+- se piden cambios reales sin Orden de Cambio.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:

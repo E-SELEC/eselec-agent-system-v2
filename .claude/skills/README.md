@@ -46,3 +46,6 @@ Skills activas:
 - `humanizalo`: humaniza textos sin cambiar el mensaje central ni inventar claims.
 - `prompt-master`: crea prompts listos para usar en herramientas IA.
 - `kling-producer`: planifica videos AI con prompts, parametros y aprobacion de coste.
+- `folder-cleanup`: audita y propone limpieza segura de carpetas de clientes.
+- `web-feedback-loop`: revisa calidad visual web y propone iteraciones seguras.
+- `woocommerce-setup`: audita WooCommerce y planifica setup/go-live con guardrails.

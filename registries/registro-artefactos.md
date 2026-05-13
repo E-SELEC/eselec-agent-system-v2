@@ -578,3 +578,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar para mejorar textos, crear prompts o planificar videos; ejecucion en herramientas externas, consumo de creditos o escritura de outputs requiere aprobacion/control de artefactos.
 - Riesgo: medio; puede cambiar sentido de claims, crear instrucciones inseguras o consumir creditos si se usa sin revision.
 
+### 2026-05-13 - .claude/skills/folder-cleanup/ + web-feedback/woocommerce
+- Area: sistema E-SELEC v2 / operaciones, web y ecommerce
+- Agente: Codex + Arquitecto
+- Tipo: skills Claude Code + commands
+- Motivo: migrar `folder-cleanup`, `web-feedback-loop` y `woocommerce-setup` como skills operativas con controles estrictos antes de mover archivos, tocar web o modificar WooCommerce.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/folder-cleanup/`, `.agents/skills/web-feedback-loop/`, `.agents/skills/woocommerce-setup/`.
+- Accion recomendada: usar primero en modo auditoria/propuesta; ejecucion real requiere aprobacion, Orden de Cambio o control de artefactos segun el activo afectado.
+- Riesgo: alto; puede afectar archivos de cliente, web publicada, checkout, pagos, envios, impuestos, productos, legales y secretos.
+

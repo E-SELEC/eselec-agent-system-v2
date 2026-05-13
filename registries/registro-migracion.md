@@ -607,3 +607,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: skills con niveles HU/PMT/KP, referencias compactas, plantillas, checklists, commands y contratos de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 folder-cleanup / web-feedback-loop / woocommerce-setup
+- Responsable: Codex + Arquitecto
+- Tipo: skills Claude Code / operaciones, web y ecommerce
+- Responsabilidad real: migrar limpieza de carpetas, feedback visual web y auditoria/setup WooCommerce con aprobacion previa para mover archivos, tocar web, modificar tienda, pagos, envios, impuestos o productos.
+- Destino Claude Code: `.claude/skills/folder-cleanup/`, `.claude/skills/web-feedback-loop/`, `.claude/skills/woocommerce-setup/` y commands relacionados.
+- Decision: reescribir/adaptar
+- Motivo: migrar las ultimas skills legacy como procedimientos seguros, separando diagnostico/propuesta de ejecucion real.
+- Riesgo: alto; puede afectar archivos de cliente, web publicada, checkout, pagos, envios, legal, productos y datos sensibles si se ejecuta sin control.
+- Prueba de calidad: skills con niveles FCU/WFL/WC, referencias compactas, plantillas, checklists, commands y contratos de output.
+- Estado: implementado
+- Commit: pendiente

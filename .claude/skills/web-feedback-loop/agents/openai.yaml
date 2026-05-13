@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web Feedback Loop"
+  short_description: "Revisa calidad visual web"
+  default_prompt: "Use $web-feedback-loop to compare this web page against a reference and propose safe visual improvements."
