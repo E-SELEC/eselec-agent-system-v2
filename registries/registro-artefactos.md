@@ -628,3 +628,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar desde los lideres `seo-leader`, `cro-leader` y `sem-leader`.
 - Riesgo: medio-alto; influyen prioridades tecnicas, conversion y Ads, pero no ejecutan produccion sin Orden de Cambio.
 
+### 2026-05-13 - .claude/agents/social-*.md + reports-*.md + web-*.md
+- Area: sistema E-SELEC v2 / agentes clientes
+- Agente: Codex + Arquitecto
+- Tipo: subagents Claude Code
+- Motivo: migrar especialistas Social, Reports y Web como agentes v2 breves, conectados a skills y protocolos.
+- Estado: vigente
+- Reemplaza a: `agents/social/social-*.md`, `agents/reports/reports-*.md`, `agents/web/web-*.md` como prompts legacy directos.
+- Accion recomendada: usar desde los lideres `social-leader`, `reports-leader` y `web-leader`.
+- Riesgo: medio-alto; afecta comunicacion publica, informes y web, pero no ejecuta produccion sin aprobacion.
+

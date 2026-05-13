@@ -656,3 +656,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Riesgo: medio-alto; pueden influir decisiones SEO, CRO y Ads, pero no ejecutan cambios reales por defecto.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-004 especialistas Social/Reports/Web
+- Responsable: Codex + Arquitecto
+- Tipo: subagents Claude Code / especialistas clientes
+- Resultado: creados 12 especialistas v2 para Social, Reports y Web, con rutas a skills migradas, protocolos y bloqueos de produccion.
+- Decision: completar especialistas del Equipo Clientes antes de migrar Equipo Agencia.
+- Riesgo: medio-alto; pueden afectar comunicacion publica, informes y web, pero no ejecutan produccion sin aprobacion.
+- Estado: implementado
+- Commit: pendiente

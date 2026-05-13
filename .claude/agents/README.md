@@ -26,4 +26,7 @@ Agentes activos:
 - `seo-tecnico`, `seo-organico`, `seo-local`, `seo-llms`, `seo-web`: especialistas SEO.
 - `cro-funnels`, `cro-landing`, `cro-formularios`, `cro-tests`, `cro-uxui`: especialistas CRO.
 - `sem-google`, `sem-meta`, `sem-linkedin`, `sem-tiktok`, `sem-analitica`: especialistas SEM/Paid Media.
+- `social-estrategia`, `social-contenido`, `social-comunidad`: especialistas Social.
+- `reports-cliente`, `reports-alertas`, `reports-proxpasos`: especialistas Reports.
+- `web-arquitectura`, `web-diseno`, `web-desarrollo`, `web-implementacion`, `web-mantenimiento`, `web-feedback-loop`: especialistas Web.
 
