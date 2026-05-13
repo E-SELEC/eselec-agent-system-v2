@@ -558,3 +558,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar para planes y especificaciones; cualquier cambio real de precios, CRM, billing, programas o pagos requiere Orden de Cambio.
 - Riesgo: alto; puede afectar ingresos, pipeline, billing, churn, cumplimiento y confianza si se ejecuta sin aprobacion.
 
+### 2026-05-13 - .claude/skills/launch-strategy/ + free-tool/ideas/psychology/context
+- Area: sistema E-SELEC v2 / lanzamiento, crecimiento y posicionamiento
+- Agente: Codex + Arquitecto
+- Tipo: skills Claude Code + commands
+- Motivo: migrar `launch-strategy`, `free-tool-strategy`, `marketing-ideas`, `marketing-psychology` y `product-marketing-context` como bloque de crecimiento y contexto comercial.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/launch-strategy/`, `.agents/skills/free-tool-strategy/`, `.agents/skills/marketing-ideas/`, `.agents/skills/marketing-psychology/`, `.agents/skills/product-marketing-context/`.
+- Accion recomendada: usar para planificar crecimiento, lanzamientos y contexto antes de ejecutar canales reales; escritura de contexto o acciones externas requiere control de artefactos u Orden de Cambio segun aplique.
+- Riesgo: medio-alto; puede afectar posicionamiento, marca, captacion, promesas comerciales, privacidad y calidad de outputs si se usa sin fuentes reales.
+

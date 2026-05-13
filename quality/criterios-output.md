@@ -2384,6 +2384,272 @@ Produccion tocada:
 - no hay presupuesto/LTV aproximado y se proponen pagos;
 - se piden pagos, links o herramientas reales sin aprobacion.
 
+## Contrato 39 - Launch strategy / lanzamiento
+
+Usar para `launch-strategy`, lanzamientos, betas, early access, waitlists, Product Hunt, feature releases y go-to-market.
+
+### Objetivo
+
+Planificar lanzamientos por fases con mensaje, canales, activos, owners, medicion, riesgos y post-launch.
+
+### Inputs minimos
+
+- producto/oferta;
+- audiencia;
+- etapa de lanzamiento;
+- objetivo;
+- fecha tentativa;
+- canales disponibles;
+- activos actuales;
+- restricciones.
+
+### Estructura obligatoria
+
+```text
+# Launch Plan: [producto / feature]
+Fecha:
+Nivel Launch:
+Etapa:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Contexto
+## 2. Posicionamiento
+## 3. Plan por fases
+## 4. Canales ORB
+## 5. Activos
+## 6. Medicion
+## 7. Riesgos y guardrails
+## 8. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica LS0/LS1/LS2/LS3.
+- Define etapa, objetivo, mensaje, prueba y CTA.
+- Incluye owned, rented y borrowed cuando aplique.
+- Cada activo tiene estado, uso y riesgo.
+- Incluye medicion y post-launch.
+- No publica, envia ni abre accesos sin Orden de Cambio.
+
+### Bloquea si
+
+- falta producto/oferta, audiencia u objetivo;
+- se pide anuncio publico sin aprobacion;
+- faltan activos minimos o tracking y no se marca el riesgo.
+
+## Contrato 40 - Free tool strategy / engineering as marketing
+
+Usar para `free-tool-strategy`, herramientas gratuitas, calculators, generators, graders, audit tools y recursos interactivos.
+
+### Objetivo
+
+Evaluar y planificar herramientas gratuitas utiles, conectadas a la oferta y medibles.
+
+### Inputs minimos
+
+- audiencia;
+- problema;
+- oferta relacionada;
+- objetivo;
+- recursos de desarrollo;
+- canal principal;
+- mantenimiento esperado.
+
+### Estructura obligatoria
+
+```text
+# Free Tool Plan: [herramienta]
+Fecha:
+Nivel Free Tool:
+Objetivo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Diagnostico
+## 2. Concepto
+## 3. MVP
+## 4. Captura y nurture
+## 5. SEO y distribucion
+## 6. Medicion
+## 7. Riesgos y mantenimiento
+## 8. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica FT0/FT1/FT2/FT3.
+- Define problema, audiencia, oferta conectada y tool type.
+- MVP separa inputs, outputs y fuera de scope.
+- Gating y consentimiento son claros.
+- Incluye SEO, distribucion, nurture, medicion y mantenimiento.
+- No captura leads ni publica sin Orden de Cambio.
+
+### Bloquea si
+
+- falta problema, audiencia u oferta relacionada;
+- el calculo/output no se puede validar;
+- se pide publicar o capturar datos reales sin aprobacion.
+
+## Contrato 41 - Marketing ideas / growth prioritization
+
+Usar para `marketing-ideas`, brainstorming, growth ideas, estrategias, tacticas y seleccion de proximas acciones de marketing.
+
+### Objetivo
+
+Convertir una necesidad amplia de crecimiento en 3-5 ideas priorizadas y accionables.
+
+### Inputs minimos
+
+- objetivo;
+- audiencia;
+- etapa;
+- recursos;
+- canales actuales;
+- presupuesto;
+- historico de lo probado;
+- metricas disponibles.
+
+### Estructura obligatoria
+
+```text
+# Marketing Ideas: [agencia/cliente]
+Fecha:
+Nivel Ideas:
+Objetivo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Contexto
+## 2. Ideas priorizadas
+## 3. Quick wins
+## 4. Apuestas compuestas
+## 5. Datos faltantes
+## 6. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica MI0/MI1/MI2/MI3.
+- Entrega 3-5 ideas maximo.
+- Cada idea explica por que encaja ahora.
+- Incluye esfuerzo, riesgo y skill siguiente.
+- Separa quick wins de apuestas compuestas.
+- No ejecuta canales reales sin Orden de Cambio.
+
+### Bloquea si
+
+- falta objetivo, audiencia o etapa;
+- las ideas se basan en supuestos no declarados;
+- se pide activar canales reales sin aprobacion.
+
+## Contrato 42 - Marketing psychology / behavioral science
+
+Usar para `marketing-psychology`, mental models, decision-making, persuasion, behavioral science, social proof, scarcity, framing, nudges y buyer behavior.
+
+### Objetivo
+
+Aplicar modelos psicologicos de forma etica para diagnosticar friccion y proponer hipotesis testeables.
+
+### Inputs minimos
+
+- comportamiento objetivo;
+- audiencia;
+- etapa del journey;
+- activo o flujo;
+- friccion observada;
+- evidencia disponible.
+
+### Estructura obligatoria
+
+```text
+# Marketing Psychology Review: [activo / flujo]
+Fecha:
+Nivel Psychology:
+Comportamiento objetivo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Contexto
+## 2. Modelos aplicables
+## 3. Hipotesis
+## 4. Cambios recomendados
+## 5. Datos faltantes
+## 6. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica MP0/MP1/MP2/MP3.
+- Cada modelo tiene motivo, accion y guardrail etico.
+- Convierte recomendaciones en hipotesis testeables cuando aplica.
+- No usa escasez falsa, urgencia falsa, ocultacion ni dark patterns.
+- No implementa cambios reales sin Orden de Cambio.
+
+### Bloquea si
+
+- falta comportamiento objetivo o activo a revisar;
+- se pide manipular, ocultar informacion o dificultar cancelacion;
+- se pide implementar cambios sensibles sin aprobacion.
+
+## Contrato 43 - Product marketing context / posicionamiento
+
+Usar para `product-marketing-context`, contexto de producto, ICP, posicionamiento, customer language, proof points, diferenciacion y goals.
+
+### Objetivo
+
+Crear una fuente compacta y verificable de contexto comercial para mejorar todos los outputs posteriores.
+
+### Inputs minimos
+
+- producto/oferta;
+- fuentes existentes;
+- audiencia o cliente;
+- contexto previo si existe;
+- destino del archivo;
+- datos confirmados y supuestos.
+
+### Estructura obligatoria
+
+```text
+# Product Marketing Context: [producto / cliente]
+Fecha:
+Nivel Context:
+Archivo destino:
+Fuentes usadas:
+Produccion tocada:
+
+## Product Overview
+## Target Audience
+## Personas
+## Problems and Pain Points
+## Competitive Landscape
+## Differentiation
+## Objections
+## Switching Dynamics
+## Customer Language
+## Brand Voice
+## Proof Points
+## Goals
+## Datos faltantes y supuestos
+## Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica PM0/PM1/PM2/PM3.
+- Lista fuentes reales.
+- Separa confirmado, parcial, supuesto y bloqueado.
+- No inventa metricas, logos, testimonios ni claims.
+- Incluye customer language literal o marca que falta.
+- Define archivo destino y control de artefactos si escribe.
+
+### Bloquea si
+
+- falta producto/oferta;
+- hay contradiccion relevante entre fuentes;
+- se pide sobrescribir contexto vivo sin control de artefactos.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:

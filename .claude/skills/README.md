@@ -38,3 +38,8 @@ Skills activas:
 - `revops`: disena lifecycle, scoring, routing y pipeline sin tocar CRM.
 - `churn-prevention`: disena retencion, cancel flows y dunning sin tocar billing.
 - `referral-program`: planifica referidos y afiliados con tracking y guardrails.
+- `launch-strategy`: planifica lanzamientos, betas y releases sin publicar nada.
+- `free-tool-strategy`: evalua herramientas gratuitas de marketing con MVP, SEO y captura.
+- `marketing-ideas`: prioriza ideas de crecimiento y deriva a skills especificas.
+- `marketing-psychology`: aplica psicologia de marketing etica a activos y flujos.
+- `product-marketing-context`: crea contexto de posicionamiento, ICP, lenguaje y pruebas.

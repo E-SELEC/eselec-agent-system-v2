@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Psychology"
+  short_description: "Aplica psicologia al marketing"
+  default_prompt: "Use $marketing-psychology to review a marketing asset or funnel with ethical behavioral science and testable hypotheses."

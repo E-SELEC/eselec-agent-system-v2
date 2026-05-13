@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Ideas"
+  short_description: "Prioriza ideas de crecimiento"
+  default_prompt: "Use $marketing-ideas to propose and prioritize 3-5 growth ideas for a product, client, or campaign."

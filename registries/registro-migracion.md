@@ -583,3 +583,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: skills con niveles PR/RV/CH/RF, referencias compactas, plantillas, checklists, commands y contratos de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 launch-strategy / free-tool-strategy / marketing-ideas / marketing-psychology / product-marketing-context
+- Responsable: Codex + Arquitecto
+- Tipo: skills Claude Code / lanzamiento, crecimiento y posicionamiento
+- Responsabilidad real: migrar planificacion de lanzamientos, herramientas gratuitas, ideacion de marketing, psicologia aplicada y contexto de product marketing con guardrails de publicacion, claims, contexto y aprobacion.
+- Destino Claude Code: `.claude/skills/launch-strategy/`, `.claude/skills/free-tool-strategy/`, `.claude/skills/marketing-ideas/`, `.claude/skills/marketing-psychology/`, `.claude/skills/product-marketing-context/` y commands relacionados.
+- Decision: reescribir/adaptar
+- Motivo: migrar el bloque de crecimiento sin publicar, activar canales, capturar leads, manipular behavior, inventar contexto ni sobrescribir fuentes vivas sin control de artefactos.
+- Riesgo: medio-alto; puede afectar marca, lanzamiento, captacion, confianza, posicionamiento y calidad de outputs si se ejecuta sin contexto real.
+- Prueba de calidad: skills con niveles LS/FT/MI/MP/PM, referencias compactas, plantillas, checklists, commands y contratos de output.
+- Estado: implementado
+- Commit: pendiente

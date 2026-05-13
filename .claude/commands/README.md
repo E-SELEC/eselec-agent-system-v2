@@ -36,5 +36,10 @@ Primer comando:
 - `plan-revops.md`: disena procesos RevOps sin tocar CRM.
 - `plan-churn-prevention.md`: disena retencion sin tocar billing.
 - `plan-referral-program.md`: disena referidos/afiliados sin lanzarlos.
+- `plan-launch.md`: planifica lanzamientos, betas o releases sin publicarlos.
+- `plan-free-tool.md`: planifica herramientas gratuitas sin construirlas ni publicarlas.
+- `generar-marketing-ideas.md`: prioriza ideas de marketing sin ejecutar canales.
+- `aplicar-psicologia-marketing.md`: revisa activos o flujos con behavioral science etica.
+- `crear-product-marketing-context.md`: crea o actualiza contexto de posicionamiento.
 
 Los loops antiguos de E-SELEC no se copian aqui automaticamente. Cada loop debe convertirse en command, scheduled task o workflow solo despues de revisar riesgo, inputs y outputs.

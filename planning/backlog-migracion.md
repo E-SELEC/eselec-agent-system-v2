@@ -88,3 +88,8 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 | `revops` | hecho | disena lifecycle, scoring, routing, pipeline, owners, SLAs y metricas |
 | `churn-prevention` | hecho | planifica retencion, cancel flow, dunning, offers y guardrails |
 | `referral-program` | hecho | planifica referidos/afiliados con incentivos, tracking, reglas y antifraude |
+| `launch-strategy` | hecho | planifica lanzamientos por fases, canales, activos, medicion y riesgos |
+| `free-tool-strategy` | hecho | evalua herramientas gratuitas con MVP, SEO, captura, medicion y mantenimiento |
+| `marketing-ideas` | hecho | prioriza ideas de crecimiento segun etapa, objetivo, recursos y riesgos |
+| `marketing-psychology` | hecho | aplica modelos psicologicos eticos a activos, flujos e hipotesis |
+| `product-marketing-context` | hecho | estructura posicionamiento, ICP, customer language, proof points y goals |
