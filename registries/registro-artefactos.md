@@ -588,3 +588,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar primero en modo auditoria/propuesta; ejecucion real requiere aprobacion, Orden de Cambio o control de artefactos segun el activo afectado.
 - Riesgo: alto; puede afectar archivos de cliente, web publicada, checkout, pagos, envios, impuestos, productos, legales y secretos.
 
+### 2026-05-13 - planning/backlog-migracion.md P3-003
+- Area: sistema E-SELEC v2 / migracion
+- Agente: Codex + Arquitecto
+- Tipo: registro / backlog
+- Motivo: cerrar formalmente P3-003 tras verificar que todas las skills legacy tienen equivalente en `.claude/skills/`.
+- Estado: vigente
+- Reemplaza a: estado `en curso` de P3-003.
+- Accion recomendada: continuar con P3-004 agentes especialistas y P3-005 conectores/scripts.
+- Riesgo: bajo; marca de estado, no cambia comportamiento operativo.
+

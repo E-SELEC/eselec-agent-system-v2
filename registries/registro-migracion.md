@@ -619,3 +619,13 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: skills con niveles FCU/WFL/WC, referencias compactas, plantillas, checklists, commands y contratos de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - Cierre P3-003 skills legacy
+- Responsable: Codex + Arquitecto
+- Tipo: cierre de fase / inventario de skills
+- Resultado: comparadas 40 carpetas legacy en `.agents/skills/` contra `.claude/skills/`; faltantes legacy en v2: 0.
+- Extras v2 esperados: `migration-audit`, `ingesta-evidencia`, `verificacion-medicion`.
+- Decision: marcar P3-003 como hecho.
+- Riesgo residual: las skills migradas son procedimientos v2; aun falta P3-004 para migrar agentes especialistas y P3-005 para conectores/scripts.
+- Estado: cerrado
+- Commit: pendiente
