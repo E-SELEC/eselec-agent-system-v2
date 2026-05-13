@@ -36,9 +36,9 @@ Fase: P3-004
 
 | Area | Especialistas legacy | Destino |
 |---|---|---|
-| SEO | `seo-tecnico`, `seo-organico`, `seo-local`, `seo-llms`, `seo-web` | `.claude/agents/seo-*.md` |
-| CRO | `cro-funnels`, `cro-landing`, `cro-formularios`, `cro-tests`, `cro-uxui` | `.claude/agents/cro-*.md` |
-| SEM | `sem-google`, `sem-meta`, `sem-linkedin`, `sem-tiktok`, `sem-analitica` | `.claude/agents/sem-*.md` |
+| SEO | `seo-tecnico`, `seo-organico`, `seo-local`, `seo-llms`, `seo-web` | `.claude/agents/seo-*.md` - hecho |
+| CRO | `cro-funnels`, `cro-landing`, `cro-formularios`, `cro-tests`, `cro-uxui` | `.claude/agents/cro-*.md` - hecho |
+| SEM | `sem-google`, `sem-meta`, `sem-linkedin`, `sem-tiktok`, `sem-analitica` | `.claude/agents/sem-*.md` - hecho |
 | Social | `social-estrategia`, `social-contenido`, `social-comunidad` | `.claude/agents/social-*.md` |
 | Reports | `reports-cliente`, `reports-alertas`, `reports-proxpasos` | `.claude/agents/reports-*.md` |
 | Web | `web-arquitectura`, `web-diseno`, `web-desarrollo`, `web-implementacion`, `web-mantenimiento`, `web-feedback-loop` | `.claude/agents/web-*.md` |

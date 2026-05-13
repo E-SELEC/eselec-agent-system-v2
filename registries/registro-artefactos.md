@@ -618,3 +618,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar desde `leader-clientes` para coordinar tareas por area.
 - Riesgo: medio; mala ruta puede activar skill incorrecta, pero no ejecutan produccion por defecto.
 
+### 2026-05-13 - .claude/agents/seo-*.md + cro-*.md + sem-*.md
+- Area: sistema E-SELEC v2 / agentes clientes
+- Agente: Codex + Arquitecto
+- Tipo: subagents Claude Code
+- Motivo: migrar especialistas SEO, CRO y SEM como agentes v2 breves, conectados a skills y protocolos.
+- Estado: vigente
+- Reemplaza a: `agents/seo/seo-*.md`, `agents/cro/cro-*.md`, `agents/sem/sem-*.md` como prompts legacy directos.
+- Accion recomendada: usar desde los lideres `seo-leader`, `cro-leader` y `sem-leader`.
+- Riesgo: medio-alto; influyen prioridades tecnicas, conversion y Ads, pero no ejecutan produccion sin Orden de Cambio.
+

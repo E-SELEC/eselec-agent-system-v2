@@ -647,3 +647,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Riesgo: medio; son agentes de coordinacion, no ejecutan produccion directa.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-004 especialistas SEO/CRO/SEM
+- Responsable: Codex + Arquitecto
+- Tipo: subagents Claude Code / especialistas clientes
+- Resultado: creados 15 especialistas v2 para SEO (`seo-*`), CRO (`cro-*`) y SEM (`sem-*`), con rutas a skills migradas y bloqueos de produccion.
+- Decision: migrar primero areas con mayor uso operativo y riesgo de calidad en outputs.
+- Riesgo: medio-alto; pueden influir decisiones SEO, CRO y Ads, pero no ejecutan cambios reales por defecto.
+- Estado: implementado
+- Commit: pendiente

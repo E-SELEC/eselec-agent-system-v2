@@ -23,4 +23,7 @@ Agentes activos:
 - `social-leader`: coordina estrategia, contenido y comunidad social.
 - `reports-leader`: coordina informes, alertas y proximos pasos de cliente.
 - `web-leader`: coordina arquitectura, diseño, web, WordPress, WooCommerce y feedback visual.
+- `seo-tecnico`, `seo-organico`, `seo-local`, `seo-llms`, `seo-web`: especialistas SEO.
+- `cro-funnels`, `cro-landing`, `cro-formularios`, `cro-tests`, `cro-uxui`: especialistas CRO.
+- `sem-google`, `sem-meta`, `sem-linkedin`, `sem-tiktok`, `sem-analitica`: especialistas SEM/Paid Media.
 
