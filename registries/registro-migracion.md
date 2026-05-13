@@ -700,7 +700,7 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Decision: migrar solo `protocol_guard.py` adaptado, `.mcp.example.json` seguro y documentacion; bloquear o deferir conectores con accesos/produccion.
 - Riesgo: medio; evita copiar scripts S4 al v2 sin saneamiento.
 - Estado: implementado
-- Commit: pendiente
+- Commit: `f90b3cd`
 
 ### 2026-05-13 - P3-005 guard v2 y MCP seguro
 - Responsable: Codex + Arquitecto
@@ -709,4 +709,13 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Decision: migrar guard adaptado a rutas v2 y documentar MCP sin valores reales; no copiar conectores S4.
 - Riesgo: medio; script defensivo, sin llamadas externas ni escritura fuera de reporte local ignorado.
 - Estado: implementado
-- Commit: pendiente
+- Commit: `11c9af8`; ajuste posterior `7d4f6ce`
+
+### 2026-05-13 - Cierre P3-005 conectores/scripts
+- Responsable: Codex + Arquitecto
+- Tipo: cierre de backlog / saneamiento de conectores
+- Resultado: P3-005 marcado como `hecho`; `scripts/protocol_guard.py` probado limpio con repo sin cambios; `.mcp.example.json` seguro; `.mcp.json` ignorado; conectores S4 no copiados.
+- Decision: cerrar P3-005 sin migrar conectores productivos legacy; quedan deferidos hasta flujo seguro con dry-run, variables locales y Orden de Cambio.
+- Riesgo residual: medio; los conectores reales aun no estan activos en v2, pero el repo queda protegido contra migracion insegura.
+- Estado: implementado
+- Commit: este mismo cambio; consultar `git log --oneline` para el hash final.
