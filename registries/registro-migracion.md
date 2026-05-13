@@ -637,7 +637,7 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Decision: iniciar P3-004 en estado `en curso`.
 - Riesgo: medio; migrar agentes sin separar referencias del Docente podria inflar contexto y duplicar conocimiento.
 - Estado: implementado
-- Commit: pendiente
+- Commit: `c0d6a8a`
 
 ### 2026-05-13 - P3-004 lideres Equipo Clientes
 - Responsable: Codex + Arquitecto
@@ -646,7 +646,7 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Decision: migrar lideres de area antes que especialistas para desbloquear routing ordenado.
 - Riesgo: medio; son agentes de coordinacion, no ejecutan produccion directa.
 - Estado: implementado
-- Commit: pendiente
+- Commit: `c2845bf`
 
 ### 2026-05-13 - P3-004 especialistas SEO/CRO/SEM
 - Responsable: Codex + Arquitecto
@@ -655,7 +655,7 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Decision: migrar primero areas con mayor uso operativo y riesgo de calidad en outputs.
 - Riesgo: medio-alto; pueden influir decisiones SEO, CRO y Ads, pero no ejecutan cambios reales por defecto.
 - Estado: implementado
-- Commit: pendiente
+- Commit: `d9d6f90`
 
 ### 2026-05-13 - P3-004 especialistas Social/Reports/Web
 - Responsable: Codex + Arquitecto
@@ -664,7 +664,7 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Decision: completar especialistas del Equipo Clientes antes de migrar Equipo Agencia.
 - Riesgo: medio-alto; pueden afectar comunicacion publica, informes y web, pero no ejecutan produccion sin aprobacion.
 - Estado: implementado
-- Commit: pendiente
+- Commit: `92cde16`
 
 ### 2026-05-13 - P3-004 especialistas Equipo Agencia
 - Responsable: Codex + Arquitecto
@@ -673,7 +673,7 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Decision: completar Equipo Agencia despues de Equipo Clientes.
 - Riesgo: medio; afectan captacion, reputacion, onboarding, retencion y pricing interno, pero no ejecutan acciones externas por defecto.
 - Estado: implementado
-- Commit: pendiente
+- Commit: `e2365f6`
 
 ### 2026-05-13 - P3-004 gobernanza y loops
 - Responsable: Codex + Arquitecto
@@ -682,4 +682,13 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Decision: migrar estos roles al final porque dependen de que las rutas operativas de clientes y agencia ya existan.
 - Riesgo: medio; afectan arquitectura, memoria y loops, pero operan como lectura/criterio y no ejecutan produccion por defecto.
 - Estado: implementado
-- Commit: pendiente
+- Commit: `4b35139`
+
+### 2026-05-13 - Cierre P3-004 agentes
+- Responsable: Codex + Arquitecto
+- Tipo: cierre de backlog / verificacion de inventario
+- Resultado: verificados 42 roles legacy migrados a `.claude/agents/`; faltantes esperados: 0; total actual de agentes v2: 47.
+- Decision: marcar P3-004 como `hecho` en `planning/backlog-migracion.md`.
+- Riesgo: bajo-medio; quedan referencias legacy no migradas como subagents por decision consciente.
+- Estado: implementado
+- Commit: este mismo cambio; consultar `git log --oneline` para el hash final.
