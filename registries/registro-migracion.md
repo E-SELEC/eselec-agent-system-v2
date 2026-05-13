@@ -692,3 +692,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Riesgo: bajo-medio; quedan referencias legacy no migradas como subagents por decision consciente.
 - Estado: implementado
 - Commit: este mismo cambio; consultar `git log --oneline` para el hash final.
+
+### 2026-05-13 - P3-005 inventario conectores/scripts
+- Responsable: Codex + Arquitecto
+- Tipo: inventario / saneamiento de scripts
+- Resultado: creado `planning/inventario-conectores-scripts.md` y P3-005 marcado como `en curso`.
+- Decision: migrar solo `protocol_guard.py` adaptado, `.mcp.example.json` seguro y documentacion; bloquear o deferir conectores con accesos/produccion.
+- Riesgo: medio; evita copiar scripts S4 al v2 sin saneamiento.
+- Estado: implementado
+- Commit: pendiente

@@ -55,7 +55,7 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 | P3-002 | hecho | Migrar cliente piloto | `clients/computer-chamberi/` |
 | P3-003 | hecho | Migrar resto de skills por uso | `.claude/skills/` |
 | P3-004 | hecho | Migrar agentes especialistas | `.claude/agents/` |
-| P3-005 | pendiente | Sanear y migrar conectores | `scripts/` y `.mcp.example.json` |
+| P3-005 | en curso | Sanear y migrar conectores | `scripts/` y `.mcp.example.json` |
 
 ### Skills migradas dentro de P3-003
 

@@ -658,3 +658,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar desde `leader-clientes`, `leader-agencia` y comandos LOOP.
 - Riesgo: medio; afecta arquitectura, memoria y loops, pero no ejecuta produccion sin aprobacion.
 
+### 2026-05-13 - planning/inventario-conectores-scripts.md
+- Area: sistema E-SELEC v2 / conectores
+- Agente: Codex + Arquitecto
+- Tipo: inventario de migracion
+- Motivo: iniciar P3-005 separando scripts migrables, deferidos y bloqueados antes de copiar codigo con accesos.
+- Estado: vigente
+- Reemplaza a: lectura dispersa de `planning/auditoria-scripts-sensibles.md` para P3-005.
+- Accion recomendada: usar como mapa de decisiones para migrar scripts v2.
+- Riesgo: bajo-medio; documento de control que evita mover conectores sensibles sin saneamiento.
+
