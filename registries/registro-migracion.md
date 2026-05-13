@@ -415,3 +415,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: SKILL con niveles CE0-CE3, pasadas de edicion, lenguaje claro, plantilla, checklist, command y contrato de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 page-cro
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / CRO de pagina
+- Responsabilidad real: diagnosticar conversion de paginas completas: propuesta de valor, CTA, jerarquia, confianza, objeciones, friccion, mobile y medicion.
+- Destino Claude Code: `.claude/skills/page-cro/` y `.claude/commands/auditar-cro-pagina.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy como evaluador de conversion integral, conectado a analytics, copy, arquitectura y formularios.
+- Riesgo: medio; puede derivar en cambios de produccion o tests mal planteados si no hay medicion.
+- Prueba de calidad: SKILL con niveles PC0-PC3, checklist de pagina, experimentos, plantilla, command y contrato actualizado.
+- Estado: implementado
+- Commit: pendiente

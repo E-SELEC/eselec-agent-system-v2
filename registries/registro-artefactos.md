@@ -388,3 +388,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar despues de `copywriting` o antes de entregar textos al cliente/publicar.
 - Riesgo: bajo-medio; puede mantener claims sin prueba si no se revisan fuentes, por eso clasifica claims y bloquea publicacion sin aprobacion.
 
+### 2026-05-13 - .claude/skills/page-cro/
+- Area: sistema E-SELEC v2 / CRO
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `page-cro` como skill v2 para auditar paginas completas y priorizar mejoras de conversion.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/page-cro/` como skill legacy directa.
+- Accion recomendada: usar antes de reescribir, rediseniar o testear paginas de marketing.
+- Riesgo: medio; puede proponer cambios de produccion o tests sin datos si no se exige medicion y Orden de Cambio.
+

@@ -325,6 +325,13 @@ Usar para:
 
 Identificar fricciones de conversion y proponer cambios accionables priorizados.
 
+### Nivel CRO
+
+- PC3: pagina revisada, objetivo/trafico/conversion medidos, tracking comprobado y recomendaciones priorizadas.
+- PC2: pagina revisada y objetivo claro, pero faltan datos cuantitativos o tracking completo.
+- PC1: captura/texto suficiente para orientar, pero faltan trafico, objetivo medido o contexto.
+- PC0: falta pagina, objetivo de conversion o audiencia.
+
 ### Inputs minimos
 
 - URL o captura.
@@ -350,17 +357,21 @@ Identificar fricciones de conversion y proponer cambios accionables priorizados.
 
 ### Criterios de aceptacion
 
+- Clasifica nivel PC0/PC1/PC2/PC3.
 - Evalua propuesta de valor, CTA, jerarquia visual, confianza, objeciones y friccion.
 - Distingue cambio recomendado de test recomendado.
 - No recomienda test A/B si no hay trafico suficiente.
 - Incluye copy alternativo solo para elementos clave.
 - Considera mobile.
+- Declara medicion disponible y datos faltantes.
+- Prioriza por impacto/esfuerzo.
 
 ### Bloquea si
 
 - no se conoce el objetivo de conversion;
 - no se puede ver la pagina y no hay captura;
 - hay fallo tecnico critico que impide evaluar conversion.
+- se piden cambios reales en web/CMS/formularios/Ads/tracking sin Orden de Cambio.
 
 ## Contrato 6 - SEM / Paid Ads
 

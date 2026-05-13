@@ -68,3 +68,4 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 | `content-strategy` | hecho | convierte SEO/AI SEO/ventas en pilares, clusters, calendario y prioridades accionables |
 | `copywriting` | hecho | convierte briefs y estrategias en copy claro, verificable y orientado a conversion |
 | `copy-editing` | hecho | revisa textos existentes, claims, claridad, tono y CTA antes de entrega/publicacion |
+| `page-cro` | hecho | diagnostica conversion de paginas completas: propuesta, CTA, confianza, friccion, mobile y medicion |

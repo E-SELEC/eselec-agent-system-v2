@@ -16,5 +16,6 @@ Primer comando:
 - `plan-contenido.md`: crea estrategia de contenido, pilares, clusters y calendario sin publicar.
 - `escribir-copy.md`: escribe o mejora copy comercial sin publicar ni inventar claims.
 - `revisar-copy.md`: revisa copy existente con pasadas de claridad, prueba, tono y CTA.
+- `auditar-cro-pagina.md`: audita propuesta de valor, CTA, confianza, friccion y medicion de una pagina.
 
 Los loops antiguos de E-SELEC no se copian aqui automaticamente. Cada loop debe convertirse en command, scheduled task o workflow solo despues de revisar riesgo, inputs y outputs.
