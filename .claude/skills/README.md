@@ -27,3 +27,6 @@ Skills activas:
 - `paywall-upgrade-cro`: audita paywalls, upsells y upgrades dentro de producto.
 - `paid-ads`: planifica campanas paid media con tracking, presupuesto y riesgos.
 - `ad-creative`: genera variaciones de anuncios validadas por plataforma.
+- `social-content`: crea contenido social por canal, objetivo y audiencia.
+- `programmatic-seo`: planifica paginas SEO a escala con datos y control de indexacion.
+- `competitor-alternatives`: planifica paginas de alternativas y comparativas honestas.

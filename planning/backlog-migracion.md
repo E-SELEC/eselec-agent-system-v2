@@ -77,3 +77,6 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 | `paywall-upgrade-cro` | hecho | optimiza paywalls, upsells y upgrades con guardrails de revenue/confianza |
 | `paid-ads` | hecho | planifica paid media con objetivo, tracking, presupuesto, estructura y riesgos |
 | `ad-creative` | hecho | genera e itera anuncios con limites de plataforma, claims verificables y plan de test |
+| `social-content` | hecho | crea piezas y calendarios sociales por canal, audiencia, tono y objetivo |
+| `programmatic-seo` | hecho | planifica paginas SEO a escala con datos, template, arquitectura e indexacion |
+| `competitor-alternatives` | hecho | estructura paginas de alternativas/comparativas con fuentes fechadas y honestidad |

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Programmatic SEO"
+  short_description: "Planifica paginas SEO a escala"
+  default_prompt: "Planifica una estrategia pSEO segura con datos y templates."

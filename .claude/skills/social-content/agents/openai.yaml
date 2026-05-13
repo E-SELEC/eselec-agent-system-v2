@@ -1,0 +1,4 @@
+interface:
+  display_name: "Social Content"
+  short_description: "Crea contenido social por canal"
+  default_prompt: "Crea contenido social alineado a objetivo, audiencia y canal."

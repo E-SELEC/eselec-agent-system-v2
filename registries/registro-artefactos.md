@@ -478,3 +478,33 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar despues de definir campana con `paid-ads` o cuando haga falta creatividad validada para Ads.
 - Riesgo: medio; puede crear claims falsos, anuncios fuera de specs o piezas no aprobables si no valida plataforma y fuentes.
 
+### 2026-05-13 - .claude/skills/social-content/
+- Area: sistema E-SELEC v2 / social
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `social-content` como skill v2 para crear piezas, calendarios y repurposing por canal, audiencia, tono y objetivo.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/social-content/` como skill legacy directa.
+- Accion recomendada: usar para contenido social despues de definir objetivo y tono; no publicar sin aprobacion.
+- Riesgo: medio; puede publicar claims, tono incorrecto o contenido visible no aprobado si se ejecuta sin Orden de Cambio.
+
+### 2026-05-13 - .claude/skills/programmatic-seo/
+- Area: sistema E-SELEC v2 / SEO
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `programmatic-seo` como skill v2 para planificar paginas SEO a escala con datos, template, arquitectura e indexacion.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/programmatic-seo/` como skill legacy directa.
+- Accion recomendada: usar antes de crear paginas a escala, directorios, location pages, integraciones o comparativas masivas.
+- Riesgo: alto; puede afectar indexacion, crawl budget, arquitectura y reputacion SEO si se ejecuta sin Orden de Cambio.
+
+### 2026-05-13 - .claude/skills/competitor-alternatives/
+- Area: sistema E-SELEC v2 / SEO y sales enablement
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `competitor-alternatives` como skill v2 para planificar paginas comparativas honestas, verificables y posicionables.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/competitor-alternatives/` como skill legacy directa.
+- Accion recomendada: usar para alternatives/vs pages solo con fuentes fechadas y revision comercial/legal cuando aplique.
+- Riesgo: medio-alto; puede afectar marca, legal, SEO y confianza si se publican datos falsos.
+

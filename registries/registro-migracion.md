@@ -523,3 +523,39 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: SKILL con niveles AC0-AC3, specs de plataforma, plantilla, checklist, command y contrato de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 social-content
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / contenido social
+- Responsabilidad real: crear piezas, calendarios y repurposing social por canal, audiencia, tono, objetivo, CTA y medicion.
+- Destino Claude Code: `.claude/skills/social-content/` y `.claude/commands/crear-social-content.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy separando distribucion social de estrategia editorial amplia y bloqueando publicacion sin aprobacion.
+- Riesgo: medio; puede publicar claims, tono incorrecto o contenido visible no aprobado si se ejecuta sin control.
+- Prueba de calidad: SKILL con niveles SC0-SC3, patrones de canal, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente
+
+### 2026-05-13 - P3-003 programmatic-seo
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / SEO programatico
+- Responsabilidad real: planificar paginas SEO a escala con patron, datos, template, arquitectura, indexacion, schema, tracking y riesgos.
+- Destino Claude Code: `.claude/skills/programmatic-seo/` y `.claude/commands/plan-programmatic-seo.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy evitando thin content, doorway pages, indexacion masiva sin control y cambios de CMS/URLs sin Orden de Cambio.
+- Riesgo: alto; puede afectar indexacion, crawl budget, arquitectura y reputacion SEO si se ejecuta mal.
+- Prueba de calidad: SKILL con niveles PS0-PS3, patrones pSEO, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente
+
+### 2026-05-13 - P3-003 competitor-alternatives
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / paginas comparativas
+- Responsabilidad real: planificar paginas de alternativas, vs pages y comparativas con fuentes fechadas, posicionamiento honesto, SEO y riesgos legales/comerciales.
+- Destino Claude Code: `.claude/skills/competitor-alternatives/` y `.claude/commands/plan-competitor-page.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy sin permitir claims inventados, difamacion o comparativas no verificadas.
+- Riesgo: medio-alto; puede afectar marca, legal, SEO y confianza si se publican datos falsos.
+- Prueba de calidad: SKILL con niveles CA0-CA3, patrones de comparativa, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente

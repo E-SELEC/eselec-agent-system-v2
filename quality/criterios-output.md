@@ -1769,6 +1769,202 @@ Produccion tocada:
 - la pieza pertenece a sector sensible y no hay reglas/compliance suficientes;
 - se pide publicar/subir anuncios sin aprobacion.
 
+## Contrato 28 - Social content / redes
+
+Usar para:
+
+- `social-content`;
+- calendarios de contenido;
+- posts de LinkedIn, Instagram, TikTok, Facebook o X;
+- repurposing;
+- hooks, captions, threads o carousels;
+- social media strategy operativa.
+
+### Objetivo
+
+Crear contenido social especifico, coherente con canal, audiencia, tono y objetivo de negocio, sin publicar ni prometer resultados.
+
+### Inputs minimos
+
+- cliente;
+- canal;
+- objetivo;
+- audiencia;
+- tono/marca;
+- oferta o tema;
+- CTA;
+- assets disponibles;
+- frecuencia o calendario;
+- metricas disponibles si se optimiza.
+
+### Estructura obligatoria
+
+```text
+# Social Content: [cliente / canal]
+Fecha:
+Nivel Social:
+Canales:
+Objetivo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Enfoque
+## 2. Pilares
+## 3. Piezas propuestas
+## 4. Calendario
+## 5. Riesgos y datos faltantes
+## 6. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel SC0/SC1/SC2/SC3.
+- Cada pieza tiene objetivo, audiencia, canal, CTA y metrica.
+- El texto se adapta al canal.
+- Incluye recomendacion visual o asset requerido.
+- No inventa claims, cifras, testimonios ni promociones.
+- No usa contenido generico intercambiable.
+- No publica ni programa sin Orden de Cambio.
+
+### Bloquea si
+
+- falta canal, audiencia, objetivo u oferta;
+- falta tono/marca para pieza visible;
+- el contenido requiere claims sensibles sin fuente;
+- se pide publicar/programar sin aprobacion.
+
+## Contrato 29 - Programmatic SEO / pSEO
+
+Usar para:
+
+- `programmatic-seo`;
+- paginas SEO a escala;
+- templates SEO;
+- paginas de ciudad, directorios, integraciones, comparativas o glosarios;
+- keyword + variable;
+- data-driven pages.
+
+### Objetivo
+
+Planificar paginas SEO a escala con valor unico, datos fiables, arquitectura clara, control de indexacion y medicion.
+
+### Inputs minimos
+
+- cliente/dominio;
+- patron de keyword;
+- intent de busqueda;
+- fuente de datos;
+- valor unico por pagina;
+- template propuesto;
+- arquitectura/URL;
+- estrategia de indexacion;
+- CMS/stack si se implementara;
+- schema y tracking.
+
+### Estructura obligatoria
+
+```text
+# Programmatic SEO: [cliente / patron]
+Fecha:
+Nivel pSEO:
+Patron:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Oportunidad
+## 2. Datos
+## 3. Template
+## 4. Arquitectura e indexacion
+## 5. Schema y medicion
+## 6. Riesgos y bloqueos
+## 7. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel PS0/PS1/PS2/PS3.
+- Define patron, intent, escala y competidores.
+- Verifica fuente de datos, frescura, permisos y calidad.
+- Cada pagina tiene valor unico mas alla de variables.
+- Incluye URL, hub/spokes, enlaces, sitemap, noindex/canonical y fases.
+- Revisa schema y tracking.
+- Marca riesgos de thin content, doorway pages y canibalizacion.
+- No publica ni toca CMS/URLs/sitemap sin Orden de Cambio.
+
+### Bloquea si
+
+- falta patron de keyword;
+- falta fuente de datos;
+- no hay valor unico por pagina;
+- se propone indexacion masiva sin control;
+- se piden cambios reales sin aprobacion.
+
+## Contrato 30 - Competitor alternatives / comparativas
+
+Usar para:
+
+- `competitor-alternatives`;
+- competitor alternative pages;
+- vs pages;
+- competitor comparison;
+- alternative pages;
+- battle cards externos;
+- paginas SEO contra competidores.
+
+### Objetivo
+
+Crear comparativas honestas, verificables y utiles que ayuden a decidir sin tergiversar competidores ni inventar ventajas.
+
+### Inputs minimos
+
+- producto propio;
+- competidor o set de competidores;
+- formato de pagina;
+- query objetivo;
+- fuentes fechadas del competidor;
+- posicionamiento propio;
+- pricing/features/claims verificables;
+- CTA;
+- aprobaciones necesarias.
+
+### Estructura obligatoria
+
+```text
+# Competitor Page: [cliente / competidor]
+Fecha:
+Nivel Competitor:
+Formato:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Objetivo
+## 2. Fuentes y datos
+## 3. Posicionamiento
+## 4. Estructura de pagina
+## 5. Copy clave
+## 6. Riesgos y aprobaciones
+## 7. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel CA0/CA1/CA2/CA3.
+- Define formato, query, intent y CTA.
+- Usa fuentes fechadas para competidor, pricing, features y claims.
+- Reconoce fortalezas del competidor y limites propios.
+- Explica para quien conviene cada opcion.
+- Define URL, metadata, estructura, enlaces internos y FAQ/schema si aplica.
+- No difama ni inventa claims.
+- No publica sin Orden de Cambio y revision comercial/legal cuando aplique.
+
+### Bloquea si
+
+- falta competidor claro;
+- no hay fuentes sobre competidor;
+- no se conoce posicionamiento propio;
+- se piden claims no verificables;
+- se pide publicar sin aprobacion.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:
