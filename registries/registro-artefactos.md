@@ -668,3 +668,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar como mapa de decisiones para migrar scripts v2.
 - Riesgo: bajo-medio; documento de control que evita mover conectores sensibles sin saneamiento.
 
+### 2026-05-13 - scripts/protocol_guard.py + .mcp.example.json
+- Area: sistema E-SELEC v2 / scripts y MCP
+- Agente: Codex + Arquitecto
+- Tipo: script defensivo / configuracion de ejemplo
+- Motivo: migrar el guard de cierre adaptado a rutas v2 y crear ejemplo MCP seguro sin valores reales.
+- Estado: vigente
+- Archivos creados/modificados: `scripts/protocol_guard.py`, `.mcp.example.json`, `.gitignore`, `scripts/README.md`, `registries/registro-migracion.md`, `registries/registro-artefactos.md`.
+- Reemplaza a: uso del guard legacy para cierres del repo v2.
+- Accion recomendada: ejecutar `python scripts/protocol_guard.py` antes de cerrar tareas con cambios en v2.
+- Riesgo: medio; revisa archivos y escribe reporte local ignorado, sin conectar servicios externos.
+

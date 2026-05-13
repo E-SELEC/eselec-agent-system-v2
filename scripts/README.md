@@ -1,6 +1,6 @@
 # Scripts
 
-Solo deben entrar scripts revisados.
+Solo deben entrar scripts revisados y saneados.
 
 Requisitos:
 
@@ -9,4 +9,26 @@ Requisitos:
 - Logs sin credenciales.
 - Parametros no interactivos.
 - Registro en `registries/registro-artefactos.md`.
+
+## Estado P3-005
+
+Migrado ahora:
+
+- `protocol_guard.py`: guard de cierre adaptado a rutas v2.
+- `.mcp.example.json`: ejemplo local seguro; copiar a `.mcp.json` solo en local.
+
+Bloqueado o deferido:
+
+- WordPress/WooCommerce legacy con credenciales historicas.
+- Google OAuth, GBP, GA4, Drive, Meta Ads, Hostinger, Kling y WP REST.
+- Scrapers y generadores de informes hasta tener limites, manifests y contratos de output.
+
+## Comandos
+
+```bash
+python scripts/protocol_guard.py
+python scripts/protocol_guard.py --all --strict
+```
+
+El reporte se escribe en `outputs/system/protocol-guard-latest.md`, que no se versiona.
 

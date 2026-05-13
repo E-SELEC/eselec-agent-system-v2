@@ -701,3 +701,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Riesgo: medio; evita copiar scripts S4 al v2 sin saneamiento.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-005 guard v2 y MCP seguro
+- Responsable: Codex + Arquitecto
+- Tipo: script seguro / configuracion local
+- Resultado: creado `scripts/protocol_guard.py`, `.mcp.example.json`; actualizado `.gitignore` y `scripts/README.md`.
+- Decision: migrar guard adaptado a rutas v2 y documentar MCP sin valores reales; no copiar conectores S4.
+- Riesgo: medio; script defensivo, sin llamadas externas ni escritura fuera de reporte local ignorado.
+- Estado: implementado
+- Commit: pendiente
