@@ -598,3 +598,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: continuar con P3-004 agentes especialistas y P3-005 conectores/scripts.
 - Riesgo: bajo; marca de estado, no cambia comportamiento operativo.
 
+### 2026-05-13 - planning/inventario-agentes-legacy.md
+- Area: sistema E-SELEC v2 / migracion de agentes
+- Agente: Codex + Arquitecto
+- Tipo: inventario / plan
+- Motivo: ordenar P3-004 antes de migrar agentes especialistas y evitar copiar referencias/aprendizajes como agentes ejecutables.
+- Estado: vigente
+- Reemplaza a: ninguno.
+- Accion recomendada: usar como mapa de P3-004.
+- Riesgo: bajo-medio; si queda desactualizado, el plan de agentes puede desviarse.
+

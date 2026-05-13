@@ -629,3 +629,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Riesgo residual: las skills migradas son procedimientos v2; aun falta P3-004 para migrar agentes especialistas y P3-005 para conectores/scripts.
 - Estado: cerrado
 - Commit: pendiente
+
+### 2026-05-13 - P3-004 inventario agentes legacy
+- Responsable: Codex + Arquitecto
+- Tipo: inventario / plan de migracion de agentes
+- Resultado: creado `planning/inventario-agentes-legacy.md` separando agentes migrables, referencias, aprendizajes y orden recomendado.
+- Decision: iniciar P3-004 en estado `en curso`.
+- Riesgo: medio; migrar agentes sin separar referencias del Docente podria inflar contexto y duplicar conocimiento.
+- Estado: implementado
+- Commit: pendiente
