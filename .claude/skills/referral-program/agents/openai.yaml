@@ -1,0 +1,4 @@
+interface:
+  display_name: "Referral Program"
+  short_description: "Disena referidos y afiliados"
+  default_prompt: "Disena un programa de referidos con tracking y guardrails."

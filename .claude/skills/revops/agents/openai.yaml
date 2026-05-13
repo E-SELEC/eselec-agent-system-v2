@@ -1,0 +1,4 @@
+interface:
+  display_name: "RevOps"
+  short_description: "Ordena lifecycle y pipeline"
+  default_prompt: "Disena un proceso RevOps sin tocar CRM real."

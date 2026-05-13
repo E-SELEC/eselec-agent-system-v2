@@ -32,5 +32,9 @@ Primer comando:
 - `plan-email-sequence.md`: disena secuencias lifecycle sin activarlas.
 - `plan-lead-magnet.md`: planifica lead magnets sin publicar formularios.
 - `crear-sales-enablement.md`: crea materiales comerciales sin enviarlos.
+- `plan-pricing.md`: analiza pricing sin cambiar precios reales.
+- `plan-revops.md`: disena procesos RevOps sin tocar CRM.
+- `plan-churn-prevention.md`: disena retencion sin tocar billing.
+- `plan-referral-program.md`: disena referidos/afiliados sin lanzarlos.
 
 Los loops antiguos de E-SELEC no se copian aqui automaticamente. Cada loop debe convertirse en command, scheduled task o workflow solo despues de revisar riesgo, inputs y outputs.

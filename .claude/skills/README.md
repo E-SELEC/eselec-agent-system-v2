@@ -34,3 +34,7 @@ Skills activas:
 - `email-sequence`: disena secuencias lifecycle con trigger, cadencia y metricas.
 - `lead-magnets`: planifica recursos de captacion con gating, entrega y nurture.
 - `sales-enablement`: crea materiales comerciales por persona, etapa y objetivo.
+- `pricing-strategy`: analiza precios, packaging y monetizacion sin cambiar precios reales.
+- `revops`: disena lifecycle, scoring, routing y pipeline sin tocar CRM.
+- `churn-prevention`: disena retencion, cancel flows y dunning sin tocar billing.
+- `referral-program`: planifica referidos y afiliados con tracking y guardrails.

@@ -571,3 +571,15 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: skills con niveles CO/ES/LM/SE, referencias compactas, plantillas, checklists, commands y contratos de output.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 pricing-strategy / revops / churn-prevention / referral-program
+- Responsable: Codex + Arquitecto
+- Tipo: skills Claude Code / negocio y retencion
+- Responsabilidad real: migrar pricing, revenue operations, prevencion de churn y programas de referidos con guardrails de ingresos, CRM, billing, reputacion y aprobacion.
+- Destino Claude Code: `.claude/skills/pricing-strategy/`, `.claude/skills/revops/`, `.claude/skills/churn-prevention/`, `.claude/skills/referral-program/` y commands relacionados.
+- Decision: reescribir/adaptar
+- Motivo: migrar el bloque de negocio sin permitir cambios reales de precios, CRM, billing, cancelaciones, pagos, links o programas sin Orden de Cambio.
+- Riesgo: alto; puede afectar ingresos, pipeline, billing, churn, cumplimiento y confianza si se ejecuta sin aprobacion.
+- Prueba de calidad: skills con niveles PR/RV/CH/RF, referencias compactas, plantillas, checklists, commands y contratos de output.
+- Estado: implementado
+- Commit: pendiente

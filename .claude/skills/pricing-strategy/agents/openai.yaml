@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pricing Strategy"
+  short_description: "Define precios y packaging"
+  default_prompt: "Analiza esta decision de pricing sin cambiar precios reales."

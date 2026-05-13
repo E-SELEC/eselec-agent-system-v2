@@ -84,3 +84,7 @@ P1 empieza despues de completar los controles minimos P0. Motivo: la baja calida
 | `email-sequence` | hecho | disena secuencias lifecycle con trigger, cadencia, consentimiento y metricas |
 | `lead-magnets` | hecho | planifica recursos de captacion con oferta, gating, entrega, nurture y medicion |
 | `sales-enablement` | hecho | crea materiales comerciales por persona, etapa, objecion, prueba y CTA |
+| `pricing-strategy` | hecho | analiza pricing, packaging y monetizacion con validacion y guardrails |
+| `revops` | hecho | disena lifecycle, scoring, routing, pipeline, owners, SLAs y metricas |
+| `churn-prevention` | hecho | planifica retencion, cancel flow, dunning, offers y guardrails |
+| `referral-program` | hecho | planifica referidos/afiliados con incentivos, tracking, reglas y antifraude |

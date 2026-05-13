@@ -548,3 +548,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar para decks, one-pagers, propuestas y playbooks; envio externo requiere aprobacion.
 - Riesgo: medio-alto; puede usar pricing, claims o propuestas no aprobadas si no se revisa.
 
+### 2026-05-13 - .claude/skills/pricing-strategy/ + revops/churn/referral
+- Area: sistema E-SELEC v2 / negocio y retencion
+- Agente: Codex + Arquitecto
+- Tipo: skills Claude Code + commands
+- Motivo: migrar `pricing-strategy`, `revops`, `churn-prevention` y `referral-program` como bloque de decisiones sensibles de negocio.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/pricing-strategy/`, `.agents/skills/revops/`, `.agents/skills/churn-prevention/`, `.agents/skills/referral-program/`.
+- Accion recomendada: usar para planes y especificaciones; cualquier cambio real de precios, CRM, billing, programas o pagos requiere Orden de Cambio.
+- Riesgo: alto; puede afectar ingresos, pipeline, billing, churn, cumplimiento y confianza si se ejecuta sin aprobacion.
+

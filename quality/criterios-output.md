@@ -2183,6 +2183,207 @@ Produccion tocada:
 - contiene pricing no aprobado;
 - se pide enviar al prospecto sin aprobacion.
 
+## Contrato 35 - Pricing strategy / monetizacion
+
+Usar para `pricing-strategy`, precios, packaging, tiers, value metric, freemium, trials, annual/monthly y price increases.
+
+### Objetivo
+
+Tomar decisiones de pricing con contexto de valor, mercado, clientes, costes, riesgo y validacion.
+
+### Inputs minimos
+
+- oferta/producto;
+- ICP;
+- pricing actual/propuesto;
+- objetivo de negocio;
+- alternativas/competidores;
+- datos de conversion, churn, ARPU o margen si existen;
+- restricciones de rollout.
+
+### Estructura obligatoria
+
+```text
+# Pricing Strategy: [cliente / oferta]
+Fecha:
+Nivel Pricing:
+Objetivo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Diagnostico
+## 2. Opciones
+## 3. Recomendacion
+## 4. Validacion
+## 5. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica PR0/PR1/PR2/PR3.
+- Diferencia packaging, value metric y price point.
+- Declara datos faltantes de margen/churn/ARPU/competencia.
+- Incluye riesgos y plan de validacion.
+- No cambia precios reales sin Orden de Cambio.
+
+### Bloquea si
+
+- falta oferta, ICP o pricing actual/propuesto;
+- la recomendacion depende de datos faltantes no marcados;
+- se pide cambiar precios, checkout o propuestas reales sin aprobacion.
+
+## Contrato 36 - RevOps / revenue operations
+
+Usar para `revops`, lifecycle, MQL/SQL, scoring, routing, pipeline, CRM, handoff y dashboards.
+
+### Objetivo
+
+Ordenar procesos de ingresos con definiciones, owners, SLAs, datos y metricas antes de automatizar.
+
+### Inputs minimos
+
+- GTM motion;
+- stack/CRM;
+- fuente de verdad;
+- problema;
+- stages actuales;
+- owners;
+- metricas.
+
+### Estructura obligatoria
+
+```text
+# RevOps Spec: [agencia/cliente]
+Fecha:
+Nivel RevOps:
+Alcance:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Diagnostico
+## 2. Lifecycle
+## 3. Scoring y routing
+## 4. Pipeline y datos
+## 5. Dashboard
+## 6. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica RV0/RV1/RV2/RV3.
+- Define lifecycle con entrada, salida, owner y SLA.
+- Incluye scoring, routing y fallback.
+- Define campos requeridos, hygiene y dashboard.
+- No toca CRM ni automatizaciones sin Orden de Cambio.
+
+### Bloquea si
+
+- falta objetivo, stack o fuente de verdad;
+- se pretende automatizar un proceso no definido;
+- se pide modificar CRM/importar datos sin aprobacion.
+
+## Contrato 37 - Churn prevention / retencion
+
+Usar para `churn-prevention`, cancel flows, save offers, dunning, failed payments, pause, downgrade, win-back y retention.
+
+### Objetivo
+
+Reducir churn voluntario e involuntario con flujos respetuosos, ofertas adecuadas, dunning y medicion.
+
+### Inputs minimos
+
+- tipo de churn;
+- producto/suscripcion;
+- billing context;
+- motivos/segmentos;
+- churn/revenue metrics si existen;
+- restricciones legales;
+- canales de recuperacion.
+
+### Estructura obligatoria
+
+```text
+# Churn Prevention: [cliente / flujo]
+Fecha:
+Nivel Churn:
+Tipo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Diagnostico
+## 2. Flujo recomendado
+## 3. Offers/dunning
+## 4. Medicion
+## 5. Riesgos
+## 6. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica CH0/CH1/CH2/CH3.
+- Separa churn voluntario e involuntario.
+- Save offer coincide con motivo.
+- Incluye medicion y guardrails.
+- Evita dark patterns.
+- No toca billing, cancel flow ni emails sin Orden de Cambio.
+
+### Bloquea si
+
+- falta tipo de churn o billing context;
+- faltan restricciones legales relevantes;
+- se piden cambios reales de cancelacion/billing sin aprobacion.
+
+## Contrato 38 - Referral program / referidos
+
+Usar para `referral-program`, referidos, afiliados, ambassadors, partner programs, word of mouth, incentivos y payouts.
+
+### Objetivo
+
+Crear programas de referidos o afiliados con incentivo, tracking, reglas, antifraude y ROI claros.
+
+### Inputs minimos
+
+- tipo de programa;
+- objetivo;
+- audiencia;
+- LTV/CAC o presupuesto aproximado;
+- incentivo;
+- tracking/atribucion;
+- reglas/payouts;
+- restricciones legales.
+
+### Estructura obligatoria
+
+```text
+# Referral Program: [cliente / programa]
+Fecha:
+Nivel Referral:
+Tipo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Estrategia
+## 2. Flujo
+## 3. Tracking y reglas
+## 4. Lanzamiento
+## 5. Medicion
+## 6. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica RF0/RF1/RF2/RF3.
+- Incentivo encaja con LTV/CAC o marca dato faltante.
+- Incluye tracking, attribution, payouts, antifraude y terminos.
+- Define lanzamiento y medicion.
+- No lanza ni configura pagos/links/herramientas sin Orden de Cambio.
+
+### Bloquea si
+
+- falta objetivo, incentivo o tracking;
+- no hay presupuesto/LTV aproximado y se proponen pagos;
+- se piden pagos, links o herramientas reales sin aprobacion.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:
