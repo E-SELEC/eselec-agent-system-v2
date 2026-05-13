@@ -455,7 +455,7 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 ### 2026-05-13 - P3-003 signup-flow-cro
 - Responsable: Codex + Arquitecto
 - Tipo: skill Claude Code / CRO de registro
-- Responsabilidad real: auditar registros, altas de cuenta y trials: pasos, campos, auth, SSO, password, verificacion, mobile, medicion y handoff a activacion.
+- Responsabilidad real: auditar registros, altas de cuenta y trials: pasos, campos, autenticacion, SSO, recuperacion de cuenta, verificacion, mobile, medicion y handoff a activacion.
 - Destino Claude Code: `.claude/skills/signup-flow-cro/` y `.claude/commands/auditar-signup-flow.md`
 - Decision: reescribir/adaptar
 - Motivo: migrar la skill legacy separando signup de formularios generales y de onboarding, para evitar mejoras de alta que degraden activacion posterior.
@@ -663,5 +663,14 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Resultado: creados 12 especialistas v2 para Social, Reports y Web, con rutas a skills migradas, protocolos y bloqueos de produccion.
 - Decision: completar especialistas del Equipo Clientes antes de migrar Equipo Agencia.
 - Riesgo: medio-alto; pueden afectar comunicacion publica, informes y web, pero no ejecutan produccion sin aprobacion.
+- Estado: implementado
+- Commit: pendiente
+
+### 2026-05-13 - P3-004 especialistas Equipo Agencia
+- Responsable: Codex + Arquitecto
+- Tipo: subagents Claude Code / especialistas internos
+- Resultado: creados `agency-captacion`, `agency-reputacion`, `agency-onboarding`, `agency-retencion` y `agency-finanzas`; actualizado `leader-agencia`.
+- Decision: completar Equipo Agencia despues de Equipo Clientes.
+- Riesgo: medio; afectan captacion, reputacion, onboarding, retencion y pricing interno, pero no ejecutan acciones externas por defecto.
 - Estado: implementado
 - Commit: pendiente

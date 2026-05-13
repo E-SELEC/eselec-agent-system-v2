@@ -47,11 +47,11 @@ Fase: P3-004
 
 | Legacy | Destino v2 | Estado |
 |---|---|---|
-| `agency-captacion.md` | `.claude/agents/agency-captacion.md` | pendiente |
-| `agency-reputacion.md` | `.claude/agents/agency-reputacion.md` | pendiente |
-| `agency-onboarding.md` | `.claude/agents/agency-onboarding.md` | pendiente |
-| `agency-retencion.md` | `.claude/agents/agency-retencion.md` | pendiente |
-| `agency-finanzas.md` | `.claude/agents/agency-finanzas.md` | pendiente |
+| `agency-captacion.md` | `.claude/agents/agency-captacion.md` | hecho |
+| `agency-reputacion.md` | `.claude/agents/agency-reputacion.md` | hecho |
+| `agency-onboarding.md` | `.claude/agents/agency-onboarding.md` | hecho |
+| `agency-retencion.md` | `.claude/agents/agency-retencion.md` | hecho |
+| `agency-finanzas.md` | `.claude/agents/agency-finanzas.md` | hecho |
 
 ### Gobernanza y loops
 

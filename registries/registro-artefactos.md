@@ -638,3 +638,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar desde los lideres `social-leader`, `reports-leader` y `web-leader`.
 - Riesgo: medio-alto; afecta comunicacion publica, informes y web, pero no ejecuta produccion sin aprobacion.
 
+### 2026-05-13 - .claude/agents/agency-*.md
+- Area: sistema E-SELEC v2 / agentes agencia
+- Agente: Codex + Arquitecto
+- Tipo: subagents Claude Code
+- Motivo: migrar especialistas internos de captacion, reputacion, onboarding, retencion y finanzas.
+- Estado: vigente
+- Reemplaza a: `agents/agency/agency-*.md` como prompts legacy directos.
+- Accion recomendada: usar desde `leader-agencia`.
+- Riesgo: medio; afecta decisiones internas de negocio, captacion y pricing, pero no ejecuta acciones externas sin aprobacion.
+

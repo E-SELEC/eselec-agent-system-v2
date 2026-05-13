@@ -29,4 +29,5 @@ Agentes activos:
 - `social-estrategia`, `social-contenido`, `social-comunidad`: especialistas Social.
 - `reports-cliente`, `reports-alertas`, `reports-proxpasos`: especialistas Reports.
 - `web-arquitectura`, `web-diseno`, `web-desarrollo`, `web-implementacion`, `web-mantenimiento`, `web-feedback-loop`: especialistas Web.
+- `agency-captacion`, `agency-reputacion`, `agency-onboarding`, `agency-retencion`, `agency-finanzas`: especialistas internos de Agencia.
 

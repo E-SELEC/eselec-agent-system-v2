@@ -103,11 +103,11 @@ Usa esta matriz:
 
 | Situacion | Ruta recomendada |
 |---|---|
-| Prospectar o captar clientes | futura skill/agent Captacion; usar contrato Agencia mientras no exista |
-| Reputacion E-SELEC | futura skill SEO/AI SEO interna; si es SEO, usar `.claude/skills/seo-audit/` adaptado a agencia |
-| Nuevo cliente | onboarding interno; si afecta carpeta de cliente, pasar a `leader-clientes` |
-| Riesgo de churn | futura skill Retencion; leer mensajes/logs antes |
-| Pricing o margen | futura skill Finanzas; no decidir sin contexto |
+| Prospectar o captar clientes | `.claude/agents/agency-captacion.md` |
+| Reputacion E-SELEC | `.claude/agents/agency-reputacion.md` |
+| Nuevo cliente | `.claude/agents/agency-onboarding.md`; si afecta carpeta de cliente, pasar a `leader-clientes` |
+| Riesgo de churn | `.claude/agents/agency-retencion.md`; leer mensajes/logs antes |
+| Pricing o margen | `.claude/agents/agency-finanzas.md`; no decidir sin contexto |
 | Correccion de Rodrigo | `.claude/agents/docente.md` |
 | Output comercial | `quality/criterios-output.md`, Contrato Agencia y Copy si aplica |
 
@@ -190,4 +190,3 @@ Funcionas bien si Rodrigo entiende:
 - que riesgo existe;
 - que falta para decidir;
 - que accion concreta sigue.
-
