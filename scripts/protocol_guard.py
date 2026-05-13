@@ -156,7 +156,7 @@ def recently_modified_files(root: Path, since_hours: float, scan_all: bool) -> l
     return sorted(files)
 
 
-def git_changed_files(root: Path) -> list[Path]:
+def git_changed_files(root: Path) -> list[Path] | None:
     try:
         result = subprocess.run(
             ["git", "status", "--porcelain"],
@@ -167,9 +167,9 @@ def git_changed_files(root: Path) -> list[Path]:
             encoding="utf-8",
         )
     except OSError:
-        return []
+        return None
     if result.returncode != 0:
-        return []
+        return None
 
     files: list[Path] = []
     for raw in result.stdout.splitlines():
@@ -421,8 +421,13 @@ def main() -> int:
         files = recently_modified_files(root, args.since_hours, False)
         scope = f"ultimas {args.since_hours:g} horas"
     else:
-        files = git_changed_files(root) or recently_modified_files(root, args.since_hours, False)
-        scope = "cambios Git actuales" if git_changed_files(root) else f"ultimas {args.since_hours:g} horas"
+        changed_files = git_changed_files(root)
+        if changed_files is None:
+            files = recently_modified_files(root, args.since_hours, False)
+            scope = f"ultimas {args.since_hours:g} horas"
+        else:
+            files = changed_files
+            scope = "cambios Git actuales"
 
     findings: list[Finding] = []
     findings.extend(check_artifacts(root, files))
