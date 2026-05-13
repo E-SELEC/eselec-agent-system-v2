@@ -701,3 +701,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar como evidencia de que v2 esta listo para operar.
 - Riesgo: bajo; validacion y ajuste de frontmatter sin produccion.
 
+### 2026-05-13 - planning/sprint-01-operacion-v2.md
+- Area: sistema E-SELEC v2 / operacion
+- Agente: Codex + Arquitecto
+- Tipo: sprint operativo
+- Motivo: definir el primer ciclo de uso real del sistema v2 despues de cerrar migracion.
+- Estado: vigente
+- Archivos creados/modificados: `planning/sprint-01-operacion-v2.md`, `README.md`, `registries/registro-migracion.md`, `registries/registro-artefactos.md`.
+- Reemplaza a: ninguno.
+- Accion recomendada: ejecutar O1-001 con `computer-chamberi` antes de activar otros clientes.
+- Riesgo: bajo; plan de lectura y priorizacion, sin produccion ni accesos.
+

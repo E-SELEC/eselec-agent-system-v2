@@ -737,3 +737,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Riesgo residual: bajo; ajuste documental y frontmatter, sin produccion ni accesos.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - Sprint 01 arranque operativo v2
+- Responsable: Codex + Arquitecto
+- Tipo: plan operativo post-migracion
+- Resultado: creado `planning/sprint-01-operacion-v2.md` y enlazado desde `README.md`.
+- Decision: separar la migracion cerrada del primer ciclo operativo para evitar seguir acumulando piezas sin probar el sistema.
+- Riesgo residual: bajo; plan de trabajo sin produccion ni accesos.
+- Estado: implementado
+- Commit: pendiente

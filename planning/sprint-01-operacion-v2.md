@@ -1,0 +1,128 @@
+# Sprint 01 - Arranque operativo v2
+
+Fecha: 2026-05-13
+Responsable: Codex + Arquitecto
+Estado: listo
+
+## Objetivo
+
+Pasar de "sistema migrado" a "sistema usado con criterio".
+
+Este sprint no migra mas piezas legacy. Prueba el sistema v2 en condiciones reales, con bajo riesgo, trazabilidad y cierre limpio.
+
+## Principio
+
+La primera semana de uso debe demostrar tres cosas:
+
+1. El routing por lideres funciona.
+2. Los outputs salen con criterio y no solo con formato.
+3. Los protocolos no bloquean el trabajo, sino que evitan errores.
+
+## Orden recomendado
+
+| ID | Estado | Accion | Resultado esperado |
+|---|---|---|---|
+| O1-001 | pendiente | Primer arranque Cliente con `computer-chamberi` | Diagnostico breve de estado usando `leader-clientes`, sin tocar produccion. |
+| O1-002 | pendiente | Primer arranque Agencia | Prioridad interna clara usando `leader-agencia`, sin mezclar clientes. |
+| O1-003 | pendiente | Ejecutar `LOOP: auditoria-semanal` en modo lectura | Resumen multi-cliente sin cambios reales. |
+| O1-004 | pendiente | Probar Calibracion con una correccion real o simulada | Decidir si guarda, descarta o deriva a Docente. |
+| O1-005 | pendiente | Elegir primer conector a reconstruir de forma segura | Especificacion, no implementacion productiva. |
+
+## O1-001 - Primer arranque Cliente
+
+Cliente recomendado: `computer-chamberi`.
+
+Motivo: ya fue cliente piloto y tiene contexto migrado.
+
+Lectura obligatoria:
+
+- `clients/computer-chamberi/context.md`
+- `clients/computer-chamberi/log.md`
+- `clients/computer-chamberi/memory.md`
+- `clients/computer-chamberi/mensajes.md`
+- `quality/criterios-output.md`
+
+Salida esperada:
+
+```text
+EQUIPO: Clientes
+CLIENTE: computer-chamberi
+NIVEL DE DATOS:
+PRIORIDAD:
+DIAGNOSTICO:
+SIGUIENTE ACCION SEGURA:
+NO TOCAR:
+```
+
+Bloqueo: no modificar web, WordPress, GBP, Ads ni datos reales.
+
+## O1-002 - Primer arranque Agencia
+
+Lectura obligatoria:
+
+- `agency/context.md`
+- `agency/brand.md`
+- `agency/log.md`
+- `agency/mensajes.md`
+- `agency/preferencias-rodrigo.md`
+
+Salida esperada:
+
+```text
+EQUIPO: Agencia Interna
+NIVEL DE DATOS:
+PRIORIDAD:
+OPORTUNIDAD:
+RIESGO:
+SIGUIENTE ACCION:
+```
+
+## O1-003 - Loop semanal en lectura
+
+Ejecutar el loop como auditoria de estado, no como generador masivo.
+
+Resultado esperado:
+
+- detectar clientes sin log reciente;
+- detectar mensajes pendientes;
+- no crear entregables para cliente;
+- si se crea output interno, registrarlo.
+
+## O1-004 - Calibracion
+
+Probar que el sistema no guarda todo por reflejo.
+
+Criterio:
+
+- Si Rodrigo corrige algo reutilizable, proponer guardarlo.
+- Si es un ajuste puntual, declararlo como ruido.
+- Si afecta criterio de agentes, derivar a `docente`.
+
+## O1-005 - Primer conector seguro
+
+No reconstruir todos.
+
+Elegir uno segun impacto y riesgo:
+
+| Candidato | Valor | Riesgo | Recomendacion |
+|---|---|---|---|
+| GSC/GA4 lectura | alto | medio | buen primer conector si las credenciales estan ordenadas. |
+| Notion sync local | medio | bajo-medio | solo si MCP no cubre el flujo. |
+| Meta Ads lectura | alto | alto | esperar hasta definir acceso seguro. |
+| WordPress/Woo | alto | alto | no empezar aqui. |
+
+## Criterio de cierre del sprint
+
+- Al menos una tarea real entra por `leader-clientes`.
+- Al menos una tarea interna entra por `leader-agencia`.
+- Se ejecuta guard antes de cerrar.
+- No se toca produccion.
+- Se detecta si el sistema resulta claro para Rodrigo o si necesita ajuste de cierre/tono.
+
+## Resultado buscado
+
+Que Rodrigo pueda decir:
+
+```text
+Ya no estamos migrando. Ahora el sistema trabaja ordenado.
+```

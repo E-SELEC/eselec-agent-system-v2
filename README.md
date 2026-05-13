@@ -64,6 +64,8 @@ Si la respuesta no es clara, no se migra todavia.
 
 Para arrancar trabajo real en v2, leer `planning/cierre-migracion-v2.md`.
 
+Despues, usar `planning/sprint-01-operacion-v2.md` para el primer ciclo operativo controlado.
+
 Resumen:
 
 - usar `leader-clientes` para clientes;
