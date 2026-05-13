@@ -19,4 +19,6 @@ Skills activas:
 - `copywriting`: escribe copy comercial claro, especifico y verificable.
 - `copy-editing`: revisa y pule copy existente sin cambiar el mensaje central.
 - `page-cro`: audita paginas completas para mejorar conversion sin tocar produccion.
+- `form-cro`: audita formularios y reduce friccion sin tocar produccion.
+- `ab-test-setup`: disena experimentos A/B con hipotesis, metricas y viabilidad.
 

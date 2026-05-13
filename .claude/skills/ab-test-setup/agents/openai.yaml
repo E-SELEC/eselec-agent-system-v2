@@ -1,0 +1,4 @@
+interface:
+  display_name: "A/B Test Setup"
+  short_description: "Disena experimentos medibles y seguros"
+  default_prompt: "Disena un A/B test con hipotesis, metricas, muestra y riesgos."

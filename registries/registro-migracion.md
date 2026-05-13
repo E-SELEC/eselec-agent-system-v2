@@ -427,3 +427,27 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Prueba de calidad: SKILL con niveles PC0-PC3, checklist de pagina, experimentos, plantilla, command y contrato actualizado.
 - Estado: implementado
 - Commit: pendiente
+
+### 2026-05-13 - P3-003 form-cro
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / CRO de formulario
+- Responsabilidad real: diagnosticar friccion de formularios, campos, labels, errores, privacidad, mobile, confianza y medicion.
+- Destino Claude Code: `.claude/skills/form-cro/` y `.claude/commands/auditar-formulario.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy como evaluador especializado de formularios, separando cambios accionables de tests y bloqueando produccion sin Orden de Cambio.
+- Riesgo: medio; puede derivar en cambios de CRM, formularios, tracking o captacion de PII si no se controla.
+- Prueba de calidad: SKILL con niveles FC0-FC3, patrones de formulario, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente
+
+### 2026-05-13 - P3-003 ab-test-setup
+- Responsable: Codex + Arquitecto
+- Tipo: skill Claude Code / experimentacion CRO
+- Responsabilidad real: convertir hipotesis CRO en planes de test con metrica primaria, muestra, duracion, guardrails, QA y criterio de decision.
+- Destino Claude Code: `.claude/skills/ab-test-setup/` y `.claude/commands/plan-ab-test.md`
+- Decision: reescribir/adaptar
+- Motivo: migrar la skill legacy evitando experimentos por intuicion, falsos ganadores y tests inviables por falta de trafico o tracking.
+- Riesgo: medio; puede llevar a decisiones falsas si no exige baseline, muestra y tracking verificado.
+- Prueba de calidad: SKILL con niveles AB0-AB3, referencia de muestra, plantilla, checklist, command y contrato de output.
+- Estado: implementado
+- Commit: pendiente

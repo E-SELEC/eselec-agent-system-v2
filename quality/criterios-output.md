@@ -1237,6 +1237,136 @@ Produccion tocada:
 - contradice contexto, log o marca;
 - se quiere publicar en web, Ads, email o CMS sin aprobacion.
 
+## Contrato 20 - Form CRO / formularios
+
+Usar para:
+
+- `form-cro`;
+- formularios de contacto, demo, presupuesto, lead magnet, encuesta o aplicacion;
+- abandono de formulario;
+- friccion por campos;
+- errores, validacion, mobile o privacidad;
+- formularios conectados a CRM, email, Ads o analytics.
+
+### Objetivo
+
+Mejorar la tasa de completado de un formulario sin perder datos necesarios, romper seguimiento, danar ventas ni capturar informacion sensible innecesaria.
+
+### Inputs minimos
+
+- cliente o pagina;
+- formulario visible, captura o inventario de campos;
+- objetivo del formulario;
+- que ocurre despues del envio;
+- campos requeridos/opcionales;
+- medicion disponible: views, starts, submits, completion, errors o field drop-off;
+- restricciones de privacidad, CRM, ventas o CMS.
+
+### Estructura obligatoria
+
+```text
+# Auditoria Form CRO: [cliente / formulario]
+Fecha:
+Nivel Form CRO:
+Formulario:
+Objetivo:
+Fuentes usadas:
+Produccion tocada:
+
+## 1. Diagnostico ejecutivo
+## 2. Estado de medicion
+## 3. Inventario de campos
+## 4. Hallazgos
+## 5. Diseno recomendado
+## 6. Tests posibles
+## 7. Riesgos y dependencias
+## 8. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel FC0/FC1/FC2/FC3.
+- Cada campo requerido tiene motivo y uso real.
+- Distingue campo necesario, opcional, eliminable o sensible.
+- Revisa labels, placeholders, ayuda, errores, CTA, mensaje de exito y mobile.
+- Revisa confianza: privacidad, expectativa de respuesta, seguridad y prueba cercana.
+- Revisa medicion y marca datos faltantes.
+- No recomienda test A/B sin trafico, baseline y tracking.
+- No toca formulario, CRM, GTM, CMS ni emails sin Orden de Cambio.
+
+### Bloquea si
+
+- no hay formulario visible, captura o inventario de campos;
+- no se conoce la conversion buscada;
+- el formulario captura PII sensible sin justificacion;
+- la recomendacion puede romper CRM, ventas, tracking o cumplimiento;
+- se piden cambios reales sin aprobacion.
+
+## Contrato 21 - A/B testing / experimentos
+
+Usar para:
+
+- `ab-test-setup`;
+- split tests;
+- tests de pagina, CTA, copy, formulario, pricing, checkout o flujo;
+- hipotesis CRO;
+- sample size, MDE, baseline, duracion o significancia;
+- decision de ganador/perdedor/inconcluso.
+
+### Objetivo
+
+Disenar experimentos que produzcan aprendizaje confiable y decisiones accionables, evitando tests sin medicion, sin trafico o con interpretaciones falsas.
+
+### Inputs minimos
+
+- observacion o problema que origina el test;
+- hipotesis;
+- control y variante;
+- metrica primaria;
+- metricas secundarias y guardrails;
+- baseline de conversion;
+- trafico disponible;
+- herramienta o forma de ejecucion;
+- periodo minimo y riesgos.
+
+### Estructura obligatoria
+
+```text
+# Plan A/B test: [cliente / test]
+Fecha:
+Nivel test:
+Pagina/flujo:
+Produccion tocada:
+
+## 1. Hipotesis
+## 2. Diseno
+## 3. Metricas
+## 4. Muestra y viabilidad
+## 5. QA y tracking
+## 6. Decision
+## 7. Siguiente accion unica
+```
+
+### Criterios de aceptacion
+
+- Clasifica nivel AB0/AB1/AB2/AB3.
+- Formula hipotesis con observacion, cambio, resultado, audiencia y metrica.
+- Control y variante tienen un cambio principal.
+- Define metrica primaria, secundarias y guardrails.
+- Declara baseline, trafico, MDE, muestra o limitacion de muestra.
+- Define duracion minima y criterio para no parar temprano.
+- Incluye QA y verificacion de tracking.
+- Recomienda cambio directo o investigacion cualitativa si no hay trafico suficiente.
+- No llama ganador a un resultado inconcluso.
+
+### Bloquea si
+
+- falta hipotesis o problema real;
+- no hay conversion/metrica primaria;
+- el tracking no esta verificado;
+- no hay trafico suficiente y se exige significancia;
+- el experimento toca precio, checkout, Ads, tracking o web sin Orden de Cambio.
+
 ## Plantilla de revision final
 
 Antes de entregar cualquier output relevante, completar mentalmente:

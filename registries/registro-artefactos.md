@@ -398,3 +398,23 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar antes de reescribir, rediseniar o testear paginas de marketing.
 - Riesgo: medio; puede proponer cambios de produccion o tests sin datos si no se exige medicion y Orden de Cambio.
 
+### 2026-05-13 - .claude/skills/form-cro/
+- Area: sistema E-SELEC v2 / CRO
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `form-cro` como skill v2 para auditar formularios, campos, errores, privacidad, mobile y medicion sin tocar produccion.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/form-cro/` como skill legacy directa.
+- Accion recomendada: usar despues de revisar la pagina o cuando el cuello de botella sea el formulario.
+- Riesgo: medio; puede afectar CRM, tracking o captacion de datos si se ejecutan cambios sin Orden de Cambio.
+
+### 2026-05-13 - .claude/skills/ab-test-setup/
+- Area: sistema E-SELEC v2 / CRO y experimentacion
+- Agente: Codex + Arquitecto
+- Tipo: skill Claude Code + command
+- Motivo: migrar `ab-test-setup` como skill v2 para convertir hipotesis en experimentos medibles, viables y con criterio de decision.
+- Estado: vigente
+- Reemplaza a: `.agents/skills/ab-test-setup/` como skill legacy directa.
+- Accion recomendada: usar cuando una recomendacion CRO requiera prueba y existan datos/trafico suficientes.
+- Riesgo: medio; puede producir decisiones falsas si se ignoran muestra, baseline, tracking o duracion minima.
+

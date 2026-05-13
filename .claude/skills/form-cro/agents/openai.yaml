@@ -1,0 +1,4 @@
+interface:
+  display_name: "Form CRO"
+  short_description: "Audita formularios y reduce friccion"
+  default_prompt: "Audita este formulario para mejorar conversion sin tocar produccion."
