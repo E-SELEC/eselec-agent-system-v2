@@ -778,3 +778,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: implementar solo con aprobacion, OAuth fuera del repo, dry-run por defecto y registro de accesos antes del primer uso real.
 - Riesgo: bajo como especificacion; futuro token OAuth debe tratarse como S4.
 
+### 2026-05-14 - agente de alineacion Claude Code
+- Area: sistema E-SELEC v2 / control interno
+- Agente: Codex
+- Tipo: subagent + skill Claude Code / auditoria de alineacion
+- Motivo: crear un control neutral que audite si el repo usa bien las primitivas oficiales de Claude Code sin contaminarse con diagnosticos previos del sistema.
+- Estado: vigente
+- Archivos creados/modificados: `.claude/agents/alineacion.md`, `.claude/skills/alignment-check/SKILL.md`, `.claude/skills/alignment-check/references/claude-code-spec.md`, `.claude/skills/alignment-check/references/fuentes-claude-code.md`, `.claude/skills/alignment-check/checklists/sistema-completo.md`, `.claude/skills/alignment-check/templates/hallazgo.md`, `.claude/skills/alignment-check/templates/reporte-alineacion.md`, `.claude/settings.json`, `registries/registro-artefactos.md`.
+- Reemplaza a: ninguno; convierte la idea del control de alineacion en una pieza auditable y no ejecutora.
+- Accion recomendada: usar `alineacion` para generar una matriz aceptar/revisar/posponer antes de borrar commands, fusionar agentes o reducir contexto.
+- Riesgo: bajo; no toca produccion, secretos, conectores ni clientes. El agente opera en `permissionMode: plan` y no edita archivos.
+- Nota: `.claude/settings.json` queda incluido solo para conservar la correccion local de Claude Code (`defaultMode` invalido a `default`) y permitir que el repo abra sin error.
