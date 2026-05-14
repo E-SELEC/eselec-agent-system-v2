@@ -111,6 +111,7 @@ Usa esta matriz:
 | Correccion de Rodrigo | `.claude/agents/calibracion.md`; si afecta criterio de agentes, tambien `.claude/agents/docente.md` |
 | Fallo de proceso, patron o confusion de Rodrigo | `.claude/agents/arquitecto.md` |
 | Pieza interna desconectada, ruta obsoleta o cambio estructural | `.claude/agents/fenix.md` |
+| URL, documentacion, nota, captura, aprendizaje o informacion nueva | `.claude/agents/bibliotecario.md` o `/ingestar-conocimiento` |
 | Loop recurrente o estado multi-cliente | `.claude/agents/loops-leader.md` |
 | Output comercial | `quality/criterios-output.md`, Contrato Agencia y Copy si aplica |
 

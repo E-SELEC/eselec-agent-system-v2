@@ -62,6 +62,7 @@ pnpm-debug.log*
 Thumbs.db
 .idea/
 .vscode/
+.claude/worktrees/
 
 # Local outputs and heavy artifacts
 outputs/**

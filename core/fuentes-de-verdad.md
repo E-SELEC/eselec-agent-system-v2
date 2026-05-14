@@ -9,6 +9,8 @@
 | Alertas/dependencias | `mensajes.md` | - |
 | Datos vivos | API/MCP/conector oficial | snapshot en contexto |
 | Evidencia saneada | `clients/[cliente]/outputs/evidencia-*.md` | export/captura/output legacy no versionado |
+| Fuentes externas y documentacion | `knowledge/` + `registries/registro-fuentes.md` | URL original |
+| Arquitectura Claude Code | `knowledge/claude-code/indice-oficial.md` | documentacion oficial consultada en vivo |
 | Credenciales | Gestor externo o `.env` local | nunca repo |
 
 Si hay contradiccion entre un dato vivo y un snapshot local, se documenta la diferencia antes de continuar.

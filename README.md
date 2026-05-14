@@ -19,10 +19,11 @@ Este repositorio es la nueva base limpia del sistema. El sistema anterior queda 
 3. `teams/` - equipos operativos: clientes, agencia, arquitecto, docente y fenix.
 4. `clients/` - memoria y trabajo por cliente.
 5. `agency/` - memoria y trabajo interno de E-SELEC.
-6. `protocols/` - protocolos obligatorios.
-7. `registries/` - trazabilidad de artefactos, accesos y decisiones.
-8. `scripts/` - herramientas locales revisadas y sin secretos.
-9. `legacy/` - notas de migracion desde el sistema anterior, no vertedero.
+6. `knowledge/` - fuentes externas, documentacion oficial, aprendizajes y decisiones de clasificacion.
+7. `protocols/` - protocolos obligatorios.
+8. `registries/` - trazabilidad de artefactos, accesos, fuentes y decisiones.
+9. `scripts/` - herramientas locales revisadas y sin secretos.
+10. `legacy/` - notas de migracion desde el sistema anterior, no vertedero.
 
 ## Rol de migracion
 
@@ -70,5 +71,6 @@ Resumen:
 
 - usar `leader-clientes` para clientes;
 - usar `leader-agencia` para E-SELEC como negocio;
+- usar `bibliotecario` o `/ingestar-conocimiento` cuando entre informacion nueva;
 - ejecutar `python scripts/protocol_guard.py` antes de cerrar cambios;
 - no activar conectores productivos legacy hasta tener version v2 segura.
