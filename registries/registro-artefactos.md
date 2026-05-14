@@ -778,14 +778,3 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: implementar solo con aprobacion, OAuth fuera del repo, dry-run por defecto y registro de accesos antes del primer uso real.
 - Riesgo: bajo como especificacion; futuro token OAuth debe tratarse como S4.
 
-### 2026-05-14 - knowledge/ + gestion-conocimiento
-- Area: sistema E-SELEC v2 / gestion de conocimiento
-- Agente: Codex + Arquitecto + Bibliotecario
-- Tipo: capa estructural / protocolo / agente / command / skill / registro
-- Motivo: crear una ruta ordenada para nuevas URLs, documentacion, notas, exports, capturas, aprendizajes y fuentes externas sin ensuciar carpetas operativas.
-- Estado: vigente
-- Archivos creados/modificados: `knowledge/`, `knowledge/claude-code/indice-oficial.md`, `registries/registro-fuentes.md`, `protocols/gestion-conocimiento.md`, `.claude/agents/bibliotecario.md`, `.claude/commands/ingestar-conocimiento.md`, `.claude/skills/gestion-conocimiento/SKILL.md`, `.gitignore`, `README.md`, `AGENTS.md`, `CLAUDE.md`, `core/fuentes-de-verdad.md`, `.claude/agents/README.md`, `.claude/agents/leader-agencia.md`, `.claude/commands/README.md`, `.claude/skills/README.md`, `protocols/README.md`, `planning/validacion-operativa-v2.md`, `agency/log.md`, `registries/registro-artefactos.md`.
-- Reemplaza a: uso informal de planning o carpetas sueltas para guardar conocimiento nuevo.
-- Accion recomendada: usar `/ingestar-conocimiento` o `bibliotecario` antes de agregar nuevas fuentes o carpetas.
-- Riesgo: bajo; documentacion e indices sin secretos, accesos ni produccion.
-

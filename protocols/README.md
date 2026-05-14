@@ -21,5 +21,4 @@ Activo ahora:
 - `control-artefactos.md`
 - `activos-criticos.md`
 - `cierre-humano.md`
-- `gestion-conocimiento.md`
 

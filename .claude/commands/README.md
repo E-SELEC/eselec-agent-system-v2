@@ -47,6 +47,5 @@ Primer comando:
 - `limpiar-carpeta-cliente.md`: audita carpeta de cliente y propone limpieza segura.
 - `revisar-web-visual.md`: revisa pagina web contra referencia visual.
 - `auditar-woocommerce.md`: audita tienda WooCommerce y prepara plan de setup.
-- `ingestar-conocimiento.md`: clasifica URLs, documentos, notas, aprendizajes o exports y decide su destino correcto.
 
 Los loops antiguos de E-SELEC no se copian aqui automaticamente. Cada loop debe convertirse en command, scheduled task o workflow solo despues de revisar riesgo, inputs y outputs.

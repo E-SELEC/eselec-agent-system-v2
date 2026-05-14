@@ -16,5 +16,3 @@
 
 [2026-05-13] [ARQUITECTO] O1-005 primer conector seguro | RESULTADO: creado `planning/conector-seguro-01-gsc-lectura.md`; decision: el primer conector seguro sera GSC solo lectura, especificado sin implementacion, sin accesos y sin tocar produccion. | PROXIMO PASO: cerrar Sprint 01 y, si Rodrigo aprueba, implementar `gsc-readonly` con OAuth fuera del repo y dry-run por defecto.
 
-[2026-05-14] [ARQUITECTO] Capa de gestion de conocimiento creada | RESULTADO: agregado `knowledge/`, indice oficial Claude Code, registro de fuentes, protocolo `gestion-conocimiento`, agente `bibliotecario`, command `/ingestar-conocimiento` y skill `gestion-conocimiento`; el sistema ya tiene ruta para ordenar informacion nueva antes de crear carpetas o archivos. | PROXIMO PASO: usar `/ingestar-conocimiento` cuando entren nuevas URLs, notas, exports o aprendizajes.
-

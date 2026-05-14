@@ -33,25 +33,17 @@ Antes de ejecutar, identifica el modo:
 
 1. `core/fuentes-de-verdad.md`
 2. `core/prioridades.md`
-3. `knowledge/README.md`
-4. `protocols/README.md`
-5. `protocols/migracion-claude-code.md`
-6. `registries/registro-fuentes.md`
-7. `registries/registro-artefactos.md`
-8. `registries/registro-accesos.md`
-9. `registries/registro-migracion.md`
+3. `protocols/README.md`
+4. `protocols/migracion-claude-code.md`
+5. `registries/registro-artefactos.md`
+6. `registries/registro-accesos.md`
+7. `registries/registro-migracion.md`
 
 ## Migracion desde legacy
 
 Toda migracion desde el sistema anterior debe pasar por el rol `arquitecto-migracion-claude` o por la skill `migration-audit`.
 
 No se permite migrar por carpetas completas. Se migra por responsabilidad y se decide el destino correcto segun Claude Code: `CLAUDE.md`, rules, skills, subagents, commands, MCP, scripts, memoria, registros o legacy.
-
-## Gestion de conocimiento
-
-Toda URL, documentacion, nota, captura, export, aprendizaje o informacion nueva debe pasar por `bibliotecario`, `/ingestar-conocimiento` o la skill `gestion-conocimiento` antes de crear carpetas o archivos nuevos.
-
-El destino por defecto de fuentes externas es `knowledge/` + `registries/registro-fuentes.md`, no `planning/` ni carpetas de cliente.
 
 ## Seguridad
 

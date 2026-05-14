@@ -49,4 +49,3 @@ Skills activas:
 - `folder-cleanup`: audita y propone limpieza segura de carpetas de clientes.
 - `web-feedback-loop`: revisa calidad visual web y propone iteraciones seguras.
 - `woocommerce-setup`: audita WooCommerce y planifica setup/go-live con guardrails.
-- `gestion-conocimiento`: clasifica informacion nueva y decide si va a knowledge, protocols, skills, agents, commands, clients, agency, quality, planning o legacy.

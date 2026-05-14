@@ -53,23 +53,3 @@ La primera tarea real debe entrar por:
 ## Riesgo residual
 
 Los conectores productivos siguen bloqueados/deferidos por decision consciente. Esto no impide usar el sistema v2; solo evita tocar produccion o accesos sin una version segura.
-
-## Actualizacion 2026-05-14
-
-Se agrego la capa de gestion de conocimiento:
-
-- `knowledge/`
-- `registries/registro-fuentes.md`
-- `protocols/gestion-conocimiento.md`
-- `.claude/agents/bibliotecario.md`
-- `.claude/commands/ingestar-conocimiento.md`
-- `.claude/skills/gestion-conocimiento/`
-
-Conteo posterior:
-
-- 47 subagents reales.
-- 48 archivos Markdown dentro de `.claude/agents/` si se incluye `README.md`.
-- 44 skills con `SKILL.md`.
-- 44 commands invocables.
-
-Esta actualizacion no cambia la validacion historica del 2026-05-13; amplia el sistema para ordenar informacion nueva.
