@@ -6,6 +6,7 @@ SEVERIDAD: critico | alto | medio | bajo
 PIEZA: [archivo o carpeta]
 FUENTE CLAUDE: [URL o referencia interna]
 FUENTE LOCAL LEIDA: [archivo en references/claude-docs/]
+EVIDENCIA OPERATIVA: [comando, Glob o Grep usado; resultado; alcance]
 EVIDENCIA: [hecho observado en el repo]
 INFERENCIA: [lectura del riesgo, si aplica]
 IMPACTO: [que puede pasar si se deja asi]

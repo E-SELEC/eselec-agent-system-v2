@@ -801,3 +801,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: en auditorias profundas, leer `references/claude-docs/manifest.md` e `indice-tematico.md` antes de revisar el repo; para hallazgos altos/criticos, citar fuente local leida.
 - Riesgo: bajo-medio; aumenta tamano del repo con copias Markdown oficiales, pero evita dependencia de memoria o reportes previos. No toca produccion, secretos ni conectores. `protocol_guard.py` se ajusta para reconocer carpetas registradas como cobertura de sus archivos hijos.
 - Nota: el scraper usa fallback oficial en ingles cuando una URL espanola no entrega Markdown valido; el agente trabaja y responde en espanol.
+
+### 2026-05-15 - evidencia obligatoria en alineacion
+- Area: sistema E-SELEC v2 / control interno
+- Agente: Codex
+- Tipo: ajuste de agente + skill / calidad de auditoria
+- Motivo: corregir el fallo detectado en la primera auditoria de `alineacion`, donde se afirmaron conteos sin mostrar evidencia operativa del filesystem.
+- Estado: vigente
+- Archivos creados/modificados: `.claude/agents/alineacion.md`, `.claude/skills/alignment-check/SKILL.md`, `.claude/skills/alignment-check/checklists/sistema-completo.md`, `.claude/skills/alignment-check/templates/hallazgo.md`, `.claude/skills/alignment-check/templates/reporte-alineacion.md`, `registries/registro-artefactos.md`.
+- Reemplaza a: reglas de inventario demasiado debiles que permitian confundir README/reportes con realidad del repo.
+- Accion recomendada: en cualquier auditoria futura, exigir `EVIDENCIA OPERATIVA` con comando, resultado y alcance antes de aceptar conteos o ausencias como hechos.
+- Riesgo: bajo; solo cambia instrucciones del auditor, no toca produccion, secretos, conectores ni clientes.

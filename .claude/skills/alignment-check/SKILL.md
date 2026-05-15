@@ -34,6 +34,9 @@ Lee estos archivos cuando hagan falta:
 8. No leas ni imprimas secretos.
 9. Antes de hallazgos `alto` o `critico`, lee la fuente oficial local del tema segun `references/indice-tematico.md`.
 10. Antes de proponer ejecutar un cambio estructural, cita la fuente oficial local que lo justifica.
+11. Toda afirmacion de conteo, existencia o ausencia debe incluir el comando, Glob o Grep que la genero y el resultado observado.
+12. No uses README, AGENTS.md, registros o reportes como inventario real. Sirven como declaracion; el inventario real sale del filesystem.
+13. Si no verificaste una afirmacion con filesystem, marcala como `pendiente de verificacion` y no la conviertas en ajuste a ejecutar.
 
 ## Flujo de auditoria
 
@@ -79,6 +82,29 @@ Cuenta y cruza:
 - rules en `.claude/rules/*.md`;
 - hooks y permisos en `.claude/settings.json`;
 - MCP en `.mcp.json` o `.mcp.example.json`.
+
+Regla de inventario:
+
+- Cada conteo debe mostrar `EVIDENCIA OPERATIVA`.
+- Usa filesystem, no README, para probar existencia.
+- Si una lista sale de un README, etiquetala como `declarado`, no como `confirmado`.
+- Antes de afirmar que falta un archivo, busca por ruta exacta y por patron.
+
+Ejemplos validos:
+
+```text
+EVIDENCIA OPERATIVA:
+- Comando: Get-ChildItem -LiteralPath '.claude\skills' -Directory | Where-Object { Test-Path (Join-Path $_.FullName 'SKILL.md') } | Measure-Object
+- Resultado: 44 skills con SKILL.md
+- Alcance: .claude/skills/*/SKILL.md
+```
+
+```text
+EVIDENCIA OPERATIVA:
+- Patron: .claude/agents/*.md
+- Resultado: 47 agentes, excluyendo README.md
+- Alcance: archivos Markdown directos en .claude/agents/
+```
 
 ### 4. Evaluar por primitiva
 

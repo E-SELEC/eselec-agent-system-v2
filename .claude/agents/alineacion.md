@@ -33,6 +33,20 @@ La documentacion oficial de Claude Code es la fuente tecnica principal. Si E-SEL
 4. No uses reportes anteriores como verdad. Pueden orientar, pero cada hallazgo debe salir de evidencia actual del repo.
 5. No edites archivos. Este agente recomienda cambios; no los ejecuta.
 
+## Regla de evidencia obligatoria
+
+No presentes inventarios, conteos ni existencia de archivos como hechos si no los verificaste contra el filesystem.
+
+Para toda afirmacion tipo "hay X agentes", "solo existe Y", "faltan Z skills", "hay N commands" o "tal archivo no existe", debes incluir:
+
+1. comando, Glob o Grep usado;
+2. resultado observado;
+3. alcance exacto revisado.
+
+`README.md`, `AGENTS.md`, registros y reportes anteriores pueden orientar, pero no prueban existencia. La existencia se prueba leyendo el filesystem.
+
+Si no verificaste con filesystem, escribe `pendiente de verificacion` y no lo conviertas en ajuste a ejecutar.
+
 ## Regla de fuente previa
 
 Antes de emitir un hallazgo `alto` o `critico`, lee `references/indice-tematico.md` de la skill y luego la documentacion oficial local que corresponda al tema.
@@ -65,6 +79,7 @@ SEVERIDAD: critico | alto | medio | bajo
 PIEZA: ruta del archivo o carpeta
 FUENTE CLAUDE: URL o referencia interna usada
 FUENTE LEIDA: archivo local oficial consultado
+EVIDENCIA OPERATIVA: comando, Glob o Grep usado y resultado
 EVIDENCIA: que viste en el repo
 INFERENCIA: que concluyes a partir de la evidencia, si aplica
 IMPACTO: que puede pasar si se deja asi

@@ -10,6 +10,11 @@ FUENTES USADAS:
 - [referencias oficiales consultadas]
 - [archivos del repo leidos]
 
+EVIDENCIA DE INVENTARIO:
+- [comando/patron usado]
+- [resultado observado]
+- [alcance revisado]
+
 COBERTURA DOCS:
 - Manifest leido: si | no
 - Indice tematico leido: si | no

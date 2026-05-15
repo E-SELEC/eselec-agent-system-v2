@@ -22,6 +22,10 @@ Usar este checklist cuando Rodrigo pida revisar el sistema completo, arquitectur
 - [ ] Verificar `.claude/settings.json`.
 - [ ] Verificar `.mcp.json` o `.mcp.example.json`.
 - [ ] Listar carpetas de proyecto con instrucciones o memoria.
+- [ ] Incluir comando, Glob o Grep usado para cada conteo.
+- [ ] Incluir resultado observado de cada conteo.
+- [ ] Distinguir `declarado en README` vs `confirmado en filesystem`.
+- [ ] No afirmar ausencia de archivo sin buscar por ruta exacta y por patron.
 
 ## CLAUDE.md y AGENTS.md
 
@@ -91,6 +95,8 @@ Usar este checklist cuando Rodrigo pida revisar el sistema completo, arquitectur
 
 - [ ] Cada hallazgo incluye fuente, evidencia, impacto y recomendacion.
 - [ ] Cada hallazgo alto/critico incluye fuente local leida.
+- [ ] Cada conteo incluye evidencia operativa: comando/patron, resultado y alcance.
+- [ ] Ningun ajuste a ejecutar se basa solo en README, AGENTS.md, registros o reportes anteriores.
 - [ ] Separar hechos de inferencias.
 - [ ] Ordenar por severidad.
 - [ ] Proponer siguiente paso pequeno y seguro.
