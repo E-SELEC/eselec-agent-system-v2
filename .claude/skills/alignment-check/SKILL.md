@@ -14,8 +14,11 @@ Revisar una configuracion Claude Code sin prejuicios. La auditoria debe partir d
 Lee estos archivos cuando hagan falta:
 
 - `references/fuentes-claude-code.md`: indice de URLs oficiales usadas como fuente.
+- `references/claude-docs/manifest.md`: manifest de las paginas oficiales scrapeadas.
+- `references/indice-tematico.md`: mapa de tema -> fuente oficial local.
 - `references/claude-code-spec.md`: resumen operativo neutral de las reglas Claude Code.
 - `checklists/sistema-completo.md`: checklist para auditoria completa.
+- `checklists/observacion-sesion.md`: checklist para revisar calidad de una sesion o output.
 - `templates/hallazgo.md`: formato de cada hallazgo.
 - `templates/reporte-alineacion.md`: formato de reporte completo.
 
@@ -29,6 +32,8 @@ Lee estos archivos cuando hagan falta:
 6. No edites archivos, no muevas carpetas y no ejecutes comandos destructivos.
 7. Usa `Bash` solo para diagnostico de lectura: `git status`, `rg`, conteos, validaciones o guards.
 8. No leas ni imprimas secretos.
+9. Antes de hallazgos `alto` o `critico`, lee la fuente oficial local del tema segun `references/indice-tematico.md`.
+10. Antes de proponer ejecutar un cambio estructural, cita la fuente oficial local que lo justifica.
 
 ## Flujo de auditoria
 
@@ -37,21 +42,32 @@ Lee estos archivos cuando hagan falta:
 Clasifica la solicitud:
 
 - `completa`: revisar todo el sistema.
+- `profunda`: revisar todas las fuentes oficiales locales y toda la carpeta del sistema por capas.
 - `focalizada`: revisar una pieza concreta.
 - `posterior-a-cambio`: revisar una modificacion reciente.
 - `calidad`: revisar por que una salida puede ser floja o inconsistente.
 
 ### 2. Leer fuentes base
 
-Para auditorias completas, empieza con:
+Para auditorias completas o focalizadas, empieza con:
 
-1. `references/claude-code-spec.md`.
-2. `CLAUDE.md`.
-3. `AGENTS.md`.
-4. `.claude/settings.json`.
-5. `.claude/rules/`.
+1. `references/indice-tematico.md`.
+2. `references/claude-code-spec.md`.
+3. La fuente oficial local del tema auditado.
+4. `CLAUDE.md`.
+5. `AGENTS.md`.
+6. `.claude/settings.json`.
+7. `.claude/rules/`.
 
-Lee `references/fuentes-claude-code.md` si necesitas justificar de donde sale una regla.
+Para auditorias profundas:
+
+1. Lee `references/claude-docs/manifest.md`.
+2. Lee `references/indice-tematico.md`.
+3. Recorre todas las categorias oficiales por lotes.
+4. Lee el sistema por capas: `CLAUDE.md`, `AGENTS.md`, `.claude/`, `core/`, `protocols/`, `quality/`, `registries/`, `planning/`, `agency/`, `clients/` y `scripts/`.
+5. Si el contexto no permite todo de una vez, resume cada lote antes de seguir y declara cobertura.
+
+Lee `references/fuentes-claude-code.md` si necesitas volver de archivo local a URL original.
 
 ### 3. Inventariar
 
@@ -77,6 +93,19 @@ Usa estas preguntas:
 - MCP: hay conectores definidos sin secretos cuando el sistema los menciona?
 - Carpetas del repo: lo importante tiene mecanismo claro de carga o lectura?
 
+### 4.1 Aplicar verificaciones automaticas
+
+Usa estas pruebas neutrales:
+
+- Si un agente dice `crea`, `edita`, `modifica`, `implementa`, `ejecuta` o `corrige`, revisa si sus `tools` permiten esa accion o si el cuerpo limita su rol a recomendar.
+- Si un agente tiene `skills:`, confirma que cada skill existe y no usa `disable-model-invocation: true`.
+- Si un agente debe aprender, calibrar o recordar, revisa `memory` o mecanismo alternativo.
+- Si un agente puede trabajar en varias vueltas, revisa `maxTurns`.
+- Si existe `.claude/commands/X.md` y `.claude/skills/X/SKILL.md`, revisa si hay duplicacion real y si la skill tiene prioridad.
+- Si una skill menciona archivos de apoyo, confirma que existan.
+- Si el sistema promete MCP o datos vivos, confirma `.mcp.json`, `.mcp.example.json`, script seguro o decision documentada.
+- Si hay hook con autoprueba, ejecuta la autoprueba antes de recomendar cambios.
+
 ### 5. Clasificar hallazgos
 
 Usa esta escala:
@@ -98,3 +127,15 @@ Ordena las acciones por seguridad:
 6. MCP y datos vivos.
 
 Nunca conviertas una auditoria en ejecucion. La implementacion requiere aprobacion aparte.
+
+## Modo observacion
+
+Cuando el problema sea calidad, criterio o acierto de una sesion, usa `checklists/observacion-sesion.md`.
+
+La observacion debe decir:
+
+- que modo de trabajo se uso;
+- que fuentes se leyeron;
+- que agente o skill debio activarse;
+- donde se rompio el flujo;
+- si el ajuste corresponde a rule, skill, agent, command, settings, hook, memoria o proceso humano.

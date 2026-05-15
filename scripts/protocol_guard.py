@@ -188,6 +188,18 @@ def registry_text(root: Path) -> str:
     return read_text(root / "registries/registro-artefactos.md").lower().replace("\\", "/")
 
 
+def registered_in_registry(relative: str, registry: str) -> bool:
+    lower = relative.lower().replace("\\", "/")
+    if lower in registry or Path(relative).name.lower() in registry:
+        return True
+    parts = lower.split("/")
+    for index in range(1, len(parts)):
+        parent = "/".join(parts[:index]) + "/"
+        if parent in registry:
+            return True
+    return False
+
+
 def manifest_for_output(path: Path, root: Path) -> Path | None:
     parts = rel(path, root).split("/")
     if len(parts) >= 4 and parts[0] == "clients" and parts[2] == "outputs":
@@ -251,7 +263,7 @@ def check_artifacts(root: Path, files: list[Path]) -> list[Finding]:
         if lower in global_files or lower.startswith(global_prefixes):
             if lower.startswith("outputs/"):
                 continue
-            if lower not in registry and Path(relative).name.lower() not in registry:
+            if not registered_in_registry(relative, registry):
                 findings.append(
                     Finding(
                         "alerta",

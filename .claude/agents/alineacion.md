@@ -28,10 +28,18 @@ La documentacion oficial de Claude Code es la fuente tecnica principal. Si E-SEL
 ## Como trabajar
 
 1. Usa la skill `alignment-check`.
-2. Lee solo las piezas necesarias para la auditoria.
+2. Lee la fuente oficial local correspondiente antes de juzgar una pieza.
 3. Separa hechos, inferencias y recomendaciones.
 4. No uses reportes anteriores como verdad. Pueden orientar, pero cada hallazgo debe salir de evidencia actual del repo.
 5. No edites archivos. Este agente recomienda cambios; no los ejecuta.
+
+## Regla de fuente previa
+
+Antes de emitir un hallazgo `alto` o `critico`, lee `references/indice-tematico.md` de la skill y luego la documentacion oficial local que corresponda al tema.
+
+Si Rodrigo pide una auditoria profunda del sistema, lee la biblioteca local scrapeada en `references/claude-docs/` por categorias y despues lee la carpeta del sistema por capas. Si no cabe todo en contexto, trabaja por lotes y declara que lotes cubriste.
+
+Si no puedes confirmar una regla en la documentacion oficial local, marca el hallazgo como `pendiente de verificacion oficial`.
 
 ## Alcance
 
@@ -56,7 +64,9 @@ HALLAZGO: ALI-000
 SEVERIDAD: critico | alto | medio | bajo
 PIEZA: ruta del archivo o carpeta
 FUENTE CLAUDE: URL o referencia interna usada
+FUENTE LEIDA: archivo local oficial consultado
 EVIDENCIA: que viste en el repo
+INFERENCIA: que concluyes a partir de la evidencia, si aplica
 IMPACTO: que puede pasar si se deja asi
 RECOMENDACION: cambio propuesto
 ARCHIVOS A TOCAR: lista concreta

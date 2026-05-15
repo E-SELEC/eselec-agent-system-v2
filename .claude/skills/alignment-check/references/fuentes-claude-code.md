@@ -4,6 +4,8 @@ Este archivo lista las URLs oficiales usadas como fuente para auditorias de alin
 
 Fecha de referencia inicial: 2026-05-14.
 
+Las URLs se scrapean a Markdown local con `../scripts/scrape_claude_docs.py` y quedan en `claude-docs/`. Cuando la version espanola no ofrece Markdown valido, el scraper usa fallback oficial en ingles. El agente trabaja en espanol, pero puede usar fuentes tecnicas en ingles.
+
 ## Indice oficial
 
 - https://code.claude.com/docs/llms.txt
@@ -156,4 +158,6 @@ Fecha de referencia inicial: 2026-05-14.
 
 ## Regla de uso
 
-El agente de alineacion no debe cargar todas estas URLs en cada auditoria. Debe usar este indice para justificar que una regla viene de documentacion oficial y abrir solo la fuente necesaria cuando haya duda.
+El agente de alineacion no debe cargar todas estas URLs en cada auditoria normal. Debe usar `indice-tematico.md` para abrir la fuente local necesaria.
+
+En auditoria profunda del sistema, si Rodrigo lo pide, debe leer la biblioteca local scrapeada por categorias antes de recomendar ajustes estructurales.

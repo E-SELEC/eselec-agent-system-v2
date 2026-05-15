@@ -789,3 +789,15 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Accion recomendada: usar `alineacion` para generar una matriz aceptar/revisar/posponer antes de borrar commands, fusionar agentes o reducir contexto.
 - Riesgo: bajo; no toca produccion, secretos, conectores ni clientes. El agente opera en `permissionMode: plan` y no edita archivos.
 - Nota: `.claude/settings.json` queda incluido solo para conservar la correccion local de Claude Code (`defaultMode` invalido a `default`) y permitir que el repo abra sin error.
+
+### 2026-05-15 - biblioteca oficial local para alineacion
+- Area: sistema E-SELEC v2 / control interno
+- Agente: Codex
+- Tipo: fuentes oficiales scrapeadas + reglas de auditoria
+- Motivo: hacer que el agente `alineacion` lea documentacion oficial local de Claude Code antes de emitir hallazgos fuertes o recomendar cambios estructurales.
+- Estado: vigente
+- Archivos creados/modificados: `.claude/agents/alineacion.md`, `.claude/skills/alignment-check/SKILL.md`, `.claude/skills/alignment-check/scripts/scrape_claude_docs.py`, `.claude/skills/alignment-check/references/fuentes-claude-code.md`, `.claude/skills/alignment-check/references/indice-tematico.md`, `.claude/skills/alignment-check/references/claude-code-spec.md`, `.claude/skills/alignment-check/references/claude-docs/`, `.claude/skills/alignment-check/checklists/sistema-completo.md`, `.claude/skills/alignment-check/checklists/observacion-sesion.md`, `.claude/skills/alignment-check/templates/hallazgo.md`, `.claude/skills/alignment-check/templates/reporte-alineacion.md`, `scripts/protocol_guard.py`, `registries/registro-artefactos.md`.
+- Reemplaza a: uso de resumen operativo sin biblioteca local completa.
+- Accion recomendada: en auditorias profundas, leer `references/claude-docs/manifest.md` e `indice-tematico.md` antes de revisar el repo; para hallazgos altos/criticos, citar fuente local leida.
+- Riesgo: bajo-medio; aumenta tamano del repo con copias Markdown oficiales, pero evita dependencia de memoria o reportes previos. No toca produccion, secretos ni conectores. `protocol_guard.py` se ajusta para reconocer carpetas registradas como cobertura de sus archivos hijos.
+- Nota: el scraper usa fallback oficial en ingles cuando una URL espanola no entrega Markdown valido; el agente trabaja y responde en espanol.

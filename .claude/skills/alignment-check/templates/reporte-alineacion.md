@@ -10,6 +10,12 @@ FUENTES USADAS:
 - [referencias oficiales consultadas]
 - [archivos del repo leidos]
 
+COBERTURA DOCS:
+- Manifest leido: si | no
+- Indice tematico leido: si | no
+- Categorias oficiales cubiertas: [lista]
+- Fuentes locales para hallazgos altos/criticos: [lista]
+
 ESTADO GENERAL:
 [limpio | alerta | bloqueo]
 
