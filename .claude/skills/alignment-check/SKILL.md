@@ -136,10 +136,12 @@ Usa estas pruebas neutrales:
 
 Usa esta escala:
 
-- `critico`: la pieza promete una capacidad que no puede cumplir, o crea riesgo sensible.
-- `alto`: causa confusion, duplicacion fuerte, mala carga de contexto o baja calidad probable.
-- `medio`: mejora clara, pero no bloquea el uso normal.
-- `bajo`: limpieza o mantenimiento.
+- `critico`: rompe o puede romper seguridad, permisos, hooks, MCP, carga de contexto, ejecucion real, secretos, datos vivos o una fuente de verdad. Ejemplo ancla: un hook de secretos no se ejecuta, un agente con permisos de escritura puede tocar produccion sin orden de cambio, o un MCP con secretos reales queda versionado.
+- `alto`: la pieza promete una capacidad que no puede cumplir, causa ambiguedad operativa fuerte o puede degradar de forma probable la calidad de auditorias, ejecucion o delegacion. Ejemplo ancla: un agente dice que implementa pero solo tiene herramientas de lectura, o una skill critica no existe aunque varios agentes dependan de ella.
+- `medio`: mejora clara que reduce confusion, duplicacion mantenible o friccion, pero no bloquea el uso normal ni expone datos. Ejemplo ancla: commands y skills funcionan, pero falta un mapa que explique cual es wrapper y cual es procedimiento vivo.
+- `bajo`: limpieza, indice, documentacion o claridad sin impacto operativo directo. Ejemplo ancla: un README no lista una skill existente, o una descripcion podria ser mas precisa sin cambiar comportamiento.
+
+Si dudas entre dos niveles, usa el menor y explica la condicion que lo elevaria. No uses palabras como `fuerte`, `probable` o `critico` sin evidencia operativa.
 
 ### 6. Recomendar
 

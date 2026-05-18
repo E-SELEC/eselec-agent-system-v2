@@ -8,6 +8,7 @@ Skills activas:
 
 - `migration-audit`: evalua una pieza legacy antes de migrarla.
 - `client-audit`: audita un cliente y define la proxima prioridad con contrato de calidad.
+- `seo-canon`: conecta el canon SEO historico de E-SELEC como referencia intacta y criterio bajo demanda para agentes y skills SEO.
 - `seo-audit`: diagnostica SEO con fuentes jerarquizadas, evidencia y priorizacion.
 - `verificacion-medicion`: comprueba GA4/GSC/SEMrush/GBP/Ads antes de decidir o auditar.
 - `ingesta-evidencia`: convierte exports, datos vivos o outputs legacy en evidencia saneada.
@@ -47,5 +48,6 @@ Skills activas:
 - `prompt-master`: crea prompts listos para usar en herramientas IA.
 - `kling-producer`: planifica videos AI con prompts, parametros y aprobacion de coste.
 - `folder-cleanup`: audita y propone limpieza segura de carpetas de clientes.
+- `reports`: crea informes mensuales, alertas y proximos pasos de cliente con fuentes, nivel de datos, lectura de negocio y templates.
 - `web-feedback-loop`: revisa calidad visual web y propone iteraciones seguras.
 - `woocommerce-setup`: audita WooCommerce y planifica setup/go-live con guardrails.

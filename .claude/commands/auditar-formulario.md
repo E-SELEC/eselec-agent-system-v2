@@ -11,9 +11,9 @@ Audita un formulario para mejorar conversion sin tocar produccion.
 Ejemplos:
 
 ```text
-/auditar-formulario computer-chamberi formulario de contacto
-/auditar-formulario la-bottega-del-gusto pagina de reservas
-/auditar-formulario cashier-bubble-tea formulario pedido online
+/auditar-formulario cliente-servicios formulario de contacto
+/auditar-formulario cliente-reservas pagina de reservas
+/auditar-formulario cliente-ecommerce formulario pedido online
 ```
 
 ## Workflow

@@ -11,9 +11,9 @@ Audita onboarding post-signup y activacion sin tocar produccion.
 Ejemplos:
 
 ```text
-/auditar-onboarding computer-chamberi nueva cuenta
-/auditar-onboarding la-bottega-del-gusto reservas recurrentes
-/auditar-onboarding cashier-bubble-tea primera compra registrada
+/auditar-onboarding cliente-servicios nueva cuenta
+/auditar-onboarding cliente-reservas reservas recurrentes
+/auditar-onboarding cliente-ecommerce primera compra registrada
 ```
 
 ## Workflow

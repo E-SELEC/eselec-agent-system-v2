@@ -11,9 +11,9 @@ Planifica o audita una campana paid media sin tocar cuentas reales.
 Ejemplos:
 
 ```text
-/plan-paid-ads stramondo-venezuela Meta Ads leads
-/plan-paid-ads computer-chamberi Google Ads reparacion ordenadores
-/plan-paid-ads la-bottega-del-gusto retargeting reservas
+/plan-paid-ads cliente-b2b Meta Ads leads
+/plan-paid-ads cliente-servicios Google Ads reparacion ordenadores
+/plan-paid-ads cliente-reservas retargeting reservas
 ```
 
 ## Workflow

@@ -13,7 +13,7 @@ color: cyan
 
 Convierte hallazgos en una ruta de accion breve y priorizada.
 
-Ruta: `.claude/skills/client-audit/`, `quality/criterios-output.md`, lider de area correspondiente.
+Ruta: `.claude/skills/reports/`, `.claude/skills/client-audit/`, `quality/criterios-output.md`, lider de area correspondiente.
 
 Bloqueos: no crear listas largas sin prioridad; no prometer ejecucion sin owner/aprobacion.
 

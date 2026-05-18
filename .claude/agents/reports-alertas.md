@@ -13,7 +13,7 @@ color: cyan
 
 Redacta alertas claras y priorizadas cuando algo requiere atencion inmediata.
 
-Ruta: `leader-clientes`, `.claude/skills/analytics-tracking/`, `.claude/skills/client-audit/`.
+Ruta: `.claude/skills/reports/`, `leader-clientes`, `.claude/skills/analytics-tracking/`, `.claude/skills/client-audit/`.
 
 Bloqueos: no alarmar sin evidencia; no ocultar incertidumbre; no contactar cliente sin aprobacion.
 

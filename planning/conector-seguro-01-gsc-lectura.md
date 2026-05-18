@@ -2,6 +2,7 @@
 
 Fecha: 2026-05-13
 Estado: especificado, no implementado
+Tipo: especificacion reutilizable; ejemplos anonimizados
 Decision Sprint 01: O1-005
 Responsable: Codex + Arquitecto
 Produccion tocada: no
@@ -19,7 +20,7 @@ gsc-readonly
 
 ## Por que este primero
 
-GSC desbloquea la prioridad mas importante del piloto `computer-chamberi`: verificar rendimiento SEO real antes de tomar decisiones de CTR, paginas nuevas, auditoria final o informes.
+GSC desbloquea una prioridad critica en clientes SEO: verificar rendimiento real antes de tomar decisiones de CTR, paginas nuevas, auditoria final o informes.
 
 Es mejor primer conector que otras opciones porque:
 
@@ -96,13 +97,13 @@ Reglas:
 ## Interfaz futura propuesta
 
 ```bash
-python scripts/gsc_readonly_connector.py --cliente computer-chamberi --site-url https://www.computerchamberi.com/ --start 2026-04-01 --end 2026-04-30 --dry-run
+python scripts/gsc_readonly_connector.py --cliente [nombre-cliente] --site-url [site-url] --start YYYY-MM-DD --end YYYY-MM-DD --dry-run
 ```
 
 Modo de escritura opcional:
 
 ```bash
-python scripts/gsc_readonly_connector.py --cliente computer-chamberi --site-url https://www.computerchamberi.com/ --start 2026-04-01 --end 2026-04-30 --write-evidence
+python scripts/gsc_readonly_connector.py --cliente [nombre-cliente] --site-url [site-url] --start YYYY-MM-DD --end YYYY-MM-DD --write-evidence
 ```
 
 Reglas:
@@ -164,7 +165,7 @@ No guardar:
 4. Agregar modo mock/fixture.
 5. Agregar conexion real read-only.
 6. Agregar salida saneada `evidencia-gsc`.
-7. Ejecutar con Computer Chamberi.
+7. Ejecutar con el cliente piloto aprobado.
 8. Usar resultado en `verificacion-medicion` antes de auditoria SEO final.
 
 ## Decision final O1-005

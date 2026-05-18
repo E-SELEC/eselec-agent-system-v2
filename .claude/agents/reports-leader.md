@@ -20,13 +20,15 @@ Convertir datos y trabajo ejecutado en informacion que ayude al cliente y al sis
 
 Lee contexto, memory, log, mensajes, tasks, outputs recientes, `quality/criterios-output.md` y fuentes de medicion disponibles.
 
+Antes de decidir ruta o redactar, usa `.claude/skills/reports/SKILL.md` como procedimiento principal de Reports.
+
 ## Routing
 
 | Situacion | Ruta |
 |---|---|
-| Informe mensual | `.claude/skills/analytics-tracking/` + contrato de informe en `quality/criterios-output.md` |
-| Alerta urgente al cliente | `reports-alertas` cuando migre; fallback formato breve |
-| Proximos pasos tras bloque de trabajo | `reports-proxpasos` cuando migre; fallback `client-audit` |
+| Informe mensual | `.claude/skills/reports/` + `.claude/skills/analytics-tracking/` si hay datos |
+| Alerta urgente al cliente | `.claude/skills/reports/` + `reports-alertas` |
+| Proximos pasos tras bloque de trabajo | `.claude/skills/reports/` + `reports-proxpasos` |
 | Copy/claridad del informe | `.claude/skills/copy-editing/` + `.claude/skills/humanizalo/` |
 | Datos parciales | declarar fuente faltante antes de concluir |
 

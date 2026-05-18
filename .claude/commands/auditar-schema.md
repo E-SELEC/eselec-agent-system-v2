@@ -11,9 +11,9 @@ Audita o disena schema JSON-LD para una pagina sin tocar produccion.
 Ejemplos:
 
 ```text
-/auditar-schema computer-chamberi home
-/auditar-schema la-bottega-del-gusto LocalBusiness
-/auditar-schema cashier-bubble-tea producto WooCommerce
+/auditar-schema cliente-servicios home
+/auditar-schema cliente-local LocalBusiness
+/auditar-schema cliente-ecommerce producto WooCommerce
 ```
 
 ## Workflow

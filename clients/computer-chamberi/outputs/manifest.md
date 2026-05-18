@@ -20,6 +20,7 @@
 |---|---|---|
 | `evidencia-seo-2026-05-12.md` | Paquete saneado de evidencia SEO desde outputs legacy | Vigente para auditoria parcial fuerte |
 | `auditoria-arranque-v2-2026-05-13.md` | Auditoria de arranque operativo O1-001 en modo lectura | Vigente como diagnostico parcial fuerte |
+| `conversaciones/diagnostico-seo-2026-05-16.json` | Conversacion real de diagnostico SEO usada como referencia historica del cliente | Movida desde `seo-canon`; no es canon general |
 
 ## Regla
 

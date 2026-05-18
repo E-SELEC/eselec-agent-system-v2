@@ -11,9 +11,9 @@ Audita visibilidad en respuestas AI y prepara un plan AI SEO sin tocar produccio
 Ejemplos:
 
 ```text
-/auditar-ai-seo computer-chamberi reparacion ordenadores Madrid
-/auditar-ai-seo la-bottega-del-gusto SEO local + AI Overviews
-/auditar-ai-seo agencia E-SELEC servicios marketing digital
+/auditar-ai-seo cliente-servicios reparacion ordenadores
+/auditar-ai-seo cliente-local SEO local + AI Overviews
+/auditar-ai-seo agencia-demo servicios marketing digital
 ```
 
 ## Workflow

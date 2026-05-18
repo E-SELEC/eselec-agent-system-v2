@@ -11,9 +11,9 @@ Convierte un export, captura, output legacy o dato vivo en evidencia saneada par
 Ejemplos:
 
 ```text
-/ingestar-evidencia computer-chamberi GSC
-/ingestar-evidencia computer-chamberi SEMrush --write
-/ingestar-evidencia stramondo-venezuela Meta Ads
+/ingestar-evidencia cliente-servicios GSC
+/ingestar-evidencia cliente-servicios SEMrush --write
+/ingestar-evidencia cliente-b2b Meta Ads
 ```
 
 ## Workflow

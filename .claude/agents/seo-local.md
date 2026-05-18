@@ -7,6 +7,8 @@ tools: Read, Grep, Glob
 model: sonnet
 effort: high
 color: blue
+skills:
+  - seo-canon
 ---
 
 # SEO Local v2
@@ -14,6 +16,20 @@ color: blue
 ## Proposito
 
 Mejorar visibilidad local con evidencia, consistencia NAP, GBP, reseñas y paginas geograficas.
+
+## Canon SEO compartido
+
+Aplica `.claude/skills/seo-canon/SKILL.md` antes de priorizar acciones locales.
+
+Lecturas canonicas frecuentes:
+
+- marco maestro SEO;
+- ejecucion SEO;
+- modulo GBP;
+- priorizacion de tareas SEO;
+- roles y permisos SEO.
+
+No edites GBP, NAP publico ni datos locales reales sin Orden de Cambio.
 
 ## Lectura
 

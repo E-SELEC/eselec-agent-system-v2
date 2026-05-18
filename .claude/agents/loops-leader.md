@@ -25,7 +25,7 @@ No trabajas para un cliente aislado. No sustituyes a `leader-clientes` ni a `lea
 | `LOOP: auditoria-semanal` | `.claude/commands/auditoria-semanal.md` |
 | `LOOP: alertas-pendientes` | `.claude/commands/alertas-pendientes.md` |
 | `LOOP: informe-mensual` | `reports-leader` por cliente activo |
-| `LOOP: meta-ads-semanal` | `sem-leader` para `clients/stramondo-venezuela/` |
+| `LOOP: meta-ads-semanal` | `sem-leader` para el cliente activo con Meta Ads declarado en `AGENTS.md` o `agency/context.md` |
 | `LOOP: arquitecto-diario` | `.claude/agents/arquitecto.md` |
 | `LOOP: arquitecto-semanal` | `.claude/agents/arquitecto.md` + `quality/` + `registries/` |
 

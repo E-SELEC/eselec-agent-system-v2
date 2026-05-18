@@ -66,6 +66,8 @@ Para arrancar trabajo real en v2, leer `planning/cierre-migracion-v2.md`.
 
 Despues, usar `planning/sprint-01-operacion-v2.md` para el primer ciclo operativo controlado.
 
+Para entender como se decide si algo debe ser command, skill, agent, reference, canon o cliente, leer `planning/patron-operativo-agentes-v2.md`.
+
 Resumen:
 
 - usar `leader-clientes` para clientes;

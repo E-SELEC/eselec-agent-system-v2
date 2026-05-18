@@ -80,5 +80,6 @@ Necesitas objetivo, conversion, presupuesto y estado de tracking. Sin eso no hay
 ## Referencias
 
 - `references/platform-guide.md`: seleccion de plataforma, estructura y metricas.
+- `references/platform-rules.md`: bloqueadores, validacion de eventos y reglas por plataforma.
 - `templates/plan-paid-ads.md`: formato de salida.
 - `checklists/revision.md`: revision final.

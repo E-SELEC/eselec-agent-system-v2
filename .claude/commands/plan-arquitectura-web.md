@@ -11,9 +11,9 @@ Disena o audita la arquitectura web de un cliente sin tocar produccion.
 Ejemplos:
 
 ```text
-/plan-arquitectura-web computer-chamberi servicios y SEO local
-/plan-arquitectura-web cashier-bubble-tea menu y URLs
-/plan-arquitectura-web la-bottega-del-gusto redisenar estructura
+/plan-arquitectura-web cliente-servicios servicios y SEO local
+/plan-arquitectura-web cliente-ecommerce menu y URLs
+/plan-arquitectura-web cliente-local redisenar estructura
 ```
 
 ## Workflow

@@ -11,9 +11,9 @@ Audita un flujo de registro o alta de prueba sin tocar produccion.
 Ejemplos:
 
 ```text
-/auditar-signup-flow computer-chamberi alta de cuenta
-/auditar-signup-flow la-bottega-del-gusto registro de reservas
-/auditar-signup-flow cashier-bubble-tea cuenta para pedidos online
+/auditar-signup-flow cliente-servicios alta de cuenta
+/auditar-signup-flow cliente-reservas registro de reservas
+/auditar-signup-flow cliente-ecommerce cuenta para pedidos online
 ```
 
 ## Workflow

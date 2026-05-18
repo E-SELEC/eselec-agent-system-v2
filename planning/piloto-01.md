@@ -1,5 +1,7 @@
 # Piloto 01 - Computer Chamberi
 
+> STATUS: ARCHIVADO - decision de piloto tomada. Este documento queda como historia de migracion, no como canon operativo.
+
 ## Estado
 
 - ID: P2-005
@@ -127,4 +129,3 @@ Ejecutar P3-002:
 ```text
 Migrar cliente piloto `computer-chamberi` con estructura minima y sin outputs pesados.
 ```
-

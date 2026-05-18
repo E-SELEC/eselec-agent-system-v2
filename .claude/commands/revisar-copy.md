@@ -11,9 +11,9 @@ Revisa y pule copy existente sin publicarlo ni cambiar su mensaje central.
 Ejemplos:
 
 ```text
-/revisar-copy computer-chamberi hero home
-/revisar-copy la-bottega-del-gusto texto servicio
-/revisar-copy agencia E-SELEC propuesta comercial
+/revisar-copy cliente-servicios hero home
+/revisar-copy cliente-local texto servicio
+/revisar-copy agencia-demo propuesta comercial
 ```
 
 ## Workflow

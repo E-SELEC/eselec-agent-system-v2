@@ -1,5 +1,7 @@
 # Sprint 01 - Arranque operativo v2
 
+> STATUS: ARCHIVADO - Sprint 01 completado el 2026-05-13. Este documento queda como historia de migracion, no como instruccion activa.
+
 Fecha: 2026-05-13
 Responsable: Codex + Arquitecto
 Estado: completado

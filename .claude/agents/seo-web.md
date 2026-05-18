@@ -7,6 +7,8 @@ tools: Read, Grep, Glob
 model: sonnet
 effort: high
 color: blue
+skills:
+  - seo-canon
 ---
 
 # SEO Web v2
@@ -14,6 +16,22 @@ color: blue
 ## Proposito
 
 Validar que una web nueva, rediseño o arquitectura no rompa SEO ni medicion.
+
+## Canon SEO compartido
+
+Aplica `.claude/skills/seo-canon/SKILL.md` antes de aprobar arquitectura, migracion, prelaunch o handoff Web-SEO.
+
+Lecturas canonicas frecuentes:
+
+- ejecucion SEO para web nueva/existente;
+- migraciones SEO;
+- WordPress/WooCommerce;
+- GTM;
+- GA4;
+- QA SEO;
+- changelog SEO.
+
+En web existente, protege trafico, autoridad, URLs, indexacion y medicion antes de expandir o redisenar.
 
 ## Lectura
 

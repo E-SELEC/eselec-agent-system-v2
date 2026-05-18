@@ -11,9 +11,9 @@ Audita un paywall, upgrade screen, upsell modal o feature gate sin tocar producc
 Ejemplos:
 
 ```text
-/auditar-paywall cashier-bubble-tea limite de pedidos registrados
-/auditar-paywall computer-chamberi upgrade soporte premium
-/auditar-paywall la-bottega-del-gusto pantalla de reserva premium
+/auditar-paywall cliente-ecommerce limite de pedidos registrados
+/auditar-paywall cliente-servicios upgrade soporte premium
+/auditar-paywall cliente-reservas pantalla de reserva premium
 ```
 
 ## Workflow

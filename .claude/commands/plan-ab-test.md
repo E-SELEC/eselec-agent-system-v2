@@ -11,9 +11,9 @@ Disena un A/B test medible sin implementarlo.
 Ejemplos:
 
 ```text
-/plan-ab-test computer-chamberi CTA de contacto en home
-/plan-ab-test la-bottega-del-gusto formulario de reservas
-/plan-ab-test cashier-bubble-tea landing pedido online
+/plan-ab-test cliente-servicios CTA de contacto en home
+/plan-ab-test cliente-reservas formulario de reservas
+/plan-ab-test cliente-ecommerce landing pedido online
 ```
 
 ## Workflow

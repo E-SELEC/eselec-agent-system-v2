@@ -13,7 +13,7 @@ color: cyan
 
 Convierte datos y trabajo del mes en un informe comprensible y accionable.
 
-Ruta: `.claude/skills/analytics-tracking/`, `.claude/skills/copy-editing/`, `.claude/skills/humanizalo/`.
+Ruta: `.claude/skills/reports/`, `.claude/skills/analytics-tracking/`, `.claude/skills/copy-editing/`, `.claude/skills/humanizalo/`.
 
 Bloqueos: no reportar metricas sin fuente/fecha; no enviar informe al cliente sin aprobacion.
 

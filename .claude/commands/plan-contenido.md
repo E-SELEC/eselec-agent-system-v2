@@ -11,9 +11,9 @@ Planifica una estrategia de contenido priorizada para un cliente sin publicar na
 Ejemplos:
 
 ```text
-/plan-contenido computer-chamberi SEO local 90 dias
-/plan-contenido la-bottega-del-gusto blog + AI SEO
-/plan-contenido agencia E-SELEC captacion
+/plan-contenido cliente-servicios SEO local 90 dias
+/plan-contenido cliente-local blog + AI SEO
+/plan-contenido agencia-demo captacion
 ```
 
 ## Workflow

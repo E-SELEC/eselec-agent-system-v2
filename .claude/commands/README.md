@@ -2,6 +2,14 @@
 
 Comandos reutilizables para flujos iniciados por Rodrigo.
 
+Los ejemplos de comandos deben usar slugs inventados (`cliente-servicios`, `cliente-ecommerce`, `agencia-demo`). No uses nombres de clientes reales en ejemplos reutilizables.
+
+## Patron command-skill
+
+Un command es una entrada practica: recibe la peticion de Rodrigo, lee contexto del cliente, decide si se responde en chat o se usa `--write`, y aplica manifest/log/protocolos si hay escritura.
+
+Una skill es la fuente del procedimiento especializado. Si un command apunta a una skill, la skill gobierna el criterio principal. No dupliques dentro del command el contenido largo de la skill; deja solo routing, lecturas obligatorias, formato de escritura y reglas de seguridad.
+
 Primer comando:
 
 - `migrar-pieza.md`: evalua una pieza legacy antes de migrarla.

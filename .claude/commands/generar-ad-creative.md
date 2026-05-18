@@ -11,9 +11,9 @@ Genera o itera creatividades de anuncios sin subirlas a plataformas.
 Ejemplos:
 
 ```text
-/generar-ad-creative stramondo-venezuela Meta Ads reels
-/generar-ad-creative computer-chamberi Google RSA reparacion portatiles
-/generar-ad-creative la-bottega-del-gusto Meta Ads reservas
+/generar-ad-creative cliente-b2b Meta Ads reels
+/generar-ad-creative cliente-servicios Google RSA reparacion portatiles
+/generar-ad-creative cliente-reservas Meta Ads reservas
 ```
 
 ## Workflow

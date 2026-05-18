@@ -11,9 +11,9 @@ Escribe o mejora copy comercial para un cliente sin publicarlo.
 Ejemplos:
 
 ```text
-/escribir-copy computer-chamberi hero home
-/escribir-copy la-bottega-del-gusto pagina servicio
-/escribir-copy agencia E-SELEC landing captacion
+/escribir-copy cliente-servicios hero home
+/escribir-copy cliente-local pagina servicio
+/escribir-copy agencia-demo landing captacion
 ```
 
 ## Workflow

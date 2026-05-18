@@ -812,3 +812,126 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Reemplaza a: reglas de inventario demasiado debiles que permitian confundir README/reportes con realidad del repo.
 - Accion recomendada: en cualquier auditoria futura, exigir `EVIDENCIA OPERATIVA` con comando, resultado y alcance antes de aceptar conteos o ausencias como hechos.
 - Riesgo: bajo; solo cambia instrucciones del auditor, no toca produccion, secretos, conectores ni clientes.
+
+### 2026-05-16 - seo-canon legacy docente SEO
+- Area: sistema E-SELEC v2 / SEO
+- Agente: Codex + criterios de alineacion
+- Tipo: skill + referencias historicas intactas
+- Motivo: conectar el Docente SEO legacy y su canon operativo al sistema Claude Code v2 sin crear otro agente docente ni resumir el canon que funcionaba bien.
+- Estado: vigente
+- Archivos creados/modificados: `.claude/skills/seo-canon/`, `.claude/skills/seo-audit/SKILL.md`, `.claude/skills/README.md`, `.claude/agents/README.md`, `.claude/agents/seo-leader.md`, `.claude/agents/seo-organico.md`, `.claude/agents/seo-tecnico.md`, `.claude/agents/seo-local.md`, `.claude/agents/seo-llms.md`, `.claude/agents/seo-web.md`, `registries/registro-artefactos.md`.
+- Reemplaza a: agentes SEO v2 que operaban mayormente como routing sin una capa canonica compartida del Docente SEO legacy.
+- Accion recomendada: usar `seo-canon` como criterio bajo demanda antes de auditorias SEO profundas, caidas de trafico, arquitectura, migraciones, canibalizacion o reconstruccion de agentes SEO.
+- Riesgo: bajo; no toca produccion, secretos, conectores ni datos vivos. Aumenta tamano del repo con referencias historicas, pero preserva rollback y evita reescribir el canon.
+
+### 2026-05-18 - indice completo seo-canon
+- Area: sistema E-SELEC v2 / SEO
+- Agente: Codex
+- Tipo: indice operativo de canon
+- Motivo: evitar que los 28 aprendizajes y 5 fuentes del Docente SEO legacy queden copiados pero no operativos dentro de `seo-canon`.
+- Estado: vigente
+- Archivos creados/modificados: `.claude/skills/seo-canon/references/indice-canon-seo.md`, `.claude/skills/seo-canon/SKILL.md`, `registries/registro-artefactos.md`.
+- Reemplaza a: tabla parcial de lectura dentro de `seo-canon/SKILL.md` que no destacaba todos los modulos relevantes para agentes SEO.
+- Accion recomendada: antes de tareas SEO profundas o reestructuracion de agentes SEO, consultar `references/indice-canon-seo.md` y declarar que archivos del canon se leyeron. Ajuste M-01 aplicado: `2026-05-09-refuerzo-links-manual-seo.md` queda visible en el indice.
+- Riesgo: bajo; no modifica el canon, solo crea mapa de acceso y trazabilidad.
+
+### 2026-05-18 - separacion caso real y canon SEO
+- Area: sistema E-SELEC v2 / SEO
+- Agente: Codex
+- Tipo: saneamiento de canon + reubicacion de evidencia de cliente
+- Motivo: evitar que un caso real de cliente viva dentro de una skill general y contamine el funcionamiento del canon SEO.
+- Estado: vigente
+- Archivos creados/modificados: `.claude/skills/seo-canon/SKILL.md`, `.claude/skills/seo-canon/references/indice-canon-seo.md`, `.claude/skills/seo-canon/references/patrones/patron-diagnostico-caida-seo-multidioma.md`, `clients/computer-chamberi/outputs/conversaciones/diagnostico-seo-2026-05-16.json`, `clients/computer-chamberi/outputs/manifest.md`, `registries/registro-artefactos.md`.
+- Reemplaza a: referencia directa desde `seo-canon` a `computer-chamberi-diagnostico-2026-05-16.json`.
+- Accion recomendada: mantener los casos reales en `clients/[cliente]/` y convertir solo aprendizajes reutilizables en patrones anonimos dentro de skills generales.
+- Riesgo: bajo; no toca produccion, secretos ni conectores. El JSON real se conserva dentro del cliente y el canon queda generalizado.
+- Nota adicional: el aprendizaje `2026-05-11-lectura-sistema-completo-previa-reestructuracion.md` queda anonimizado dentro del canon; la version historica con nombres de clientes se conserva fuera de la skill en `legacy/docente-seo-historico-con-clientes/`.
+
+### 2026-05-18 - fase 1 limpieza de contaminacion
+- Area: sistema E-SELEC v2 / migracion
+- Agente: Codex + consulta Claude
+- Tipo: saneamiento documental
+- Motivo: separar referencias operativas reutilizables de historia de migracion con clientes reales.
+- Estado: vigente
+- Archivos creados/modificados: `planning/conector-seguro-01-gsc-lectura.md`, `planning/sprint-01-operacion-v2.md`, `planning/piloto-01.md`, `registries/registro-artefactos.md`.
+- Reemplaza a: ejemplos de GSC con cliente y URL hardcodeados en una especificacion reutilizable; documentos de sprint/piloto sin marca clara de archivo historico.
+- Accion recomendada: mantener `planning/` como historial cuando tenga clientes reales; si un documento se vuelve plantilla reutilizable, anonimizar ejemplos.
+- Riesgo: bajo; no toca produccion, secretos, conectores ni datos vivos.
+
+### 2026-05-18 - fase 2 migracion minima de clientes activos
+- Area: clientes E-SELEC v2 / migracion
+- Agente: Codex + consulta Claude
+- Tipo: migracion documental minima
+- Motivo: completar la presencia de clientes activos legacy dentro de `clients/` sin copiar outputs historicos, secretos ni archivos pesados.
+- Estado: vigente
+- Archivos creados/modificados: `clients/cashier-bubble-tea/`, `clients/la-bottega-del-gusto/`, `clients/stramondo-venezuela/`, `registries/registro-artefactos.md`.
+- Reemplaza a: dependencia de leer esos clientes solo desde `../clients/` legacy.
+- Accion recomendada: usar estos clientes en v2 solo tras leer `context.md`, `memory.md`, `log.md`, `mensajes.md`, `tasks.md` y `outputs/manifest.md`; si se necesita un output legacy, extraer evidencia saneada y registrar el nuevo archivo.
+- Riesgo: medio; Bottega implica WordPress/WooCommerce y Stramondo Meta Ads, pero esta migracion no toca produccion, credenciales ni conectores.
+
+### 2026-05-18 - fase 3 auditoria por areas
+- Area: sistema E-SELEC v2 / agentes y skills
+- Agente: Codex + consulta Claude
+- Tipo: auditoria documental
+- Motivo: determinar que areas pueden operar con skills procedurales y que areas requieren canon o skill dedicada, sin copiar automaticamente el patron SEO a todo el sistema.
+- Estado: vigente
+- Archivos creados/modificados: `planning/auditoria-agentes-skills-areas-2026-05-18.md`, `registries/registro-artefactos.md`.
+- Reemplaza a: idea inicial de replicar `seo-canon` en todas las areas sin comprobar si el problema era de canon, skill dedicada o command wrapper.
+- Accion recomendada: empezar por una skill dedicada de Reports, despues auditar SEM por riesgo operativo y luego revisar commands como wrappers finos.
+- Riesgo: bajo; solo documenta evidencia y criterio. No toca produccion, secretos, conectores, agentes ni skills operativas.
+
+### 2026-05-18 - fase 4 skill reports
+- Area: sistema E-SELEC v2 / Reports
+- Agente: Codex + consulta Claude
+- Tipo: skill operativa + templates
+- Motivo: resolver el gap detectado en Fase 3: Reports tenia agentes y contratos de calidad, pero no una skill dedicada que convirtiera datos, trabajo ejecutado y hallazgos en informes, alertas y proximos pasos.
+- Estado: vigente
+- Archivos creados/modificados: `.claude/skills/reports/`, `.claude/skills/README.md`, `.claude/agents/reports-leader.md`, `.claude/agents/reports-cliente.md`, `.claude/agents/reports-alertas.md`, `.claude/agents/reports-proxpasos.md`, `.claude/agents/README.md`, `registries/registro-artefactos.md`.
+- Reemplaza a: rutas Reports dispersas entre `analytics-tracking`, `copy-editing`, `humanizalo` y `quality/criterios-output.md` sin procedimiento unico.
+- Accion recomendada: usar `.claude/skills/reports/SKILL.md` como entrada principal para informe mensual, alerta y proximos pasos; usar `verificacion-medicion` cuando el output dependa de datos.
+- Riesgo: bajo; no contiene informes reales de clientes ni toca produccion, secretos, conectores o fuentes vivas.
+- Validacion: `quick_validate.py` no pudo ejecutarse por falta de `PyYAML` en el Python local; validacion manual limpia de frontmatter, TODOs, rutas y referencias.
+
+### 2026-05-18 - fase 5 SEM / Paid Ads
+- Area: sistema E-SELEC v2 / SEM
+- Agente: Codex + consulta Claude / alineacion
+- Tipo: refuerzo de skill y referencias bajo demanda
+- Motivo: capturar reglas operativas de paid media sin crear un canon SEM innecesario ni contaminar la skill con casos reales de clientes.
+- Estado: vigente
+- Archivos creados/modificados: `.claude/skills/paid-ads/SKILL.md`, `.claude/skills/paid-ads/references/platform-guide.md`, `.claude/skills/paid-ads/references/platform-rules.md`, `planning/auditoria-sem-paid-ads-2026-05-18.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Reemplaza a: guia SEM demasiado breve para decisiones de riesgo sobre plataforma, tracking y lectura de eventos.
+- Accion recomendada: usar `platform-rules.md` cuando se diagnostiquen campanas, tracking, calidad de leads, eventos de mensajeria, escala de presupuesto o eleccion de plataforma.
+- Riesgo: bajo; no toca campanas, cuentas, presupuestos, secretos, conectores ni datos vivos.
+
+### 2026-05-18 - fase 6 limpieza de contaminacion general
+- Area: sistema E-SELEC v2 / comandos y loops
+- Agente: Codex + consulta Claude / alineacion
+- Tipo: saneamiento de ejemplos reutilizables
+- Motivo: evitar que clientes reales aparezcan como ejemplos fijos en comandos generales o loops reutilizables.
+- Estado: vigente
+- Archivos creados/modificados: `.claude/commands/*.md` con ejemplos anonimizados, `.claude/commands/README.md`, `.claude/agents/loops-leader.md`, `planning/auditoria-contaminacion-general-2026-05-18.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Reemplaza a: ejemplos con `computer-chamberi`, `la-bottega-del-gusto`, `cashier-bubble-tea` y `stramondo-venezuela` dentro de commands generales.
+- Accion recomendada: mantener nombres reales solo en `clients/`, `agency/`, `planning/` y `registries/` cuando actuen como memoria o trazabilidad; usar slugs inventados en instrucciones reutilizables.
+- Riesgo: bajo; solo cambia documentacion operativa y no toca clientes, produccion, secretos ni conectores.
+
+### 2026-05-18 - fase 7 mapa commands-skills-agents
+- Area: sistema E-SELEC v2 / commands y skills
+- Agente: Codex; consulta Claude intentada pero bloqueada por uso disponible
+- Tipo: documentacion de arquitectura operativa
+- Motivo: comprobar si habia duplicacion real entre commands, skills y agents, y aclarar que gobierna cada capa.
+- Estado: vigente
+- Archivos creados/modificados: `.claude/commands/README.md`, `planning/mapa-commands-skills-2026-05-18.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Reemplaza a: ambiguedad sobre si commands y skills duplican responsabilidad.
+- Accion recomendada: mantener commands como entradas finas; mantener skills como fuente de procedimiento; mantener agents como roles/orquestadores.
+- Riesgo: bajo; solo documentacion, sin produccion, secretos, clientes ni conectores.
+
+### 2026-05-18 - fase 8 patron operativo de agentes
+- Area: sistema E-SELEC v2 / arquitectura operativa
+- Agente: Codex; consulta Claude no disponible por limite de uso en CLI
+- Tipo: guia de decision estructural
+- Motivo: explicar como replicar lo que funciono en SEO sin copiar SEO literalmente a todas las areas.
+- Estado: vigente
+- Archivos creados/modificados: `planning/patron-operativo-agentes-v2.md`, `README.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Reemplaza a: ambiguedad sobre cuando crear canon, skill, reference, command o agente.
+- Accion recomendada: usar este patron antes de migrar nuevas piezas legacy o reestructurar areas como CRO, Web o Social.
+- Riesgo: bajo; documentacion de arquitectura, sin produccion, secretos, clientes ni conectores.

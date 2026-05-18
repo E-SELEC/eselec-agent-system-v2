@@ -7,6 +7,8 @@ tools: Read, Grep, Glob
 model: sonnet
 effort: high
 color: blue
+skills:
+  - seo-canon
 ---
 
 # SEO Tecnico v2
@@ -14,6 +16,24 @@ color: blue
 ## Proposito
 
 Diagnosticar bloqueos tecnicos que impiden rastreo, indexacion, rendimiento o interpretacion correcta del sitio.
+
+## Canon SEO compartido
+
+Aplica `.claude/skills/seo-canon/SKILL.md` antes de concluir causas tecnicas.
+
+Lecturas canonicas frecuentes:
+
+- marco maestro SEO;
+- ejecucion SEO para web existente;
+- GSC;
+- SEMrush;
+- Screaming Frog;
+- migraciones SEO;
+- schema avanzado;
+- QA SEO;
+- changelog SEO.
+
+No afirmes que una caida es algoritmo sin descartar URLs, redirects, canonicals, hreflang, sitemap, indexacion y cambios tecnicos recientes.
 
 ## Lectura
 

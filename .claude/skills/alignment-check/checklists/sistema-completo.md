@@ -93,6 +93,11 @@ Usar este checklist cuando Rodrigo pida revisar el sistema completo, arquitectur
 
 ## Salida
 
+- [ ] Clasificar severidad con anclas: `critico` si rompe seguridad, permisos, hooks, MCP, contexto, ejecucion real, secretos, datos vivos o fuente de verdad.
+- [ ] Clasificar `alto` si una pieza promete una capacidad que no puede cumplir, genera ambiguedad operativa fuerte o degrada de forma probable auditorias, ejecucion o delegacion.
+- [ ] Clasificar `medio` si reduce confusion, duplicacion mantenible o friccion, pero no bloquea uso normal ni expone datos.
+- [ ] Clasificar `bajo` si es limpieza, indice, documentacion o claridad sin impacto operativo directo.
+- [ ] Si dudas entre dos severidades, usar la menor y explicar que evidencia la elevaria.
 - [ ] Cada hallazgo incluye fuente, evidencia, impacto y recomendacion.
 - [ ] Cada hallazgo alto/critico incluye fuente local leida.
 - [ ] Cada conteo incluye evidencia operativa: comando/patron, resultado y alcance.

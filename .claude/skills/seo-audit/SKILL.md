@@ -23,7 +23,8 @@ Si el cliente existe en el sistema, lee:
 2. `clients/[cliente]/log.md`
 3. `clients/[cliente]/memory.md` si existe
 4. outputs SEO recientes si existen
-5. `quality/criterios-output.md`, Contrato 2 - Auditoria SEO
+5. `.claude/skills/seo-canon/SKILL.md` cuando sea una auditoria profunda, una caida de trafico, arquitectura, migracion, canibalizacion, SEO local, SEO internacional o Rodrigo mencione el canon/Docente SEO
+6. `quality/criterios-output.md`, Contrato 2 - Auditoria SEO
 
 Si no hay cliente local, pide o usa:
 
@@ -47,6 +48,7 @@ Regla:
 - Si falta GSC o SEMrush, la auditoria debe decir `Basado en datos parciales`.
 - Si no hay datos de rendimiento, no afirmar causas de trafico o ranking como hechos.
 - Si solo se revisa una pagina, no concluir sobre todo el dominio.
+- Si aplicas el canon SEO, indica que archivo o modulo leiste. No digas que usaste el canon si no lo leiste.
 
 ## Jerarquia de fuentes
 
@@ -72,6 +74,13 @@ Regla SEO:
 
 ```text
 No propongas contenido si hay bloqueo tecnico critico que impide rastreo, indexacion o medicion.
+```
+
+Regla del canon E-SELEC:
+
+```text
+web nueva = disenar antes de publicar
+web existente = medir, proteger y corregir antes de expandir
 ```
 
 ## Schema
@@ -172,4 +181,3 @@ Si hay cambios en produccion, aplica `protocols/activos-criticos.md` antes de pr
 
 - `templates/auditoria-seo.md`: formato de salida.
 - `checklists/revision.md`: revision antes de entregar.
-

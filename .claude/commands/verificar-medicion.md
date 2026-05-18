@@ -11,9 +11,9 @@ Verifica si un cliente tiene datos suficientes antes de auditorias, informes, SE
 Ejemplos:
 
 ```text
-/verificar-medicion computer-chamberi SEO
-/verificar-medicion stramondo-venezuela Meta Ads --write
-/verificar-medicion cashier-bubble-tea informe mensual
+/verificar-medicion cliente-servicios SEO
+/verificar-medicion cliente-b2b Meta Ads --write
+/verificar-medicion cliente-ecommerce informe mensual
 ```
 
 ## Workflow

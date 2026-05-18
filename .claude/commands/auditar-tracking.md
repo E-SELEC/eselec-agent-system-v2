@@ -11,9 +11,9 @@ Audita o disena la medicion de un cliente sin tocar produccion.
 Ejemplos:
 
 ```text
-/auditar-tracking computer-chamberi GA4
-/auditar-tracking cashier-bubble-tea formularios
-/auditar-tracking stramondo-venezuela Meta Ads
+/auditar-tracking cliente-servicios GA4
+/auditar-tracking cliente-ecommerce formularios
+/auditar-tracking cliente-b2b Meta Ads
 ```
 
 ## Workflow

@@ -746,3 +746,69 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Riesgo residual: bajo; plan de trabajo sin produccion ni accesos.
 - Estado: implementado
 - Commit: pendiente
+### 2026-05-18 - fase 2 migracion minima de clientes activos
+
+- Origen legacy: `../clients/cashier-bubble-tea/`, `../clients/la-bottega-del-gusto/`, `../clients/stramondo-venezuela/`.
+- Destino Claude Code: `clients/cashier-bubble-tea/`, `clients/la-bottega-del-gusto/`, `clients/stramondo-venezuela/`.
+- Tipo: migracion minima de memoria operativa de clientes activos.
+- Archivos migrados: `context.md`, `memory.md`, `log.md`, `mensajes.md`, `tasks.md`; en Bottega tambien `brand.md`.
+- Outputs historicos: no migrados.
+- Cliente inactivo `shogun-motors`: no migrado a `clients/` operativo; permanece como legacy/inactivo salvo decision futura.
+- Validacion requerida: ejecutar `scripts/protocol_guard.py` y revisar que cada cliente tenga `outputs/manifest.md`.
+
+### 2026-05-18 - fase 3 auditoria por areas
+
+- Alcance: `.claude/agents/`, `.claude/skills/`, `.claude/commands/`.
+- Tipo: auditoria estructural sin cambios operativos.
+- Evidencia: 47 agentes, 45 skills con `SKILL.md`, 43 commands, excluyendo README.
+- Decision: no replicar `seo-canon` automaticamente en todas las areas.
+- Criterio: una skill dedicada resuelve procedimiento; un canon solo aplica cuando hay criterio transversal obligatorio antes de cualquier tarea del area.
+- Resultado: SEO queda como patron maduro; Reports es siguiente prioridad por falta de skill dedicada; SEM requiere auditoria propia por riesgo operativo; CRO, Web y Social se mantienen con skills procedurales hasta observar fallos reales.
+- Documento: `planning/auditoria-agentes-skills-areas-2026-05-18.md`.
+- Validacion: consulta Claude realizada; `scripts/protocol_guard.py` limpio.
+
+### 2026-05-18 - fase 4 skill reports
+
+- Alcance: agentes Reports, contrato de calidad y agentes Reports legacy.
+- Tipo: migracion de procedimiento operativo.
+- Decision: crear skill `reports`, no canon. Reports necesitaba procedimiento, no una puerta transversal historica como SEO.
+- Resultado: creada `.claude/skills/reports/` con `SKILL.md`, `references/fuentes-por-servicio.md` y templates `informe-mensual.md`, `alerta.md`, `proxpasos.md`.
+- Agentes conectados: `reports-leader`, `reports-cliente`, `reports-alertas`, `reports-proxpasos`.
+- Contaminacion evitada: no se copiaron informes reales de clientes dentro de la skill; solo se migraron reglas generales de reporting.
+- Validacion: consulta Claude realizada; validacion manual limpia; `quick_validate.py` bloqueado por dependencia local `PyYAML` ausente.
+
+### 2026-05-18 - fase 5 SEM / Paid Ads
+
+- Alcance: agentes SEM v2, skill `paid-ads`, referencias `platform-guide.md`, SEM legacy y lecciones operativas anonimizadas.
+- Tipo: refuerzo de reglas bajo demanda.
+- Decision: no crear canon SEM. Reforzar `paid-ads` porque la skill ya existe y el problema era falta de reglas practicas de plataforma, no falta de arquitectura.
+- Resultado: `platform-guide.md` ahora incluye bloqueadores por plataforma; creado `platform-rules.md` con reglas de validacion de eventos y metricas; `SKILL.md` enlaza la nueva referencia.
+- Contaminacion evitada: no se copiaron nombres, cuentas, campanas ni casos reales de clientes; solo se convirtieron aprendizajes en principios generales.
+- Validacion: `scripts/protocol_guard.py` limpio.
+
+### 2026-05-18 - fase 6 limpieza de contaminacion general
+
+- Alcance: `.claude/skills/`, `.claude/agents/`, `.claude/commands/`, `.claude/rules/`, `AGENTS.md`, `agency/`, `planning/`, `registries/`.
+- Tipo: saneamiento de frontera cliente/general.
+- Decision: limpiar comandos y el loop de Meta Ads; no tocar `agency/`, `planning/` ni `registries/` porque son historia/trazabilidad; no tocar `seo-canon` porque sus coincidencias son ejemplos pedagogicos genericos.
+- Resultado: 18 commands cambiaron ejemplos reales por slugs inventados; `loops-leader` dejo de apuntar a un cliente concreto; `commands/README.md` ahora prohibe clientes reales en ejemplos reutilizables.
+- Contaminacion evitada: los clientes reales quedan en `/clients` o en registros historicos, no en instrucciones generales de uso.
+- Validacion: grep final sin clientes reales en commands/loops reutilizables; `scripts/protocol_guard.py` limpio.
+
+### 2026-05-18 - fase 7 mapa commands-skills-agents
+
+- Alcance: 43 commands, skills referenciadas por commands y skills sin command directo.
+- Tipo: auditoria documental de duplicacion.
+- Decision: no hay duplicacion rota. Los commands son entradas practicas; las skills son procedimientos; los agents son roles y orquestadores.
+- Resultado: creado `planning/mapa-commands-skills-2026-05-18.md`; actualizado `.claude/commands/README.md` con el patron command-skill.
+- Evidencia: 0 commands apuntan a skills inexistentes. Las 5 skills sin command directo estan usadas por agentes (`alignment-check`, `client-audit`, `reports`, `seo-audit`, `seo-canon`).
+- Validacion: `scripts/protocol_guard.py` limpio.
+
+### 2026-05-18 - fase 8 patron operativo de agentes
+
+- Alcance: patron general para commands, agents, skills, references, templates, canon, clients, planning y registries.
+- Tipo: guia de arquitectura operativa.
+- Decision: copiar el patron que funciono en SEO, no copiar la estructura SEO completa a todas las areas.
+- Resultado: creado `planning/patron-operativo-agentes-v2.md`; enlazado desde `README.md`.
+- Criterio: canon solo si hay criterio transversal probado; skill si falta procedimiento; reference si hay conocimiento largo bajo demanda; command si Rodrigo necesita entrada simple.
+- Validacion: `scripts/protocol_guard.py` limpio.

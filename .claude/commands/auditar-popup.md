@@ -11,9 +11,9 @@ Audita un popup, modal, overlay, slide-in o banner sin tocar produccion.
 Ejemplos:
 
 ```text
-/auditar-popup cashier-bubble-tea popup newsletter
-/auditar-popup la-bottega-del-gusto banner reservas
-/auditar-popup computer-chamberi exit intent contacto
+/auditar-popup cliente-ecommerce popup newsletter
+/auditar-popup cliente-reservas banner reservas
+/auditar-popup cliente-servicios exit intent contacto
 ```
 
 ## Workflow

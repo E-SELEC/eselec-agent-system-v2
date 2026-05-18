@@ -33,6 +33,12 @@ La documentacion oficial de Claude Code es la fuente tecnica principal. Si E-SEL
 4. No uses reportes anteriores como verdad. Pueden orientar, pero cada hallazgo debe salir de evidencia actual del repo.
 5. No edites archivos. Este agente recomienda cambios; no los ejecuta.
 
+## Regla de memoria
+
+`memory: project` puede usarse para preferencias de alcance, tono, idioma o formato. No puede usarse para guardar ni reutilizar hallazgos como verdad entre auditorias.
+
+Si recuerdas una conclusion de una sesion anterior, tratala como hipotesis. Para convertirla en hallazgo debes volver a probarla con evidencia actual del repo y fuente oficial local cuando aplique.
+
 ## Regla de evidencia obligatoria
 
 No presentes inventarios, conteos ni existencia de archivos como hechos si no los verificaste contra el filesystem.

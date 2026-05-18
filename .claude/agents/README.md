@@ -23,12 +23,11 @@ Agentes activos:
 - `social-leader`: coordina estrategia, contenido y comunidad social.
 - `reports-leader`: coordina informes, alertas y proximos pasos de cliente.
 - `web-leader`: coordina arquitectura, diseño, web, WordPress, WooCommerce y feedback visual.
-- `seo-tecnico`, `seo-organico`, `seo-local`, `seo-llms`, `seo-web`: especialistas SEO.
+- `seo-tecnico`, `seo-organico`, `seo-local`, `seo-llms`, `seo-web`: especialistas SEO; comparten `seo-canon` como criterio historico E-SELEC antes de ejecutar o recomendar.
 - `cro-funnels`, `cro-landing`, `cro-formularios`, `cro-tests`, `cro-uxui`: especialistas CRO.
 - `sem-google`, `sem-meta`, `sem-linkedin`, `sem-tiktok`, `sem-analitica`: especialistas SEM/Paid Media.
 - `social-estrategia`, `social-contenido`, `social-comunidad`: especialistas Social.
-- `reports-cliente`, `reports-alertas`, `reports-proxpasos`: especialistas Reports.
+- `reports-cliente`, `reports-alertas`, `reports-proxpasos`: especialistas Reports; comparten `.claude/skills/reports/` como procedimiento de informes, alertas y proximos pasos.
 - `web-arquitectura`, `web-diseno`, `web-desarrollo`, `web-implementacion`, `web-mantenimiento`, `web-feedback-loop`: especialistas Web.
 - `agency-captacion`, `agency-reputacion`, `agency-onboarding`, `agency-retencion`, `agency-finanzas`: especialistas internos de Agencia.
 - `arquitecto`, `fenix`, `calibracion`, `loops-leader`: gobernanza, regeneracion estructural, aprendizaje de Rodrigo y ciclos recurrentes.
-

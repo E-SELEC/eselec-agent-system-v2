@@ -11,9 +11,9 @@ Audita una pagina para mejorar conversion sin tocar produccion.
 Ejemplos:
 
 ```text
-/auditar-cro-pagina computer-chamberi home
-/auditar-cro-pagina la-bottega-del-gusto pagina de contacto
-/auditar-cro-pagina cashier-bubble-tea landing pedido online
+/auditar-cro-pagina cliente-servicios home
+/auditar-cro-pagina cliente-reservas pagina de contacto
+/auditar-cro-pagina cliente-ecommerce landing pedido online
 ```
 
 ## Workflow
