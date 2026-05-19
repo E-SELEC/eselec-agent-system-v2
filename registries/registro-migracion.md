@@ -864,3 +864,11 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Decision: no ejecutar conector Meta Ads, no tocar tokens y no reescribir mensajes. Corregir solo inconsistencias documentales para que `context.md` y `tasks.md` reflejen el ultimo dato confirmado del 2026-05-11: campaña principal B2B `PAUSED` y evaluacion por link clicks/CPC/CTR, no por eventos `messaging_*` como conversiones reales.
 - Resultado: creado `clients/stramondo-venezuela/outputs/homologacion-v2-2026-05-19.md`; actualizado manifest/log/tasks/context/planning/registros.
 - Contaminacion evitada: datos reales de campaña quedan en `/clients/stramondo-venezuela` y registros, no en skills, agentes ni canon general.
+
+### 2026-05-19 - fase 16 auditoria duplicaciones agents skills commands
+
+- Alcance: `.claude/agents`, `.claude/skills`, `.claude/commands`.
+- Tipo: auditoria estructural y ajuste minimo.
+- Decision: no consolidar agentes ni borrar artefactos en lote. Corregir solo `seo-leader` porque `seo-tecnico` ya existe y no debe figurar como futuro. Documentar los 40 `openai.yaml` como pendiente-revision antes de una eliminacion ordenada.
+- Resultado: creado `planning/auditoria-duplicaciones-agents-skills-commands-2026-05-19.md`; corregido routing SEO.
+- Contaminacion evitada: no se mezclaron datos de clientes ni ejemplos reales en primitives generales.

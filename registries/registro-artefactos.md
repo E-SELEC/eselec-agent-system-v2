@@ -1001,3 +1001,15 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Reemplaza a: cabeceras obsoletas y tabla `Estado de campañas Meta Ads (19 abr 2026)` que marcaba la B2B como activa.
 - Accion recomendada: validar estado actual en Ads Manager/API y calidad real de leads en WhatsApp Business antes de reactivar, escalar presupuesto o cambiar placements.
 - Riesgo: medio documental; no toca Meta Ads, secretos, tokens, presupuesto ni conectores.
+
+### 2026-05-19 - fase 16 auditoria duplicaciones agents skills commands
+- Area: arquitectura E-SELEC v2 / primitives Claude Code
+- Agente: Codex + consulta Claude / alineacion
+- Tipo: auditoria estructural y ajuste minimo
+- Motivo: comprobar si la convivencia agents/skills/commands genera duplicacion operativa o rutas obsoletas.
+- Estado: vigente
+- Archivos creados/modificados: `.claude/agents/seo-leader.md`, `planning/auditoria-duplicaciones-agents-skills-commands-2026-05-19.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Reemplaza a: referencia obsoleta `futuro seo-tecnico` dentro de `seo-leader`.
+- Pendiente-revision: 40 archivos `.claude/skills/*/agents/openai.yaml`; no se eliminan hasta confirmar si alguna herramienta externa los consume.
+- Accion recomendada: si no hay consumidor externo de `openai.yaml`, abrir Fase 17 para eliminarlos con inventario y commit propio.
+- Riesgo: bajo; no toca clientes, produccion, secretos ni conectores.
