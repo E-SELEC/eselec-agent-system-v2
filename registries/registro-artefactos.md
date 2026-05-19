@@ -1059,3 +1059,25 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Reemplaza a: comandos manuales repetidos y diagnosticos confusos sobre Chrome abierto sin depuracion remota.
 - Accion recomendada: usar `python scripts/chrome_debug_helper.py status` antes de pedir scraping de Chrome; usar `open --separate-profile` si no se quiere cerrar Chrome real.
 - Riesgo: medio operativo si se usa sobre cuentas autenticadas; bajo documental porque no guarda sesiones, secretos ni outputs.
+
+### 2026-05-20 - ajuste Chrome 136 CDP
+- Area: integraciones locales E-SELEC v2 / navegador
+- Agente: Codex
+- Tipo: correccion de protocolo y helper
+- Motivo: Chrome recibia `--remote-debugging-port=9222` en el perfil real E-SELEC, pero no exponia el endpoint CDP; Chrome 136+ requiere `--user-data-dir` no default para debug remoto.
+- Estado: vigente
+- Archivos creados/modificados: `scripts/chrome_debug_helper.py`, `protocols/browser-mcp.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Reemplaza a: instruccion anterior de cerrar Chrome y reabrir el perfil real con `--remote-debugging-port`.
+- Accion recomendada: para CDP/Playwright CLI usar perfil separado; para perfil real E-SELEC usar Claude Chrome extension o Playwright MCP extension.
+- Riesgo: bajo; corrige documentacion y comportamiento local sin guardar datos.
+
+### 2026-05-20 - accesos rapidos Chrome E-SELEC
+- Area: integraciones locales E-SELEC v2 / navegador
+- Agente: Codex
+- Tipo: scripts locales de apertura
+- Motivo: dejar comandos simples para abrir el perfil real E-SELEC y el perfil automatizable CDP sin recordar flags manuales.
+- Estado: vigente
+- Archivos creados/modificados: `scripts/open_eselec_chrome.ps1`, `scripts/open_eselec_automation.ps1`, `scripts/README.md`, `protocols/browser-mcp.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Reemplaza a: comandos manuales largos para abrir Chrome.
+- Accion recomendada: usar `open_eselec_chrome.ps1` para trabajo humano normal y `open_eselec_automation.ps1` para tareas que Codex/Claude deban leer via CDP.
+- Riesgo: bajo; no contiene secretos ni guarda sesiones.

@@ -33,6 +33,8 @@ python scripts/chrome_debug_helper.py status
 python scripts/chrome_debug_helper.py open
 python scripts/chrome_debug_helper.py tabs
 python scripts/chrome_debug_helper.py scrape-chatgpt
+.\scripts\open_eselec_chrome.ps1
+.\scripts\open_eselec_automation.ps1
 ```
 
 El reporte se escribe en `outputs/system/protocol-guard-latest.md`, que no se versiona.

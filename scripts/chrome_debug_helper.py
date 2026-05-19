@@ -7,6 +7,8 @@ Uso principal:
   python scripts/chrome_debug_helper.py scrape-chatgpt
 
 No guarda cookies, tokens ni contenido scrapeado. Imprime el resultado en stdout.
+Chrome 136+ bloquea CDP sobre el perfil real/default; por eso `open`
+usa un perfil CDP separado por defecto.
 """
 
 from __future__ import annotations
@@ -100,8 +102,9 @@ def command_status(args: argparse.Namespace) -> int:
             return 1
 
     if chrome_running:
-        print("Diagnostico: Chrome esta abierto sin puerto de depuracion activo.")
-        print("Solucion: cierra todas las ventanas de Chrome y ejecuta `open`.")
+        print("Diagnostico: Chrome esta abierto, pero no hay endpoint CDP disponible.")
+        print("Nota: Chrome 136+ ignora el debug remoto sobre perfiles reales/default.")
+        print("Solucion: ejecuta `open` para abrir un perfil CDP separado.")
     else:
         print("Diagnostico: Chrome no esta abierto. Ejecuta `open`.")
     return 1
@@ -111,14 +114,6 @@ def command_open(args: argparse.Namespace) -> int:
     if is_port_open(args.host, args.port):
         print(f"Chrome ya esta disponible en {args.host}:{args.port}.")
         return 0
-
-    if chrome_processes_running() and not args.separate_profile:
-        print("Chrome ya esta abierto, pero no tiene CDP activo.")
-        print("No lo cierro automaticamente para no perder pestanas o trabajo.")
-        print("Opciones:")
-        print("1. Cierra Chrome manualmente y vuelve a ejecutar este comando.")
-        print("2. Usa `open --separate-profile` para abrir un Chrome aislado.")
-        return 2
 
     chrome_path = Path(args.chrome_path)
     if not chrome_path.exists():
@@ -131,8 +126,16 @@ def command_open(args: argparse.Namespace) -> int:
         f"--remote-debugging-port={args.port}",
     ]
 
-    if args.separate_profile:
-        profile_dir = Path(os.getenv("LOCALAPPDATA", Path.home())) / "ESELEC" / "chrome-debug-profile"
+    if args.use_default_user_data_dir:
+        if chrome_processes_running():
+            print("Chrome ya esta abierto. No puedo activar CDP sobre una instancia existente.")
+            print("Ademas, Chrome 136+ suele bloquear CDP sobre el perfil real/default.")
+            return 2
+        print("Aviso: `--use-default-user-data-dir` no es recomendado y puede no abrir CDP.")
+    else:
+        profile_dir = Path(args.user_data_dir) if args.user_data_dir else (
+            Path(os.getenv("LOCALAPPDATA", Path.home())) / "ESELEC" / "chrome-debug-profile"
+        )
         profile_dir.mkdir(parents=True, exist_ok=True)
         chrome_args.append(f"--user-data-dir={profile_dir}")
 
@@ -358,7 +361,13 @@ def build_parser() -> argparse.ArgumentParser:
 
     open_cmd = subparsers.add_parser("open", help="Abre Chrome con remote debugging.")
     open_cmd.add_argument("--chrome-path", default=os.getenv("CHROME_PATH", DEFAULT_CHROME))
-    open_cmd.add_argument("--separate-profile", action="store_true", help="Usa perfil aislado sin tu sesion real.")
+    open_cmd.add_argument("--separate-profile", action="store_true", help="Compatibilidad: `open` ya usa perfil separado por defecto.")
+    open_cmd.add_argument("--user-data-dir", help="Directorio de perfil CDP separado.")
+    open_cmd.add_argument(
+        "--use-default-user-data-dir",
+        action="store_true",
+        help="No recomendado; Chrome 136+ suele bloquear CDP sobre perfiles reales/default.",
+    )
     open_cmd.add_argument("--url", help="URL inicial opcional.")
     open_cmd.set_defaults(func=command_open)
 

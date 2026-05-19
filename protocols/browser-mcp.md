@@ -32,20 +32,29 @@ python scripts/chrome_debug_helper.py status
 python scripts/chrome_debug_helper.py open
 ```
 
-Si quieres usar un perfil aislado sin tu sesion real:
+Accesos rapidos desde PowerShell:
 
 ```powershell
-python scripts/chrome_debug_helper.py open --separate-profile
+.\scripts\open_eselec_chrome.ps1       # perfil real E-SELEC
+.\scripts\open_eselec_automation.ps1   # perfil automatizable CDP
 ```
+
+`open` usa un perfil CDP separado por defecto en:
+
+```powershell
+%LOCALAPPDATA%\ESELEC\chrome-debug-profile
+```
+
+Esto es necesario porque Chrome 136+ ya no permite que `--remote-debugging-port` controle el perfil real/default de Chrome. Para usar ChatGPT, Google, Meta u otra herramienta autenticada desde ese perfil CDP, inicia sesion una vez dentro de esa ventana separada.
 
 Opcion manual:
 
-1. Cierra Chrome si ya esta abierto sin depuracion remota.
+1. Usa un perfil separado, no el perfil real/default de Chrome.
 2. Abre PowerShell.
 3. Ejecuta:
 
 ```powershell
-Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList @("--remote-debugging-port=9222")
+Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList @("--remote-debugging-port=9222","--user-data-dir=$env:LOCALAPPDATA\ESELEC\chrome-debug-profile")
 ```
 
 4. Entra manualmente a las paginas necesarias.
@@ -59,7 +68,7 @@ python scripts/chrome_debug_helper.py tabs
 python scripts/chrome_debug_helper.py scrape-chatgpt
 ```
 
-Si Chrome ya esta abierto y no quieres cerrarlo, usa la integracion nativa de Claude en Chrome (`claude --chrome` o `/chrome`) en lugar de este MCP.
+Si quieres trabajar exactamente sobre tu Chrome real E-SELEC, usa la integracion nativa de Claude en Chrome (`claude --chrome` o `/chrome`) o Playwright MCP con extension. CDP/Playwright CLI debe usar perfil separado.
 
 ## Uso permitido
 

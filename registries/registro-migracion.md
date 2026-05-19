@@ -908,3 +908,21 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Resultado: el helper no cierra Chrome automaticamente, no guarda contenido, no lee cookies/tokens y solo imprime a stdout; si Chrome esta abierto sin CDP, explica el bloqueo.
 - Contaminacion evitada: no se guardan screenshots, HTML, storage state ni conversaciones; la herramienta es general y no contiene datos de clientes ni ChatGPT.
 - Validacion: `python -m py_compile scripts/chrome_debug_helper.py` limpio; `status` diagnostica correctamente Chrome abierto sin CDP; `git diff --check` limpio; `scripts/protocol_guard.py` limpio.
+
+### 2026-05-20 - ajuste Chrome 136 CDP
+
+- Alcance: Browser MCP / Playwright CLI / helper local Chrome.
+- Tipo: correccion por comportamiento real de Chrome.
+- Decision: no intentar controlar el perfil real E-SELEC con `--remote-debugging-port`; Chrome 136+ requiere `--user-data-dir` no default. El helper `open` pasa a usar perfil CDP separado por defecto.
+- Resultado: `protocols/browser-mcp.md` documenta que el perfil real debe usarse con Claude Chrome extension o Playwright MCP extension, no con CDP directo; `chrome_debug_helper.py` ya no recomienda cerrar todo Chrome como solucion principal.
+- Contaminacion evitada: no se copian perfiles reales ni cookies; no se usan hacks para evadir restricciones de Chrome.
+- Validacion pendiente al cierre de fase: compilar helper, ejecutar `open` con perfil separado, confirmar `status`, `git diff --check` y `scripts/protocol_guard.py`.
+
+### 2026-05-20 - accesos rapidos Chrome E-SELEC
+
+- Alcance: apertura local de navegador para Rodrigo y automatizacion controlada.
+- Tipo: scripts PowerShell locales.
+- Decision: separar explicitamente `E-SELEC normal` de `E-SELEC automatizable`: el primero usa `--profile-directory=Profile 1`, el segundo llama al helper CDP con perfil separado.
+- Resultado: creados `scripts/open_eselec_chrome.ps1` y `scripts/open_eselec_automation.ps1`; documentados en `scripts/README.md` y `protocols/browser-mcp.md`.
+- Contaminacion evitada: no se mezclan perfil real y perfil CDP; no se guardan credenciales ni contenido.
+- Validacion: sintaxis PowerShell OK; `git diff --check` limpio; `scripts/protocol_guard.py` limpio.
