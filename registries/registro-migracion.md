@@ -881,3 +881,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Resultado: creado `planning/saneamiento-openai-yaml-2026-05-19.md`; actualizado `planning/auditoria-duplicaciones-agents-skills-commands-2026-05-19.md` para marcar `DPL-002` como resuelto; eliminados los 40 `openai.yaml`.
 - Contaminacion evitada: se retiro metadata externa que podia hacer creer a futuros agentes que habia otra capa de instrucciones aparte de `SKILL.md`.
 - Validacion pendiente al cierre de fase: confirmar sin `openai.yaml`, ejecutar `protocol_guard.py`, commit y push.
+
+### 2026-05-19 - fase 18 regla de admision de canon
+
+- Alcance: futuros canons de E-SELEC v2.
+- Tipo: regla de gobernanza antes de crear/migrar canons.
+- Decision: no crear canons nuevos por ahora. Primero fijar una regla de admision basada en el metodo real del canon SEO: fuente primaria, modulos, indice, lectura bajo demanda y declaracion de decision cambiada.
+- Resultado: creada `.claude/rules/canon-admision.md`; actualizado `planning/patron-operativo-agentes-v2.md`.
+- Contaminacion evitada: no se copiaron JSON, PDFs, ejemplos reales ni material fuente externo dentro de skills, agentes o canon general.
+- Validacion pendiente al cierre de fase: `git diff --check`, `scripts/protocol_guard.py`, commit y push.

@@ -67,6 +67,13 @@ Un canon se justifica si cumple al menos 3 condiciones:
 
 Ejemplo aplicado: `seo-canon`.
 
+Regla actualizada:
+
+- Un canon nuevo debe cumplir la regla `.claude/rules/canon-admision.md`.
+- Si no alcanza un nivel comparable al canon SEO, no se crea canon.
+- En ese caso se refuerza una skill, referencia, checklist, template o planning note.
+- No se crean canons por analogia ni por acumulacion de resumenes.
+
 ### Crear una referencia dentro de una skill
 
 Cuando la skill ya existe, pero necesita conocimiento largo o reglas especificas que no deben cargarse siempre.

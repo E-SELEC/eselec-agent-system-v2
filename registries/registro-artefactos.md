@@ -1025,3 +1025,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Reemplaza a: pendiente-revision `DPL-002`.
 - Accion recomendada: no volver a crear metadatos externos dentro de `.claude/skills` salvo que exista consumidor documentado; cada skill debe vivir en `SKILL.md` y referencias bajo demanda.
 - Riesgo: bajo; no toca clientes, produccion, secretos, conectores ni outputs.
+
+### 2026-05-19 - fase 18 regla de admision de canon
+- Area: arquitectura E-SELEC v2 / gobernanza de canons
+- Agente: Codex + consulta Claude / alineacion
+- Tipo: regla transversal de calidad
+- Motivo: impedir que futuras areas creen canons debiles por analogia con SEO; un canon solo se acepta si tiene fuente primaria, profundidad modular, indice y prueba de criterio.
+- Estado: vigente
+- Archivos creados/modificados: `.claude/rules/canon-admision.md`, `planning/patron-operativo-agentes-v2.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Fuentes externas revisadas pero no importadas: JSON handoff y PDFs del manual SEO entregados por Rodrigo en Downloads.
+- Accion recomendada: antes de proponer canon para SEM, CRO, Reports, Web o Social, aplicar `.claude/rules/canon-admision.md`; si no cumple, reforzar skill/referencia/checklist.
+- Riesgo: bajo; no toca clientes, produccion, secretos, conectores ni outputs.
