@@ -821,3 +821,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Resultado: creado `planning/auditoria-cro-web-social-2026-05-19.md`; corregido `social-leader.md` para enrutar comunidad/crisis a `social-comunidad` en lugar de marcarlo como futuro.
 - Contaminacion evitada: no se copiaron ejemplos reales de clientes ni material legacy especifico dentro de skills generales.
 - Validacion: `scripts/protocol_guard.py` limpio; grep de routing Social confirma `social-comunidad`.
+
+### 2026-05-19 - fase 11 contaminacion restante y contexto agencia
+
+- Alcance: `.claude/skills`, `.claude/agents`, `.claude/commands`, `.claude/rules`, memoria `agency/`.
+- Tipo: auditoria de contaminacion y sincronizacion de memoria interna.
+- Decision: no eliminar nombres reales de `agency/`, porque es memoria operativa interna; si mantener las primitivas reutilizables sin clientes reales.
+- Resultado: creado `planning/auditoria-contaminacion-restante-2026-05-19.md`; actualizado `agency/context.md` para reflejar que los 4 clientes activos ya existen en v2 con migracion minima; actualizado `agency/log.md`.
+- Cliente inactivo: `shogun-motors` permanece solo como historico/inactivo y fuera de loops, informes y tareas.
+- Validacion: escaneo `.claude/` sin coincidencias; `scripts/protocol_guard.py` limpio; `git diff --check` limpio.

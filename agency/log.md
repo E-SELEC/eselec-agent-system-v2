@@ -16,3 +16,4 @@
 
 [2026-05-13] [ARQUITECTO] O1-005 primer conector seguro | RESULTADO: creado `planning/conector-seguro-01-gsc-lectura.md`; decision: el primer conector seguro sera GSC solo lectura, especificado sin implementacion, sin accesos y sin tocar produccion. | PROXIMO PASO: cerrar Sprint 01 y, si Rodrigo aprueba, implementar `gsc-readonly` con OAuth fuera del repo y dry-run por defecto.
 
+[2026-05-19] [CODEX + ALINEACION] Fase 11 sincronizacion de contexto agencia | RESULTADO: `agency/context.md` actualizado para reflejar que `cashier-bubble-tea`, `la-bottega-del-gusto`, `stramondo-venezuela` y `computer-chamberi` ya existen como clientes activos v2 con migracion minima; `shogun-motors` permanece como historico/inactivo y fuera de loops. | PROXIMO PASO: revisar cada cliente activo antes de ejecutar loops o informes reales.

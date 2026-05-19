@@ -946,3 +946,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Reemplaza a: idea de replicar automaticamente `seo-canon` en CRO, Web y Social.
 - Accion recomendada: no crear canon CRO/Web/Social hasta observar fallos reales de output; si aparece un fallo, decidir entre mejorar skill, crear referencia, crear template, crear command o crear canon.
 - Riesgo: bajo; no toca clientes, produccion, secretos, conectores ni datos vivos.
+
+### 2026-05-19 - fase 11 contaminacion restante y contexto agencia
+- Area: sistema E-SELEC v2 / memoria interna y contaminacion
+- Agente: Codex + consulta Claude / alineacion
+- Tipo: auditoria documental + sincronizacion de contexto
+- Motivo: confirmar que los nombres reales de clientes no viven en primitivas reutilizables y corregir estado obsoleto de clientes migrados en `agency/context.md`.
+- Estado: vigente
+- Archivos creados/modificados: `agency/context.md`, `agency/log.md`, `planning/auditoria-contaminacion-restante-2026-05-19.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Reemplaza a: estados obsoletos que marcaban clientes activos como pendientes de migrar v2.
+- Accion recomendada: permitir nombres reales en `agency/` como memoria interna; mantener `.claude/agents`, `.claude/skills`, `.claude/commands` y `.claude/rules` sin clientes reales salvo que sea una referencia historica justificada.
+- Riesgo: bajo; no toca produccion, secretos, conectores ni outputs de clientes.

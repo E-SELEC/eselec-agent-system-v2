@@ -3,7 +3,7 @@
 ## Estado
 
 - Fecha de migracion v2: 2026-05-12
-- Ultima actualizacion operativa: 2026-05-13
+- Ultima actualizacion operativa: 2026-05-19
 - Fuente legacy: `agency/context.md`, `AGENTS.md`, logs de migracion
 - Responsable: Rodrigo
 - Slogan: Data-driven solutions
@@ -24,20 +24,20 @@ La migracion base del sistema v2 esta cerrada. Ya existen protocolos, lideres, a
 
 La prioridad actual ya no es migrar piezas base, sino probar el sistema en uso real con bajo riesgo:
 
-1. Mantener `computer-chamberi` como cliente piloto hasta completar el Sprint 01.
-2. Ejecutar loops en modo lectura antes de automatizarlos.
+1. Operar con los 4 clientes activos ya migrados de forma minima a v2.
+2. Mantener los loops en modo lectura hasta comprobar contexto, logs y mensajes de cada cliente.
 3. Validar calibracion antes de guardar aprendizajes permanentes.
 4. Elegir un solo conector seguro para especificar antes de tocar APIs o produccion.
-5. Migrar el resto de clientes activos uno por uno, no en bloque.
+5. No incluir clientes inactivos en loops, informes ni tareas salvo reactivacion explicita.
 
-## Clientes activos v2
+## Clientes y estado operativo
 
 | Cliente | Carpeta | Sector | Servicios principales | Estado |
 |---|---|---|---|---|
-| Chashier Bubble Tea | `cashier-bubble-tea` | hosteleria | SEO, RRSS, Web | activo legacy, pendiente migrar v2 |
-| La Bottega del Gusto | `la-bottega-del-gusto` | retail alimentacion | SEO local, Web | activo legacy, pendiente migrar v2 |
-| Stramondo Venezuela | `stramondo-venezuela` | distribucion B2B | Meta Ads, RRSS | activo legacy, pendiente migrar v2 |
-| Computer Chamberi | `computer-chamberi` | servicios tecnicos | SEO organico, SEO local, Web | cliente piloto v2; O1-001 ejecutado en lectura |
+| Chashier Bubble Tea | `cashier-bubble-tea` | hosteleria | SEO, RRSS, Web | activo v2; migracion minima 2026-05-18 |
+| La Bottega del Gusto | `la-bottega-del-gusto` | retail alimentacion | SEO local, Web | activo v2; migracion minima 2026-05-18 |
+| Stramondo Venezuela | `stramondo-venezuela` | distribucion B2B | Meta Ads, RRSS | activo v2; migracion minima 2026-05-18 |
+| Computer Chamberi | `computer-chamberi` | servicios tecnicos | SEO organico, SEO local, Web | activo v2; cliente piloto inicial |
 | Shogun Motors | `shogun-motors` | automocion/taller | SEO, Web, Local | baja voluntaria 2026-04-17; solo historico |
 
 ## Areas internas
@@ -80,4 +80,4 @@ La prioridad actual ya no es migrar piezas base, sino probar el sistema en uso r
 2. Ejecutar O1-003 `LOOP: auditoria-semanal` en modo lectura, sin cambios reales.
 3. Probar O1-004 Calibracion con una correccion real o simulada.
 4. Elegir O1-005 primer conector seguro para especificacion, no implementacion productiva.
-5. Preparar migracion ordenada de los clientes activos restantes solo despues de validar el piloto.
+5. Revisar cada cliente activo ya migrado antes de ejecutar loops o informes reales.
