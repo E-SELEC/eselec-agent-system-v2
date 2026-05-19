@@ -957,3 +957,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Reemplaza a: estados obsoletos que marcaban clientes activos como pendientes de migrar v2.
 - Accion recomendada: permitir nombres reales en `agency/` como memoria interna; mantener `.claude/agents`, `.claude/skills`, `.claude/commands` y `.claude/rules` sin clientes reales salvo que sea una referencia historica justificada.
 - Riesgo: bajo; no toca produccion, secretos, conectores ni outputs de clientes.
+
+### 2026-05-19 - fase 12 homologacion Computer Chamberi
+- Area: clientes E-SELEC v2 / Computer Chamberi
+- Agente: Codex + consulta Claude / alineacion
+- Tipo: homologacion de cliente piloto
+- Motivo: confirmar que el cliente piloto puede operar en v2 sin reescribir su contexto ni mezclar memoria historica con instrucciones generales.
+- Estado: vigente
+- Archivos creados/modificados: `clients/computer-chamberi/outputs/homologacion-v2-2026-05-19.md`, `clients/computer-chamberi/outputs/manifest.md`, `clients/computer-chamberi/log.md`, `clients/computer-chamberi/tasks.md`, `planning/homologacion-clientes-activos-2026-05-19.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Reemplaza a: tarea pendiente generica de `client-audit v2` para el cliente piloto.
+- Accion recomendada: verificar medicion y linea base SEO/tecnica antes de auditoria SEO final, CRO o informes.
+- Riesgo: bajo; solo documentacion interna del cliente, sin produccion, secretos ni conectores.

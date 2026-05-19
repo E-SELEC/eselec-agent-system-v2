@@ -830,3 +830,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Resultado: creado `planning/auditoria-contaminacion-restante-2026-05-19.md`; actualizado `agency/context.md` para reflejar que los 4 clientes activos ya existen en v2 con migracion minima; actualizado `agency/log.md`.
 - Cliente inactivo: `shogun-motors` permanece solo como historico/inactivo y fuera de loops, informes y tareas.
 - Validacion: escaneo `.claude/` sin coincidencias; `scripts/protocol_guard.py` limpio; `git diff --check` limpio.
+
+### 2026-05-19 - fase 12 homologacion Computer Chamberi
+
+- Alcance: cliente piloto `clients/computer-chamberi/`.
+- Tipo: homologacion operativa de cliente activo.
+- Decision: no reescribir `context.md`; el cliente ya tiene estructura v2 suficiente. Crear output de homologacion, actualizar manifest/log y marcar `client-audit v2` como cubierto.
+- Resultado: creado `clients/computer-chamberi/outputs/homologacion-v2-2026-05-19.md`; actualizado `tasks.md` para dejar como siguiente prioridad real la verificacion de medicion y linea base.
+- Contaminacion evitada: la conversacion historica de diagnostico SEO permanece dentro del cliente, no en canon ni skills generales.
+- Validacion: `scripts/protocol_guard.py` limpio; `git diff --check` limpio; manifest actualizado.

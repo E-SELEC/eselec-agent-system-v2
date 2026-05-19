@@ -15,7 +15,7 @@
 
 ## P1 - Auditoria y priorizacion
 
-- [ ] Ejecutar `client-audit` v2.
+- [x] Ejecutar `client-audit` v2 / homologacion de cliente piloto. Cubierto por `outputs/homologacion-v2-2026-05-19.md`.
 - [ ] Ejecutar `seo-audit` v2.
 - [ ] Crear backlog priorizado impacto/esfuerzo.
 - [ ] Evaluar paginas dedicadas Amazfit/Xiaomi/GoPro.
@@ -37,4 +37,3 @@
 - [ ] Definir embudo y propuesta de valor por servicio.
 - [ ] Mejorar CTAs hacia llamada/WhatsApp/formulario.
 - [ ] Evaluar CRO solo con medicion minima verificada.
-
