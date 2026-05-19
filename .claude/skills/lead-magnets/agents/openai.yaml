@@ -1,4 +1,0 @@
-interface:
-  display_name: "Lead Magnets"
-  short_description: "Planifica captacion de leads"
-  default_prompt: "Planifica un lead magnet con gating, entrega y medicion."

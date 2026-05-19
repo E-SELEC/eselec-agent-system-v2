@@ -1,4 +1,0 @@
-interface:
-  display_name: "Ingesta Evidencia"
-  short_description: "Sanea exports y datos vivos antes de usarlos."
-  default_prompt: "Convierte este export o dato vivo en evidencia saneada para E-SELEC v2."

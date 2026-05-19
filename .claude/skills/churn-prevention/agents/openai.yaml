@@ -1,4 +1,0 @@
-interface:
-  display_name: "Churn Prevention"
-  short_description: "Reduce churn con guardrails"
-  default_prompt: "Disena un plan de retencion sin tocar billing real."

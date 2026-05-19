@@ -1,4 +1,0 @@
-interface:
-  display_name: "Page CRO"
-  short_description: "Audita paginas para mejorar conversion"
-  default_prompt: "Audita esta pagina para mejorar conversion sin tocar produccion."

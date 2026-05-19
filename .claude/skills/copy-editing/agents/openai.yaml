@@ -1,4 +1,0 @@
-interface:
-  display_name: "Copy Editing"
-  short_description: "Revisa y pule copy sin cambiar el mensaje"
-  default_prompt: "Revisa este copy y propon mejoras claras, verificables y alineadas con el objetivo."

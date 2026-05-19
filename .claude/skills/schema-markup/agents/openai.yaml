@@ -1,4 +1,0 @@
-interface:
-  display_name: "Schema Markup"
-  short_description: "Disena y revisa datos estructurados seguros"
-  default_prompt: "Audita o disena schema JSON-LD para este cliente sin tocar produccion."

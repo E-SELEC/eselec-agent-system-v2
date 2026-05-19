@@ -1,4 +1,0 @@
-interface:
-  display_name: "Launch Strategy"
-  short_description: "Planifica lanzamientos y releases"
-  default_prompt: "Use $launch-strategy to plan a product or feature launch with phases, channels, assets, metrics, and risks."

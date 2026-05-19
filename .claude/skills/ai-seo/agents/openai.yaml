@@ -1,4 +1,0 @@
-interface:
-  display_name: "AI SEO"
-  short_description: "Audita visibilidad en buscadores y respuestas AI"
-  default_prompt: "Audita o planifica visibilidad AI para este cliente con evidencia y sin prometer citas."

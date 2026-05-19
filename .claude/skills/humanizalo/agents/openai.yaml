@@ -1,4 +1,0 @@
-interface:
-  display_name: "Humanizalo"
-  short_description: "Humaniza textos y quita tono IA"
-  default_prompt: "Use $humanizalo to rewrite this text so it sounds more human, specific, and natural without changing the core message."

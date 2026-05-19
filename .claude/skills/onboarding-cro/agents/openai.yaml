@@ -1,4 +1,0 @@
-interface:
-  display_name: "Onboarding CRO"
-  short_description: "Mejora activacion y primer valor"
-  default_prompt: "Audita este onboarding para reducir time-to-value sin tocar produccion."

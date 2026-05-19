@@ -1,4 +1,0 @@
-interface:
-  display_name: "Competitor Alternatives"
-  short_description: "Crea comparativas honestas"
-  default_prompt: "Planifica una pagina comparativa honesta y verificable."

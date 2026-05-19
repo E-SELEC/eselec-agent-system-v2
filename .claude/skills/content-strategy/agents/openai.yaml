@@ -1,4 +1,0 @@
-interface:
-  display_name: "Content Strategy"
-  short_description: "Planifica contenido por negocio, SEO y AI"
-  default_prompt: "Planifica una estrategia de contenido priorizada para este cliente."

@@ -872,3 +872,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Decision: no consolidar agentes ni borrar artefactos en lote. Corregir solo `seo-leader` porque `seo-tecnico` ya existe y no debe figurar como futuro. Documentar los 40 `openai.yaml` como pendiente-revision antes de una eliminacion ordenada.
 - Resultado: creado `planning/auditoria-duplicaciones-agents-skills-commands-2026-05-19.md`; corregido routing SEO.
 - Contaminacion evitada: no se mezclaron datos de clientes ni ejemplos reales en primitives generales.
+
+### 2026-05-19 - fase 17 saneamiento openai.yaml
+
+- Alcance: `.claude/skills/*/agents/openai.yaml`.
+- Tipo: saneamiento de artefactos no nativos de Claude Code.
+- Decision: eliminar los 40 `openai.yaml` porque fueron creados por Codex durante la migracion, no habia consumidor externo conocido y no son una primitiva viva de Claude Code.
+- Resultado: creado `planning/saneamiento-openai-yaml-2026-05-19.md`; actualizado `planning/auditoria-duplicaciones-agents-skills-commands-2026-05-19.md` para marcar `DPL-002` como resuelto; eliminados los 40 `openai.yaml`.
+- Contaminacion evitada: se retiro metadata externa que podia hacer creer a futuros agentes que habia otra capa de instrucciones aparte de `SKILL.md`.
+- Validacion pendiente al cierre de fase: confirmar sin `openai.yaml`, ejecutar `protocol_guard.py`, commit y push.

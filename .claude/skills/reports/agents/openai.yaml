@@ -1,4 +1,0 @@
-interface:
-  display_name: "Reports"
-  short_description: "Create client reports, alerts, and next-step roadmaps."
-  default_prompt: "Create a client report, alert, or next-step plan using E-SELEC reporting standards."

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Paid Ads"
-  short_description: "Planifica campanas pagadas seguras"
-  default_prompt: "Planifica esta campana paid media sin tocar cuentas reales."

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Kling Producer"
-  short_description: "Planifica videos AI con Kling"
-  default_prompt: "Use $kling-producer to turn this video idea into safe image and Kling prompts, parameters, estimated cost, and next steps."

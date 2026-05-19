@@ -58,9 +58,10 @@ Resultado:
 
 Decision:
 
-- No se eliminan en esta fase.
-- Se registran como pendiente de saneamiento.
-- Motivo: parecen metadatos de formato OpenAI/legacy, no primitivas Claude Code, pero no se descarta que una herramienta externa los lea.
+- Resuelto en Fase 17.
+- Se eliminaron 40 archivos `.claude/skills/*/agents/openai.yaml`.
+- Motivo: Claude Code no los usa como primitiva nativa, no habia referencias internas operativas y Rodrigo confirmo que fueron creados por Codex durante la migracion.
+- Evidencia y listado completo: `planning/saneamiento-openai-yaml-2026-05-19.md`.
 
 ## Estado del patron
 
@@ -74,4 +75,4 @@ El patron actual es correcto:
 
 ## Siguiente paso recomendado
 
-Antes de borrar los 40 `openai.yaml`, confirmar si alguna herramienta externa al repo los consume. Si no hay consumidor externo, abrir Fase 17 para eliminarlos ordenadamente con inventario, registro y commit propio.
+Con `DPL-001` y `DPL-002` resueltos, continuar con la siguiente fase de la migracion: revisar si otras areas no SEO necesitan canon, referencias o solo ajustes de skills segun fallos reales de output.

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Free Tool Strategy"
-  short_description: "Planifica herramientas gratuitas"
-  default_prompt: "Use $free-tool-strategy to evaluate a free marketing tool idea, MVP scope, lead capture, SEO potential, and risks."

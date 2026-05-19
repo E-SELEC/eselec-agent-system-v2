@@ -1,4 +1,0 @@
-interface:
-  display_name: "Product Marketing Context"
-  short_description: "Crea contexto de posicionamiento"
-  default_prompt: "Use $product-marketing-context to create or update positioning, ICP, customer language, proof points, and goals."

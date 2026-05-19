@@ -1013,3 +1013,15 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Pendiente-revision: 40 archivos `.claude/skills/*/agents/openai.yaml`; no se eliminan hasta confirmar si alguna herramienta externa los consume.
 - Accion recomendada: si no hay consumidor externo de `openai.yaml`, abrir Fase 17 para eliminarlos con inventario y commit propio.
 - Riesgo: bajo; no toca clientes, produccion, secretos ni conectores.
+
+### 2026-05-19 - fase 17 saneamiento openai.yaml
+- Area: arquitectura E-SELEC v2 / skills Claude Code
+- Agente: Codex + consulta Claude / alineacion
+- Tipo: saneamiento de artefactos no nativos
+- Motivo: retirar 40 archivos `openai.yaml` creados durante la migracion que no son leidos por Claude Code ni tienen referencias internas operativas.
+- Estado: vigente
+- Archivos creados/modificados: `planning/saneamiento-openai-yaml-2026-05-19.md`, `planning/auditoria-duplicaciones-agents-skills-commands-2026-05-19.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Archivos eliminados: 40 archivos `.claude/skills/*/agents/openai.yaml`.
+- Reemplaza a: pendiente-revision `DPL-002`.
+- Accion recomendada: no volver a crear metadatos externos dentro de `.claude/skills` salvo que exista consumidor documentado; cada skill debe vivir en `SKILL.md` y referencias bajo demanda.
+- Riesgo: bajo; no toca clientes, produccion, secretos, conectores ni outputs.
