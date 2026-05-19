@@ -812,3 +812,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Resultado: creado `planning/patron-operativo-agentes-v2.md`; enlazado desde `README.md`.
 - Criterio: canon solo si hay criterio transversal probado; skill si falta procedimiento; reference si hay conocimiento largo bajo demanda; command si Rodrigo necesita entrada simple.
 - Validacion: `scripts/protocol_guard.py` limpio.
+
+### 2026-05-19 - fase 9 auditoria CRO/Web/Social
+
+- Alcance: agentes y skills de CRO, Web y Social.
+- Tipo: auditoria estructural y ajuste minimo de routing.
+- Decision: no crear canon CRO/Web/Social ahora. Las areas ya tienen skills procedurales con referencias/templates/checklists; se reforzaran solo si outputs reales muestran fallos repetidos.
+- Resultado: creado `planning/auditoria-cro-web-social-2026-05-19.md`; corregido `social-leader.md` para enrutar comunidad/crisis a `social-comunidad` en lugar de marcarlo como futuro.
+- Contaminacion evitada: no se copiaron ejemplos reales de clientes ni material legacy especifico dentro de skills generales.
+- Validacion: `scripts/protocol_guard.py` limpio; grep de routing Social confirma `social-comunidad`.

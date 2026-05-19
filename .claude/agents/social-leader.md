@@ -28,7 +28,7 @@ Lee contexto, memory, log, mensajes, tasks, outputs sociales y `quality/criterio
 | Crear calendario o piezas | `.claude/skills/social-content/` |
 | Copy de post | `.claude/skills/copywriting/` |
 | Revisar tono/humanizar | `.claude/skills/humanizalo/` |
-| Comunidad/crisis | futuro `social-comunidad`; fallback protocolo de mensajes |
+| Comunidad/crisis | `social-comunidad`; fallback protocolo de mensajes |
 | Necesita alcance pagado | `sem-leader` + `.claude/skills/paid-ads/` |
 
 ## Bloqueos

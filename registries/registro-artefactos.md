@@ -935,3 +935,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Reemplaza a: ambiguedad sobre cuando crear canon, skill, reference, command o agente.
 - Accion recomendada: usar este patron antes de migrar nuevas piezas legacy o reestructurar areas como CRO, Web o Social.
 - Riesgo: bajo; documentacion de arquitectura, sin produccion, secretos, clientes ni conectores.
+
+### 2026-05-19 - fase 9 auditoria CRO/Web/Social
+- Area: sistema E-SELEC v2 / CRO, Web y Social
+- Agente: Codex + consulta Claude / alineacion
+- Tipo: auditoria estructural + ajuste de routing
+- Motivo: comprobar si CRO, Web y Social necesitaban canon propio o si bastaban sus skills procedurales actuales.
+- Estado: vigente
+- Archivos creados/modificados: `.claude/agents/social-leader.md`, `planning/auditoria-cro-web-social-2026-05-19.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Reemplaza a: idea de replicar automaticamente `seo-canon` en CRO, Web y Social.
+- Accion recomendada: no crear canon CRO/Web/Social hasta observar fallos reales de output; si aparece un fallo, decidir entre mejorar skill, crear referencia, crear template, crear command o crear canon.
+- Riesgo: bajo; no toca clientes, produccion, secretos, conectores ni datos vivos.
