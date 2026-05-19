@@ -890,3 +890,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Resultado: creada `.claude/rules/canon-admision.md`; actualizado `planning/patron-operativo-agentes-v2.md`.
 - Contaminacion evitada: no se copiaron JSON, PDFs, ejemplos reales ni material fuente externo dentro de skills, agentes o canon general.
 - Validacion pendiente al cierre de fase: `git diff --check`, `scripts/protocol_guard.py`, commit y push.
+
+### 2026-05-19 - browser mcp chrome playwright
+
+- Alcance: integracion local navegador/MCP.
+- Tipo: configuracion segura y protocolo operativo.
+- Decision: no crear servidor MCP custom. Usar `@playwright/mcp@latest` como servidor oficial y conectar a Chrome via CDP local cuando Rodrigo lo inicie con `--remote-debugging-port=9222`.
+- Resultado: agregada entrada `playwright-chrome` en `.mcp.example.json`; creado `.mcp.json` local ignorado por git con la misma entrada; creado `protocols/browser-mcp.md`; registrado en `protocols/README.md`.
+- Contaminacion evitada: `.mcp.json` no se versiona y no contiene secretos; no se guardaron cookies, storage state, sesiones, screenshots ni secretos; no se introdujo codigo propio innecesario.
+- Validacion: `.mcp.example.json` y `.mcp.json` parsean como JSON; `@playwright/mcp@latest --help` confirma `--cdp-endpoint`; `claude mcp list` muestra `playwright-chrome` conectado; `git diff --check` limpio; `scripts/protocol_guard.py` limpio.

@@ -1036,3 +1036,15 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Fuentes externas revisadas pero no importadas: JSON handoff y PDFs del manual SEO entregados por Rodrigo en Downloads.
 - Accion recomendada: antes de proponer canon para SEM, CRO, Reports, Web o Social, aplicar `.claude/rules/canon-admision.md`; si no cumple, reforzar skill/referencia/checklist.
 - Riesgo: bajo; no toca clientes, produccion, secretos, conectores ni outputs.
+
+### 2026-05-19 - browser mcp chrome playwright
+- Area: integraciones locales E-SELEC v2 / MCP
+- Agente: Codex + consulta Claude / alineacion
+- Tipo: configuracion ejemplo y protocolo operativo
+- Motivo: habilitar un camino seguro para usar Playwright MCP con Chrome controlado por Rodrigo sin crear servidor custom ni guardar sesiones o secretos en el repo.
+- Estado: vigente
+- Archivos creados/modificados: `.mcp.example.json`, `protocols/browser-mcp.md`, `protocols/README.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Archivo local no versionado: `.mcp.json` con `playwright-chrome` sin secretos.
+- Reemplaza a: idea inicial de crear un MCP custom Chrome + Playwright sin necesidad.
+- Accion recomendada: iniciar Chrome con `--remote-debugging-port=9222`, reiniciar Claude Code y revisar `/mcp`; aplicar activos criticos antes de acciones sensibles.
+- Riesgo: medio operativo si se usa sobre cuentas autenticadas; bajo documental porque no contiene secretos ni crea `.mcp.json` real.
