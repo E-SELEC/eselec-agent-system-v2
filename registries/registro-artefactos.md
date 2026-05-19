@@ -990,3 +990,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Reemplaza a: conteo obsoleto de 75 productos sin imagen en `context.md`.
 - Accion recomendada: antes de tocar WordPress/WooCommerce, pagos, envios, impuestos, accesos o checkout, abrir Orden de Cambio y cerrar bloqueadores de go-live.
 - Riesgo: medio documental; no toca produccion, secretos ni conectores, pero el cliente es operativo y sensible.
+
+### 2026-05-19 - fase 15 homologacion Stramondo Venezuela
+- Area: clientes E-SELEC v2 / Stramondo Venezuela
+- Agente: Codex + consulta Claude / alineacion
+- Tipo: homologacion de cliente activo sensible
+- Motivo: corregir inconsistencias documentales sobre Meta Ads para evitar que futuros agentes actuen como si la campaña B2B siguiera activa cuando el ultimo dato confirmado la marca `PAUSED`.
+- Estado: vigente
+- Archivos creados/modificados: `clients/stramondo-venezuela/outputs/homologacion-v2-2026-05-19.md`, `clients/stramondo-venezuela/outputs/manifest.md`, `clients/stramondo-venezuela/context.md`, `clients/stramondo-venezuela/log.md`, `clients/stramondo-venezuela/tasks.md`, `planning/homologacion-clientes-activos-2026-05-19.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Reemplaza a: cabeceras obsoletas y tabla `Estado de campañas Meta Ads (19 abr 2026)` que marcaba la B2B como activa.
+- Accion recomendada: validar estado actual en Ads Manager/API y calidad real de leads en WhatsApp Business antes de reactivar, escalar presupuesto o cambiar placements.
+- Riesgo: medio documental; no toca Meta Ads, secretos, tokens, presupuesto ni conectores.

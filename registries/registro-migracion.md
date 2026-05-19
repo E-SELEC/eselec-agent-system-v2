@@ -856,3 +856,11 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Decision: no reescribir `tasks.md`, no borrar mensajes y no tocar produccion. Corregir solo el conteo obsoleto de imagenes en `context.md`, porque `log.md`, `tasks.md`, `memory.md` y `mensajes.md` posteriores coinciden en 82 productos sin imagen.
 - Resultado: creado `clients/la-bottega-del-gusto/outputs/homologacion-v2-2026-05-19.md`; actualizado manifest/log/planning/registros; Bottega queda homologado con prioridad de go-live y Orden de Cambio antes de operaciones reales.
 - Contaminacion evitada: datos reales de Bottega quedan solo dentro del cliente y registros, no en canon, skills ni agentes generales.
+
+### 2026-05-19 - fase 15 homologacion Stramondo Venezuela
+
+- Alcance: cliente activo sensible `clients/stramondo-venezuela/`.
+- Tipo: homologacion operativa de cliente activo con Meta Ads.
+- Decision: no ejecutar conector Meta Ads, no tocar tokens y no reescribir mensajes. Corregir solo inconsistencias documentales para que `context.md` y `tasks.md` reflejen el ultimo dato confirmado del 2026-05-11: campaña principal B2B `PAUSED` y evaluacion por link clicks/CPC/CTR, no por eventos `messaging_*` como conversiones reales.
+- Resultado: creado `clients/stramondo-venezuela/outputs/homologacion-v2-2026-05-19.md`; actualizado manifest/log/tasks/context/planning/registros.
+- Contaminacion evitada: datos reales de campaña quedan en `/clients/stramondo-venezuela` y registros, no en skills, agentes ni canon general.

@@ -27,6 +27,12 @@ Si un output legacy es necesario para una tarea v2:
 3. no copiar secretos, exports brutos ni archivos pesados;
 4. registrar cualquier output nuevo aqui.
 
+## Outputs v2
+
+| Archivo | Uso | Estado |
+|---|---|---|
+| `homologacion-v2-2026-05-19.md` | Homologacion operativa v2 sin tocar Meta Ads; fija fuente de estado 2026-05-11 y pendientes reales | Local / no versionado |
+
 ## Nota sensible
 
 El cliente depende de Meta Ads y tokens externos. Los archivos migrados contienen

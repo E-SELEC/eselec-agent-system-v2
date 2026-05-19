@@ -23,7 +23,7 @@ No se reescriben carpetas completas por estetica. Solo se ajusta lo necesario pa
 | `computer-chamberi` | activo v2 | hecha 2026-05-19 | verificar medicion y linea base SEO/tecnica |
 | `cashier-bubble-tea` | activo v2 | hecha 2026-05-19 | confirmar envio del informe y preparar propuesta Ano 3 |
 | `la-bottega-del-gusto` | activo v2 | hecha 2026-05-19 | cerrar bloqueadores de go-live con Orden de Cambio |
-| `stramondo-venezuela` | activo v2 | pendiente | revisar Meta Ads y estado de conector |
+| `stramondo-venezuela` | activo v2 | hecha 2026-05-19 | validar estado actual Meta Ads y calidad real de leads |
 | `shogun-motors` | historico/inactivo | no aplica | fuera de loops, informes y tareas |
 
 ## Computer Chamberi
@@ -98,4 +98,25 @@ Cerrar bloqueadores de go-live con Orden de Cambio antes de tocar produccion: ro
 
 ## Siguiente paso
 
-Homologar `stramondo-venezuela` con foco en Meta Ads, estado del conector y separacion entre datos reales de campana y configuracion del sistema.
+Auditar duplicaciones entre agents, skills y commands para reducir ambigüedad operativa sin borrar primitivas utiles.
+
+## Stramondo Venezuela
+
+### Fuentes revisadas
+
+- `clients/stramondo-venezuela/context.md`
+- `clients/stramondo-venezuela/memory.md`
+- `clients/stramondo-venezuela/log.md`
+- `clients/stramondo-venezuela/mensajes.md`
+- `clients/stramondo-venezuela/tasks.md`
+- `clients/stramondo-venezuela/outputs/manifest.md`
+
+### Decision
+
+El cliente esta homologado para operar en v2, pero se trata como cliente sensible por Meta Ads, presupuesto, token externo y decisiones de campañas.
+
+No se ejecuto conector Meta Ads ni se tocaron tokens. Se corrigieron solo inconsistencias documentales: cabeceras antiguas y tabla de estado que seguia mostrando la campaña B2B como activa aunque `context.md`, `log.md`, `memory.md` y `mensajes.md` del 2026-05-11 la registran como `PAUSED`.
+
+### Prioridad vigente
+
+Antes de reactivar, escalar presupuesto o cambiar placements, validar estado actual en Ads Manager/API y calidad real de leads en WhatsApp Business. No usar eventos `messaging_*` como conversiones reales sin validacion manual.

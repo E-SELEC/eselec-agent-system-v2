@@ -1,5 +1,5 @@
 # Tareas activas â€” Stramondo Venezuela
-> Sincronizado desde Notion el: 2026-04-06 | Actualizado manualmente el: 2026-04-20
+> Sincronizado desde Notion el: 2026-04-06 | Actualizado documentalmente el: 2026-05-19 | Último estado Meta Ads confirmado: 2026-05-11
 > Fuente: Proyecto: Stramondo Venezuela (Notion) â€” AuditorÃ­a 2026-03-27
 
 ---
@@ -26,11 +26,11 @@
 
 ---
 
-## Estado de campaÃ±as Meta Ads (19 abr 2026)
+## Estado de campañas Meta Ads (último dato confirmado: 11 mayo 2026)
 
 | CampaÃ±a | Estado | Resultado |
 |---|---|---|
-| CampaÃ±a B2B Mensajes | âœ… ACTIVA | Medir principalmente como clics al enlace; eventos WA de API requieren validación |
+| Campaña B2B Mensajes | PAUSED (2026-05-11) | Medir principalmente como clics al enlace; eventos WA de API requieren validación y no equivalen a conversiones reales |
 | Anuncio 01 "Mejores heladerÃ­as" | âœ… ACTIVO | $0,169/conv Â· 3,07% tasa â€” el mÃ¡s eficiente |
 | Anuncio 02 | âœ… ACTIVO | Sobrefinanciado (revisar) |
 | Anuncio 03 "Gelato inolvidable" | â¸ PAUSADO | Pausado 19 abr vÃ­a API |
@@ -38,7 +38,7 @@
 | Anuncio 05 | âœ… ACTIVO | â€” |
 | CampaÃ±a B2C Video TiramisÃº | âŒ DESACTIVADA | Pivote confirmado B2Câ†’B2B |
 
-**Presupuesto activo:** ~$3,20 USD/dÃ­a (redistribuido tras pausa anuncio 03)
+**Presupuesto histórico 19 abr:** ~$3,20 USD/día (redistribuido tras pausa anuncio 03). Último estado confirmado 2026-05-11: campaña principal `PAUSED`.
 **Meta Ads Account ID:** 936709065437591
 
 ---
@@ -64,13 +64,13 @@
 ### Fase 3 â€” ConfiguraciÃ³n TÃ©cnica
 - [x] Cuenta Meta Ads configurada (936709065437591)
 - [x] Audiencias personalizadas de video creadas (25%, 50%, 75%)
-- [x] CampaÃ±a B2B activa con 5 anuncios
+- [x] Campaña B2B configurada/lanzada con 5 anuncios. Último estado confirmado 2026-05-11: campaña principal `PAUSED`.
 - [x] Copiloto de ventas Gemini Pro activado para Carolina
 - [ ] Chat template v2 implementado en Ads Manager
 - [ ] ExclusiÃ³n de Instagram (manual â€” Advantage+ bloquea API)
 
 ### Fase 4 â€” Lanzamiento
-- [x] CampaÃ±a B2B activa â€” campaña de clics hacia destinos de mensajes
+- [x] Campaña B2B lanzada como campaña de clics hacia destinos de mensajes. Último estado confirmado 2026-05-11: campaña principal `PAUSED`.
 - [x] Copiloto Gemini Pro operativo
 
 ### Fase 5 â€” OptimizaciÃ³n y Seguimiento

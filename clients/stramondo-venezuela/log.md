@@ -11,6 +11,8 @@
 
 ## Registro
 
+[2026-05-19] [CODEX] Homologacion v2 Stramondo | RESULTADO: cliente revisado sin tocar Meta Ads, tokens, conectores ni campañas; se corrigieron cabeceras obsoletas y estados documentales para que `context.md` y `tasks.md` reflejen el ultimo dato confirmado del 2026-05-11: campaña principal B2B `PAUSED`, lectura por link clicks/CPC/CTR y no por eventos `messaging_*` como conversiones reales; se creo output local de homologacion y se mantuvieron pendientes activos de adopcion Gemini, exclusion manual de Instagram y chat template v2 | PROXIMO PASO: validar calidad real de leads en WhatsApp Business y estado actual en Ads Manager/API antes de reactivar, escalar presupuesto o cambiar placements.
+
 [2026-03-28] [SISTEMA] AuditorÃ­a completa inicial ejecutada (SEMRush, GMB, RRSS, GA4) | RESULTADO: context.md actualizado con datos reales | PRÃ“XIMO PASO: Implementar acciones de quick wins segÃºn context.md
 
 [2026-04-14] [AGENTE SEM] Informe Meta Ads extraÃ­do directamente desde Ads Manager vÃ­a Chrome | RESULTADO: Informe completo en outputs/informe-meta-ads-abril-2026.md. Pivote confirmado B2Câ†’B2B. B2B activa ($8/dÃ­a): 6.103 clics WhatsApp a $0,01 / $32,19 gastados. B2C desactivada: 27.718 ThruPlays / $24,36. Total cuenta: $56,55 USD / 288.412 impresiones. context.md actualizado. | PRÃ“XIMO PASO: 1) Publicar 4 cambios pendientes en Ads Manager 2) Reactivar CampaÃ±a de Mensajes con chat template 3) Solicitar a Carolina datos de conversiÃ³n WhatsApp desde 1 abr

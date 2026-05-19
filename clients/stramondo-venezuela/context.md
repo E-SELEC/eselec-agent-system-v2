@@ -1,5 +1,5 @@
 # Cliente: Stramondo Venezuela
-**Última actualización:** 2026-03-27
+**Última actualización:** 2026-05-11
 **Gestor:** E-SELEC
 
 ---
@@ -13,7 +13,7 @@
 - **Sector:** Alimentación / Productos italianos especializados
 - **Tipo de negocio:** Distribución B2B + venta B2C de ingredientes italianos (heladería, repostería, cocina)
 - **Ubicación:** Caracas, Venezuela
-- **Presupuesto activo:** $2 USD/día (Meta Ads — campaña awareness activa)
+- **Presupuesto histórico inicial:** $2 USD/día. Último estado confirmado 2026-05-11: campaña principal B2B `PAUSED`; no asumir inversión activa sin validar en Ads Manager o API.
 - **Meta Ads Account ID:** 936709065437591
 - **Meta Business ID:** 928766489870829
 
