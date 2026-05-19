@@ -9,9 +9,17 @@ Revisar si hay duplicacion real entre commands, skills y agents, y dejar claro q
 Comando usado:
 
 ```powershell
+$skillNames = Get-ChildItem .claude\skills -Directory |
+  Where-Object { Test-Path (Join-Path $_.FullName 'SKILL.md') } |
+  Select-Object -ExpandProperty Name
+
 Get-ChildItem .claude\commands -Filter *.md |
   Where-Object { $_.Name -ne 'README.md' } |
-  leer referencias a `.claude/skills/[skill]`
+  ForEach-Object {
+    $content = Get-Content -Raw $_.FullName
+    [regex]::Matches($content, '\.claude/skills/([^/`]+)|\.claude\\skills\\([^\\`]+)') |
+      ForEach-Object { if ($_.Groups[1].Value) { $_.Groups[1].Value } else { $_.Groups[2].Value } }
+  } | Sort-Object -Unique
 ```
 
 Resultado:

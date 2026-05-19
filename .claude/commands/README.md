@@ -10,7 +10,7 @@ Un command es una entrada practica: recibe la peticion de Rodrigo, lee contexto 
 
 Una skill es la fuente del procedimiento especializado. Si un command apunta a una skill, la skill gobierna el criterio principal. No dupliques dentro del command el contenido largo de la skill; deja solo routing, lecturas obligatorias, formato de escritura y reglas de seguridad.
 
-Primer comando:
+Catalogo:
 
 - `migrar-pieza.md`: evalua una pieza legacy antes de migrarla.
 - `alertas-pendientes.md`: consolida mensajes pendientes de clientes y agencia.
