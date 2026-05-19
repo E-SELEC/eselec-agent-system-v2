@@ -839,3 +839,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Resultado: creado `clients/computer-chamberi/outputs/homologacion-v2-2026-05-19.md`; actualizado `tasks.md` para dejar como siguiente prioridad real la verificacion de medicion y linea base.
 - Contaminacion evitada: la conversacion historica de diagnostico SEO permanece dentro del cliente, no en canon ni skills generales.
 - Validacion: `scripts/protocol_guard.py` limpio; `git diff --check` limpio; manifest actualizado.
+
+### 2026-05-19 - fase 13 homologacion Chashier Bubble Tea
+
+- Alcance: cliente activo `clients/cashier-bubble-tea/`.
+- Tipo: homologacion operativa de cliente activo.
+- Decision: no reescribir `context.md` ni borrar mensajes legacy. Sincronizar solo tareas con evidencia fuerte de `log.md` y `memory.md`.
+- Resultado: creado `clients/cashier-bubble-tea/outputs/homologacion-v2-2026-05-19.md`; actualizado `tasks.md` para marcar informe de 2 anos como preparado y canonical como fijado en WordPress, manteniendo validacion GSC pendiente.
+- Contaminacion evitada: outputs historicos siguen sin copiarse al repo v2; el nuevo output de homologacion queda como artefacto local de cliente.
+- Validacion: `scripts/protocol_guard.py` limpio; `git diff --check` limpio; manifest actualizado.

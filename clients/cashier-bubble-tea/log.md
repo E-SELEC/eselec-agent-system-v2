@@ -24,3 +24,5 @@
 [2026-04-20] [SEO ORGÁNICO] Estrategia de contenido completa ejecutada — 2 páginas nuevas preparadas | RESULTADO: outputs/seo-organico-2026-04-20.md — contenido completo para /te-de-burbujas/ (2.900/mes, pos 21) y /bubble-tea-madrid/ (1.600/mes, pos 5) con schemas FAQ y LocalBusiness listos | PRÓXIMO PASO: Aprobación de Rodrigo → crear páginas en WordPress vía wp_connector + añadir links internos en posts 5936 y 5952
 
 [2026-04-20] [REPORTS] Informe mensual de seguimiento generado para Gemma Ye | RESULTADO: outputs/informe-chashier-abril-2026.md — versión completa + resumen WhatsApp | PRÓXIMO PASO: Enviar a Gemma
+
+[2026-05-19] [CODEX + ALINEACION] Homologacion cliente v2 | RESULTADO: creado `clients/cashier-bubble-tea/outputs/homologacion-v2-2026-05-19.md`; estructura minima v2 completa y `tasks.md` sincronizado con acciones probadas por log/memory. | PROXIMO PASO: confirmar envio del informe a Gemma y preparar propuesta Ano 3; verificar GSC/GA4/GBP antes de decisiones SEO finales.

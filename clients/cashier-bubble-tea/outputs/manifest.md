@@ -20,6 +20,12 @@
 
 No se copiaron outputs historicos.
 
+## Outputs v2 locales
+
+| Archivo | Uso | Estado |
+|---|---|---|
+| `homologacion-v2-2026-05-19.md` | Revision de estructura, tareas obsoletas y siguiente prioridad del cliente | Local; confirma propuesta Ano 3 como prioridad |
+
 Si un output legacy es necesario para una tarea v2:
 
 1. leerlo desde legacy;

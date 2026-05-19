@@ -7,10 +7,10 @@
 
 ## 🔴 Prioridades inmediatas
 
-- [ ] **Preparar informe de resultados 2 años** para Gemma (datos GSC ya disponibles en Notion)
+- [x] **Preparar informe de resultados 2 años** para Gemma. Hecho segun `log.md` 2026-03-27; queda pendiente confirmar envio/uso comercial.
 - [ ] **Optimizar meta titles/descriptions** para "bubble tea" y "té de burbujas" — impacto CTR inmediato
   - "té de burbujas" posiciona en 4.4 pero tiene 0 clicks con 26K impresiones/mes
-- [ ] **Resolver canonical conflict** detectado en Search Console (1 página afectada)
+- [x] **Resolver canonical conflict** en WordPress. Canonical homepage fijado segun `log.md` 2026-04-20.
 - [ ] **Preparar propuesta Año 3** — presentar tras informe de resultados
 
 ---
@@ -19,7 +19,7 @@
 
 - [ ] **Disavow de backlinks tóxicos** — Trust Flow Majestic = 0, 63% backlinks desde dominios de Singapur (posibles PBNs)
 - [ ] **Core Web Vitals** — sin datos para móvil ni escritorio (posible bloqueo de rastreo)
-- [ ] Revisar y corregir el canonical conflict en Search Console
+- [ ] Validar en GSC que el canonical conflict quedo resuelto despues del ajuste WordPress.
 
 ---
 

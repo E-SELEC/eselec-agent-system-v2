@@ -968,3 +968,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Reemplaza a: tarea pendiente generica de `client-audit v2` para el cliente piloto.
 - Accion recomendada: verificar medicion y linea base SEO/tecnica antes de auditoria SEO final, CRO o informes.
 - Riesgo: bajo; solo documentacion interna del cliente, sin produccion, secretos ni conectores.
+
+### 2026-05-19 - fase 13 homologacion Chashier Bubble Tea
+- Area: clientes E-SELEC v2 / Chashier Bubble Tea
+- Agente: Codex + consulta Claude / alineacion
+- Tipo: homologacion de cliente activo
+- Motivo: sincronizar tareas del cliente con acciones ya probadas en `log.md` y evitar que futuros agentes repitan trabajo hecho.
+- Estado: vigente
+- Archivos creados/modificados: `clients/cashier-bubble-tea/outputs/homologacion-v2-2026-05-19.md`, `clients/cashier-bubble-tea/outputs/manifest.md`, `clients/cashier-bubble-tea/log.md`, `clients/cashier-bubble-tea/tasks.md`, `planning/homologacion-clientes-activos-2026-05-19.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Reemplaza a: tareas obsoletas que seguian marcando como pendiente preparar informe de 2 anos y resolver canonical en WordPress.
+- Accion recomendada: confirmar envio/uso del informe y preparar propuesta Ano 3; mantener GSC/GA4/GBP, disavow y CWV como pendientes sensibles.
+- Riesgo: bajo; solo documentacion interna del cliente, sin produccion, secretos ni conectores.

@@ -21,7 +21,7 @@ No se reescriben carpetas completas por estetica. Solo se ajusta lo necesario pa
 | Cliente | Estado v2 | Homologacion | Proxima prioridad |
 |---|---|---|---|
 | `computer-chamberi` | activo v2 | hecha 2026-05-19 | verificar medicion y linea base SEO/tecnica |
-| `cashier-bubble-tea` | activo v2 | pendiente | revisar contexto y tareas despues del piloto |
+| `cashier-bubble-tea` | activo v2 | hecha 2026-05-19 | confirmar envio del informe y preparar propuesta Ano 3 |
 | `la-bottega-del-gusto` | activo v2 | pendiente | revisar bloqueos de produccion/e-commerce |
 | `stramondo-venezuela` | activo v2 | pendiente | revisar Meta Ads y estado de conector |
 | `shogun-motors` | historico/inactivo | no aplica | fuera de loops, informes y tareas |
@@ -51,4 +51,29 @@ No ejecutar auditoria SEO final, CRO ni informes hasta verificar medicion y fuen
 
 ## Siguiente paso
 
-Homologar `cashier-bubble-tea` con el mismo criterio: revisar estructura, no copiar outputs legacy pesados, mantener datos reales dentro del cliente y definir una unica prioridad operativa.
+Homologar `la-bottega-del-gusto` con foco en bloqueos de produccion/e-commerce, accesos sensibles y separacion entre diagnostico y cambios reales.
+
+## Chashier Bubble Tea
+
+### Fuentes revisadas
+
+- `clients/cashier-bubble-tea/context.md`
+- `clients/cashier-bubble-tea/memory.md`
+- `clients/cashier-bubble-tea/log.md`
+- `clients/cashier-bubble-tea/mensajes.md`
+- `clients/cashier-bubble-tea/tasks.md`
+- `clients/cashier-bubble-tea/outputs/manifest.md`
+
+### Decision
+
+El cliente tiene estructura v2 completa, pero `tasks.md` estaba desactualizado frente al log.
+
+No se reescribio `context.md` ni se borraron mensajes. Se corrigieron solo tareas probadas por evidencia:
+
+- informe de resultados 2 anos: preparado/finalizado segun `log.md` 2026-03-27;
+- canonical: fijado en WordPress segun `log.md` 2026-04-20;
+- validacion GSC de canonical: se mantiene pendiente.
+
+### Prioridad vigente
+
+Confirmar envio/uso del informe y preparar propuesta Ano 3 antes de abrir nuevos frentes tecnicos.
