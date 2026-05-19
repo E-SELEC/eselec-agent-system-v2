@@ -16,6 +16,7 @@ Migrado ahora:
 
 - `protocol_guard.py`: guard de cierre adaptado a rutas v2.
 - `.mcp.example.json`: ejemplo local seguro; copiar a `.mcp.json` solo en local.
+- `chrome_debug_helper.py`: diagnostico y lectura local de Chrome via CDP, sin guardar sesiones ni contenido.
 
 Bloqueado o deferido:
 
@@ -28,6 +29,10 @@ Bloqueado o deferido:
 ```bash
 python scripts/protocol_guard.py
 python scripts/protocol_guard.py --all --strict
+python scripts/chrome_debug_helper.py status
+python scripts/chrome_debug_helper.py open
+python scripts/chrome_debug_helper.py tabs
+python scripts/chrome_debug_helper.py scrape-chatgpt
 ```
 
 El reporte se escribe en `outputs/system/protocol-guard-latest.md`, que no se versiona.

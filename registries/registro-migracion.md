@@ -899,3 +899,12 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Resultado: agregada entrada `playwright-chrome` en `.mcp.example.json`; creado `.mcp.json` local ignorado por git con la misma entrada; creado `protocols/browser-mcp.md`; registrado en `protocols/README.md`.
 - Contaminacion evitada: `.mcp.json` no se versiona y no contiene secretos; no se guardaron cookies, storage state, sesiones, screenshots ni secretos; no se introdujo codigo propio innecesario.
 - Validacion: `.mcp.example.json` y `.mcp.json` parsean como JSON; `@playwright/mcp@latest --help` confirma `--cdp-endpoint`; `claude mcp list` muestra `playwright-chrome` conectado; `git diff --check` limpio; `scripts/protocol_guard.py` limpio.
+
+### 2026-05-20 - helper local Chrome CDP
+
+- Alcance: uso local de Chrome para diagnostico/scraping visible bajo permiso de Rodrigo.
+- Tipo: script saneado sin dependencias externas.
+- Decision: crear `scripts/chrome_debug_helper.py` para ordenar el flujo sin depender de memoria manual: `status`, `open`, `tabs`, `scrape-chatgpt`.
+- Resultado: el helper no cierra Chrome automaticamente, no guarda contenido, no lee cookies/tokens y solo imprime a stdout; si Chrome esta abierto sin CDP, explica el bloqueo.
+- Contaminacion evitada: no se guardan screenshots, HTML, storage state ni conversaciones; la herramienta es general y no contiene datos de clientes ni ChatGPT.
+- Validacion: `python -m py_compile scripts/chrome_debug_helper.py` limpio; `status` diagnostica correctamente Chrome abierto sin CDP; `git diff --check` limpio; `scripts/protocol_guard.py` limpio.

@@ -1048,3 +1048,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Reemplaza a: idea inicial de crear un MCP custom Chrome + Playwright sin necesidad.
 - Accion recomendada: iniciar Chrome con `--remote-debugging-port=9222`, reiniciar Claude Code y revisar `/mcp`; aplicar activos criticos antes de acciones sensibles.
 - Riesgo: medio operativo si se usa sobre cuentas autenticadas; bajo documental porque no contiene secretos ni crea `.mcp.json` real.
+
+### 2026-05-20 - scripts/chrome_debug_helper.py
+- Area: integraciones locales E-SELEC v2 / navegador
+- Agente: Codex
+- Tipo: helper local saneado
+- Motivo: reducir friccion al usar Chrome con CDP/Playwright MCP detectando si el puerto 9222 esta activo, abriendo Chrome correctamente, listando pestanas y extrayendo texto visible de ChatGPT sin guardar contenido.
+- Estado: vigente
+- Archivos creados/modificados: `scripts/chrome_debug_helper.py`, `scripts/README.md`, `protocols/browser-mcp.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Reemplaza a: comandos manuales repetidos y diagnosticos confusos sobre Chrome abierto sin depuracion remota.
+- Accion recomendada: usar `python scripts/chrome_debug_helper.py status` antes de pedir scraping de Chrome; usar `open --separate-profile` si no se quiere cerrar Chrome real.
+- Riesgo: medio operativo si se usa sobre cuentas autenticadas; bajo documental porque no guarda sesiones, secretos ni outputs.

@@ -25,6 +25,21 @@ La configuracion versionable vive como ejemplo en `.mcp.example.json`. El archiv
 
 ## Como iniciar Chrome para MCP
 
+Opcion recomendada con helper local:
+
+```powershell
+python scripts/chrome_debug_helper.py status
+python scripts/chrome_debug_helper.py open
+```
+
+Si quieres usar un perfil aislado sin tu sesion real:
+
+```powershell
+python scripts/chrome_debug_helper.py open --separate-profile
+```
+
+Opcion manual:
+
 1. Cierra Chrome si ya esta abierto sin depuracion remota.
 2. Abre PowerShell.
 3. Ejecuta:
@@ -36,6 +51,13 @@ Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" 
 4. Entra manualmente a las paginas necesarias.
 5. Inicia Claude Code desde el repo y revisa `/mcp`.
 6. Si Claude ya estaba abierto, cierralo y abrelo de nuevo para que lea `.mcp.json`.
+
+Para listar pestanas o extraer el texto visible de ChatGPT desde Codex:
+
+```powershell
+python scripts/chrome_debug_helper.py tabs
+python scripts/chrome_debug_helper.py scrape-chatgpt
+```
 
 Si Chrome ya esta abierto y no quieres cerrarlo, usa la integracion nativa de Claude en Chrome (`claude --chrome` o `/chrome`) en lugar de este MCP.
 
