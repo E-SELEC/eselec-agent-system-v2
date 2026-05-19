@@ -22,7 +22,7 @@ No se reescriben carpetas completas por estetica. Solo se ajusta lo necesario pa
 |---|---|---|---|
 | `computer-chamberi` | activo v2 | hecha 2026-05-19 | verificar medicion y linea base SEO/tecnica |
 | `cashier-bubble-tea` | activo v2 | hecha 2026-05-19 | confirmar envio del informe y preparar propuesta Ano 3 |
-| `la-bottega-del-gusto` | activo v2 | pendiente | revisar bloqueos de produccion/e-commerce |
+| `la-bottega-del-gusto` | activo v2 | hecha 2026-05-19 | cerrar bloqueadores de go-live con Orden de Cambio |
 | `stramondo-venezuela` | activo v2 | pendiente | revisar Meta Ads y estado de conector |
 | `shogun-motors` | historico/inactivo | no aplica | fuera de loops, informes y tareas |
 
@@ -49,10 +49,6 @@ No se reescribio `context.md` porque ya esta saneado y util. La accion correcta 
 
 No ejecutar auditoria SEO final, CRO ni informes hasta verificar medicion y fuentes vivas o declarar explicitamente que el output es parcial.
 
-## Siguiente paso
-
-Homologar `la-bottega-del-gusto` con foco en bloqueos de produccion/e-commerce, accesos sensibles y separacion entre diagnostico y cambios reales.
-
 ## Chashier Bubble Tea
 
 ### Fuentes revisadas
@@ -77,3 +73,29 @@ No se reescribio `context.md` ni se borraron mensajes. Se corrigieron solo tarea
 ### Prioridad vigente
 
 Confirmar envio/uso del informe y preparar propuesta Ano 3 antes de abrir nuevos frentes tecnicos.
+
+## La Bottega del Gusto
+
+### Fuentes revisadas
+
+- `clients/la-bottega-del-gusto/context.md`
+- `clients/la-bottega-del-gusto/brand.md`
+- `clients/la-bottega-del-gusto/memory.md`
+- `clients/la-bottega-del-gusto/log.md`
+- `clients/la-bottega-del-gusto/mensajes.md`
+- `clients/la-bottega-del-gusto/tasks.md`
+- `clients/la-bottega-del-gusto/outputs/manifest.md`
+
+### Decision
+
+El cliente esta homologado para operar en v2, pero se trata como cliente sensible por WordPress/WooCommerce, pagos, envios, impuestos, accesos y go-live.
+
+No se reescribio `tasks.md` porque ya separa estado hecho, urgente, importante, rutina y archivos que no deben usarse. Se corrigio solo un dato obsoleto de `context.md`: el catalogo vigente es 170 productos publicados, 0 sin precio y 82 sin imagen.
+
+### Prioridad vigente
+
+Cerrar bloqueadores de go-live con Orden de Cambio antes de tocar produccion: rotacion/revocacion de accesos expuestos o temporales, pasarela real, Envia real, impuestos/IVA, imagenes prioritarias y prueba E2E de checkout.
+
+## Siguiente paso
+
+Homologar `stramondo-venezuela` con foco en Meta Ads, estado del conector y separacion entre datos reales de campana y configuracion del sistema.

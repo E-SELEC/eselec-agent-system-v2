@@ -28,6 +28,12 @@ Si un output legacy es necesario para una tarea v2:
 3. no copiar secretos, exports brutos ni archivos pesados;
 4. registrar cualquier output nuevo aqui.
 
+## Outputs v2
+
+| Archivo | Uso | Estado |
+|---|---|---|
+| `homologacion-v2-2026-05-19.md` | Homologacion operativa v2 sin tocar produccion; fija prioridad de go-live y corrige conteo obsoleto de imagenes | Local / no versionado |
+
 ## Nota sensible
 
 El cliente conserva alertas sobre credenciales historicas expuestas y rotaciones

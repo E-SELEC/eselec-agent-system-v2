@@ -848,3 +848,11 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Resultado: creado `clients/cashier-bubble-tea/outputs/homologacion-v2-2026-05-19.md`; actualizado `tasks.md` para marcar informe de 2 anos como preparado y canonical como fijado en WordPress, manteniendo validacion GSC pendiente.
 - Contaminacion evitada: outputs historicos siguen sin copiarse al repo v2; el nuevo output de homologacion queda como artefacto local de cliente.
 - Validacion: `scripts/protocol_guard.py` limpio; `git diff --check` limpio; manifest actualizado.
+
+### 2026-05-19 - fase 14 homologacion La Bottega del Gusto
+
+- Alcance: cliente activo sensible `clients/la-bottega-del-gusto/`.
+- Tipo: homologacion operativa de cliente activo con WordPress/WooCommerce.
+- Decision: no reescribir `tasks.md`, no borrar mensajes y no tocar produccion. Corregir solo el conteo obsoleto de imagenes en `context.md`, porque `log.md`, `tasks.md`, `memory.md` y `mensajes.md` posteriores coinciden en 82 productos sin imagen.
+- Resultado: creado `clients/la-bottega-del-gusto/outputs/homologacion-v2-2026-05-19.md`; actualizado manifest/log/planning/registros; Bottega queda homologado con prioridad de go-live y Orden de Cambio antes de operaciones reales.
+- Contaminacion evitada: datos reales de Bottega quedan solo dentro del cliente y registros, no en canon, skills ni agentes generales.

@@ -979,3 +979,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Reemplaza a: tareas obsoletas que seguian marcando como pendiente preparar informe de 2 anos y resolver canonical en WordPress.
 - Accion recomendada: confirmar envio/uso del informe y preparar propuesta Ano 3; mantener GSC/GA4/GBP, disavow y CWV como pendientes sensibles.
 - Riesgo: bajo; solo documentacion interna del cliente, sin produccion, secretos ni conectores.
+
+### 2026-05-19 - fase 14 homologacion La Bottega del Gusto
+- Area: clientes E-SELEC v2 / La Bottega del Gusto
+- Agente: Codex + consulta Claude / alineacion
+- Tipo: homologacion de cliente activo sensible
+- Motivo: confirmar que Bottega opera en v2 sin reescribir tareas utiles ni tocar produccion, corrigiendo solo un dato obsoleto de catalogo antes de nuevos trabajos.
+- Estado: vigente
+- Archivos creados/modificados: `clients/la-bottega-del-gusto/outputs/homologacion-v2-2026-05-19.md`, `clients/la-bottega-del-gusto/outputs/manifest.md`, `clients/la-bottega-del-gusto/context.md`, `clients/la-bottega-del-gusto/log.md`, `planning/homologacion-clientes-activos-2026-05-19.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Reemplaza a: conteo obsoleto de 75 productos sin imagen en `context.md`.
+- Accion recomendada: antes de tocar WordPress/WooCommerce, pagos, envios, impuestos, accesos o checkout, abrir Orden de Cambio y cerrar bloqueadores de go-live.
+- Riesgo: medio documental; no toca produccion, secretos ni conectores, pero el cliente es operativo y sensible.

@@ -10,7 +10,7 @@
 - LiteSpeed Cache desactivado por Rodrigo; portada responde sin `X-LiteSpeed-Cache` y Hostinger CDN en estado `DYNAMIC`.
 - Rank Math/Elementor: eliminadas URLs internas `http://bottegadelgustomadrid.com` en la home (página 576) y en el autor principal.
 - `noindex`/`nofollow` en home y tienda confirmado como intencional hasta publicar la web; no corregir antes del go-live.
-- WooCommerce: 170 productos publicados, 75 sin imagen, 0 sin precio (revalidado 2026-04-27).
+- WooCommerce: 170 productos publicados, 82 sin imagen, 0 sin precio (revalidado 2026-04-27; corregido 2026-05-19 segun `log.md`, `tasks.md` y `memory.md`).
 - Envia: método `envia_shipping` activo en zona Madrid; mientras no devuelve tarifa, queda fallback operativo `Entrega en Madrid` a 5,90 EUR + `Recogida gratuita en tienda`.
 - Checkout: T&C asignado a pagina `Terminos y Condiciones` (ID 3889); transferencia y pago en tienda activos; pago en tienda limitado a recogida.
 - Categorias: `Quesos Italianos` operativo con 46 productos; `Bebidas`, `Dulces`, `Conservas` y `Ofertas` siguen vacias por falta de productos claros publicados.
