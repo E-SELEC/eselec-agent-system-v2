@@ -966,3 +966,13 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Consulta externa: Claude reviso el criterio y corrigio la formulacion: no decir que SEO no es replicable, sino que esta operativo con deuda menor de verificacion viva de fuentes.
 - Contaminacion evitada: no se importaron clientes reales al canon; `rg` no encontro nombres de clientes reales en `seo-canon/references`; no se reescribio ni resumio el canon largo.
 - Validacion pendiente: ejecutar `git diff --check` y `scripts/protocol_guard.py`.
+
+### 2026-05-20 - matriz de areas no SEO
+
+- Alcance: SEM, CRO, Reports, Web y Social.
+- Tipo: inventario posterior al cierre SEO.
+- Decision: ninguna area no SEO tiene canon/manual profundo comparable a SEO. Todas tienen leaders y skills procedurales con referencias/checklists/templates suficientes para operar de forma controlada.
+- Resultado: creado `planning/matriz-estado-areas-v2-2026-05-20.md`; actualizado el orden de `planning/metodo-creacion-canons-por-area-2026-05-20.md` para SEM primero, CRO segundo y Reports tercero.
+- Consulta externa: Claude confirmo la clasificacion y recomendo SEM primero con fuentes primarias; CRO despues por criterio implicito.
+- Contaminacion evitada: `rg` no encontro nombres de clientes reales en las carpetas generales revisadas de agents, commands y skills no SEO.
+- Validacion pendiente: ejecutar `git diff --check` y `scripts/protocol_guard.py`.

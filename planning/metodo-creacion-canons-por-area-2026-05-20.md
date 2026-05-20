@@ -182,12 +182,12 @@ No todas las areas deben convertirse en canon al mismo tiempo.
 |---|---|---|
 | 0 | SEO | Auditar si la migracion Docente SEO -> manual operativo -> canon/skills/agentes esta completa. |
 | 1 | SEM / Paid Ads | Alto impacto economico; necesita reglas duras de presupuesto, tracking, creatividades y optimizacion. |
-| 2 | Reports / Analytics | Necesario para convertir datos en decisiones; debe separar medicion, interpretacion y narrativa ejecutiva. |
-| 3 | CRO | Depende mucho de criterio, diagnostico, pruebas, riesgos y lectura de comportamiento. |
+| 2 | CRO | Mucho criterio implicito: que cambiar, cuando testear, cuando medir y cuando no tocar. |
+| 3 | Reports / Analytics | Necesario para convertir datos en decisiones; ya tiene skill fuerte, se refuerza si los outputs fallan. |
 | 4 | Web / WooCommerce | Toca produccion; requiere protocolo fuerte antes de convertirse en canon. |
 | 5 | Social / Content | Puede empezar como skill reforzada; solo merece canon si desarrolla criterio profundo de marca, formatos y medicion. |
 
-Nota de revision: Claude propuso SEM primero por riesgo economico y Reports segundo porque ordena la lectura de datos para todas las areas. Se adopta ese orden como ruta base.
+Nota de revision: Claude confirmo SEM primero por riesgo economico. Tras auditar el estado real de las areas en `planning/matriz-estado-areas-v2-2026-05-20.md`, CRO queda segundo porque contiene mas criterio implicito sin capa estable; Reports se mantiene como skill fuerte y se refuerza cuando falle un output real.
 
 ## Conversaciones en ChatGPT
 

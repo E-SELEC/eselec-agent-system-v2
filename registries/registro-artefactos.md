@@ -1124,3 +1124,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Decision: SEO esta funcional y operativo en v2; no se reconstruye. Se corrige routing de `seo-local`, se declara `aprendizajes/` como manual operativo heredado y se marca `docente-legacy` como fuente historica.
 - Accion recomendada: dejar la verificacion viva de fuentes SEO como backlog y continuar con manual operativo SEM, sin crear canon hasta pasar `canon-admision.md`.
 - Riesgo: bajo; no toca clientes, produccion, secretos, conectores ni contenidos largos del canon.
+
+### 2026-05-20 - matriz estado areas no SEO
+- Area: SEM / CRO / Reports / Web / Social
+- Agente: Codex + consulta Claude
+- Tipo: inventario y decision de prioridad
+- Motivo: clasificar si las areas no SEO tienen canon, manual operativo, skill fuerte o solo prompts antes de replicar el patron SEO.
+- Estado: vigente
+- Archivos creados/modificados: `planning/matriz-estado-areas-v2-2026-05-20.md`, `planning/metodo-creacion-canons-por-area-2026-05-20.md`, `planning/README.md`, `agency/log.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Decision: las areas no SEO estan operativas como leaders + skills, pero no tienen manual/canon profundo comparable a SEO. Prioridad: SEM primero, CRO segundo, Reports tercero si fallan outputs o hace falta reforzar narrativa de datos.
+- Accion recomendada: preparar brief de conversacion fuente SEM/Paid Ads con fuentes oficiales por plataforma; no crear canon inmediato.
+- Riesgo: bajo; solo documentacion de arquitectura, no clientes ni produccion.
