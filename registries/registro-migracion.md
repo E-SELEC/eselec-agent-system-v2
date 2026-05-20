@@ -889,7 +889,7 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Decision: no crear canons nuevos por ahora. Primero fijar una regla de admision basada en el metodo real del canon SEO: fuente primaria, modulos, indice, lectura bajo demanda y declaracion de decision cambiada.
 - Resultado: creada `.claude/rules/canon-admision.md`; actualizado `planning/patron-operativo-agentes-v2.md`.
 - Contaminacion evitada: no se copiaron JSON, PDFs, ejemplos reales ni material fuente externo dentro de skills, agentes o canon general.
-- Validacion pendiente al cierre de fase: `git diff --check`, `scripts/protocol_guard.py`, commit y push.
+- Validacion: `git diff --check` limpio; `scripts/protocol_guard.py` limpio.
 
 ### 2026-05-19 - browser mcp chrome playwright
 
@@ -926,3 +926,13 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Resultado: creados `scripts/open_eselec_chrome.ps1` y `scripts/open_eselec_automation.ps1`; documentados en `scripts/README.md` y `protocols/browser-mcp.md`.
 - Contaminacion evitada: no se mezclan perfil real y perfil CDP; no se guardan credenciales ni contenido.
 - Validacion: sintaxis PowerShell OK; `git diff --check` limpio; `scripts/protocol_guard.py` limpio.
+
+### 2026-05-20 - fase 19 metodo de creacion de canons por area
+
+- Alcance: futuras conversaciones fuente para SEM, Reports, CRO, Web y Social.
+- Tipo: metodologia previa a canon.
+- Decision: no crear canons nuevos todavia. Primero documentar el metodo real que produjo el canon SEO: jerarquia actual, verificacion profesional, alcance nuevo/existente, formacion operativa, fuentes fuertes, herramientas por modulo y fidelidad documental.
+- Resultado: creado `planning/metodo-creacion-canons-por-area-2026-05-20.md`; actualizado `planning/patron-operativo-agentes-v2.md`.
+- Consulta externa: Claude / alineacion recomendo agregar Prompt 0, usar SEM primero por riesgo economico y Reports segundo por ordenamiento de datos.
+- Contaminacion evitada: no se importo la conversacion completa de ChatGPT al repo; no se tocaron canons, skills, clientes ni outputs.
+- Validacion: `git diff --check` limpio; `scripts/protocol_guard.py` limpio.

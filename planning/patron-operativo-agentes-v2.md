@@ -106,6 +106,22 @@ SEO funciono bien por esta combinacion:
 
 Eso no significa que CRO, SEM, Reports, Web o Social necesiten canon ahora.
 
+## Metodo para futuros canons
+
+Antes de crear un canon nuevo, usar `planning/metodo-creacion-canons-por-area-2026-05-20.md`.
+
+Ese metodo documenta la secuencia real que produjo el canon SEO:
+
+- jerarquia actual del area;
+- verificacion profesional profunda;
+- alcance para proyecto nuevo y proyecto existente;
+- formacion operativa para una persona sin experiencia;
+- fuentes y links de alto valor;
+- herramientas del area, una por una;
+- modulos cerrados sin comprimir ni reescribir.
+
+La conversacion fuente debe desarrollarse fuera del repo y solo entra a E-SELEC v2 despues de pasar `canon-admision.md`, revision de contaminacion y agente de alineacion.
+
 ## Estado por area
 
 | Area | Patron actual | Decision |

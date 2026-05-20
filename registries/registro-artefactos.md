@@ -1081,3 +1081,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Reemplaza a: comandos manuales largos para abrir Chrome.
 - Accion recomendada: usar `open_eselec_chrome.ps1` para trabajo humano normal y `open_eselec_automation.ps1` para tareas que Codex/Claude deban leer via CDP.
 - Riesgo: bajo; no contiene secretos ni guarda sesiones.
+
+### 2026-05-20 - metodo creacion canons por area
+- Area: arquitectura E-SELEC v2 / gobernanza de canons
+- Agente: Codex + consulta Claude / alineacion
+- Tipo: metodo operativo previo a canon
+- Motivo: capturar la secuencia real que produjo el canon SEO para replicarla en conversaciones fuente de SEM, Reports, CRO, Web y Social sin crear canons flojos ni contaminar carpetas generales.
+- Estado: vigente
+- Archivos creados/modificados: `planning/metodo-creacion-canons-por-area-2026-05-20.md`, `planning/patron-operativo-agentes-v2.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Fuentes revisadas pero no importadas: `C:\Users\rondr\Downloads\chatgpt-conversacion-completa.md` y consulta a Claude / alineacion.
+- Accion recomendada: desarrollar primero una conversacion fuente SEM / Paid Ads en ChatGPT proyecto `Sistema de agentes`; no integrarla hasta pasar `canon-admision.md`.
+- Riesgo: bajo; no toca clientes, produccion, secretos, canons existentes ni outputs.
