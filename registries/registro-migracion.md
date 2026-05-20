@@ -976,3 +976,13 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Consulta externa: Claude confirmo la clasificacion y recomendo SEM primero con fuentes primarias; CRO despues por criterio implicito.
 - Contaminacion evitada: `rg` no encontro nombres de clientes reales en las carpetas generales revisadas de agents, commands y skills no SEO.
 - Validacion pendiente: ejecutar `git diff --check` y `scripts/protocol_guard.py`.
+
+### 2026-05-20 - brief conversacion fuente SEM/Paid Ads
+
+- Alcance: SEM / Paid Ads.
+- Tipo: preparacion previa a manual operativo.
+- Decision: no crear canon SEM todavia; primero abrir una conversacion fuente estructurada, con links oficiales por plataforma y criterio de cierre por modulo.
+- Resultado: creado `planning/brief-conversacion-fuente-sem-paid-ads-2026-05-20.md`.
+- Consulta externa: Claude recomendo siete campos obligatorios para evitar que el manual se vuelva glosario: alcance, lector, pregunta de salida, fuentes, estructura repetible, separacion cliente/doctrina y senal de parada.
+- Contaminacion evitada: el brief es general; no contiene clientes reales ni outputs.
+- Validacion pendiente: ejecutar `git diff --check` y `scripts/protocol_guard.py`.

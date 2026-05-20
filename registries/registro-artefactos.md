@@ -1135,3 +1135,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Decision: las areas no SEO estan operativas como leaders + skills, pero no tienen manual/canon profundo comparable a SEO. Prioridad: SEM primero, CRO segundo, Reports tercero si fallan outputs o hace falta reforzar narrativa de datos.
 - Accion recomendada: preparar brief de conversacion fuente SEM/Paid Ads con fuentes oficiales por plataforma; no crear canon inmediato.
 - Riesgo: bajo; solo documentacion de arquitectura, no clientes ni produccion.
+
+### 2026-05-20 - brief fuente SEM Paid Ads
+- Area: SEM / Paid Ads
+- Agente: Codex + consulta Claude
+- Tipo: preparacion de conversacion fuente
+- Motivo: preparar el manual operativo SEM/Paid Ads antes de crear canon, siguiendo el metodo que funciono en SEO.
+- Estado: vigente
+- Archivos creados/modificados: `planning/brief-conversacion-fuente-sem-paid-ads-2026-05-20.md`, `planning/README.md`, `agency/log.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Decision: no crear canon SEM todavia; primero construir conversacion fuente/manual operativo con fuentes oficiales por plataforma.
+- Accion recomendada: abrir la conversacion fuente SEM/Paid Ads desde el brief y convertirla despues en manual operativo evaluable.
+- Riesgo: bajo; solo documentacion de arquitectura, no clientes ni produccion.
