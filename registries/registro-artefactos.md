@@ -1146,3 +1146,14 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Decision: no crear canon SEM todavia; primero construir conversacion fuente/manual operativo con fuentes oficiales por plataforma.
 - Accion recomendada: abrir la conversacion fuente SEM/Paid Ads desde el brief y convertirla despues en manual operativo evaluable.
 - Riesgo: bajo; solo documentacion de arquitectura, no clientes ni produccion.
+
+### 2026-05-20 - politica activacion skills
+- Area: arquitectura Claude Code / skills
+- Agente: Codex + consulta Claude
+- Tipo: decision de gobierno operativo
+- Motivo: evitar que skills heredadas o descargadas se activen automaticamente sin haber pasado por manual operativo, canon o validacion E-SELEC.
+- Estado: vigente
+- Archivos creados/modificados: `planning/politica-activacion-skills-2026-05-20.md`, `planning/README.md`, `agency/log.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Decision: las skills pueden existir en la carpeta, pero solo skills validadas pueden quedar adheridas o auto-invocables con confianza.
+- Accion recomendada: crear matriz de skills y usar `skillOverrides` local para cuarentena reversible antes de tocar frontmatter.
+- Riesgo: bajo; solo documentacion de arquitectura, no cambia comportamiento de skills.

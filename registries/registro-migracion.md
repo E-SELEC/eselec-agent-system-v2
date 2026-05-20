@@ -986,3 +986,13 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Consulta externa: Claude recomendo siete campos obligatorios para evitar que el manual se vuelva glosario: alcance, lector, pregunta de salida, fuentes, estructura repetible, separacion cliente/doctrina y senal de parada.
 - Contaminacion evitada: el brief es general; no contiene clientes reales ni outputs.
 - Validacion pendiente: ejecutar `git diff --check` y `scripts/protocol_guard.py`.
+
+### 2026-05-20 - politica de activacion de skills
+
+- Alcance: `.claude/skills/` y relacion agente-skill.
+- Tipo: decision de seguridad operativa y calidad.
+- Decision: las skills pueden existir, pero no deben autoactivarse ni adherirse a agentes si no tienen manual operativo, canon o criterio E-SELEC validado.
+- Resultado: creado `planning/politica-activacion-skills-2026-05-20.md`.
+- Consulta externa: Claude recomendo matriz primero, despues `settings.local.json`/`skillOverrides` para cuarentena reversible, y solo al final `disable-model-invocation: true` para skills claramente manuales o no aptas.
+- Contaminacion evitada: no se modifico ningun `SKILL.md` ni settings compartido.
+- Validacion pendiente: ejecutar `git diff --check` y `scripts/protocol_guard.py`.
