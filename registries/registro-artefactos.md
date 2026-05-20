@@ -1102,3 +1102,25 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Archivos creados/modificados: `planning/metodo-creacion-canons-por-area-2026-05-20.md`, `planning/patron-operativo-agentes-v2.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
 - Accion recomendada: abrir una auditoria SEO de patron/migracion antes de iniciar la conversacion fuente SEM.
 - Riesgo: bajo; no toca clientes, produccion, secretos, canons existentes ni outputs.
+
+### 2026-05-20 - decision alineacion Arquitecto Fenix Escolta
+- Area: arquitectura E-SELEC v2 / gobierno interno
+- Agente: Codex + criterio Claude Code / alineacion
+- Tipo: decision estructural
+- Motivo: responder si Arquitecto, Fenix y Escolta debian optimizarse o reubicarse segun el sistema de alineacion Claude Code sin duplicar el legado ni aceptar supuestos previos.
+- Estado: vigente
+- Archivos creados/modificados: `planning/decision-alineacion-arquitecto-fenix-2026-05-20.md`, `planning/README.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`, `agency/log.md`.
+- Decision: no crear nuevos agentes ni optimizar el legacy como activo; usar v2 como base activa con `arquitecto` y `fenix` read-only, `alineacion` como auditor Claude Code y `Escolta` como guard/hook/script.
+- Accion recomendada: cuando Rodrigo pida "segun Claude", usar `alineacion`; cuando haya cambio estructural, usar Fenix; cuando haya patron de sistema, usar Arquitecto; cerrar cambios con guard.
+- Riesgo: bajo; no toca clientes, produccion, secretos, conectores ni prompts activos.
+
+### 2026-05-20 - auditoria SEO migracion completa
+- Area: SEO / patron de agentes v2
+- Agente: Codex + consulta Claude
+- Tipo: auditoria de migracion y ajuste menor
+- Motivo: verificar si el Docente SEO antiguo quedo correctamente convertido en manual operativo, canon, skills, referencias y agentes antes de replicar el patron en SEM u otras areas.
+- Estado: vigente
+- Archivos creados/modificados: `planning/auditoria-seo-migracion-completa-2026-05-20.md`, `.claude/agents/seo-leader.md`, `.claude/skills/seo-canon/SKILL.md`, `.claude/skills/seo-canon/references/docente-legacy/docente.md`, `.claude/skills/seo-canon/references/docente-legacy/docente-seo.md`, `planning/README.md`, `agency/log.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Decision: SEO esta funcional y operativo en v2; no se reconstruye. Se corrige routing de `seo-local`, se declara `aprendizajes/` como manual operativo heredado y se marca `docente-legacy` como fuente historica.
+- Accion recomendada: dejar la verificacion viva de fuentes SEO como backlog y continuar con manual operativo SEM, sin crear canon hasta pasar `canon-admision.md`.
+- Riesgo: bajo; no toca clientes, produccion, secretos, conectores ni contenidos largos del canon.

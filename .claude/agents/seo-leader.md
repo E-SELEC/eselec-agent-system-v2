@@ -44,7 +44,7 @@ Si hay datos vivos disponibles, cruza SEMrush + GSC. Si falta una fuente, marca 
 | Auditoria SEO general | `.claude/skills/seo-audit/` |
 | Problemas de indexacion, CWV, redirects, schema tecnico | `seo-tecnico` o `.claude/skills/seo-audit/` |
 | Contenido, keywords, clusters, arquitectura editorial | `.claude/skills/content-strategy/` + `.claude/skills/seo-audit/` |
-| SEO local, GBP, NAP, reseñas, zonas | `seo-local` cuando migre; fallback contrato SEO |
+| SEO local, GBP, NAP, reseñas, zonas | `seo-local` + `.claude/skills/seo-canon/` |
 | Aparicion en ChatGPT/Perplexity/Gemini | `.claude/skills/ai-seo/` |
 | Datos estructurados | `.claude/skills/schema-markup/` |
 | Arquitectura web | `.claude/skills/site-architecture/` |

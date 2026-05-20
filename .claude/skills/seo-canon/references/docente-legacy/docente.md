@@ -1,4 +1,10 @@
 # El Docente
+
+> FUENTE HISTORICA: este archivo conserva el comportamiento del Docente en el
+> sistema legacy. No es instruccion activa de v2; para operar usa
+> `.claude/skills/seo-canon/SKILL.md` y
+> `.claude/skills/seo-canon/references/indice-canon-seo.md`.
+
 **Rol:** formacion continua de agentes E-SELEC
 **Fuente canonica:** `sistema/protocolos/el-docente.md`
 **Idioma:** Espanol

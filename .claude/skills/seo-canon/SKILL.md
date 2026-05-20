@@ -28,6 +28,11 @@ El canon completo vive en:
 references/docente-legacy/
 ```
 
+Dentro de `references/docente-legacy/`, la carpeta `aprendizajes/` funciona como
+manual operativo SEO heredado; `fuentes/` conserva fuentes historicas; y
+`docente.md` / `docente-seo.md` son referencia historica, no instrucciones
+activas de v2.
+
 El mapa completo de lectura vive en:
 
 ```text

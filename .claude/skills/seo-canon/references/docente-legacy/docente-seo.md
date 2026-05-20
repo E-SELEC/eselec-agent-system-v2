@@ -1,4 +1,10 @@
 # Docente SEO
+
+> FUENTE HISTORICA: este archivo conserva el comportamiento del Docente SEO en
+> el sistema legacy. No es instruccion activa de v2; para operar usa
+> `.claude/skills/seo-canon/SKILL.md` y
+> `.claude/skills/seo-canon/references/indice-canon-seo.md`.
+
 **Rol:** agente de autoformacion del departamento SEO
 **Depende de:** `agents/docente/docente.md`
 **Fuente canonica:** `sistema/protocolos/el-docente.md`

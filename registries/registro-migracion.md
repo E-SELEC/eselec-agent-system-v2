@@ -946,3 +946,23 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Consulta externa: Claude / alineacion confirmo que el siguiente paso debe ser auditar el patron SEO antes de SEM.
 - Contaminacion evitada: no se modificaron canons ni skills; no se importaron datos de clientes; no se crearon nuevas areas.
 - Validacion: `git diff --check` limpio; `scripts/protocol_guard.py` limpio.
+
+### 2026-05-20 - decision alineacion Arquitecto Fenix Escolta
+
+- Alcance: gobierno interno v2 y relacion con legacy.
+- Tipo: decision de alineacion Claude Code.
+- Decision: no remigrar ni duplicar Arquitecto/Fenix. La base activa es `eselec-agent-system-v2`; Arquitecto y Fenix viven en `.claude/agents/` como subagentes read-only, Alineacion audita contra documentacion oficial Claude Code y Escolta opera como guard verificable.
+- Resultado: creado `planning/decision-alineacion-arquitecto-fenix-2026-05-20.md`; actualizado `planning/README.md`.
+- Consulta externa: documentacion oficial Claude Code sobre `.claude`, memoria, subagentes, skills, hooks y settings; evidencia local de `.claude/agents` y registros v2.
+- Contaminacion evitada: no se tocaron prompts legacy, no se crearon carpetas nuevas y no se concedieron herramientas de escritura a Fenix.
+- Validacion: `git diff --check` limpio; `scripts/protocol_guard.py` limpio.
+
+### 2026-05-20 - auditoria SEO Docente a canon v2
+
+- Alcance: migracion SEO previa a replicar patron en SEM, CRO, Reports, Web o Social.
+- Tipo: auditoria de patron y ajuste menor.
+- Decision: SEO queda declarado como funcional y operativo: `aprendizajes/` es manual operativo heredado, `seo-canon` es criterio activo, `seo-audit` ejecuta auditorias, los 6 agentes SEO usan `skills: seo-canon` y los casos reales quedan fuera del canon salvo patrones anonimizados.
+- Resultado: creado `planning/auditoria-seo-migracion-completa-2026-05-20.md`; corregido routing de `seo-local`; agregadas cabeceras de fuente historica a `docente.md` y `docente-seo.md`; aclarado en `seo-canon/SKILL.md` que `aprendizajes/` funciona como manual operativo heredado.
+- Consulta externa: Claude reviso el criterio y corrigio la formulacion: no decir que SEO no es replicable, sino que esta operativo con deuda menor de verificacion viva de fuentes.
+- Contaminacion evitada: no se importaron clientes reales al canon; `rg` no encontro nombres de clientes reales en `seo-canon/references`; no se reescribio ni resumio el canon largo.
+- Validacion pendiente: ejecutar `git diff --check` y `scripts/protocol_guard.py`.
