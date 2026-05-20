@@ -1092,3 +1092,13 @@ Este registro lista archivos, carpetas, outputs, scripts o documentos operativos
 - Fuentes revisadas pero no importadas: `C:\Users\rondr\Downloads\chatgpt-conversacion-completa.md` y consulta a Claude / alineacion.
 - Accion recomendada: desarrollar primero una conversacion fuente SEM / Paid Ads en ChatGPT proyecto `Sistema de agentes`; no integrarla hasta pasar `canon-admision.md`.
 - Riesgo: bajo; no toca clientes, produccion, secretos, canons existentes ni outputs.
+
+### 2026-05-20 - ajuste metodo manual operativo y fuentes primarias
+- Area: arquitectura E-SELEC v2 / gobernanza de manuales operativos
+- Agente: Codex
+- Tipo: correccion de criterio por feedback de Rodrigo
+- Motivo: aclarar que las conversaciones fuente producen primero manuales de uso operativo, que los links de herramientas deben venir de su fuente propia/oficial y que antes de replicar a otras areas hay que validar si SEO quedo completamente migrado desde el Docente SEO.
+- Estado: vigente
+- Archivos creados/modificados: `planning/metodo-creacion-canons-por-area-2026-05-20.md`, `planning/patron-operativo-agentes-v2.md`, `registries/registro-artefactos.md`, `registries/registro-migracion.md`.
+- Accion recomendada: abrir una auditoria SEO de patron/migracion antes de iniciar la conversacion fuente SEM.
+- Riesgo: bajo; no toca clientes, produccion, secretos, canons existentes ni outputs.

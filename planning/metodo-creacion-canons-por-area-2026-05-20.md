@@ -1,4 +1,4 @@
-# Metodo de creacion de canons por area
+# Metodo de creacion de manuales operativos y canons por area
 
 Fecha: 2026-05-20
 
@@ -6,15 +6,21 @@ Estado: metodo aprobado para preparar conversaciones fuente. No crea canons nuev
 
 ## Para que existe
 
-Este documento fija el metodo que produjo el canon SEO para poder replicarlo en otras areas de E-SELEC sin crear canons debiles, resumidos o contaminados por clientes.
+Este documento fija el metodo que produjo el manual operativo SEO y la estructura posterior de agentes SEO para poder replicar ese resultado en otras areas de E-SELEC sin crear canons debiles, resumidos o contaminados por clientes.
 
-La conclusion principal es simple: el canon SEO no nacio de pedir "crea un canon". Nacio de una conversacion formativa progresiva que obligo al modelo a pasar por jerarquia, verificacion, ejecucion, herramientas, fuentes y fidelidad documental.
+La conclusion principal es simple: el sistema SEO no nacio de pedir "crea un canon". Nacio de una conversacion formativa progresiva que produjo un manual de uso operativo; despues ese manual se adapto a la estructura actual de agentes, skills, referencias y canon SEO.
 
 ## Principio rector
 
-Primero se desarrolla una conversacion fuente por area. Despues se evalua si esa fuente merece convertirse en canon.
+Primero se desarrolla una conversacion fuente por area. Esa conversacion debe producir un manual operativo de uso. Despues se evalua que piezas merecen convertirse en canon, skill, referencia, checklist, template o agente.
 
 No se crea un canon nuevo hasta cumplir `.claude/rules/canon-admision.md`.
+
+## Correcciones obligatorias de Rodrigo
+
+1. Los links deben venir de la fuente propia de la herramienta o plataforma cuando la herramienta exista. Si el modulo trata Meta, las URLs deben venir de Meta. Si trata Google Ads, GA4, GSC o GTM, las URLs deben venir de Google. Fuentes externas solo se aceptan como apoyo, no como base principal.
+2. El resultado inicial de estas conversaciones es un manual de uso operativo, no un canon directo.
+3. La estructura que hoy tienen los agentes SEO nacio de adaptar el buen funcionamiento del Docente SEO al sistema v2. Antes de replicar a otras areas, hay que verificar si esa migracion SEO esta completa y documentar cual es exactamente el patron que funciono.
 
 ## Metodo que funciono en SEO
 
@@ -99,6 +105,8 @@ Prompt adaptable:
 
 ```text
 En cada punto anadiras los 5 links que mas aporten valor y conocimiento a esta generacion de relevo. No utilizaras cualquier link: debes corroborar que usas fuentes top, solidas, actualizadas o funcionales con la actualidad.
+
+Cuando el modulo trate una herramienta o plataforma concreta, los links principales deben venir de su fuente propia u oficial. Ejemplos: Meta desde Meta, Google Ads desde Google, GA4 desde Google, Google Search Console desde Google, WooCommerce desde WooCommerce, WordPress desde WordPress, Shopify desde Shopify. Fuentes externas solo pueden complementar, no reemplazar la fuente primaria.
 ```
 
 Funcion:
@@ -107,6 +115,7 @@ Funcion:
 - obliga a conectar cada modulo con fuentes;
 - permite auditoria posterior de calidad;
 - crea una base para referencias bajo demanda.
+- impide que una herramienta sea explicada desde blogs secundarios cuando existe documentacion original.
 
 ### 6. Herramientas del area, una por una
 
@@ -115,7 +124,7 @@ Despues del marco general, Rodrigo bajo la teoria a herramientas reales.
 Prompt base original adaptado:
 
 ```text
-Me gusta, pero no estas explicando como deben utilizar [HERRAMIENTA]. Empecemos por [HERRAMIENTA]. Utiliza links de la misma pagina o documentacion oficial para dotar profundamente a tu personal.
+Me gusta, pero no estas explicando como deben utilizar [HERRAMIENTA]. Empecemos por [HERRAMIENTA]. Utiliza links de la fuente propia u oficial de esa herramienta para dotar profundamente a tu personal.
 
 Considera todo lo que has ensenado previamente:
 - marco maestro de [AREA];
@@ -148,12 +157,30 @@ Funcion:
 - evita que una segunda capa de resumen rebaje el criterio;
 - permite que Codex integre despues sin perder origen.
 
+## Paso cero antes de replicar a otras areas
+
+Antes de desarrollar SEM, Reports, CRO, Web o Social, hay que auditar si SEO quedo completamente migrado.
+
+La auditoria debe responder:
+
+- que parte del Docente SEO antiguo se convirtio en manual operativo;
+- que parte vive hoy como canon SEO;
+- que parte vive como skill;
+- que parte vive como referencia bajo demanda;
+- que parte vive como checklist o template;
+- que agentes SEO usan esa estructura;
+- que piezas faltan por migrar;
+- si hay instrucciones SEO duplicadas, incompletas o contaminadas por clientes.
+
+La razon es importante: los demas agentes deben funcionar con el mismo patron que hizo que SEO funcionara, no con una version inventada desde cero.
+
 ## Orden recomendado de areas
 
 No todas las areas deben convertirse en canon al mismo tiempo.
 
 | Orden | Area | Motivo |
 |---|---|---|
+| 0 | SEO | Auditar si la migracion Docente SEO -> manual operativo -> canon/skills/agentes esta completa. |
 | 1 | SEM / Paid Ads | Alto impacto economico; necesita reglas duras de presupuesto, tracking, creatividades y optimizacion. |
 | 2 | Reports / Analytics | Necesario para convertir datos en decisiones; debe separar medicion, interpretacion y narrativa ejecutiva. |
 | 3 | CRO | Depende mucho de criterio, diagnostico, pruebas, riesgos y lectura de comportamiento. |
@@ -168,11 +195,11 @@ Claude debe crear una conversacion separada por area dentro del proyecto ChatGPT
 
 Nombres sugeridos:
 
-- `Canon CRO - conversacion fuente`
-- `Canon SEM Paid Ads - conversacion fuente`
-- `Canon Reports Analytics - conversacion fuente`
-- `Canon Web WooCommerce - conversacion fuente`
-- `Canon Social Content - conversacion fuente`
+- `Manual operativo CRO - conversacion fuente`
+- `Manual operativo SEM Paid Ads - conversacion fuente`
+- `Manual operativo Reports Analytics - conversacion fuente`
+- `Manual operativo Web WooCommerce - conversacion fuente`
+- `Manual operativo Social Content - conversacion fuente`
 
 Cada conversacion debe comenzar con el area completa, no con una herramienta.
 
@@ -183,7 +210,7 @@ Antes de pedir jerarquias, Claude debe fijar el contrato de calidad dentro de Ch
 ```text
 Esta conversacion es una fuente formativa para E-SELEC. No estas creando el canon final ni escribiendo en el repositorio.
 
-Tu trabajo es desarrollar conocimiento operativo profundo sobre [AREA] para formar criterio, procesos y capacidad de ejecucion.
+Tu trabajo es desarrollar un manual operativo profundo sobre [AREA] para formar criterio, procesos y capacidad de ejecucion.
 
 Reglas permanentes:
 - No inventes datos.
@@ -192,7 +219,7 @@ Reglas permanentes:
 - No mezcles esta area con otras salvo cuando haya dependencia clara.
 - No resumas ni recortes modulos cerrados.
 - Toda recomendacion debe distinguir entre informacion, criterio, proceso y validacion.
-- Cuando cites fuentes, prioriza documentacion oficial, herramientas originales o referencias profesionales solidas.
+- Cuando cites fuentes de herramientas o plataformas, usa primero la fuente propia u oficial. Usa referencias externas solo como apoyo.
 - Si algo no esta verificado, dilo como pendiente de verificacion.
 ```
 
@@ -201,7 +228,7 @@ Reglas permanentes:
 ```text
 Vas a desarrollar una conversacion fuente para E-SELEC, no un canon final.
 
-Objetivo: reproducir el metodo que funciono con SEO para construir material formativo profundo sobre [AREA].
+Objetivo: reproducir el metodo que funciono con SEO para construir un manual operativo profundo sobre [AREA].
 
 Reglas:
 - No crees archivos dentro del repo.
@@ -209,7 +236,7 @@ Reglas:
 - No mezcles areas.
 - No resumas el resultado final.
 - No conviertas esto en canon todavia.
-- Usa fuentes oficiales o de maxima calidad.
+- Usa fuentes propias u oficiales cuando trates herramientas concretas. Usa fuentes externas de maxima calidad solo como complemento.
 - Mantener separadas: jerarquia, criterio, ejecucion, herramientas, checklists y fuentes.
 - Explica siempre diferencias entre proyecto nuevo y proyecto existente cuando aplique.
 - Si usas ejemplos ficticios, indicalo como ficticio.
@@ -217,7 +244,7 @@ Reglas:
 
 Al terminar, entrega:
 1. indice de modulos desarrollados;
-2. fuentes principales usadas;
+2. fuentes principales usadas, separando fuente propia/oficial y fuentes externas de apoyo;
 3. puntos que parecen candidatos a canon;
 4. puntos que solo deberian ser skill, checklist, template o referencia;
 5. dudas o riesgos antes de integrar a E-SELEC v2.
@@ -230,7 +257,7 @@ Al terminar, entrega:
 2. Verificacion profesional profunda.
 3. Diferencia entre proyecto nuevo y proyecto existente.
 4. Ejecucion para formar a alguien sin experiencia.
-5. Fuentes y links de alto valor.
+5. Fuentes y links de alto valor, priorizando la fuente propia de cada herramienta.
 6. Herramientas principales, una por una.
 7. Protocolos de calidad y errores comunes.
 8. Que NO debe hacer un perfil junior.
@@ -268,6 +295,7 @@ Una conversacion fuente se rechaza o se devuelve a ampliacion si:
 - no distingue nuevo vs existente cuando aplica;
 - no explica ejecucion paso a paso;
 - no trae fuentes suficientes;
+- trata una herramienta usando fuentes secundarias cuando existe fuente propia u oficial;
 - se apoya en ejemplos de clientes reales;
 - mezcla varias areas;
 - no define errores comunes o limites junior;
@@ -282,6 +310,7 @@ Una conversacion fuente se rechaza o se devuelve a ampliacion si:
 | Contaminar con clientes reales | Mantener ejemplos reales solo en `clients/[cliente]/`; usar patrones anonimizados. |
 | Copiar SEO literalmente | Replicar metodo, no contenido SEO. |
 | Usar fuentes superficiales | Exigir fuentes oficiales o top por modulo. |
+| Explicar herramientas desde fuentes ajenas | Exigir fuente propia u oficial como base del modulo. |
 | Cargar demasiado contexto en agentes | Convertir material largo en referencias bajo demanda. |
 | Perder fidelidad del aprendizaje | Conservar conversacion fuente como fuente; integrar solo despues de revision. |
 
@@ -289,4 +318,4 @@ Una conversacion fuente se rechaza o se devuelve a ampliacion si:
 
 El siguiente paso no es crear un canon.
 
-El siguiente paso es usar este metodo para pedir a Claude la primera conversacion fuente, preferiblemente SEM / Paid Ads, y despues evaluarla con Codex + agente de alineacion.
+El siguiente paso es auditar si SEO esta completamente migrado y documentar el patron exacto que hay que replicar. Despues se usa este metodo para pedir a Claude la primera conversacion fuente, preferiblemente SEM / Paid Ads, y despues evaluarla con Codex + agente de alineacion.

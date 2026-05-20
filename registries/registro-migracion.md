@@ -936,3 +936,13 @@ Este registro documenta decisiones de migracion desde el sistema legacy E-SELEC 
 - Consulta externa: Claude / alineacion recomendo agregar Prompt 0, usar SEM primero por riesgo economico y Reports segundo por ordenamiento de datos.
 - Contaminacion evitada: no se importo la conversacion completa de ChatGPT al repo; no se tocaron canons, skills, clientes ni outputs.
 - Validacion: `git diff --check` limpio; `scripts/protocol_guard.py` limpio.
+
+### 2026-05-20 - fase 19b ajuste metodo manual operativo y fuentes primarias
+
+- Alcance: metodo de creacion de conversaciones fuente y replica del patron SEO.
+- Tipo: correccion de criterio por feedback de Rodrigo.
+- Decision: el resultado primario de las conversaciones no se llama canon sino manual operativo de uso; los links de cada herramienta deben venir de su fuente propia/oficial; antes de crear SEM, Reports, CRO, Web o Social hay que validar si SEO esta completamente migrado desde el Docente SEO al patron actual.
+- Resultado: actualizado `planning/metodo-creacion-canons-por-area-2026-05-20.md`; actualizado `planning/patron-operativo-agentes-v2.md`.
+- Consulta externa: Claude / alineacion confirmo que el siguiente paso debe ser auditar el patron SEO antes de SEM.
+- Contaminacion evitada: no se modificaron canons ni skills; no se importaron datos de clientes; no se crearon nuevas areas.
+- Validacion: `git diff --check` limpio; `scripts/protocol_guard.py` limpio.
